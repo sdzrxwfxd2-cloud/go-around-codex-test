@@ -1,0 +1,776 @@
+[
+  {
+    "phase": "before",
+    "tag": "amethyst-390",
+    "width": 390,
+    "theme": "night",
+    "pal": "purple",
+    "name": "Amethyst",
+    "dsf": 2,
+    "info": {
+      "theme": "night",
+      "pal": "purple",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 314,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "phase": "before",
+    "tag": "amethyst-390-zoom",
+    "width": 390,
+    "theme": "night",
+    "pal": "purple",
+    "name": "Amethyst",
+    "dsf": 3,
+    "info": {
+      "theme": "night",
+      "pal": "purple",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 314,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "phase": "before",
+    "tag": "amethyst-320",
+    "width": 320,
+    "theme": "night",
+    "pal": "purple",
+    "name": "amethyst",
+    "dsf": 2,
+    "info": {
+      "theme": "night",
+      "pal": "purple",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 244,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "phase": "before",
+    "tag": "midnight-390",
+    "width": 390,
+    "theme": "night",
+    "pal": "black",
+    "name": "midnight",
+    "dsf": 2,
+    "info": {
+      "theme": "night",
+      "pal": "black",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 314,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "phase": "before",
+    "tag": "midnight-320",
+    "width": 320,
+    "theme": "night",
+    "pal": "black",
+    "name": "midnight",
+    "dsf": 2,
+    "info": {
+      "theme": "night",
+      "pal": "black",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 244,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "phase": "before",
+    "tag": "pearl-390",
+    "width": 390,
+    "theme": "day",
+    "pal": "white",
+    "name": "pearl",
+    "dsf": 2,
+    "info": {
+      "theme": "day",
+      "pal": "white",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 314,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "phase": "before",
+    "tag": "pearl-320",
+    "width": 320,
+    "theme": "day",
+    "pal": "white",
+    "name": "pearl",
+    "dsf": 2,
+    "info": {
+      "theme": "day",
+      "pal": "white",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 244,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "phase": "before",
+    "tag": "champagne-390",
+    "width": 390,
+    "theme": "day",
+    "pal": "beige",
+    "name": "champagne",
+    "dsf": 2,
+    "info": {
+      "theme": "day",
+      "pal": "beige",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 314,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "phase": "before",
+    "tag": "champagne-320",
+    "width": 320,
+    "theme": "day",
+    "pal": "beige",
+    "name": "champagne",
+    "dsf": 2,
+    "info": {
+      "theme": "day",
+      "pal": "beige",
+      "val": "2 500ftabove the field",
+      "stepper": {
+        "w": 244,
+        "h": 48
+      },
+      "steps": [
+        {
+          "dir": "-1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "−",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        },
+        {
+          "dir": "1",
+          "w": 44,
+          "h": 40,
+          "radius": "14px",
+          "isCircle": false,
+          "font": "600 22px / 22px \"General Sans\", Satoshi, -apple-system, sans-serif",
+          "text": "+",
+          "glyph": {
+            "w": 14.53,
+            "h": 27,
+            "cx": 22,
+            "cy": 19.5,
+            "dx": 0,
+            "dy": -0.5
+          },
+          "before": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "w": "auto",
+            "h": "auto",
+            "left": "auto",
+            "top": "auto",
+            "transform": "none"
+          }
+        }
+      ]
+    }
+  }
+]

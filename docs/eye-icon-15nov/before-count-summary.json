@@ -1,0 +1,962 @@
+{
+  "total": 640,
+  "withEye": 36,
+  "withoutEye": 604,
+  "lowCloud": 87,
+  "withExamples": [
+    "ZA-0319",
+    "ZA-0215",
+    "ZA-0119",
+    "ZA-0206",
+    "ZA-0212",
+    "ZA-0312",
+    "ZA-0292",
+    "ZA-0251",
+    "ZA-0202",
+    "ZA-0356",
+    "ZA-0318",
+    "ZA-0242"
+  ],
+  "withoutExamples": [
+    "FAAE src=model \u00b7 VFR\u00b7VMC",
+    "ZA-0042 src=model \u00b7 VFR\u00b7VMC",
+    "ZA-0025 src=model \u00b7 MVFR\u00b7VMC",
+    "ZA-0086 src=model \u00b7 VFR\u00b7VMC",
+    "ZA-0016 src=model \u00b7 VFR\u00b7VMC",
+    "ZA-0219 src=model \u00b7 VFR\u00b7VMC",
+    "ZA-0293 src=model \u00b7 VFR\u00b7VMC",
+    "FAAG src=model \u00b7 VFR\u00b7VMC",
+    "ZA-0017 src=model \u00b7 VFR\u00b7VMC",
+    "ZA-0015 src=model \u00b7 VFR\u00b7VMC",
+    "FAAB src=model \u00b7 ",
+    "FAAN src=model \u00b7 ",
+    "ZA-0338 src=model \u00b7 ",
+    "FACO src=model \u00b7 ",
+    "FAAL src=model \u00b7 ",
+    "ZA-0081 src=model \u00b7 ",
+    "ZA-0082 src=model \u00b7 ",
+    "ZA-0286 src=model \u00b7 ",
+    "ZA-0091 src=model \u00b7 ",
+    "ZA-0058 src=model \u00b7 "
+  ],
+  "lowExamples": [
+    {
+      "id": "FAAR",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAAS",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0090",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0236",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FABR",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FABZ",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0071",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0188",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0074",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0075",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0004",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FABG",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FACG",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0306",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0177",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0153",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0112",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0303",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0345",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAGO",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAGC",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0342",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAHU",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0184",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAHJ",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAHG",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FASX",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAHH",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAHL",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0099",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0302",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0350",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0173",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0168",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FAKE",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0170",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0174",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FAKI",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAKF",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAKB",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0181",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0172",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0171",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FALD",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0041",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAGW",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAMD",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0165",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAMG",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0200",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FAZP",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0214",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0344",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0210",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0096",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0183",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FADK",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FANI",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0167",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0371",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0211",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FAON",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAPX",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAPA",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAPJ",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAHE",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0116",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FARD",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FASE",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0056",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FASZ",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0186",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0024",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0179",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FATH",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FATR",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0245",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FAUH",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAVG",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0207",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FAWK",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAWG",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FAWR",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0175",
+      "inote": 0,
+      "src": "",
+      "chip": ""
+    },
+    {
+      "id": "FAWV",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "ZA-0182",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    },
+    {
+      "id": "FADQ",
+      "inote": 0,
+      "src": "model",
+      "chip": ""
+    }
+  ],
+  "withoutByReason": {
+    "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one": 517,
+    "LOW CLOUD: paintRules/fillModel write the amber chip without an .inote, and ad-card.js only fills an eye if one already exists": 87
+  },
+  "withoutBySrc": {
+    "model": 564,
+    "model-flag": 16,
+    "speci": 3,
+    "metar": 17,
+    "taf": 4
+  },
+  "withEyeExamplesFull": [
+    {
+      "id": "ZA-0319",
+      "name": "Anglo Coal Highveld Hospital Heliport.",
+      "cat": "heliport",
+      "s": "heli",
+      "heliport": true,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "",
+      "model": true,
+      "low": false,
+      "reason": "has eye (model fillModel path)"
+    },
+    {
+      "id": "ZA-0215",
+      "name": "Benoni Heliport.",
+      "cat": "heliport",
+      "s": "heli",
+      "heliport": true,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "",
+      "model": true,
+      "low": false,
+      "reason": "has eye (model fillModel path)"
+    },
+    {
+      "id": "ZA-0119",
+      "name": "Cape Town Waterfront Heliport.",
+      "cat": "heliport",
+      "s": "heli",
+      "heliport": true,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "",
+      "model": true,
+      "low": false,
+      "reason": "has eye (model fillModel path)"
+    },
+    {
+      "id": "ZA-0206",
+      "name": "Charlotte Maxeke Johannesburg Academic Hospital Helipad.",
+      "cat": "heliport",
+      "s": "heli",
+      "heliport": true,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "",
+      "model": true,
+      "low": false,
+      "reason": "has eye (model fillModel path)"
+    },
+    {
+      "id": "ZA-0212",
+      "name": "Dimension Data Helipad.",
+      "cat": "heliport",
+      "s": "heli",
+      "heliport": true,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "",
+      "model": true,
+      "low": false,
+      "reason": "has eye (model fillModel path)"
+    },
+    {
+      "id": "ZA-0312",
+      "name": "Dora Nginza Provincial Hospital Heliport.",
+      "cat": "heliport",
+      "s": "heli",
+      "heliport": true,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "",
+      "model": true,
+      "low": false,
+      "reason": "has eye (model fillModel path)"
+    },
+    {
+      "id": "ZA-0292",
+      "name": "Duff Scott Hospital Heliport.",
+      "cat": "heliport",
+      "s": "heli",
+      "heliport": true,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "",
+      "badges": [
+        "IFR",
+        "IMC"
+      ],
+      "usedSrc": "",
+      "model": true,
+      "low": false,
+      "reason": "has eye (model fillModel path)"
+    },
+    {
+      "id": "ZA-0251",
+      "name": "Eagle View Helipad.",
+      "cat": "heliport",
+      "s": "heli",
+      "heliport": true,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "",
+      "badges": [
+        "MVFR",
+        "VMC"
+      ],
+      "usedSrc": "",
+      "model": true,
+      "low": false,
+      "reason": "has eye (model fillModel path)"
+    }
+  ],
+  "withoutEyeExamplesFull": [
+    {
+      "id": "FAAE",
+      "name": "Aberdeen.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "ZA-0042",
+      "name": "Adamsfontein.",
+      "cat": "uncontrolled",
+      "s": "nogo",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "ZA-0025",
+      "name": "Aero 57.",
+      "cat": "uncontrolled",
+      "s": "nogo",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "MVFR\u00b7VMC",
+      "badges": [
+        "MVFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "ZA-0086",
+      "name": "Aero Den.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "ZA-0016",
+      "name": "Aero Farm.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "ZA-0219",
+      "name": "Aeropark Zyn Kraal.",
+      "cat": "uncontrolled",
+      "s": "caution",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "ZA-0293",
+      "name": "Afrikaanse Hengel Vereeniging (Afrikaans Fishing Association).",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "FAAG",
+      "name": "Aggeneys.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "ZA-0017",
+      "name": "Alberta.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "ZA-0015",
+      "name": "Aldam.",
+      "cat": "uncontrolled",
+      "s": "caution",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "FAAB",
+      "name": "Alexander Bay.",
+      "cat": "uncontrolled",
+      "s": "nogo",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "",
+      "badges": [
+        "IFR",
+        "IMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    },
+    {
+      "id": "FAAN",
+      "name": "Aliwal North.",
+      "cat": "uncontrolled",
+      "s": "caution",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 0,
+      "inoteTotal": 0,
+      "chip": "",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "engine weather painter (paintRules / GA_PAINT_WX) writes the flight-condition badges and never adds an .inote; ad-card.js does not create one"
+    }
+  ],
+  "lowCloudCount": 87
+}

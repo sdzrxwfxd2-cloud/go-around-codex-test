@@ -1,0 +1,1496 @@
+{
+  "name": "South African real METAR/TAF test dataset",
+  "created": "2026-11-15T21:32:48Z",
+  "timezone_note": "All report times are UTC. The operator lives in Africa/Johannesburg (UTC+2).",
+  "engine_locked": "site/engine/* was not modified. This dataset is tests/sa-weather/ only.",
+  "synthetic": false,
+  "aim_range": {
+    "start": "2025-11-16T00:00:00Z",
+    "end_exclusive": "2026-11-16T00:00:00Z"
+  },
+  "counts": {
+    "stations_total": 41,
+    "stations_fa": 34,
+    "stations_fa_with_metar": 33,
+    "stations_fa_with_taf": 18,
+    "metar_and_speci_total": 192515,
+    "metar_and_speci_fa": 190645,
+    "taf_total": 2956,
+    "taf_fa": 2206
+  },
+  "sources_used": {
+    "go_around_live": {
+      "fetched_at": "2026-11-15T21:32:48Z",
+      "endpoints": {
+        "wx-now": {
+          "url": "https://go-around-aero.pages.dev/api/wx-now",
+          "bytes": 187986,
+          "http": 200
+        },
+        "metar": {
+          "url": "https://go-around-aero.pages.dev/api/metar",
+          "bytes": 8189,
+          "http": 200
+        },
+        "taf": {
+          "url": "https://go-around-aero.pages.dev/api/taf",
+          "bytes": 44438,
+          "http": 200
+        },
+        "weather-snapshot": {
+          "url": "https://go-around-aero.pages.dev/api/weather-snapshot",
+          "bytes": 765708,
+          "http": 200
+        }
+      }
+    },
+    "go_around_box_snapshots": {
+      "copied": [
+        "main-snapshot-public-metar.json",
+        "main-snapshot-public-taf.json",
+        "main-snapshot-public-weather.json",
+        "main-snapshot-weather-provenance.md",
+        "api-metar.json",
+        "api-taf.json",
+        "api-weather-snapshot.json"
+      ],
+      "note": "Read-only copies of snapshots already on the box. Not modified."
+    },
+    "wx_history_15nov": {
+      "path": "/workspace/wt-sa-weather-15nov/docs/wx-history-15nov",
+      "files": [
+        {
+          "file": "m-FABL.json",
+          "new_metar": 107
+        },
+        {
+          "file": "m-FACT.json",
+          "new_metar": 188
+        },
+        {
+          "file": "m-FAEL.json",
+          "new_metar": 163
+        },
+        {
+          "file": "m-FAEO.json",
+          "new_metar": 15
+        },
+        {
+          "file": "m-FAGG.json",
+          "new_metar": 208
+        },
+        {
+          "file": "m-FAGM.json",
+          "new_metar": 6
+        },
+        {
+          "file": "m-FAHS.json",
+          "new_metar": 150
+        },
+        {
+          "file": "m-FAKM.json",
+          "new_metar": 174
+        },
+        {
+          "file": "m-FAKN.json",
+          "new_metar": 178
+        },
+        {
+          "file": "m-FALA.json",
+          "new_metar": 200
+        },
+        {
+          "file": "m-FALE.json",
+          "new_metar": 218
+        },
+        {
+          "file": "m-FALW.json",
+          "new_metar": 149
+        },
+        {
+          "file": "m-FAMM.json",
+          "new_metar": 164
+        },
+        {
+          "file": "m-FAOR.json",
+          "new_metar": 296
+        },
+        {
+          "file": "m-FAPE.json",
+          "new_metar": 213
+        },
+        {
+          "file": "m-FAPN.json",
+          "new_metar": 147
+        },
+        {
+          "file": "m-FAPP.json",
+          "new_metar": 162
+        },
+        {
+          "file": "m-FASB.json",
+          "new_metar": 14
+        },
+        {
+          "file": "m-FAUP.json",
+          "new_metar": 172
+        },
+        {
+          "file": "m-FAUT.json",
+          "new_metar": 109
+        },
+        {
+          "file": "m-FAVV.json",
+          "new_metar": 151
+        },
+        {
+          "file": "m-FAWB.json",
+          "new_metar": 146
+        },
+        {
+          "file": "m-FAWK.json",
+          "new_metar": 149
+        },
+        {
+          "file": "m-FBSK.json",
+          "new_metar": 144
+        },
+        {
+          "file": "m-FDMS.json",
+          "new_metar": 67
+        },
+        {
+          "file": "m-FQMA.json",
+          "new_metar": 169
+        },
+        {
+          "file": "m-FXMM.json",
+          "new_metar": 30
+        },
+        {
+          "file": "m-FYKT.json",
+          "new_metar": 127
+        },
+        {
+          "file": "m-FYOG.json",
+          "new_metar": 147
+        },
+        {
+          "file": "m-FYWH.json",
+          "new_metar": 120
+        },
+        {
+          "file": "metar-an.json",
+          "skipped": "analysis summary, not raw reports"
+        },
+        {
+          "file": "taf-an.json",
+          "skipped": "analysis summary, not raw reports"
+        },
+        {
+          "file": "taf-hist.json",
+          "new_taf": 638
+        }
+      ]
+    },
+    "iem_asos": {
+      "windows": [
+        {
+          "start": "2025-11-16",
+          "end": "2025-12-01",
+          "bytes": 482209,
+          "rows": 6391,
+          "new": 6391
+        },
+        {
+          "start": "2025-12-01",
+          "end": "2026-01-01",
+          "bytes": 1094192,
+          "rows": 14531,
+          "new": 14530
+        },
+        {
+          "start": "2026-01-01",
+          "end": "2026-02-01",
+          "bytes": 1075271,
+          "rows": 14347,
+          "new": 14347
+        },
+        {
+          "start": "2026-02-01",
+          "end": "2026-03-01",
+          "bytes": 1085359,
+          "rows": 14424,
+          "new": 14421
+        },
+        {
+          "start": "2026-03-01",
+          "end": "2026-04-01",
+          "bytes": 1205984,
+          "rows": 16059,
+          "new": 16059
+        },
+        {
+          "start": "2026-04-01",
+          "end": "2026-05-01",
+          "bytes": 1203168,
+          "rows": 16102,
+          "new": 16099
+        },
+        {
+          "start": "2026-05-01",
+          "end": "2026-06-01",
+          "bytes": 1249296,
+          "rows": 16880,
+          "new": 16880
+        },
+        {
+          "start": "2026-06-01",
+          "end": "2026-07-01",
+          "bytes": 1173690,
+          "rows": 15950,
+          "new": 15950
+        },
+        {
+          "start": "2026-07-01",
+          "end": "2026-08-01",
+          "bytes": 1197809,
+          "rows": 16432,
+          "new": 16430
+        },
+        {
+          "start": "2026-08-01",
+          "end": "2026-09-01",
+          "bytes": 1295626,
+          "rows": 17692,
+          "new": 17691
+        },
+        {
+          "start": "2026-09-01",
+          "end": "2026-10-01",
+          "bytes": 1196897,
+          "rows": 15959,
+          "new": 15957
+        },
+        {
+          "start": "2026-10-01",
+          "end": "2026-11-01",
+          "bytes": 1199096,
+          "rows": 16216,
+          "new": 16209
+        },
+        {
+          "start": "2026-11-01",
+          "end": "2026-11-16",
+          "bytes": 605719,
+          "rows": 8094,
+          "new": 4997
+        }
+      ],
+      "new": 185961,
+      "rows": 189077
+    },
+    "aviationweather_tafs": {
+      "new": 2251
+    },
+    "aviationweather_metars": {
+      "new": 2201
+    },
+    "ogimet_recent": {
+      "start": "2026-11-14T09:32:48.537704+00:00",
+      "end": "2026-11-15T21:32:48.537704+00:00",
+      "stations": {
+        "FABL": {
+          "bytes": 7257,
+          "parsed": 45,
+          "new": 11,
+          "has_query": true
+        },
+        "FABM": {
+          "bytes": 3602,
+          "parsed": 39,
+          "new": 1,
+          "has_query": true
+        },
+        "FACT": {
+          "bytes": 7266,
+          "parsed": 51,
+          "new": 2,
+          "has_query": true
+        },
+        "FACV": {
+          "bytes": 2608,
+          "parsed": 4,
+          "new": 0,
+          "has_query": true
+        },
+        "FADY": {
+          "bytes": 2492,
+          "parsed": 2,
+          "new": 0,
+          "has_query": true
+        },
+        "FAEL": {
+          "bytes": 7710,
+          "parsed": 58,
+          "new": 3,
+          "has_query": true
+        },
+        "FAEO": {
+          "bytes": 2678,
+          "parsed": 4,
+          "new": 0,
+          "has_query": true
+        },
+        "FAGC": {
+          "bytes": 3188,
+          "parsed": 37,
+          "new": 1,
+          "has_query": true
+        },
+        "FAGG": {
+          "bytes": 8585,
+          "parsed": 61,
+          "new": 2,
+          "has_query": true
+        },
+        "FAHS": {
+          "bytes": 6016,
+          "parsed": 43,
+          "new": 2,
+          "has_query": true
+        },
+        "FAJB": {
+          "bytes": 5110,
+          "parsed": 37,
+          "new": 0,
+          "has_query": true
+        },
+        "FAKM": {
+          "bytes": 6720,
+          "parsed": 47,
+          "new": 3,
+          "has_query": true
+        },
+        "FAKN": {
+          "bytes": 7168,
+          "parsed": 52,
+          "new": 5,
+          "has_query": true
+        },
+        "FALA": {
+          "bytes": 8495,
+          "parsed": 47,
+          "new": 2,
+          "has_query": true
+        },
+        "FALE": {
+          "bytes": 11102,
+          "parsed": 68,
+          "new": 2,
+          "has_query": true
+        },
+        "FALM": {
+          "bytes": 3056,
+          "parsed": 6,
+          "new": 2,
+          "has_query": true
+        },
+        "FALW": {
+          "bytes": 5103,
+          "parsed": 37,
+          "new": 0,
+          "has_query": true
+        },
+        "FAMM": {
+          "bytes": 5183,
+          "parsed": 38,
+          "new": 0,
+          "has_query": true
+        },
+        "FAOR": {
+          "bytes": 12108,
+          "parsed": 76,
+          "new": 3,
+          "has_query": true
+        },
+        "FAPE": {
+          "bytes": 9592,
+          "parsed": 68,
+          "new": 2,
+          "has_query": true
+        },
+        "FAPM": {
+          "bytes": 3760,
+          "parsed": 6,
+          "new": 0,
+          "has_query": true
+        },
+        "FAPN": {
+          "bytes": 5089,
+          "parsed": 37,
+          "new": 1,
+          "has_query": true
+        },
+        "FAPP": {
+          "bytes": 6298,
+          "parsed": 45,
+          "new": 2,
+          "has_query": true
+        },
+        "FARB": {
+          "bytes": 3393,
+          "parsed": 5,
+          "new": 2,
+          "has_query": true
+        },
+        "FASB": {
+          "bytes": 3579,
+          "parsed": 39,
+          "new": 1,
+          "has_query": true
+        },
+        "FAUP": {
+          "bytes": 6384,
+          "parsed": 48,
+          "new": 0,
+          "has_query": true
+        },
+        "FAUT": {
+          "bytes": 5399,
+          "parsed": 25,
+          "new": 2,
+          "has_query": true
+        },
+        "FAVV": {
+          "bytes": 5083,
+          "parsed": 37,
+          "new": 0,
+          "has_query": true
+        },
+        "FAWB": {
+          "bytes": 6098,
+          "parsed": 40,
+          "new": 3,
+          "has_query": true
+        },
+        "FAWK": {
+          "bytes": 5002,
+          "parsed": 37,
+          "new": 2,
+          "has_query": true
+        }
+      },
+      "new": 54
+    }
+  },
+  "limitations": [
+    "METAR history is from the Iowa Environmental Mesonet ZA__ASOS archive and aims at 12 months (2025-11-16 to 2026-11-15).",
+    "aviationweather.gov's dataserver returns at most about 30 days of TAFs and recent METARs (confirmed: hoursBeforeNow=2160 still started 2026-10-15).",
+    "Ogimet's text interface, from this host, only returned the last ~36 hours; older windows came back as an empty page, so Ogimet is a recent complement only.",
+    "No production Worker/KV or go-around-db weather dump was available on the box beyond saved public API snapshots and docs/wx-history-15nov (read-only search).",
+    "Neighbouring ICAO stations that appear in the live Go Around feed (for example FYWH, FBSK, FQMA) are kept in raw files and tagged south_africa_fa=false."
+  ],
+  "stations": [
+    {
+      "station": "FABL",
+      "south_africa_fa": true,
+      "metar_count": 8589,
+      "taf_count": 145,
+      "speci_count": 2,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:00:00Z",
+      "taf_first": "2026-10-16T04:00:00.000Z",
+      "taf_last": "2026-11-15T17:59:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FABL.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FABL.txt.gz",
+        "taf": "raw/taf/FABL.txt.gz"
+      }
+    },
+    {
+      "station": "FABM",
+      "south_africa_fa": true,
+      "metar_count": 622,
+      "taf_count": 0,
+      "speci_count": 57,
+      "metar_first": "2025-11-19T05:49:00Z",
+      "metar_last": "2026-11-15T12:59:00Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FABM.txt.gz"
+      }
+    },
+    {
+      "station": "FACT",
+      "south_africa_fa": true,
+      "metar_count": 10456,
+      "taf_count": 160,
+      "speci_count": 58,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-15T22:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FACT.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FACT.txt.gz",
+        "taf": "raw/taf/FACT.txt.gz"
+      }
+    },
+    {
+      "station": "FACV",
+      "south_africa_fa": true,
+      "metar_count": 1447,
+      "taf_count": 0,
+      "speci_count": 60,
+      "metar_first": "2025-11-16T04:50:00Z",
+      "metar_last": "2026-11-15T07:56:00Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FACV.txt.gz"
+      }
+    },
+    {
+      "station": "FADY",
+      "south_africa_fa": true,
+      "metar_count": 694,
+      "taf_count": 0,
+      "speci_count": 27,
+      "metar_first": "2025-11-16T04:34:00Z",
+      "metar_last": "2026-11-15T07:45:00Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FADY.txt.gz"
+      }
+    },
+    {
+      "station": "FAEL",
+      "south_africa_fa": true,
+      "metar_count": 7269,
+      "taf_count": 95,
+      "speci_count": 105,
+      "metar_first": "2025-11-16T03:00:00Z",
+      "metar_last": "2026-11-15T18:00:00.000Z",
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAEL.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAEL.txt.gz",
+        "taf": "raw/taf/FAEL.txt.gz"
+      }
+    },
+    {
+      "station": "FAEO",
+      "south_africa_fa": true,
+      "metar_count": 798,
+      "taf_count": 0,
+      "speci_count": 39,
+      "metar_first": "2025-11-16T05:44:00Z",
+      "metar_last": "2026-11-15T16:42:00Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-wx-history-15nov:m-FAEO.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAEO.txt.gz"
+      }
+    },
+    {
+      "station": "FAGC",
+      "south_africa_fa": true,
+      "metar_count": 2,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2026-11-05T14:00:00.000Z",
+      "metar_last": "2026-11-14T09:00:00Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAGC.txt.gz"
+      }
+    },
+    {
+      "station": "FAGG",
+      "south_africa_fa": true,
+      "metar_count": 13962,
+      "taf_count": 172,
+      "speci_count": 293,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-16T04:00:00.000Z",
+      "taf_last": "2026-11-15T14:40:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAGG.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAGG.txt.gz",
+        "taf": "raw/taf/FAGG.txt.gz"
+      }
+    },
+    {
+      "station": "FAGM",
+      "south_africa_fa": true,
+      "metar_count": 506,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2025-11-18T05:00:00Z",
+      "metar_last": "2026-11-15T13:00:00.000Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-wx-history-15nov:m-FAGM.json",
+        "iem-asos:ZA__ASOS"
+      ],
+      "files": {
+        "metar": "raw/metar/FAGM.txt.gz"
+      }
+    },
+    {
+      "station": "FAHS",
+      "south_africa_fa": true,
+      "metar_count": 6388,
+      "taf_count": 94,
+      "speci_count": 0,
+      "metar_first": "2025-11-19T12:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAHS.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAHS.txt.gz",
+        "taf": "raw/taf/FAHS.txt.gz"
+      }
+    },
+    {
+      "station": "FAIR",
+      "south_africa_fa": true,
+      "metar_count": 75,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T01:34:00Z",
+      "metar_last": "2026-11-05T06:00:00.000Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "iem-asos:ZA__ASOS"
+      ],
+      "files": {
+        "metar": "raw/metar/FAIR.txt.gz"
+      }
+    },
+    {
+      "station": "FAJB",
+      "south_africa_fa": true,
+      "metar_count": 5298,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T21:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAJB.txt.gz"
+      }
+    },
+    {
+      "station": "FAKM",
+      "south_africa_fa": true,
+      "metar_count": 8448,
+      "taf_count": 92,
+      "speci_count": 35,
+      "metar_first": "2025-11-16T03:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAKM.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAKM.txt.gz",
+        "taf": "raw/taf/FAKM.txt.gz"
+      }
+    },
+    {
+      "station": "FAKN",
+      "south_africa_fa": true,
+      "metar_count": 8840,
+      "taf_count": 103,
+      "speci_count": 34,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAKN.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAKN.txt.gz",
+        "taf": "raw/taf/FAKN.txt.gz"
+      }
+    },
+    {
+      "station": "FALA",
+      "south_africa_fa": true,
+      "metar_count": 8570,
+      "taf_count": 142,
+      "speci_count": 96,
+      "metar_first": "2025-11-16T03:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-16T04:00:00.000Z",
+      "taf_last": "2026-11-15T18:02:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FALA.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FALA.txt.gz",
+        "taf": "raw/taf/FALA.txt.gz"
+      }
+    },
+    {
+      "station": "FALE",
+      "south_africa_fa": true,
+      "metar_count": 11243,
+      "taf_count": 159,
+      "speci_count": 143,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:17:00Z",
+      "taf_first": "2026-10-15T22:00:00.000Z",
+      "taf_last": "2026-11-15T16:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FALE.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FALE.txt.gz",
+        "taf": "raw/taf/FALE.txt.gz"
+      }
+    },
+    {
+      "station": "FALM",
+      "south_africa_fa": true,
+      "metar_count": 0,
+      "taf_count": 92,
+      "speci_count": 0,
+      "metar_first": null,
+      "metar_last": null,
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "ogimet"
+      ],
+      "files": {
+        "taf": "raw/taf/FALM.txt.gz"
+      }
+    },
+    {
+      "station": "FALW",
+      "south_africa_fa": true,
+      "metar_count": 7676,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FALW.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FALW.txt.gz"
+      }
+    },
+    {
+      "station": "FAMM",
+      "south_africa_fa": true,
+      "metar_count": 8672,
+      "taf_count": 0,
+      "speci_count": 43,
+      "metar_first": "2025-11-16T04:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAMM.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAMM.txt.gz"
+      }
+    },
+    {
+      "station": "FAOR",
+      "south_africa_fa": true,
+      "metar_count": 13497,
+      "taf_count": 159,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:30:00.000Z",
+      "taf_first": "2026-10-15T22:00:00.000Z",
+      "taf_last": "2026-11-15T17:08:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAOR.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAOR.txt.gz",
+        "taf": "raw/taf/FAOR.txt.gz"
+      }
+    },
+    {
+      "station": "FAPE",
+      "south_africa_fa": true,
+      "metar_count": 11260,
+      "taf_count": 129,
+      "speci_count": 166,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-16T04:00:00.000Z",
+      "taf_last": "2026-11-15T16:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAPE.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAPE.txt.gz",
+        "taf": "raw/taf/FAPE.txt.gz"
+      }
+    },
+    {
+      "station": "FAPM",
+      "south_africa_fa": true,
+      "metar_count": 3,
+      "taf_count": 136,
+      "speci_count": 0,
+      "metar_first": "2026-06-18T05:00:00Z",
+      "metar_last": "2026-10-27T06:00:00.000Z",
+      "taf_first": "2026-10-16T18:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAPM.txt.gz",
+        "taf": "raw/taf/FAPM.txt.gz"
+      }
+    },
+    {
+      "station": "FAPN",
+      "south_africa_fa": true,
+      "metar_count": 2821,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2025-11-20T15:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAPN.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAPN.txt.gz"
+      }
+    },
+    {
+      "station": "FAPP",
+      "south_africa_fa": true,
+      "metar_count": 9002,
+      "taf_count": 101,
+      "speci_count": 28,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAPP.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAPP.txt.gz",
+        "taf": "raw/taf/FAPP.txt.gz"
+      }
+    },
+    {
+      "station": "FAPR",
+      "south_africa_fa": true,
+      "metar_count": 1,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2026-03-28T17:00:00Z",
+      "metar_last": "2026-03-28T17:00:00Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "iem-asos:ZA__ASOS"
+      ],
+      "files": {
+        "metar": "raw/metar/FAPR.txt.gz"
+      }
+    },
+    {
+      "station": "FARB",
+      "south_africa_fa": true,
+      "metar_count": 1,
+      "taf_count": 100,
+      "speci_count": 0,
+      "metar_first": "2025-12-24T14:30:00Z",
+      "metar_last": "2025-12-24T14:30:00Z",
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FARB.txt.gz",
+        "taf": "raw/taf/FARB.txt.gz"
+      }
+    },
+    {
+      "station": "FASB",
+      "south_africa_fa": true,
+      "metar_count": 977,
+      "taf_count": 0,
+      "speci_count": 71,
+      "metar_first": "2025-11-16T05:54:00Z",
+      "metar_last": "2026-11-15T07:39:00Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-wx-history-15nov:m-FASB.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FASB.txt.gz"
+      }
+    },
+    {
+      "station": "FASI",
+      "south_africa_fa": true,
+      "metar_count": 4852,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T21:00:00Z",
+      "metar_last": "2026-10-20T23:00:00.000Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "iem-asos:ZA__ASOS"
+      ],
+      "files": {
+        "metar": "raw/metar/FASI.txt.gz"
+      }
+    },
+    {
+      "station": "FAUP",
+      "south_africa_fa": true,
+      "metar_count": 9501,
+      "taf_count": 128,
+      "speci_count": 69,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-16T04:00:00.000Z",
+      "taf_last": "2026-11-15T16:20:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAUP.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAUP.txt.gz",
+        "taf": "raw/taf/FAUP.txt.gz"
+      }
+    },
+    {
+      "station": "FAUT",
+      "south_africa_fa": true,
+      "metar_count": 8813,
+      "taf_count": 100,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T17:00:00.000Z",
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAUT.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAUT.txt.gz",
+        "taf": "raw/taf/FAUT.txt.gz"
+      }
+    },
+    {
+      "station": "FAVV",
+      "south_africa_fa": true,
+      "metar_count": 5502,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T21:00:00Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAVV.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAVV.txt.gz"
+      }
+    },
+    {
+      "station": "FAWB",
+      "south_africa_fa": true,
+      "metar_count": 7216,
+      "taf_count": 99,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T19:00:00.000Z",
+      "taf_first": "2026-10-17T03:00:00.000Z",
+      "taf_last": "2026-11-15T18:00:00Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAWB.json",
+        "go-around-wx-history-15nov:taf-hist.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAWB.txt.gz",
+        "taf": "raw/taf/FAWB.txt.gz"
+      }
+    },
+    {
+      "station": "FAWK",
+      "south_africa_fa": true,
+      "metar_count": 7644,
+      "taf_count": 0,
+      "speci_count": 0,
+      "metar_first": "2025-11-16T00:00:00Z",
+      "metar_last": "2026-11-15T20:00:00Z",
+      "taf_first": null,
+      "taf_last": null,
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FAWK.json",
+        "iem-asos:ZA__ASOS",
+        "ogimet"
+      ],
+      "files": {
+        "metar": "raw/metar/FAWK.txt.gz"
+      }
+    },
+    {
+      "station": "FBSK",
+      "south_africa_fa": false,
+      "metar_count": 348,
+      "taf_count": 112,
+      "speci_count": 0,
+      "metar_first": "2026-10-21T14:00:00.000Z",
+      "metar_last": "2026-11-15T20:00:00.000Z",
+      "taf_first": "2026-10-18T04:00:00.000Z",
+      "taf_last": "2026-11-15T16:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FBSK.json",
+        "go-around-wx-history-15nov:taf-hist.json"
+      ],
+      "files": {
+        "metar": "raw/metar/FBSK.txt.gz",
+        "taf": "raw/taf/FBSK.txt.gz"
+      }
+    },
+    {
+      "station": "FDMS",
+      "south_africa_fa": false,
+      "metar_count": 147,
+      "taf_count": 39,
+      "speci_count": 0,
+      "metar_first": "2026-10-21T13:00:00.000Z",
+      "metar_last": "2026-11-15T15:00:00.000Z",
+      "taf_first": "2026-10-18T07:00:00.000Z",
+      "taf_last": "2026-11-15T07:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-wx-history-15nov:m-FDMS.json",
+        "go-around-wx-history-15nov:taf-hist.json"
+      ],
+      "files": {
+        "metar": "raw/metar/FDMS.txt.gz",
+        "taf": "raw/taf/FDMS.txt.gz"
+      }
+    },
+    {
+      "station": "FQMA",
+      "south_africa_fa": false,
+      "metar_count": 390,
+      "taf_count": 112,
+      "speci_count": 0,
+      "metar_first": "2026-10-21T13:00:00.000Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-18T04:00:00.000Z",
+      "taf_last": "2026-11-15T16:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FQMA.json",
+        "go-around-wx-history-15nov:taf-hist.json"
+      ],
+      "files": {
+        "metar": "raw/metar/FQMA.txt.gz",
+        "taf": "raw/taf/FQMA.txt.gz"
+      }
+    },
+    {
+      "station": "FXMM",
+      "south_africa_fa": false,
+      "metar_count": 62,
+      "taf_count": 21,
+      "speci_count": 0,
+      "metar_first": "2026-10-21T13:00:00.000Z",
+      "metar_last": "2026-11-15T14:00:00.000Z",
+      "taf_first": "2026-10-18T04:00:00.000Z",
+      "taf_last": "2026-11-14T04:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-wx-history-15nov:m-FXMM.json",
+        "go-around-wx-history-15nov:taf-hist.json"
+      ],
+      "files": {
+        "metar": "raw/metar/FXMM.txt.gz",
+        "taf": "raw/taf/FXMM.txt.gz"
+      }
+    },
+    {
+      "station": "FYKT",
+      "south_africa_fa": false,
+      "metar_count": 305,
+      "taf_count": 117,
+      "speci_count": 0,
+      "metar_first": "2026-10-21T14:00:00.000Z",
+      "metar_last": "2026-11-15T21:00:00.000Z",
+      "taf_first": "2026-10-18T04:00:00.000Z",
+      "taf_last": "2026-11-15T16:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FYKT.json",
+        "go-around-wx-history-15nov:taf-hist.json"
+      ],
+      "files": {
+        "metar": "raw/metar/FYKT.txt.gz",
+        "taf": "raw/taf/FYKT.txt.gz"
+      }
+    },
+    {
+      "station": "FYOG",
+      "south_africa_fa": false,
+      "metar_count": 356,
+      "taf_count": 231,
+      "speci_count": 0,
+      "metar_first": "2026-10-21T13:00:00.000Z",
+      "metar_last": "2026-11-15T15:00:00.000Z",
+      "taf_first": "2026-10-17T23:00:00.000Z",
+      "taf_last": "2026-11-15T20:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FYOG.json",
+        "go-around-wx-history-15nov:taf-hist.json"
+      ],
+      "files": {
+        "metar": "raw/metar/FYOG.txt.gz",
+        "taf": "raw/taf/FYOG.txt.gz"
+      }
+    },
+    {
+      "station": "FYWH",
+      "south_africa_fa": false,
+      "metar_count": 262,
+      "taf_count": 118,
+      "speci_count": 0,
+      "metar_first": "2026-10-21T13:00:00.000Z",
+      "metar_last": "2026-11-15T19:00:00.000Z",
+      "taf_first": "2026-10-18T04:00:00.000Z",
+      "taf_last": "2026-11-15T16:00:00.000Z",
+      "sources": [
+        "aviationweather.gov/dataserver",
+        "go-around-box-snapshot:api/metar",
+        "go-around-box-snapshot:api/taf",
+        "go-around-box-snapshot:main-snapshot-public-metar",
+        "go-around-box-snapshot:main-snapshot-public-taf",
+        "go-around-live:/api/metar",
+        "go-around-live:/api/taf",
+        "go-around-live:/api/wx-now",
+        "go-around-wx-history-15nov:m-FYWH.json",
+        "go-around-wx-history-15nov:taf-hist.json"
+      ],
+      "files": {
+        "metar": "raw/metar/FYWH.txt.gz",
+        "taf": "raw/taf/FYWH.txt.gz"
+      }
+    }
+  ],
+  "line_format": "time_iso<TAB>kind<TAB>raw<TAB>comma-separated sources",
+  "files": "raw/metar/{ICAO}.txt.gz and raw/taf/{ICAO}.txt.gz"
+}

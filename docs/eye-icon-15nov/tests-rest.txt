@@ -1,0 +1,9 @@
+== tests/deeplink-route.mjs rc=0 deeplink-route: ok
+== tests/gps-near-me.mjs rc=0 gps-near-me: ok
+== tests/search-glow.mjs rc=0 search-glow: ok (always on, composited, rests only while the overlay is hidden, reduced motion respected)
+== cf-test rc=1 ℹ tests 63 ℹ pass 62 ℹ fail 1 
+✖ engine copy is byte-identical to the site's card engine files and its manifest (3.242931ms)
+✖ failing tests:
+✖ engine copy is byte-identical to the site's card engine files and its manifest (3.242931ms)
+== vbump-check rc=0 vbump --check: every ?v= is current
+== perf-budget rc=0 page:main.html:assets_br                 308339 perf budget: ok (34 limits) 

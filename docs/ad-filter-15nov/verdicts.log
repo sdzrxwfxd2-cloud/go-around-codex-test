@@ -1,0 +1,44 @@
+depart per=10 n=582 mounted=10 win=null {"go":194,"nogo":193,"caution":143,"heli":52}
+depart per=all n=582 mounted=8 win={"a":0,"b":8,"n":582,"mounted":8} {"go":194,"nogo":193,"caution":143,"heli":52}
+depart verdict diffs 0
+land0 per=10 n=582 mounted=10 win=null {"go":194,"nogo":193,"caution":143,"heli":52}
+land0 per=all n=582 mounted=8 win={"a":0,"b":8,"n":582,"mounted":8} {"go":194,"nogo":193,"caution":143,"heli":52}
+land0 verdict diffs 0
+land1 per=10 n=582 mounted=10 win=null {"go":136,"nogo":262,"caution":132,"heli":52}
+land1 per=all n=582 mounted=8 win={"a":0,"b":8,"n":582,"mounted":8} {"go":136,"nogo":262,"caution":132,"heli":52}
+land1 verdict diffs 0
+land2 per=10 n=582 mounted=10 win=null {"go":149,"nogo":215,"caution":166,"heli":52}
+land2 per=all n=582 mounted=8 win={"a":0,"b":8,"n":582,"mounted":8} {"go":149,"nogo":215,"caution":166,"heli":52}
+land2 verdict diffs 0
+land3 per=10 n=582 mounted=10 win=null {"go":197,"nogo":172,"caution":161,"heli":52}
+land3 per=all n=582 mounted=8 win={"a":0,"b":8,"n":582,"mounted":8} {"go":197,"nogo":172,"caution":161,"heli":52}
+land3 verdict diffs 0
+status-vs-aero {"aerodromes":{"all":530,"go":194,"caution":143,"nogo":193,"none":0},"statusBar":{"go":194,"caution":143,"nogo":193},"diff":0} diff 0
+SUMMARY {
+  "n10": 582,
+  "nAll": 582,
+  "mountedAll": 8,
+  "verdictDiffs": {
+    "depart": 0,
+    "land0": 0,
+    "land1": 0,
+    "land2": 0,
+    "land3": 0
+  },
+  "totalDiffs": 0,
+  "statusDiff": 0,
+  "jsErrors": {
+    "depart-10": 0,
+    "depart-all": 0,
+    "land0-10": 0,
+    "land0-all": 0,
+    "land1-10": 0,
+    "land1-all": 0,
+    "land2-10": 0,
+    "land2-all": 0,
+    "land3-10": 0,
+    "land3-all": 0,
+    "status-aero": 0,
+    "status": 0
+  }
+}

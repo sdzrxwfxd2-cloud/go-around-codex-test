@@ -1,0 +1,10 @@
+node_modules/
+.wrangler/
+.dev.vars
+*.dev.vars
+.env*
+*.pem
+*.key
+credentials.json
+secrets.json
+.netlify_token*

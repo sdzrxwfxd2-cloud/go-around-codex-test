@@ -1,0 +1,128 @@
+/* Sitewide first-load inline loading bars (DA-calculator recipe).
+   Theme tokens only (--gl2, --ln). First load; refresh FX is untouched. */
+:root{--mk-ease:cubic-bezier(.32,.72,0,1)}
+
+/* Shared bar + first-paint hide for baked async slots (until .mk-ready). */
+.mk-ph,
+#vs:not(.mk-ready),
+#vw:not(.mk-ready),
+#verd .vsuit .kv>div>span:last-child:not(.mk-ready),
+.boxhd .age:not(.mk-ready),
+.fcb .fbadge:not(.mk-ready),
+.wxg b:not(.mk-ready),
+#fbk>div>span:last-child:not(.mk-ready),
+#omk>div>span:last-child:not(.mk-ready){
+  position:relative;
+  color:transparent;
+  -webkit-text-fill-color:transparent;
+  text-shadow:none
+}
+.mk-ph *,
+#vs:not(.mk-ready) *,
+#vw:not(.mk-ready) *,
+.fcb .fbadge:not(.mk-ready) *,
+.wxg b:not(.mk-ready) *{visibility:hidden}
+
+.mk-ph::after,
+#vs:not(.mk-ready)::after,
+#vw:not(.mk-ready)::after,
+#verd .vsuit .kv>div>span:last-child:not(.mk-ready)::after,
+.boxhd .age:not(.mk-ready)::after,
+.fcb .fbadge:not(.mk-ready)::after,
+.wxg b:not(.mk-ready)::after,
+#fbk>div>span:last-child:not(.mk-ready)::after,
+#omk>div>span:last-child:not(.mk-ready)::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;top:50%;
+  height:.62em;min-height:8px;margin-top:-.31em;
+  border-radius:.31em;
+  background:linear-gradient(90deg,var(--gl2,rgba(255,255,255,.06)) 0%,var(--ln) 50%,var(--gl2,rgba(255,255,255,.06)) 100%) 0 0/200% 100%,var(--gl2,rgba(255,255,255,.06));
+  box-shadow:inset 0 0 0 .5px var(--ln);
+  animation:mkph 1.6s ease-in-out infinite;
+  visibility:visible;
+  pointer-events:none
+}
+@keyframes mkph{from{background-position:100% 0,0 0}to{background-position:-100% 0,0 0}}
+@media (prefers-reduced-motion:reduce){
+  .mk-ph::after,
+  #vs:not(.mk-ready)::after,
+  #vw:not(.mk-ready)::after,
+  #verd .vsuit .kv>div>span:last-child:not(.mk-ready)::after,
+  .boxhd .age:not(.mk-ready)::after,
+  .fcb .fbadge:not(.mk-ready)::after,
+  .wxg b:not(.mk-ready)::after,
+  #fbk>div>span:last-child:not(.mk-ready)::after,
+  #omk>div>span:last-child:not(.mk-ready)::after,
+  #fbr.mk-radar-wait::after{animation:none}
+}
+
+/* Reveal: values rise; verdict badge is opacity-only so Refresh FX can still glint .badge. */
+.mk-in{animation:mkin .35s var(--mk-ease) both}
+@keyframes mkin{from{opacity:.35;transform:translateY(4px)}to{opacity:1;transform:none}}
+.card .badge.mk-in,
+#vs.mk-in{animation:mkfade .35s var(--mk-ease) both}
+@keyframes mkfade{from{opacity:.35}to{opacity:1}}
+
+/* Live card layout (not the held mockup): keep the existing pill box, bar inset. */
+.card .badge.mk-ph{min-width:5.2em;box-sizing:border-box}
+.card .badge.mk-ph::after{left:12px;right:12px;height:8px;margin-top:-4px}
+.card .why.mk-ph{display:block;min-height:17px}
+.card .why.mk-ph::after{right:22%;height:9px;margin-top:-4.5px}
+.card .cp .mono.mk-ph{display:block;min-height:34px}
+.card .cp .mono.mk-ph::after{left:14px;right:14px;height:9px;margin-top:-4.5px}
+.card .temp.mk-ph,
+.card .wxd b.mk-ph,
+.card .meta .age.mk-ph,
+.card .meta .nxt.mk-ph,
+.mk-ph:empty{display:inline-block;min-width:3.2em}
+.card .fcb2 .fbadge.mk-ph{min-width:64px;display:inline-flex}
+.card .wsun2.mk-ph,
+.card .wfzl2.mk-ph{min-height:30px}
+.card .wsun2.mk-ph::after,
+.card .wfzl2.mk-ph::after{left:16px;right:16px;height:9px;margin-top:-4.5px}
+
+/* Neutral beam while the first-load verdict is unknown (data-s=none otherwise kills the glow). */
+#list .card.mk-wait[data-s=none]::after{animation:breathe 5.5s ease-in-out infinite;opacity:1}
+
+/* Detail / FACT / tiles extras */
+#vs.mk-ph,
+#vs:not(.mk-ready){display:inline-block;min-width:5.2em}
+#vw.mk-ph,
+#vw:not(.mk-ready){min-height:1.2em}
+#vw.mk-ph::after,
+#vw:not(.mk-ready)::after{right:28%}
+.wxg b.mk-ph,
+.wxg b:not(.mk-ready){display:block;min-height:1.1em;max-width:7em}
+.dec li.mk-ph::after{right:20%}
+#mhr .mht b.mk-ph,
+#mhr .mht small.mk-ph,
+#mhr .mx span.mk-ph{display:block;min-width:2.6em;min-height:1em}
+#mhr.mk-ph,
+#mhr:not(.mk-ready){position:relative;min-height:2.2em}
+#mhr.mk-ph::after,
+#mhr:not(.mk-ready)::after{
+  content:"";position:absolute;left:0;right:28%;top:50%;height:9px;margin-top:-4.5px;
+  border-radius:5px;
+  background:linear-gradient(90deg,var(--gl2) 0%,var(--ln) 50%,var(--gl2) 100%) 0 0/200% 100%,var(--gl2);
+  box-shadow:inset 0 0 0 .5px var(--ln);
+  animation:mkph 1.6s ease-in-out infinite
+}
+#mhr.mk-ready::after{content:none;animation:none}
+#fbl .fn b.mk-ph,
+#fbl .fn small.mk-ph{display:block;min-width:8em}
+.kv>div>span.mk-ph{min-width:4em;display:inline-block}
+#fbr.mk-radar-wait g,
+#fbr.mk-radar-wait text[style*="monospace"]{opacity:0}
+#fbr.mk-radar-wait{position:relative}
+#fbr.mk-radar-wait::after{
+  content:"";position:absolute;left:30%;right:30%;top:50%;height:9px;margin-top:22px;border-radius:5px;
+  background:linear-gradient(90deg,var(--gl2) 0%,var(--ln) 50%,var(--gl2) 100%) 0 0/200% 100%,var(--gl2);
+  box-shadow:inset 0 0 0 .5px var(--ln);
+  animation:mkph 1.6s ease-in-out infinite
+}
+.fcb .fbadge.mk-ph,
+.fcb .fbadge:not(.mk-ready){min-width:64px;display:inline-flex}
+
+/* Ops weather summary counts, first authorised load only */
+#app .sum .n.mk-ph{display:inline-block;min-width:1.7em;min-height:.9em}

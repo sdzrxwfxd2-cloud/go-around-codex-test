@@ -1,0 +1,18 @@
+13:30:52 ok */10 * * * * cpu 39 wall 5487 {"beat":true,"want":["metar","taf"],"changed":["metar","taf"],"kv":3,"today":249,"metar":29,"taf":24} 
+13:32:21 ok * * * * * cpu 24 wall 797 {"beat":false,"want":["metar"],"changed":["metar"],"kv":2,"today":251,"metar":29} 
+13:34:21 ok * * * * * cpu 21 wall 842 {"beat":false,"want":["metar"],"changed":["metar"],"kv":2,"today":255,"metar":29} 
+13:35:21 ok * * * * * cpu 34 wall 12158 {"beat":false,"want":["metar"],"changed":["metar"],"kv":2,"today":257,"metar":29} 
+13:36:21 ok * * * * * cpu 0 wall 0  
+13:37:21 ok * * * * * cpu 0 wall 1  
+13:38:21 ok * * * * * cpu 0 wall 1  
+13:40:21 ok * * * * * cpu 63 wall 10261 {"beat":true,"want":["metar","taf"],"changed":[],"kv":3,"today":260,"metar":29,"taf":24} 
+13:41:21 ok * * * * * cpu 1 wall 2  
+13:42:21 ok * * * * * cpu 0 wall 0  
+13:43:21 ok * * * * * cpu 0 wall 1  
+13:44:22 ok * * * * * cpu 0 wall 0  
+13:45:21 ok * * * * * cpu 28 wall 11752 {"beat":false,"want":["metar"],"changed":[],"kv":0,"today":260,"skip":"no report changed","metar":29} 
+13:46:21 ok * * * * * cpu 0 wall 0  
+13:47:21 ok * * * * * cpu 0 wall 0  
+13:48:21 ok * * * * * cpu 0 wall 1  
+13:49:21 ok * * * * * cpu 0 wall 0  
+runs 17 kvWrites 12 errors 0 cpu max 63

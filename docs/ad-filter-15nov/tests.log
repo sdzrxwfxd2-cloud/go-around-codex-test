@@ -1,0 +1,45 @@
+== engine-v2 ==
+  PASS tests/engine-v2/arrive-share.test.mjs
+  PASS tests/engine-v2/compare.test.mjs
+  PASS tests/engine-v2/da-limit.test.mjs
+  PASS tests/engine-v2/night-land-steps.test.mjs
+  PASS tests/engine-v2/night-pill.test.mjs
+  PASS tests/engine-v2/summary-labels.test.mjs
+  PASS tests/engine-v2/time-steps.test.mjs
+  PASS tests/engine-v2/wind-card.test.mjs
+  PASS tests/engine-v2/wind-display.test.mjs
+  PASS tests/engine-v2/wind-fill.test.mjs
+  PASS tests/engine-v2/wire.test.mjs
+== safety ==
+  PASS tests/safety/awc_coverage.test.mjs
+  PASS tests/safety/baked_purge.test.mjs
+  PASS tests/safety/metar_blind.test.mjs
+  PASS tests/safety/now_file.contract.test.mjs
+  PASS tests/safety/null_safety.test.mjs
+  PASS tests/safety/taf_validity.test.mjs
+== vbump --check ==
+vbump --check: every ?v= is current
+PASS vbump
+== perf-budget ==
+perf-budget exit 0
+page:library.html:html_br                52601
+page:library.html:assets                 39
+page:library.html:assets_br              218769
+page:ad/FAOR.html:html_br                89667
+page:ad/FAOR.html:assets                 26
+page:ad/FAOR.html:assets_br              433349
+page:c/ad/FAOR.html:html_br              89619
+page:c/ad/FAOR.html:assets               23
+page:c/ad/FAOR.html:assets_br            435794
+max_js_css_br                            292335
+max_ad_page_raw                          336483
+whole_page_watchers                      62
+stale_v_refs                             0
+headers_duplicate_paths                  0
+headers_rules                            62
+routes_json_valid                        1
+biggest js/css: c/rwy/rwy-data.js | biggest aerodrome page: ad/FAOR.html
+whole-page watchers in: {"app.html":4,"appdata/app-data.33b6393b1c.js":1,"brief.html":4,"c/app.html":2,"c/appdata/app-code.03838b9873.js":1,"c/appdata/app-data.51cdd70f78.js":1,"c/main.html":2,"c/wst/wq.js":2,"calculator.html":4,"demos/library-a.html":4,"demos/library-b.html":4,"fact.html":2,"ga-nav-collapse.js":1,"ga-nav-pill.js":1,"library.html":4,"logbook.html":4,"main.html":2,"pilot.html":4,"status_demo.html":3,"wm-adback.js":1,"wm-shell-big.js":1,"wm-shell-merge.js":3,"wm-shell.js":1,"wm-still.js":1,"wst/wq.js":1,"ad/FAOR.html":2,"c/ad/FAOR.html":2}
+
+perf budget: ok (34 limits)
+==== DONE fail=0 ====

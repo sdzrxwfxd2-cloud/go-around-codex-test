@@ -1,0 +1,703 @@
+{
+  "total": 640,
+  "withEye": 640,
+  "withoutEye": 0,
+  "lowCloud": 87,
+  "withExamples": [
+    "FAAE src=model",
+    "ZA-0042 src=model",
+    "ZA-0025 src=model",
+    "ZA-0086 src=model",
+    "ZA-0016 src=model",
+    "ZA-0219 src=model",
+    "ZA-0293 src=model",
+    "FAAG src=model",
+    "ZA-0017 src=model",
+    "ZA-0015 src=model",
+    "FAAB src=model",
+    "FAAN src=model"
+  ],
+  "withoutExamples": [],
+  "lowExamples": [
+    {
+      "id": "FAAR",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAAS",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0090",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0236",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FABR",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FABZ",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0071",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0188",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0074",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0075",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0004",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FABG",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FACG",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0306",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0177",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0153",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0112",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0303",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0345",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAGO",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAGC",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0342",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAHU",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0184",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAHJ",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAHG",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FASX",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAHH",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAHL",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0099",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0302",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0350",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0173",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0168",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAKE",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0170",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0174",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAKI",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAKF",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAKB",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0181",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0172",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0171",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FALD",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0041",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAGW",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAMD",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0165",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAMG",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0200",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAZP",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0214",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0344",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0210",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0096",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0183",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FADK",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FANI",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0167",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0371",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0211",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAON",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAPX",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAPA",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAPJ",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAHE",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0116",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FARD",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FASE",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0056",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FASZ",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0186",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0024",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0179",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FATH",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FATR",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0245",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAUH",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAVG",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0207",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAWK",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAWG",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAWR",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0175",
+      "inote": 1,
+      "src": "",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FAWV",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "ZA-0182",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    },
+    {
+      "id": "FADQ",
+      "inote": 1,
+      "src": "model",
+      "chip": "LOW CLOUD"
+    }
+  ],
+  "withoutByReason": {},
+  "withoutBySrc": {},
+  "withEyeExamplesFull": [
+    {
+      "id": "FAAE",
+      "name": "Aberdeen.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "has eye (engine weather also present)"
+    },
+    {
+      "id": "ZA-0042",
+      "name": "Adamsfontein.",
+      "cat": "uncontrolled",
+      "s": "nogo",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "has eye (engine weather also present)"
+    },
+    {
+      "id": "ZA-0025",
+      "name": "Aero 57.",
+      "cat": "uncontrolled",
+      "s": "nogo",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "MVFR\u00b7VMC",
+      "badges": [
+        "MVFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "has eye (engine weather also present)"
+    },
+    {
+      "id": "ZA-0086",
+      "name": "Aero Den.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "has eye (engine weather also present)"
+    },
+    {
+      "id": "ZA-0016",
+      "name": "Aero Farm.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "has eye (engine weather also present)"
+    },
+    {
+      "id": "ZA-0219",
+      "name": "Aeropark Zyn Kraal.",
+      "cat": "uncontrolled",
+      "s": "caution",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "has eye (engine weather also present)"
+    },
+    {
+      "id": "ZA-0293",
+      "name": "Afrikaanse Hengel Vereeniging (Afrikaans Fishing Association).",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "has eye (engine weather also present)"
+    },
+    {
+      "id": "FAAG",
+      "name": "Aggeneys.",
+      "cat": "uncontrolled",
+      "s": "go",
+      "heliport": false,
+      "hasFcb2": true,
+      "inote": 1,
+      "inoteTotal": 1,
+      "chip": "VFR\u00b7VMC",
+      "badges": [
+        "VFR",
+        "VMC"
+      ],
+      "usedSrc": "model",
+      "model": true,
+      "low": false,
+      "reason": "has eye (engine weather also present)"
+    }
+  ],
+  "withoutEyeExamplesFull": [],
+  "lowCloudCount": 87
+}

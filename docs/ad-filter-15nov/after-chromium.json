@@ -1,0 +1,975 @@
+{
+  "tag": "after",
+  "engine": "chromium",
+  "at": "Sun Nov 15 2026 17:05:22 GMT+0200 (South Africa Standard Time)",
+  "url": "http://127.0.0.1:40857",
+  "root": "/workspace/wt-ad-filter-15nov/site",
+  "errors": [],
+  "longTasks": [
+    {
+      "n": "self",
+      "start": 104,
+      "dur": 117
+    },
+    {
+      "n": "self",
+      "start": 305,
+      "dur": 153
+    },
+    {
+      "n": "self",
+      "start": 608,
+      "dur": 154
+    },
+    {
+      "n": "self",
+      "start": 780,
+      "dur": 1039
+    },
+    {
+      "n": "self",
+      "start": 1825,
+      "dur": 614
+    },
+    {
+      "n": "self",
+      "start": 2537,
+      "dur": 407
+    },
+    {
+      "n": "self",
+      "start": 2963,
+      "dur": 316
+    },
+    {
+      "n": "self",
+      "start": 3369,
+      "dur": 53
+    },
+    {
+      "n": "self",
+      "start": 3471,
+      "dur": 305
+    },
+    {
+      "n": "self",
+      "start": 3821,
+      "dur": 53
+    },
+    {
+      "n": "self",
+      "start": 3883,
+      "dur": 375
+    },
+    {
+      "n": "self",
+      "start": 4259,
+      "dur": 108
+    },
+    {
+      "n": "self",
+      "start": 4469,
+      "dur": 67
+    },
+    {
+      "n": "self",
+      "start": 4585,
+      "dur": 659
+    },
+    {
+      "n": "self",
+      "start": 5245,
+      "dur": 59
+    },
+    {
+      "n": "self",
+      "start": 5305,
+      "dur": 110
+    },
+    {
+      "n": "self",
+      "start": 5415,
+      "dur": 50
+    },
+    {
+      "n": "self",
+      "start": 5475,
+      "dur": 175
+    },
+    {
+      "n": "self",
+      "start": 5677,
+      "dur": 60
+    },
+    {
+      "n": "self",
+      "start": 5758,
+      "dur": 71
+    },
+    {
+      "n": "self",
+      "start": 5883,
+      "dur": 66
+    },
+    {
+      "n": "self",
+      "start": 5952,
+      "dur": 117
+    },
+    {
+      "n": "self",
+      "start": 6088,
+      "dur": 93
+    },
+    {
+      "n": "self",
+      "start": 6212,
+      "dur": 754
+    },
+    {
+      "n": "self",
+      "start": 6967,
+      "dur": 80
+    },
+    {
+      "n": "self",
+      "start": 7202,
+      "dur": 448
+    },
+    {
+      "n": "self",
+      "start": 7703,
+      "dur": 129
+    },
+    {
+      "n": "self",
+      "start": 7991,
+      "dur": 130
+    },
+    {
+      "n": "self",
+      "start": 8241,
+      "dur": 119
+    },
+    {
+      "n": "self",
+      "start": 11230,
+      "dur": 89
+    },
+    {
+      "n": "self",
+      "start": 12366,
+      "dur": 590
+    },
+    {
+      "n": "self",
+      "start": 12956,
+      "dur": 82
+    },
+    {
+      "n": "self",
+      "start": 13038,
+      "dur": 528
+    },
+    {
+      "n": "self",
+      "start": 13567,
+      "dur": 51
+    },
+    {
+      "n": "self",
+      "start": 13627,
+      "dur": 469
+    }
+  ],
+  "notes": [
+    "shot after-amethyst-390-default.png",
+    "shot after-amethyst-390-filter-open.png",
+    "shot after-amethyst-390-all.png",
+    "shot after-amethyst-390-all-scrolled.png",
+    "shot after-amethyst-390-all-top.png"
+  ],
+  "cpuThrottle": 4,
+  "loadMs": 10894,
+  "beforeClick": {
+    "mounted": 10,
+    "spacers": [],
+    "all": 582,
+    "icao": "FAAE",
+    "mem": {
+      "used": 20577927,
+      "total": 48953071
+    },
+    "lt": [
+      {
+        "n": "self",
+        "start": 104,
+        "dur": 117
+      },
+      {
+        "n": "self",
+        "start": 305,
+        "dur": 153
+      },
+      {
+        "n": "self",
+        "start": 608,
+        "dur": 154
+      },
+      {
+        "n": "self",
+        "start": 780,
+        "dur": 1039
+      },
+      {
+        "n": "self",
+        "start": 1825,
+        "dur": 614
+      },
+      {
+        "n": "self",
+        "start": 2537,
+        "dur": 407
+      },
+      {
+        "n": "self",
+        "start": 2963,
+        "dur": 316
+      },
+      {
+        "n": "self",
+        "start": 3369,
+        "dur": 53
+      },
+      {
+        "n": "self",
+        "start": 3471,
+        "dur": 305
+      },
+      {
+        "n": "self",
+        "start": 3821,
+        "dur": 53
+      },
+      {
+        "n": "self",
+        "start": 3883,
+        "dur": 375
+      },
+      {
+        "n": "self",
+        "start": 4259,
+        "dur": 108
+      },
+      {
+        "n": "self",
+        "start": 4469,
+        "dur": 67
+      },
+      {
+        "n": "self",
+        "start": 4585,
+        "dur": 659
+      },
+      {
+        "n": "self",
+        "start": 5245,
+        "dur": 59
+      },
+      {
+        "n": "self",
+        "start": 5305,
+        "dur": 110
+      },
+      {
+        "n": "self",
+        "start": 5415,
+        "dur": 50
+      },
+      {
+        "n": "self",
+        "start": 5475,
+        "dur": 175
+      },
+      {
+        "n": "self",
+        "start": 5677,
+        "dur": 60
+      },
+      {
+        "n": "self",
+        "start": 5758,
+        "dur": 71
+      },
+      {
+        "n": "self",
+        "start": 5883,
+        "dur": 66
+      },
+      {
+        "n": "self",
+        "start": 5952,
+        "dur": 117
+      },
+      {
+        "n": "self",
+        "start": 6088,
+        "dur": 93
+      },
+      {
+        "n": "self",
+        "start": 6212,
+        "dur": 754
+      },
+      {
+        "n": "self",
+        "start": 6967,
+        "dur": 80
+      },
+      {
+        "n": "self",
+        "start": 7202,
+        "dur": 448
+      },
+      {
+        "n": "self",
+        "start": 7703,
+        "dur": 129
+      },
+      {
+        "n": "self",
+        "start": 7991,
+        "dur": 130
+      },
+      {
+        "n": "self",
+        "start": 8241,
+        "dur": 119
+      }
+    ],
+    "per": null,
+    "pager": "Page 1 of 59 · 582 aerodromes"
+  },
+  "click": {
+    "ok": true,
+    "text": "All",
+    "tag": "BUTTON",
+    "wp": null,
+    "per": "all"
+  },
+  "clickEvalMs": 593,
+  "firstShow": {
+    "ms": 1824,
+    "mounted": 8,
+    "spacers": [
+      0,
+      247956
+    ],
+    "all": 582,
+    "icao": "FAAE",
+    "mem": {
+      "used": 32871789,
+      "total": 54460441
+    },
+    "lt": [
+      {
+        "n": "self",
+        "start": 104,
+        "dur": 117
+      },
+      {
+        "n": "self",
+        "start": 305,
+        "dur": 153
+      },
+      {
+        "n": "self",
+        "start": 608,
+        "dur": 154
+      },
+      {
+        "n": "self",
+        "start": 780,
+        "dur": 1039
+      },
+      {
+        "n": "self",
+        "start": 1825,
+        "dur": 614
+      },
+      {
+        "n": "self",
+        "start": 2537,
+        "dur": 407
+      },
+      {
+        "n": "self",
+        "start": 2963,
+        "dur": 316
+      },
+      {
+        "n": "self",
+        "start": 3369,
+        "dur": 53
+      },
+      {
+        "n": "self",
+        "start": 3471,
+        "dur": 305
+      },
+      {
+        "n": "self",
+        "start": 3821,
+        "dur": 53
+      },
+      {
+        "n": "self",
+        "start": 3883,
+        "dur": 375
+      },
+      {
+        "n": "self",
+        "start": 4259,
+        "dur": 108
+      },
+      {
+        "n": "self",
+        "start": 4469,
+        "dur": 67
+      },
+      {
+        "n": "self",
+        "start": 4585,
+        "dur": 659
+      },
+      {
+        "n": "self",
+        "start": 5245,
+        "dur": 59
+      },
+      {
+        "n": "self",
+        "start": 5305,
+        "dur": 110
+      },
+      {
+        "n": "self",
+        "start": 5415,
+        "dur": 50
+      },
+      {
+        "n": "self",
+        "start": 5475,
+        "dur": 175
+      },
+      {
+        "n": "self",
+        "start": 5677,
+        "dur": 60
+      },
+      {
+        "n": "self",
+        "start": 5758,
+        "dur": 71
+      },
+      {
+        "n": "self",
+        "start": 5883,
+        "dur": 66
+      },
+      {
+        "n": "self",
+        "start": 5952,
+        "dur": 117
+      },
+      {
+        "n": "self",
+        "start": 6088,
+        "dur": 93
+      },
+      {
+        "n": "self",
+        "start": 6212,
+        "dur": 754
+      },
+      {
+        "n": "self",
+        "start": 6967,
+        "dur": 80
+      },
+      {
+        "n": "self",
+        "start": 7202,
+        "dur": 448
+      },
+      {
+        "n": "self",
+        "start": 7703,
+        "dur": 129
+      },
+      {
+        "n": "self",
+        "start": 7991,
+        "dur": 130
+      },
+      {
+        "n": "self",
+        "start": 8241,
+        "dur": 119
+      },
+      {
+        "n": "self",
+        "start": 11230,
+        "dur": 89
+      },
+      {
+        "n": "self",
+        "start": 12366,
+        "dur": 590
+      },
+      {
+        "n": "self",
+        "start": 12956,
+        "dur": 82
+      },
+      {
+        "n": "self",
+        "start": 13038,
+        "dur": 528
+      },
+      {
+        "n": "self",
+        "start": 13567,
+        "dur": 51
+      },
+      {
+        "n": "self",
+        "start": 13627,
+        "dur": 469
+      }
+    ],
+    "per": "all",
+    "pager": "Page 1 of 1 · 582 aerodromes"
+  },
+  "afterClick": {
+    "ms": 1824,
+    "mounted": 8,
+    "spacers": [
+      0,
+      247956
+    ],
+    "all": 582,
+    "icao": "FAAE",
+    "mem": {
+      "used": 32871789,
+      "total": 54460441
+    },
+    "lt": [
+      {
+        "n": "self",
+        "start": 104,
+        "dur": 117
+      },
+      {
+        "n": "self",
+        "start": 305,
+        "dur": 153
+      },
+      {
+        "n": "self",
+        "start": 608,
+        "dur": 154
+      },
+      {
+        "n": "self",
+        "start": 780,
+        "dur": 1039
+      },
+      {
+        "n": "self",
+        "start": 1825,
+        "dur": 614
+      },
+      {
+        "n": "self",
+        "start": 2537,
+        "dur": 407
+      },
+      {
+        "n": "self",
+        "start": 2963,
+        "dur": 316
+      },
+      {
+        "n": "self",
+        "start": 3369,
+        "dur": 53
+      },
+      {
+        "n": "self",
+        "start": 3471,
+        "dur": 305
+      },
+      {
+        "n": "self",
+        "start": 3821,
+        "dur": 53
+      },
+      {
+        "n": "self",
+        "start": 3883,
+        "dur": 375
+      },
+      {
+        "n": "self",
+        "start": 4259,
+        "dur": 108
+      },
+      {
+        "n": "self",
+        "start": 4469,
+        "dur": 67
+      },
+      {
+        "n": "self",
+        "start": 4585,
+        "dur": 659
+      },
+      {
+        "n": "self",
+        "start": 5245,
+        "dur": 59
+      },
+      {
+        "n": "self",
+        "start": 5305,
+        "dur": 110
+      },
+      {
+        "n": "self",
+        "start": 5415,
+        "dur": 50
+      },
+      {
+        "n": "self",
+        "start": 5475,
+        "dur": 175
+      },
+      {
+        "n": "self",
+        "start": 5677,
+        "dur": 60
+      },
+      {
+        "n": "self",
+        "start": 5758,
+        "dur": 71
+      },
+      {
+        "n": "self",
+        "start": 5883,
+        "dur": 66
+      },
+      {
+        "n": "self",
+        "start": 5952,
+        "dur": 117
+      },
+      {
+        "n": "self",
+        "start": 6088,
+        "dur": 93
+      },
+      {
+        "n": "self",
+        "start": 6212,
+        "dur": 754
+      },
+      {
+        "n": "self",
+        "start": 6967,
+        "dur": 80
+      },
+      {
+        "n": "self",
+        "start": 7202,
+        "dur": 448
+      },
+      {
+        "n": "self",
+        "start": 7703,
+        "dur": 129
+      },
+      {
+        "n": "self",
+        "start": 7991,
+        "dur": 130
+      },
+      {
+        "n": "self",
+        "start": 8241,
+        "dur": 119
+      },
+      {
+        "n": "self",
+        "start": 11230,
+        "dur": 89
+      },
+      {
+        "n": "self",
+        "start": 12366,
+        "dur": 590
+      },
+      {
+        "n": "self",
+        "start": 12956,
+        "dur": 82
+      },
+      {
+        "n": "self",
+        "start": 13038,
+        "dur": 528
+      },
+      {
+        "n": "self",
+        "start": 13567,
+        "dur": 51
+      },
+      {
+        "n": "self",
+        "start": 13627,
+        "dur": 469
+      }
+    ],
+    "per": "all",
+    "pager": "Page 1 of 1 · 582 aerodromes"
+  },
+  "timedOut": false,
+  "clickToShowMs": 1824,
+  "longestTaskMs": 1039,
+  "longTasksOver50": 35,
+  "longTasksOver200": 12,
+  "longTasksOver1000": 1,
+  "cdpMetrics": {},
+  "scroll": {
+    "ms": 1616,
+    "mounted": 9,
+    "spacers": [
+      3616.375,
+      244932
+    ],
+    "all": 582,
+    "icao": "ZA-0293",
+    "mem": {
+      "used": 20890760,
+      "total": 54724836
+    },
+    "lt": [
+      {
+        "n": "self",
+        "start": 104,
+        "dur": 117
+      },
+      {
+        "n": "self",
+        "start": 305,
+        "dur": 153
+      },
+      {
+        "n": "self",
+        "start": 608,
+        "dur": 154
+      },
+      {
+        "n": "self",
+        "start": 780,
+        "dur": 1039
+      },
+      {
+        "n": "self",
+        "start": 1825,
+        "dur": 614
+      },
+      {
+        "n": "self",
+        "start": 2537,
+        "dur": 407
+      },
+      {
+        "n": "self",
+        "start": 2963,
+        "dur": 316
+      },
+      {
+        "n": "self",
+        "start": 3369,
+        "dur": 53
+      },
+      {
+        "n": "self",
+        "start": 3471,
+        "dur": 305
+      },
+      {
+        "n": "self",
+        "start": 3821,
+        "dur": 53
+      },
+      {
+        "n": "self",
+        "start": 3883,
+        "dur": 375
+      },
+      {
+        "n": "self",
+        "start": 4259,
+        "dur": 108
+      },
+      {
+        "n": "self",
+        "start": 4469,
+        "dur": 67
+      },
+      {
+        "n": "self",
+        "start": 4585,
+        "dur": 659
+      },
+      {
+        "n": "self",
+        "start": 5245,
+        "dur": 59
+      },
+      {
+        "n": "self",
+        "start": 5305,
+        "dur": 110
+      },
+      {
+        "n": "self",
+        "start": 5415,
+        "dur": 50
+      },
+      {
+        "n": "self",
+        "start": 5475,
+        "dur": 175
+      },
+      {
+        "n": "self",
+        "start": 5677,
+        "dur": 60
+      },
+      {
+        "n": "self",
+        "start": 5758,
+        "dur": 71
+      },
+      {
+        "n": "self",
+        "start": 5883,
+        "dur": 66
+      },
+      {
+        "n": "self",
+        "start": 5952,
+        "dur": 117
+      },
+      {
+        "n": "self",
+        "start": 6088,
+        "dur": 93
+      },
+      {
+        "n": "self",
+        "start": 6212,
+        "dur": 754
+      },
+      {
+        "n": "self",
+        "start": 6967,
+        "dur": 80
+      },
+      {
+        "n": "self",
+        "start": 7202,
+        "dur": 448
+      },
+      {
+        "n": "self",
+        "start": 7703,
+        "dur": 129
+      },
+      {
+        "n": "self",
+        "start": 7991,
+        "dur": 130
+      },
+      {
+        "n": "self",
+        "start": 8241,
+        "dur": 119
+      },
+      {
+        "n": "self",
+        "start": 11230,
+        "dur": 89
+      },
+      {
+        "n": "self",
+        "start": 12366,
+        "dur": 590
+      },
+      {
+        "n": "self",
+        "start": 12956,
+        "dur": 82
+      },
+      {
+        "n": "self",
+        "start": 13038,
+        "dur": 528
+      },
+      {
+        "n": "self",
+        "start": 13567,
+        "dur": 51
+      },
+      {
+        "n": "self",
+        "start": 13627,
+        "dur": 469
+      },
+      {
+        "n": "self",
+        "start": 14226,
+        "dur": 71
+      },
+      {
+        "n": "self",
+        "start": 14771,
+        "dur": 55
+      },
+      {
+        "n": "self",
+        "start": 14879,
+        "dur": 101
+      },
+      {
+        "n": "self",
+        "start": 16005,
+        "dur": 171
+      },
+      {
+        "n": "self",
+        "start": 16185,
+        "dur": 87
+      }
+    ],
+    "per": "all",
+    "pager": "Page 1 of 1 · 582 aerodromes",
+    "y": 6000
+  },
+  "interactiveMs": 4,
+  "interactive": true
+}

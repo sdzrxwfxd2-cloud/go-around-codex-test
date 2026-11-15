@@ -1,0 +1,62 @@
+depart before 640 {"go":59,"nogo":311,"caution":218,"heli":52} WM_COUNTS {"all":588,"go":59,"caution":218,"nogo":311,"none":0}
+depart after 640 {"go":69,"nogo":312,"caution":207,"heli":52} WM_COUNTS {"all":588,"go":69,"caution":207,"nogo":312,"none":0}
+land0 before 640 {"go":59,"nogo":311,"caution":218,"heli":52} WM_COUNTS {"all":588,"go":59,"caution":218,"nogo":311,"none":0}
+land0 after 640 {"go":69,"nogo":312,"caution":207,"heli":52} WM_COUNTS {"all":588,"go":69,"caution":207,"nogo":312,"none":0}
+land1 before 640 {"caution":173,"nogo":390,"heli":52,"go":25} WM_COUNTS {"all":588,"go":25,"caution":173,"nogo":390,"none":0}
+land1 after 640 {"caution":166,"nogo":390,"go":32,"heli":52} WM_COUNTS {"all":588,"go":32,"caution":166,"nogo":390,"none":0}
+land3 before 640 {"caution":150,"nogo":405,"go":33,"heli":52} WM_COUNTS {"all":588,"go":33,"caution":150,"nogo":405,"none":0}
+land3 after 640 {"caution":145,"nogo":405,"go":38,"heli":52} WM_COUNTS {"all":588,"go":38,"caution":145,"nogo":405,"none":0}
+status before depart C172 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart PA28 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart C152 {"go":39,"caution":176,"nogo":373} aero {"go":35,"caution":179,"nogo":374} diff 8
+status before depart SLG2 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart PA34 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart DA20 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart DA42 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart SLG4 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart C182 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart DA40 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart DA40NG {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before depart P2008 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land C172 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land PA28 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land C152 {"go":39,"caution":176,"nogo":373} aero {"go":35,"caution":179,"nogo":374} diff 8
+status before land SLG2 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land PA34 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land DA20 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land DA42 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land SLG4 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land C182 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land DA40 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land DA40NG {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status before land P2008 {"go":66,"caution":212,"nogo":310} aero {"go":59,"caution":218,"nogo":311} diff 14
+status after depart C172 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart PA28 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart C152 {"go":41,"caution":172,"nogo":375} aero {"go":41,"caution":172,"nogo":375} diff 0
+status after depart SLG2 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart PA34 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart DA20 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart DA42 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart SLG4 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart C182 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart DA40 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart DA40NG {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after depart P2008 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land C172 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land PA28 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land C152 {"go":41,"caution":172,"nogo":375} aero {"go":41,"caution":172,"nogo":375} diff 0
+status after land SLG2 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land PA34 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land DA20 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land DA42 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land SLG4 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land C182 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land DA40 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land DA40NG {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+status after land P2008 {"go":69,"caution":207,"nogo":312} aero {"go":69,"caution":207,"nogo":312} diff 0
+FAHS direct before [{"u":"/ad/FAHS.html?solo=1","status":404,"h1":null,"bytes":0},{"u":"/ad/FAHS.html","status":404,"h1":null,"bytes":0}]
+FAHS before {"src":"ad/FAHS.html","h1":null,"textLen":0,"url":"/ad/FAHS"}
+FAHS direct after [{"u":"/ad/FAHS.html?solo=1","status":200,"h1":"Eastgate Airport / Air Force Base Hoedspruit","bytes":163561},{"u":"/ad/FAHS.html","status":200,"h1":"Eastgate Airport / Air Force Base Hoedspruit","bytes":163561}]
+FAHS after {"src":"ad/FAHT.html","h1":"Eastgate Airport / Air Force Base Hoedspruit","textLen":5873,"url":"/ad/FAHS"}
+FACT before {"id":"FACT","s":"nogo","badge":"NO DEPART","why":"Your gust limit 25 kt (gusting 33) · 13:00","src":"model","early":null,"label":"Weather model estimate","rules":["nogo:POL-WS-STRONG","caution:POL-XW-BANDS"],"da":1129,"chips":"VFR·VMC"}
+FACT after {"id":"FACT","s":"caution","badge":"CAUTION","why":"TAF not yet valid — next period from 1300Z · 15:00","src":"taf","early":1794747600000,"label":"TAF (next period from 1300Z)","rules":["caution:POL-TAF-EARLY"],"da":1129,"chips":"VFR·VMC"}

@@ -1,0 +1,243 @@
+== tests/engine-v2/arrive-share.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 63.255126
+== tests/engine-v2/compare.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 2481.664124
+== tests/engine-v2/night-land-steps.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 69.994481
+== tests/engine-v2/night-pill.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 50.359863
+== tests/engine-v2/summary-labels.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 47.250067
+== tests/engine-v2/time-steps.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 67.357825
+== tests/engine-v2/wind-card.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 14866.632385
+== tests/engine-v2/wind-display.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 1
+   ℹ duration_ms 152.785787
+== tests/engine-v2/wind-fill.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 81.757763
+== tests/engine-v2/wire.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 20129.765475
+== tests/safety/awc_coverage.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 1
+   ℹ todo 0
+   ℹ duration_ms 106.288648
+== tests/safety/baked_purge.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 94.8721
+== tests/safety/metar_blind.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 86.038396
+== tests/safety/now_file.contract.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 100.039444
+== tests/safety/null_safety.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 71.154158
+== tests/safety/taf_validity.test.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 103.208253
+== engine-v2/run.js rc=0
+   OK 170 rule cases (73 locked rules + 57 wind / model / freshness cases + 10 visibility-fill cases + 10 night-arrival / TEMPO-wind cases + 11 gust-cap / CAVOK-vis cases) plus lock and night-definition checks
+   Rule pack 2.5.0 checksum 90d2ba46f3478c597c502d607193a4a3e072962da4eedace4b0d3131a3922cb1
+== tests/deeplink-route.mjs rc=0
+   deeplink-route: ok
+== tests/gps-near-me.mjs rc=0
+   gps-near-me: ok
+== tests/search-glow.mjs rc=0
+   search-glow: ok (always on, composited, rests only while the overlay is hidden, reduced motion respected)
+== tests/perf/adtypes-loop.mjs rc=0
+   adtypes-loop: browser part skipped (no puppeteer-core/Chrome)
+   adtypes-loop: ok
+== tests/perf/cache-headers.mjs rc=0
+   ok - overlapping image/font rules retain one 1-year immutable policy
+   vbump --check: every ?v= is current
+   ok - every ?v= is the current content hash
+   ok - no immutable JS/CSS (98 files) is referenced without ?v=
+   cache-headers: all passed
+== tests/perf/first-load.mjs rc=0
+   first-load: browser part skipped (no puppeteer-core/Chrome)
+   first-load: ok
+== tests/perf/home-hidden-pages.mjs rc=0
+   home-hidden-pages: browser part skipped (no puppeteer-core/Chrome)
+   home-hidden-pages: ok
+== tests/perf/model-copy-retry.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 92.588482
+== tests/perf/more-loader-pretty-13nov.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 2
+   ℹ todo 0
+   ℹ duration_ms 7.622142
+== tests/perf/night-warning-stability.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 11.123142
+== tests/perf/no-public-py.mjs rc=0
+   no-public-py: ok
+== tests/perf/pass-cascade.mjs rc=0
+   pass-cascade: ok
+== tests/perf/perf-budget.mjs rc=1
+     stdout: null,
+     stderr: null
+   }
+   
+   Node.js v24.22.1
+== tests/perf/pilot-safety-gate.mjs rc=0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 118904.508514
+   pilot-safety-gate: ok
+== tests/perf/pin-first-measure.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 13.245859
+== tests/perf/preview-tab-race-13nov.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 4
+   ℹ todo 0
+   ℹ duration_ms 5.024444
+== tests/perf/protected-since-live.mjs rc=0
+   protected-since-live: ok
+== tests/perf/refresh-fx-boxes-13nov.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 16704.062112
+== tests/perf/refresh-outcome.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 30.108708
+== tests/perf/routes-json.mjs rc=0
+   ok - 2682 page URLs (1337 .html files) still run the middleware
+   ok - 37 Function, API and admin routes still run Functions
+   ok - protected app data unchanged (still through the middleware, as on live)
+   ok - static code, fonts, images and charts skip Functions
+   routes-json: all passed
+== tests/perf/search-library-retry.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 12.823963
+== tests/perf/service-worker-resilience.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 40.093128
+== tests/perf/service-worker.mjs rc=0
+   ok - kill switch present (KILL flag unregisters and clears caches)
+   ok - registration: top window only, no HTTP cache for sw.js, per-browser off switch
+   ok - worker keeps a file only if its bytes match ?v=
+   service-worker: browser part skipped (no puppeteer-core/Chrome)
+   service-worker: ok
+== tests/perf/sitewide-loading-13nov.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 818.164371
+== tests/perf/speed-theme-13nov.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 856.752139
+== tests/perf/weather-ato-tab-13nov.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 12.358188
+== tests/perf/weather-to-aero-race-13nov.mjs rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 31874.198635
+== cf-test rc=0
+   ℹ fail 0
+   ℹ cancelled 0
+   ℹ skipped 0
+   ℹ todo 0
+   ℹ duration_ms 461.270014
+== vbump-check rc=0
+   vbump --check: every ?v= is current
+== perf-budget rc=1
+   whole-page watchers in: {"app.html":4,"appdata/app-data.33b6393b1c.js":1,"brief.html":4,"c/app.html":2,"c/appdata/app-code.03838b9873.js":1,"c/appdata/app-data.51cdd70f78.js":1,"c/main.html":2,"c/wst/wq.js":2,"calculator.html":4,"demos/library-a.html":4,"demos/library-b.html":4,"fact.html":2,"ga-nav-collapse.js":1,"ga-nav-pill.js":1,"library.html":4,"logbook.html":4,"main.html":2,"pilot.html":4,"status_demo.html":3,"wm-adback.js":1,"wm-shell-big.js":1,"wm-shell-merge.js":3,"wm-shell.js":1,"wm-still.js":1,"wst/wq.js":1,"ad/FAOR.html":2,"c/ad/FAOR.html":2}
+   
+   PERF BUDGET FAILED:
+     page:main.html:assets_br: 309231 > budget 308500
+   If the growth is wanted, run node tools/perf-budget.mjs --write and say why in the PR (needs MT's yes).
+== node-check bad=0

@@ -1,0 +1,584 @@
+{
+  "live": {
+    "FAAR": {
+      "open": true,
+      "now": "Arathusa Safari Lodge (FAAR) \u00b7 Open-Meteo model \u00b7 valid until 17:00 SAST",
+      "grid": {
+        "cols": "48px 230px",
+        "gap": "10px",
+        "pad": "2px 0px",
+        "align": "normal"
+      },
+      "pop": {
+        "w": 350,
+        "h": 560
+      },
+      "key": {
+        "w": 288,
+        "h": 183
+      },
+      "rows": [
+        {
+          "label": "VFR",
+          "text": "Above 3 000 ft and 5 SM",
+          "row": {
+            "w": 288,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 230,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "MVFR",
+          "text": "1 000\u20133 000 ft or 3\u20135 SM",
+          "row": {
+            "w": 288,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 230,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "IFR",
+          "text": "500\u2013999 ft or 1\u20133 SM",
+          "row": {
+            "w": 288,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 230,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "LIFR",
+          "text": "Below 500 ft or 1 SM",
+          "row": {
+            "w": 288,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 230,
+            "h": 17
+          },
+          "gap": 10
+        }
+      ]
+    },
+    "FACT": {
+      "open": true,
+      "now": "Cape Town Intl. (FACT) \u00b7 METAR 16:00 SAST",
+      "grid": {
+        "cols": "48px 230px",
+        "gap": "10px",
+        "pad": "2px 0px",
+        "align": "normal"
+      },
+      "pop": {
+        "w": 350,
+        "h": 560
+      },
+      "key": {
+        "w": 288,
+        "h": 166
+      },
+      "rows": [
+        {
+          "label": "VFR",
+          "text": "Above 3 000 ft and 5 SM",
+          "row": {
+            "w": 288,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 230,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "MVFR",
+          "text": "1 000\u20133 000 ft or 3\u20135 SM",
+          "row": {
+            "w": 288,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 230,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "IFR",
+          "text": "500\u2013999 ft or 1\u20133 SM",
+          "row": {
+            "w": 288,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 230,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "LIFR",
+          "text": "Below 500 ft or 1 SM",
+          "row": {
+            "w": 288,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 230,
+            "h": 17
+          },
+          "gap": 10
+        }
+      ]
+    }
+  },
+  "after": {
+    "FAAR": {
+      "open": true,
+      "now": "Vis 10+ km \u00b7 Cloud 98%, base unknown \u00b7 Forecast 16:00\u201317:00 SAST",
+      "grid": {
+        "cols": "48px 246px",
+        "gap": "10px",
+        "pad": "2px 0px",
+        "align": "normal"
+      },
+      "pop": {
+        "w": 366,
+        "h": 691
+      },
+      "key": {
+        "w": 304,
+        "h": 254
+      },
+      "rows": [
+        {
+          "label": "VFR",
+          "text": "Above 3 000 ft and 5 SM",
+          "row": {
+            "w": 304,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 246,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "MVFR",
+          "text": "1 000\u20133 000 ft or 3\u20135 SM",
+          "row": {
+            "w": 304,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 246,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "IFR",
+          "text": "500\u2013999 ft or 1\u20133 SM",
+          "row": {
+            "w": 304,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 246,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "LIFR",
+          "text": "Below 500 ft or 1 SM",
+          "row": {
+            "w": 304,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 246,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "LOW CLOUD",
+          "text": "Visibility known, cloud base not reported, so no category is assumed. Check the cloud base yourself.",
+          "row": {
+            "w": 304,
+            "h": 71
+          },
+          "lab": {
+            "x": 0,
+            "w": 304,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 19,
+            "w": 246,
+            "h": 50
+          },
+          "gap": -246
+        }
+      ]
+    },
+    "FACT": {
+      "open": true,
+      "now": "Vis 10+ km \u00b7 FEW035 \u00b7 METAR 16:00 SAST (49 min ago)",
+      "grid": {
+        "cols": "48px 246px",
+        "gap": "10px",
+        "pad": "2px 0px",
+        "align": "normal"
+      },
+      "pop": {
+        "w": 366,
+        "h": 642
+      },
+      "key": {
+        "w": 304,
+        "h": 237
+      },
+      "rows": [
+        {
+          "label": "VFR",
+          "text": "Above 3 000 ft and 5 SM",
+          "row": {
+            "w": 304,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 246,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "MVFR",
+          "text": "1 000\u20133 000 ft or 3\u20135 SM",
+          "row": {
+            "w": 304,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 246,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "IFR",
+          "text": "500\u2013999 ft or 1\u20133 SM",
+          "row": {
+            "w": 304,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 246,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "LIFR",
+          "text": "Below 500 ft or 1 SM",
+          "row": {
+            "w": 304,
+            "h": 21
+          },
+          "lab": {
+            "x": 0,
+            "w": 48,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 2,
+            "w": 246,
+            "h": 17
+          },
+          "gap": 10
+        },
+        {
+          "label": "LOW CLOUD",
+          "text": "Visibility known, cloud base not reported, so no category is assumed. Check the cloud base yourself.",
+          "row": {
+            "w": 304,
+            "h": 71
+          },
+          "lab": {
+            "x": 0,
+            "w": 304,
+            "h": 17
+          },
+          "txt": {
+            "x": 58,
+            "y": 19,
+            "w": 246,
+            "h": 50
+          },
+          "gap": -246
+        }
+      ]
+    }
+  },
+  "cmp": {
+    "FAAR": {
+      "gridLive": {
+        "cols": "48px 230px",
+        "gap": "10px",
+        "pad": "2px 0px",
+        "align": "normal"
+      },
+      "gridBranch": {
+        "cols": "48px 246px",
+        "gap": "10px",
+        "pad": "2px 0px",
+        "align": "normal"
+      },
+      "rows": [
+        {
+          "label": "VFR",
+          "indentLive": 58,
+          "indentBranch": 58,
+          "gapLive": 10,
+          "gapBranch": 10,
+          "hLive": 21,
+          "hBranch": 21,
+          "sameLabel": true,
+          "sameText": true,
+          "indentUnchanged": true
+        },
+        {
+          "label": "MVFR",
+          "indentLive": 58,
+          "indentBranch": 58,
+          "gapLive": 10,
+          "gapBranch": 10,
+          "hLive": 21,
+          "hBranch": 21,
+          "sameLabel": true,
+          "sameText": true,
+          "indentUnchanged": true
+        },
+        {
+          "label": "IFR",
+          "indentLive": 58,
+          "indentBranch": 58,
+          "gapLive": 10,
+          "gapBranch": 10,
+          "hLive": 21,
+          "hBranch": 21,
+          "sameLabel": true,
+          "sameText": true,
+          "indentUnchanged": true
+        },
+        {
+          "label": "LIFR",
+          "indentLive": 58,
+          "indentBranch": 58,
+          "gapLive": 10,
+          "gapBranch": 10,
+          "hLive": 21,
+          "hBranch": 21,
+          "sameLabel": true,
+          "sameText": true,
+          "indentUnchanged": true
+        },
+        {
+          "label": "LOW CLOUD",
+          "only": "branch"
+        }
+      ]
+    },
+    "FACT": {
+      "gridLive": {
+        "cols": "48px 230px",
+        "gap": "10px",
+        "pad": "2px 0px",
+        "align": "normal"
+      },
+      "gridBranch": {
+        "cols": "48px 246px",
+        "gap": "10px",
+        "pad": "2px 0px",
+        "align": "normal"
+      },
+      "rows": [
+        {
+          "label": "VFR",
+          "indentLive": 58,
+          "indentBranch": 58,
+          "gapLive": 10,
+          "gapBranch": 10,
+          "hLive": 21,
+          "hBranch": 21,
+          "sameLabel": true,
+          "sameText": true,
+          "indentUnchanged": true
+        },
+        {
+          "label": "MVFR",
+          "indentLive": 58,
+          "indentBranch": 58,
+          "gapLive": 10,
+          "gapBranch": 10,
+          "hLive": 21,
+          "hBranch": 21,
+          "sameLabel": true,
+          "sameText": true,
+          "indentUnchanged": true
+        },
+        {
+          "label": "IFR",
+          "indentLive": 58,
+          "indentBranch": 58,
+          "gapLive": 10,
+          "gapBranch": 10,
+          "hLive": 21,
+          "hBranch": 21,
+          "sameLabel": true,
+          "sameText": true,
+          "indentUnchanged": true
+        },
+        {
+          "label": "LIFR",
+          "indentLive": 58,
+          "indentBranch": 58,
+          "gapLive": 10,
+          "gapBranch": 10,
+          "hLive": 21,
+          "hBranch": 21,
+          "sameLabel": true,
+          "sameText": true,
+          "indentUnchanged": true
+        },
+        {
+          "label": "LOW CLOUD",
+          "only": "branch"
+        }
+      ]
+    }
+  }
+}

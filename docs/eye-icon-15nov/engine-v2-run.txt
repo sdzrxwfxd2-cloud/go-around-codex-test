@@ -1,0 +1,2 @@
+OK 170 rule cases (73 locked rules + 57 wind / model / freshness cases + 10 visibility-fill cases + 10 night-arrival / TEMPO-wind cases + 11 gust-cap / CAVOK-vis cases) plus lock and night-definition checks
+Rule pack 2.5.0 checksum 90d2ba46f3478c597c502d607193a4a3e072962da4eedace4b0d3131a3922cb1

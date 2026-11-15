@@ -1,0 +1,48 @@
+== tests/engine-v2/arrive-share.test.mjs rc=0 ℹ pass 6 ℹ fail 0 
+== tests/engine-v2/compare.test.mjs rc=0 ℹ pass 1 ℹ fail 0 
+== tests/engine-v2/night-land-steps.test.mjs rc=0 ℹ pass 12 ℹ fail 0 
+== tests/engine-v2/night-pill.test.mjs rc=0 ℹ pass 3 ℹ fail 0 
+== tests/engine-v2/summary-labels.test.mjs rc=0 ℹ pass 1 ℹ fail 0 
+== tests/engine-v2/time-steps.test.mjs rc=0 ℹ pass 8 ℹ fail 0 
+== tests/engine-v2/wind-card.test.mjs rc=0 ℹ pass 5 ℹ fail 0 
+== tests/engine-v2/wind-display.test.mjs rc=0 ℹ pass 2 ℹ fail 0 
+== tests/engine-v2/wind-fill.test.mjs rc=0 ℹ pass 44 ℹ fail 0 
+== tests/engine-v2/wire.test.mjs rc=0 ℹ pass 6 ℹ fail 0 
+== tests/safety/awc_coverage.test.mjs rc=0 ℹ pass 4 ℹ fail 0 
+== tests/safety/baked_purge.test.mjs rc=0 ℹ pass 5 ℹ fail 0 
+== tests/safety/metar_blind.test.mjs rc=0 ℹ pass 5 ℹ fail 0 
+== tests/safety/now_file.contract.test.mjs rc=0 ℹ pass 4 ℹ fail 0 
+== tests/safety/null_safety.test.mjs rc=0 ℹ pass 5 ℹ fail 0 
+== tests/safety/taf_validity.test.mjs rc=0 ℹ pass 8 ℹ fail 0 
+== engine-v2/run.js rc=0 Rule pack 2.5.0 checksum 90d2ba46f3478c597c502d607193a4a3e072962da4eedace4b0d3131a3922cb1
+== tests/deeplink-route.mjs rc=0 deeplink-route: ok
+== tests/gps-near-me.mjs rc=0 gps-near-me: ok
+== tests/search-glow.mjs rc=0 search-glow: ok (always on, composited, rests only while the overlay is hidden, reduced motion respected)
+== tests/perf/adtypes-loop.mjs rc=0 adtypes-loop: ok
+== tests/perf/cache-headers.mjs rc=0 cache-headers: all passed
+== tests/perf/first-load.mjs rc=0 first-load: ok
+== tests/perf/home-hidden-pages.mjs rc=0 home-hidden-pages: ok
+== tests/perf/model-copy-retry.mjs rc=0 ℹ duration_ms 63.770171
+== tests/perf/more-loader-pretty-13nov.mjs rc=0 ℹ duration_ms 10.141099
+== tests/perf/night-warning-stability.mjs rc=0 ℹ duration_ms 9.949184
+== tests/perf/no-public-py.mjs rc=0 no-public-py: ok
+== tests/perf/pass-cascade.mjs rc=0 pass-cascade: ok
+== tests/perf/perf-budget.mjs rc=0 perf-budget: ok
+== tests/perf/pilot-safety-gate.mjs rc=0 pilot-safety-gate: ok
+== tests/perf/pin-first-measure.mjs rc=0 ℹ duration_ms 10.938227
+== tests/perf/preview-tab-race-13nov.mjs rc=0 ℹ duration_ms 4.846415
+== tests/perf/protected-since-live.mjs rc=0 protected-since-live: ok
+== tests/perf/refresh-fx-boxes-13nov.mjs rc=0 ℹ duration_ms 25060.189811
+== tests/perf/refresh-outcome.mjs rc=0 ℹ duration_ms 29.98709
+== tests/perf/routes-json.mjs rc=0 routes-json: all passed
+== tests/perf/search-library-retry.mjs rc=0 ℹ duration_ms 9.376658
+== tests/perf/service-worker-resilience.mjs rc=0 ℹ duration_ms 38.672155
+== tests/perf/service-worker.mjs rc=0 service-worker: ok
+== tests/perf/sitewide-loading-13nov.mjs rc=0 ℹ duration_ms 803.417546
+== tests/perf/speed-theme-13nov.mjs rc=0 ℹ duration_ms 836.535796
+== tests/perf/weather-ato-tab-13nov.mjs rc=0 ℹ duration_ms 8.446
+== tests/perf/weather-to-aero-race-13nov.mjs rc=0 ℹ duration_ms 31658.97019
+== cf-test rc=0 ℹ tests 63 ℹ pass 63 ℹ fail 0 
+== vbump-check rc=0 vbump --check: every ?v= is current
+== perf-budget rc=0 
+== node-check bad=0

@@ -1,0 +1,191 @@
+{
+  "at": "Sun Nov 15 2026 16:32:43 GMT+0200 (South Africa Standard Time)",
+  "summary": {
+    "remaining": 582,
+    "beforePublic": 640,
+    "verdictDiffs": {
+      "depart": 0,
+      "land0": 0,
+      "land1": 0,
+      "land2": 0,
+      "land3": 0
+    },
+    "totalDiffs": 0,
+    "jsErrors": {
+      "before-depart": 0,
+      "after-depart": 0,
+      "before-land0": 0,
+      "after-land0": 0,
+      "before-land1": 0,
+      "after-land1": 0,
+      "before-land2": 0,
+      "after-land2": 0,
+      "before-land3": 0,
+      "after-land3": 0,
+      "after-status-aero": 0,
+      "after-status": 0
+    }
+  },
+  "status": {
+    "aerodromes": {
+      "all": 530,
+      "go": 181,
+      "caution": 167,
+      "nogo": 182,
+      "none": 0
+    },
+    "statusBar": {
+      "go": 181,
+      "caution": 167,
+      "nogo": 182
+    },
+    "nA": 582,
+    "nS": {
+      "cards": 582,
+      "allCards": 0
+    }
+  },
+  "diffCounts": {
+    "depart": 0,
+    "land0": 0,
+    "land1": 0,
+    "land2": 0,
+    "land3": 0
+  },
+  "jsErrors": {
+    "before-depart": 0,
+    "after-depart": 0,
+    "before-land0": 0,
+    "after-land0": 0,
+    "before-land1": 0,
+    "after-land1": 0,
+    "before-land2": 0,
+    "after-land2": 0,
+    "before-land3": 0,
+    "after-land3": 0,
+    "after-status-aero": 0,
+    "after-status": 0
+  },
+  "modes": {
+    "depart": {
+      "before": {
+        "counts": {
+          "all": 588,
+          "go": 189,
+          "caution": 188,
+          "nogo": 211,
+          "none": 0
+        },
+        "n": 640,
+        "cards_n": 640
+      },
+      "after": {
+        "counts": {
+          "all": 530,
+          "go": 181,
+          "caution": 167,
+          "nogo": 182,
+          "none": 0
+        },
+        "n": 582,
+        "cards_n": 582
+      }
+    },
+    "land0": {
+      "before": {
+        "counts": {
+          "all": 588,
+          "go": 189,
+          "caution": 188,
+          "nogo": 211,
+          "none": 0
+        },
+        "n": 640,
+        "cards_n": 640
+      },
+      "after": {
+        "counts": {
+          "all": 530,
+          "go": 181,
+          "caution": 167,
+          "nogo": 182,
+          "none": 0
+        },
+        "n": 582,
+        "cards_n": 582
+      }
+    },
+    "land1": {
+      "before": {
+        "counts": {
+          "all": 588,
+          "go": 115,
+          "caution": 171,
+          "nogo": 302,
+          "none": 0
+        },
+        "n": 640,
+        "cards_n": 640
+      },
+      "after": {
+        "counts": {
+          "all": 530,
+          "go": 110,
+          "caution": 158,
+          "nogo": 262,
+          "none": 0
+        },
+        "n": 582,
+        "cards_n": 582
+      }
+    },
+    "land2": {
+      "before": {
+        "counts": {
+          "all": 588,
+          "go": 145,
+          "caution": 151,
+          "nogo": 292,
+          "none": 0
+        },
+        "n": 640,
+        "cards_n": 640
+      },
+      "after": {
+        "counts": {
+          "all": 530,
+          "go": 140,
+          "caution": 136,
+          "nogo": 254,
+          "none": 0
+        },
+        "n": 582,
+        "cards_n": 582
+      }
+    },
+    "land3": {
+      "before": {
+        "counts": {
+          "all": 588,
+          "go": 152,
+          "caution": 187,
+          "nogo": 249,
+          "none": 0
+        },
+        "n": 640,
+        "cards_n": 640
+      },
+      "after": {
+        "counts": {
+          "all": 530,
+          "go": 146,
+          "caution": 173,
+          "nogo": 211,
+          "none": 0
+        },
+        "n": 582,
+        "cards_n": 582
+      }
+    }
+  }
+}

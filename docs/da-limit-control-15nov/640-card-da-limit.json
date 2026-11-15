@@ -1,0 +1,170 @@
+{
+  "cards": 640,
+  "skipped": 0,
+  "caut2500": 254,
+  "caut3000": 3,
+  "split": 251,
+  "daNogo": 0,
+  "sampleSplit": [
+    {
+      "id": "FABL",
+      "el": 4457,
+      "da": 7096,
+      "above": 2639,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FALA",
+      "el": 4521,
+      "da": 7175,
+      "above": 2654,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAOR",
+      "el": 5558,
+      "da": 8461,
+      "above": 2903,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAPP",
+      "el": 4076,
+      "da": 6624,
+      "above": 2548,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAKM",
+      "el": 3950,
+      "da": 6467,
+      "above": 2517,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAMM",
+      "el": 4181,
+      "da": 6754,
+      "above": 2573,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAWK",
+      "el": 4940,
+      "da": 7695,
+      "above": 2755,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAWB",
+      "el": 4095,
+      "da": 6647,
+      "above": 2552,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAGM",
+      "el": 5483,
+      "da": 8368,
+      "above": 2885,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FASK",
+      "el": 4794,
+      "da": 7514,
+      "above": 2720,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FABM",
+      "el": 5561,
+      "da": 8465,
+      "above": 2904,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FABB",
+      "el": 5350,
+      "da": 8203,
+      "above": 2853,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAGC",
+      "el": 5325,
+      "da": 8172,
+      "above": 2847,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAHG",
+      "el": 5067,
+      "da": 7852,
+      "above": 2785,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAKG",
+      "el": 5289,
+      "da": 8128,
+      "above": 2839,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAKR",
+      "el": 5500,
+      "da": 8389,
+      "above": 2889,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FANC",
+      "el": 4075,
+      "da": 6622,
+      "above": 2547,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAPI",
+      "el": 4354,
+      "da": 6968,
+      "above": 2614,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FAPS",
+      "el": 4520,
+      "da": 7174,
+      "above": 2654,
+      "at2500": "caution",
+      "at3000": "go"
+    },
+    {
+      "id": "FASC",
+      "el": 5250,
+      "da": 8079,
+      "above": 2829,
+      "at2500": "caution",
+      "at3000": "go"
+    }
+  ]
+}

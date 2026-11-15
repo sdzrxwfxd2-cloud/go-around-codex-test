@@ -1,0 +1,38 @@
+page:index.html:html_br                  47695
+page:index.html:assets                   29
+page:index.html:assets_br                118740
+page:main.html:html_br                   62280
+page:main.html:assets                    53
+page:main.html:assets_br                 307501
+page:c/main.html:html_br                 87505
+page:c/main.html:assets                  31
+page:c/main.html:assets_br               195386
+page:c/app.html:html_br                  90869
+page:c/app.html:assets                   29
+page:c/app.html:assets_br                425611
+page:calculator.html:html_br             47336
+page:calculator.html:assets              37
+page:calculator.html:assets_br           213778
+page:pilot.html:html_br                  47709
+page:pilot.html:assets                   37
+page:pilot.html:assets_br                211022
+page:library.html:html_br                52601
+page:library.html:assets                 39
+page:library.html:assets_br              218769
+page:ad/FAOR.html:html_br                89667
+page:ad/FAOR.html:assets                 26
+page:ad/FAOR.html:assets_br              433349
+page:c/ad/FAOR.html:html_br              89619
+page:c/ad/FAOR.html:assets               23
+page:c/ad/FAOR.html:assets_br            435794
+max_js_css_br                            292335
+max_ad_page_raw                          336483
+whole_page_watchers                      62
+stale_v_refs                             0
+headers_duplicate_paths                  0
+headers_rules                            62
+routes_json_valid                        1
+biggest js/css: c/rwy/rwy-data.js | biggest aerodrome page: ad/FAOR.html
+whole-page watchers in: {"app.html":4,"appdata/app-data.33b6393b1c.js":1,"brief.html":4,"c/app.html":2,"c/appdata/app-code.03838b9873.js":1,"c/appdata/app-data.51cdd70f78.js":1,"c/main.html":2,"c/wst/wq.js":2,"calculator.html":4,"demos/library-a.html":4,"demos/library-b.html":4,"fact.html":2,"ga-nav-collapse.js":1,"ga-nav-pill.js":1,"library.html":4,"logbook.html":4,"main.html":2,"pilot.html":4,"status_demo.html":3,"wm-adback.js":1,"wm-shell-big.js":1,"wm-shell-merge.js":3,"wm-shell.js":1,"wm-still.js":1,"wst/wq.js":1,"ad/FAOR.html":2,"c/ad/FAOR.html":2}
+
+perf budget: ok (34 limits)

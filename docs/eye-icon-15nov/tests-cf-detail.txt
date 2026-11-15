@@ -1,0 +1,78 @@
+
+> test
+> node --test "test/*.test.mjs"
+
+✔ latestById keeps the newest report per station (0.716317ms)
+✔ compareWx finds match, behind, missing and old (5.385809ms)
+✔ TAF times use issueTime (0.224197ms)
+✔ compareWx copes with bad input (0.104661ms)
+✔ uptimeOf counts checks and downs (0.303262ms)
+✔ errorsOf lists failed probes and broken pages only (0.54617ms)
+✔ page list matches the 30 Oct site status page (0.087647ms)
+✔ all six rebuilt admin pages exist, are noindex and load the shared code at its current ?v= (4.132897ms)
+✔ pages read only the admin APIs (no Netlify-era endpoints) (0.517888ms)
+✔ shared CSS: four themes, General Sans, dvh, no position:fixed (0.211585ms)
+✔ example data only on localhost (0.132097ms)
+✔ /api/admin/health needs the admin session (16.036865ms)
+✔ classic /admin-visits-classic is the original white visit table, behind the admin APIs (0.226996ms)
+✔ /api/admin/visits accepts range=all for the classic page (90-day retention) (0.118857ms)
+✔ engine density altitude = the calculator and aerodrome page formula (ISA at pressure altitude) (9.873138ms)
+✔ field elevation for every card: the locked DB, then the model ground height (42.709163ms)
+✔ runway headings come from the DB only, never from a runway designator (33.691048ms)
+✔ first visit: a card evaluated before the model copy keeps the model wind direction (no 'variable, direction unknown') (8.793443ms)
+✔ first visit: the model copy is used as soon as it is stored (a miss is not cached) (5.294896ms)
+✔ density altitude is measured against the field's own elevation on non-AIP cards, as a note, never a caution (15.51283ms)
+✔ density altitude switch on: the same card gets a caution (3.22156ms)
+✔ density altitude switch on at 6000 ft: the same card stays without a DA caution when DA is under the limit (3.177234ms)
+✔ runway DB loading: pending first, then the same verdict as with the DB already there (30.277034ms)
+✔ HTML gets a weak ETag from the asset ETag; a matching If-None-Match gets 304 with no body (28.334823ms)
+✔ when the asset has no ETag (production HTML), the page bytes are hashed and a matching If-None-Match gets 304 (9.186496ms)
+✔ a 200 HTML response keeps its ETag even if HTMLRewriter would have stripped it (1.221538ms)
+✔ admin pages and non-HTML are untouched (0.607656ms)
+✔ top-level section pretty URLs and .html pages get the shell; frames and ?solo=1 keep the inner page (15.959215ms)
+✔ top-level /ad/* and /c/ad/* document visits get the shell; frames and ?solo=1 keep the standalone page (4.219652ms)
+✔ now file packs 3 model hours (current + next two) and 5 FZL hours (54.174421ms)
+✔ DA trend inputs exist in BOTH the composed hour (h=0) and after the top of the hour, before the next tick (h=1) (48.13514ms)
+✔ an old 2-hour file still reads (no crash, trend only at h=0) (0.121915ms)
+✔ now file stays small (KV value + phone download) (30.346559ms)
+✔ 10 Nov store (1,383 keys, no metadata): stats stay far under 1,000 KV operations (59.276708ms)
+✔ new visits carry metadata: log and totals need list() only (3.82332ms)
+✔ filters still work on new rows; legacy rows are filled within the get() budget (0.982605ms)
+✔ visitor-log-data gives visitor-log.html its `visits` field names (4.621486ms)
+✔ beacon: real visit stored once; automated browsers and bots are not stored (2.041646ms)
+✔ wm-beacon.js: top frame only, skips webdriver; every page's ?v= is its current hash (152.418283ms)
+✔ protected files untouched (846.888678ms)
+simulated day: 829 runs with a fetch, KV writes 590 (10-min ticks 432, change minutes 158), 606 fetch minutes with no change and no write, AWC requests 5600
+✔ fetch windows: METAR and TAF minutes (SAST) (5.751437ms)
+✔ previous TAF kept until the early one starts; rows unchanged (0.763528ms)
+✔ one simulated day: writes only on a change + every 10 min, under 1,000; API shape unchanged (2737.427276ms)
+✔ a METAR change at :06 is in KV the same minute (was up to 10 min) (3.587374ms)
+✔ first run after the deploy: the old Worker's writes today are counted (3 per 10 min since 00:00 UTC) (0.455284ms)
+✔ same sources as the weather Worker: AWC URLs and Open-Meteo variables (2.019095ms)
+✔ every aerodrome card on main.html is in the check (640), not only the 65 AIP aerodromes (1.795409ms)
+✔ Open-Meteo batches: known points only, at most 100, rate limits clamp (0.325617ms)
+✔ target is the live site or one of its pages.dev aliases only (0.194705ms)
+✔ feed helpers: newest per station, now-file kept whole, ?v= tags (0.563481ms)
+✔ grade and worst follow the shown tolerances (0.421246ms)
+✔ reference density altitude: ISA day at sea level is 0, hot Highveld is high (0.17443ms)
+✔ reference sun (NOAA) agrees with a published value and with the card engine within a minute (1.74259ms)
+✔ METAR/TAF compare: same, behind, missing, none (0.49366ms)
+✔ model compare: live now-file hour vs Open-Meteo hour (1.183253ms)
+✔ engine copy is byte-identical to the site's card engine files and its manifest (3.785801ms)
+✔ card engine runs every card in the sandbox (WMB.evalCard), copy vs itself gives no differences, a changed engine is caught (207.758666ms)
+✔ verdict profile setting: site default, presets and custom limits reach the engine (98.905376ms)
+✔ settings: defaults, clamping, amber never below green, unknown values dropped, tolerances applied (0.582789ms)
+✔ scope, filters, sort and paging for 640 rows (1.939529ms)
+✔ engineCheck: identical / different / stale ?v= tag (0.193229ms)
+✔ compare(): run on a small bundle, coverage, summary score, CSV with settings (8.040636ms)
+✔ page: admin gate, noindex, four themes via ax.css, ?v= tags current, no beacon, no position:fixed, dvh (2.974976ms)
+✔ /api/admin/wx-check needs the admin session (12.128967ms)
+ℹ tests 64
+ℹ suites 0
+ℹ pass 64
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2927.506695
+cf rc=0

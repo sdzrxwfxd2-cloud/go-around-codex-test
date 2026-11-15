@@ -1,0 +1,17 @@
+== tests/engine-v2/arrive-share.test.mjs rc=0 ℹ tests 6 ℹ pass 6 ℹ fail 0 
+== tests/engine-v2/compare.test.mjs rc=0 ℹ tests 1 ℹ pass 1 ℹ fail 0 
+== tests/engine-v2/night-land-steps.test.mjs rc=0 ℹ tests 12 ℹ pass 12 ℹ fail 0 
+== tests/engine-v2/night-pill.test.mjs rc=0 ℹ tests 3 ℹ pass 3 ℹ fail 0 
+== tests/engine-v2/summary-labels.test.mjs rc=0 ℹ tests 1 ℹ pass 1 ℹ fail 0 
+== tests/engine-v2/time-steps.test.mjs rc=0 ℹ tests 8 ℹ pass 8 ℹ fail 0 
+== tests/engine-v2/wind-card.test.mjs rc=0 ℹ tests 5 ℹ pass 5 ℹ fail 0 
+== tests/engine-v2/wind-display.test.mjs rc=0 ℹ tests 3 ℹ pass 2 ℹ fail 0 
+== tests/engine-v2/wind-fill.test.mjs rc=0 ℹ tests 44 ℹ pass 44 ℹ fail 0 
+== tests/engine-v2/wire.test.mjs rc=0 ℹ tests 6 ℹ pass 6 ℹ fail 0 
+== tests/safety/awc_coverage.test.mjs rc=0 ℹ tests 5 ℹ pass 4 ℹ fail 0 
+== tests/safety/baked_purge.test.mjs rc=0 ℹ tests 5 ℹ pass 5 ℹ fail 0 
+== tests/safety/metar_blind.test.mjs rc=0 ℹ tests 5 ℹ pass 5 ℹ fail 0 
+== tests/safety/now_file.contract.test.mjs rc=0 ℹ tests 4 ℹ pass 4 ℹ fail 0 
+== tests/safety/null_safety.test.mjs rc=0 ℹ tests 5 ℹ pass 5 ℹ fail 0 
+== tests/safety/taf_validity.test.mjs rc=0 ℹ tests 8 ℹ pass 8 ℹ fail 0 
+== engine-v2/run.js rc=1 ℹ duration_ms 93.379686

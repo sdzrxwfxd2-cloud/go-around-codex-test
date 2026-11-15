@@ -1,0 +1,49 @@
+== tests/engine-v2/arrive-share.test.mjs rc=0 ✔ E-04: a fresh frame reads the saved Arrive time (+2h) (8.058019ms) ✔ E-04: the list frame follows a Status pick through 'storage' and re-runs (wm:phase) (0.901784ms) ✔ E-04: an old save (over 60 min) or a time al
+== tests/engine-v2/compare.test.mjs rc=0 ✔ old (live 2.3.2) vs new engine: every difference is planned (E-02 / E-08 / WIND-FILL / STALE-WIND / VIS-VRB / TAF-MODEL-FILL / DA-INFO / TAF-EARLY) and listed (2456.60918ms) ℹ tests 1 ℹ pass 1 ℹ fail 0 
+== tests/engine-v2/da-limit.test.mjs rc=0 ✔ clampDaLimit: default 2500, 1500–6000 in 500 steps, invalid falls back (0.596135ms) ✔ ON at 2500 is CAUTION and ON at 3000 is not, for DA ~2769 ft above the field (13.159864ms) ✔ 640 cards: DA ON at 2500 vs 300
+== tests/engine-v2/night-land-steps.test.mjs rc=0 ✔ Land +0h, no night rating: engine no night finding, pill follows (5.355546ms) ✔ Land +0h, night rating on: no night caution and no pill (1.252741ms) ✔ Land +0h, card has no verdict yet: the pill uses the engine s
+== tests/engine-v2/night-pill.test.mjs rc=0 ✔ engine profile night ON, old profile night OFF: no pill (FAAE case) (3.469924ms) ✔ engine verdict has POL-NIGHT-UNSELECTED: pill shown even if the old profile says night on (0.675756ms) ✔ no engine verdict (incom
+== tests/engine-v2/summary-labels.test.mjs rc=0 ✔ every engine key has a plain-words label (no raw keys like 'low', 'ws', 'g') (0.823209ms) ℹ tests 1 ℹ pass 1 ℹ fail 0 
+== tests/engine-v2/time-steps.test.mjs rc=0 ✔ +3h: a strong wind forecast at 13:00 UTC makes +3h NO LAND while Now stays LAND (model only, no TAF) (4.000261ms) ✔ +1h, +2h, +3h: the worst hour inside ETA ±1 h wins, and an hour outside it never counts (1.211746
+== tests/engine-v2/wind-card.test.mjs rc=0 ✔ wind text: real values, VRB, calm, and '—' for unknown (never undefined° / 000° / fake Calm) (6.123966ms) ✔ card row: painted from the verdict's wind — no source tag, unknown is '—' (7.200026ms) ✔ wst-car
+== tests/engine-v2/wind-display.test.mjs rc=0 ✔ E-03: no list or status page, and no script, under site/ formats a METAR wind with String(m.wdir).padStart (83.500675ms) ✔ E-03b: the generated aerodrome pages (site/ad, site/c/ad, fact.html) still print 'undefined
+== tests/engine-v2/wind-fill.test.mjs rc=0 ✔ MT test case: METAR wind missing + TAF 25020 at FACT -> NO DEPART, ~19 kt crosswind, wind from TAF (6.077254ms) ✔ fill from TAF: AUTO, no wind group, depart now (0.723783ms) ✔ fill from TAF: AUTO, no wind group, 
+== tests/engine-v2/wire.test.mjs rc=0 ✔ E-01: before phase.js has set WMPHASE, 640 verdicts in one loop search the page once, not 640 times (12.533861ms) ✔ E-01: the answer is unchanged — stored 'land' wins, a pressed LAND button counts, otherwise DEPA
+== tests/safety/awc_coverage.test.mjs rc=0 ✔ the site's aerodromes that AWC missed in the bbox on 13 Nov are asked for by id (2.279625ms) ✔ mergeAwc: union of bbox and id replies; METAR newest per station; TAF newest issue per station (0.875793ms) ✔ fetchAw
+== tests/safety/baked_purge.test.mjs rc=0 ✔ wst-data.js (and its /c copy) carry the 65 aerodromes but no METAR, TAF or model weather (19.359619ms) ✔ wst-cards-data.js: no baked METAR / TAF text, weather values, verdicts or flight-category chips (12.460203ms)
+== tests/safety/metar_blind.test.mjs rc=0 ✔ AUTO METAR with no visibility and no cloud: no METAR GO (was GO live on FAWB / FAWK when a model fills the visibility) (29.244338ms) ✔ visibility reported but cloud '//////' only: no METAR GO (2.762962ms) ✔ an AU
+== tests/safety/now_file.contract.test.mjs rc=0 ✔ every hour of the now file has FZL now/next and temperature now/next (DA trend), with the full copy behind it (35.923249ms) ✔ past the now file's hours the full copy answers; it never re-serves the now file's last 
+== tests/safety/null_safety.test.mjs rc=0 ✔ obsOf (METAR): missing wind / temperature / QNH stay null, never 0 (18.998521ms) ✔ obsOf (model): null wind, gust, temperature, QNH stay null; an hour older than 180 min gives no observation (0.925918ms) ✔ WST.da
+== tests/safety/taf_validity.test.mjs rc=0 ✔ tafWindow anchors ddhh/ddhh to the issue time, across month ends and hour 24 (21.674502ms) ✔ tafValid: valid now, expired, issued > 30 h ago, the 21 Oct baked TAF on 13 Nov (1.785913ms) ✔ the 21 Oct baked CAVOK T
+== engine-v2/run.js rc=0 Rule pack 2.5.0 checksum 90d2ba46f3478c597c502d607193a4a3e072962da4eedace4b0d3131a3922cb1
+== tests/deeplink-route.mjs rc=0 deeplink-route: ok
+== tests/gps-near-me.mjs rc=0 gps-near-me: ok
+== tests/search-glow.mjs rc=0 search-glow: ok (always on, composited, rests only while the overlay is hidden, reduced motion respected)
+== tests/perf/adtypes-loop.mjs rc=0 adtypes-loop: ok
+== tests/perf/cache-headers.mjs rc=0 cache-headers: all passed
+== tests/perf/first-load.mjs rc=0 first-load: ok
+== tests/perf/home-hidden-pages.mjs rc=0 home-hidden-pages: ok
+== tests/perf/model-copy-retry.mjs rc=0 ℹ duration_ms 66.854576
+== tests/perf/more-loader-pretty-13nov.mjs rc=0 ℹ duration_ms 7.014209
+== tests/perf/night-warning-stability.mjs rc=0 ℹ duration_ms 9.629688
+== tests/perf/no-public-py.mjs rc=0 no-public-py: ok
+== tests/perf/pass-cascade.mjs rc=0 pass-cascade: ok
+== tests/perf/perf-budget.mjs rc=0 perf-budget: ok
+== tests/perf/pilot-safety-gate.mjs rc=0 pilot-safety-gate: ok
+== tests/perf/pin-first-measure.mjs rc=0 ℹ duration_ms 13.971565
+== tests/perf/preview-tab-race-13nov.mjs rc=0 ℹ duration_ms 4.532363
+== tests/perf/protected-since-live.mjs rc=0 protected-since-live: ok
+== tests/perf/refresh-fx-boxes-13nov.mjs rc=0 ℹ duration_ms 21189.782897
+== tests/perf/refresh-outcome.mjs rc=0 ℹ duration_ms 29.728421
+== tests/perf/routes-json.mjs rc=0 routes-json: all passed
+== tests/perf/search-library-retry.mjs rc=0 ℹ duration_ms 9.514345
+== tests/perf/service-worker-resilience.mjs rc=0 ℹ duration_ms 35.700462
+== tests/perf/service-worker.mjs rc=0 service-worker: ok
+== tests/perf/sitewide-loading-13nov.mjs rc=0 ℹ duration_ms 847.536239
+== tests/perf/speed-theme-13nov.mjs rc=0 ℹ duration_ms 827.505826
+== tests/perf/weather-ato-tab-13nov.mjs rc=0 ℹ duration_ms 8.522412
+== tests/perf/weather-to-aero-race-13nov.mjs rc=0 ℹ duration_ms 30731.001747
+== cf-test rc=0 ℹ tests 64 ℹ pass 64 ℹ fail 0 
+== vbump-check rc=0 vbump --check: every ?v= is current
+== perf-budget rc=0 page:index.html:assets_br                118740 page:main.html:assets_br                 308433 page:c/main.html:assets_br               196261 page:c/app.html:assets_br                426486 page:calculator.html:assets_br           214609 page:pilot.html:assets_br                211853 page:library
+DONE

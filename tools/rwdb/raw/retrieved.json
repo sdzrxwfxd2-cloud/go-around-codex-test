@@ -1,0 +1,20 @@
+{
+ "full": {
+  "built": "2026-11-15",
+  "repo": "live/model-3h-11nov b0496a909 (2026-11-15)",
+  "ourairports": "2026-11-15T11:26:07Z",
+  "openmeteo": "2026-11-15T11:40Z",
+  "osm": "Geofabrik africa/south-africa-261114.osm.pbf (OpenStreetMap data as of 2026-11-14), downloaded 2026-11-15T11:51Z, ODbL",
+  "aip": "SACAA AIP 15 JUL 2026 compilation, extracted 2026-10-21 (site/rwy/rwy-data.js), AD 2.2 elevations from site/wst/wst-data.js",
+  "wmm": "WMM2025 coefficients (pygeomag 2026), computed 2026-11-15"
+ },
+ "short": {
+  "built": "2026-11-15",
+  "repo": "2026-11-15 (b0496a909)",
+  "ourairports": "2026-11-15T11:26Z",
+  "openmeteo": "2026-11-15T11:40Z",
+  "osm": "2026-11-15 (OSM data of 2026-11-14)",
+  "aip": "2026-10-21 (AIP 15 JUL 2026)",
+  "wmm": "2026-11-15"
+ }
+}

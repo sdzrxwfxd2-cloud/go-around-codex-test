@@ -1,0 +1,1709 @@
+{
+ "after": {
+  "nA": 640,
+  "nS": 640,
+  "diff": [
+   {
+    "id": "ZA-0319",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0236",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0215",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0119",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0206",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0212",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0312",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0292",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0251",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0202",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0356",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0318",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0302",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0173",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0168",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0242",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0170",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0174",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0313",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0140",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0295",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0172",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0213",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0171",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0311",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0200",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0250",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0357",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0214",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0203",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0210",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0208",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0246",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0247",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0167",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0243",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0211",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0304",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0244",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0021",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0117",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0193",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0205",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0241",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0237",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0209",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0245",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0291",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0201",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "FAVV",
+    "aero": {
+     "s": "nogo",
+     "why": "Visibility not in METAR, model shows 4.5 km (model estimate) — below the 5 km minimum",
+     "src": "metar",
+     "rules": "nogo:POL-FILL-HOLE"
+    },
+    "status": {
+     "s": "caution",
+     "why": "Visibility 4.5 km below VFR 5 km — model value is close to the limit, treated as caution",
+     "src": "model",
+     "rules": "caution:POL-MODEL-BORDERLINE,caution:POL-MODEL-BORDERLINE"
+    }
+   },
+   {
+    "id": "ZA-0207",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0175",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0290",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   }
+  ]
+ },
+ "before": {
+  "nA": 640,
+  "nS": 640,
+  "diff": [
+   {
+    "id": "FAAG",
+    "aero": {
+     "s": "caution",
+     "why": "Density altitude 5 322 ft (more than 2500 ft above the field)",
+     "src": "model",
+     "rules": "caution:POL-DA"
+    },
+    "status": {
+     "s": "go",
+     "why": "Wind on RWY 25: 5 kt head, 1 kt cross",
+     "src": "model",
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0319",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0236",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0047",
+    "aero": {
+     "s": "caution",
+     "why": "Density altitude 5 320 ft (more than 2500 ft above the field)",
+     "src": "model",
+     "rules": "caution:POL-DA"
+    },
+    "status": {
+     "s": "go",
+     "why": "Wind on RWY 26: 7 kt head, 6 kt cross",
+     "src": "model",
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0215",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0119",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0206",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0212",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0312",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0292",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0251",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0202",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0356",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "FAHA",
+    "aero": {
+     "s": "caution",
+     "why": "Density altitude 7 322 ft (more than 2500 ft above the field)",
+     "src": "model",
+     "rules": "caution:POL-DA"
+    },
+    "status": {
+     "s": "go",
+     "why": "Wind on RWY 33: 12 kt head, 2 kt cross",
+     "src": "model",
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0318",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0302",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0173",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0168",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0242",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0170",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0174",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0313",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "FAKS",
+    "aero": {
+     "s": "caution",
+     "why": "Density altitude 7 439 ft (more than 2500 ft above the field)",
+     "src": "model",
+     "rules": "caution:POL-DA"
+    },
+    "status": {
+     "s": "go",
+     "why": "Wind on RWY 30: 11 kt head, 3 kt cross",
+     "src": "model",
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0140",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0295",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0172",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0213",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0171",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0311",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "FAMP",
+    "aero": {
+     "s": "caution",
+     "why": "Density altitude 4 821 ft (more than 2500 ft above the field)",
+     "src": "model",
+     "rules": "caution:POL-DA"
+    },
+    "status": {
+     "s": "go",
+     "why": "Within limits",
+     "src": "model",
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0200",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0250",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0357",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0214",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0203",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0210",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0208",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0246",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0247",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0167",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0243",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0211",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0304",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0244",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0021",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0117",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "FAPQ",
+    "aero": {
+     "s": "caution",
+     "why": "Density altitude 4 078 ft (more than 2500 ft above the field)",
+     "src": "model",
+     "rules": "caution:POL-DA"
+    },
+    "status": {
+     "s": "go",
+     "why": "Within limits",
+     "src": "model",
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0193",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "FARG",
+    "aero": {
+     "s": "caution",
+     "why": "Density altitude 6 231 ft (more than 2500 ft above the field)",
+     "src": "model",
+     "rules": "caution:POL-DA"
+    },
+    "status": {
+     "s": "go",
+     "why": "Wind on RWY 34: 9 kt head, 1 kt cross",
+     "src": "model",
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0205",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0241",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0237",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0209",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0245",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0291",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0201",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "FAVV",
+    "aero": {
+     "s": "nogo",
+     "why": "Visibility not in METAR, model shows 4.5 km (model estimate) — below the 5 km minimum",
+     "src": "metar",
+     "rules": "nogo:POL-FILL-HOLE"
+    },
+    "status": {
+     "s": "caution",
+     "why": "Visibility 4.5 km below VFR 5 km — model value is close to the limit, treated as caution",
+     "src": "model",
+     "rules": "caution:POL-MODEL-BORDERLINE,caution:POL-MODEL-BORDERLINE"
+    }
+   },
+   {
+    "id": "ZA-0207",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0175",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   },
+   {
+    "id": "ZA-0290",
+    "aero": {
+     "s": "heli",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    },
+    "status": {
+     "s": "none",
+     "why": "Heliport — no go / caution / no-go verdict",
+     "src": null,
+     "rules": ""
+    }
+   }
+  ]
+ }
+}

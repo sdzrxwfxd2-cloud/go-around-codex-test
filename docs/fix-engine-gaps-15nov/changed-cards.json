@@ -1,0 +1,428 @@
+{
+ "depart": [
+  {
+   "id": "FAAG",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 322 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 25: 5 kt head, 1 kt cross · 13:00"
+  },
+  {
+   "id": "ZA-0047",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 320 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 26: 7 kt head, 6 kt cross · 13:00"
+  },
+  {
+   "id": "FABL",
+   "before": "caution",
+   "after": "nogo",
+   "reason": "DA caution removed (DA now info only); early TAF used; source model->taf",
+   "gone": [
+    "caution:POL-MODEL-BORDERLINE",
+    "caution:POL-DA"
+   ],
+   "added": [
+    "nogo:POL-TAF-PROB-WIND",
+    "caution:POL-TAF-EARLY",
+    "caution:POL-TAF-PROB"
+   ],
+   "whyBefore": "Your gust limit 25 kt (gusting 26) — model value is close to the limit, treated as caution · 13:00",
+   "whyAfter": "TAF forecast: PROB30 TEMPO from 1512Z: gust 35 kt above your 25 kt limit · 14:00"
+  },
+  {
+   "id": "FAHA",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 7 322 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 33: 12 kt head, 2 kt cross · 13:00"
+  },
+  {
+   "id": "FAKS",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 7 439 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 30: 11 kt head, 3 kt cross · 13:00"
+  },
+  {
+   "id": "FAMP",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 4 821 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Within limits · 13:00"
+  },
+  {
+   "id": "FAMM",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 6 972 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 04: 11 kt head, 10 kt cross · 13:00"
+  },
+  {
+   "id": "FAPQ",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 4 078 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Within limits · 13:00"
+  },
+  {
+   "id": "FARG",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 6 231 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 34: 9 kt head, 1 kt cross · 13:00"
+  },
+  {
+   "id": "FAUP",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 752 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 26: 10 kt head, 2 kt cross · 13:00"
+  },
+  {
+   "id": "FAVM",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 4 879 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 08: 7 kt head, 1 kt cross · 13:00"
+  }
+ ],
+ "land0": [
+  {
+   "id": "FAAG",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 322 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 25: 5 kt head, 1 kt cross · 13:00"
+  },
+  {
+   "id": "ZA-0047",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 320 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 26: 7 kt head, 6 kt cross · 13:00"
+  },
+  {
+   "id": "FABL",
+   "before": "caution",
+   "after": "nogo",
+   "reason": "DA caution removed (DA now info only); early TAF used; source model->taf",
+   "gone": [
+    "caution:POL-MODEL-BORDERLINE",
+    "caution:POL-DA"
+   ],
+   "added": [
+    "nogo:POL-TAF-PROB-WIND",
+    "caution:POL-TAF-EARLY",
+    "caution:POL-TAF-PROB"
+   ],
+   "whyBefore": "Your gust limit 25 kt (gusting 26) — model value is close to the limit, treated as caution · 13:00",
+   "whyAfter": "TAF forecast: PROB30 TEMPO from 1512Z: gust 35 kt above your 25 kt limit · 14:00"
+  },
+  {
+   "id": "FAHA",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 7 322 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 33: 12 kt head, 2 kt cross · 13:00"
+  },
+  {
+   "id": "FAKS",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 7 439 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 30: 11 kt head, 3 kt cross · 13:00"
+  },
+  {
+   "id": "FAMP",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 4 821 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Within limits · 13:00"
+  },
+  {
+   "id": "FAMM",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 6 972 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 04: 11 kt head, 10 kt cross · 13:00"
+  },
+  {
+   "id": "FAPQ",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 4 078 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Within limits · 13:00"
+  },
+  {
+   "id": "FARG",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 6 231 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 34: 9 kt head, 1 kt cross · 13:00"
+  },
+  {
+   "id": "FAUP",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 752 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 26: 10 kt head, 2 kt cross · 13:00"
+  },
+  {
+   "id": "FAVM",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 4 879 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 08: 7 kt head, 1 kt cross · 13:00"
+  }
+ ],
+ "land1": [
+  {
+   "id": "FAAG",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 322 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 25: 5 kt head, 1 kt cross · 13:00"
+  },
+  {
+   "id": "FAAL",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 200 ft (more than 2500 ft above the field) · 14:00",
+   "whyAfter": "Wind on RWY 10: 7 kt head, 3 kt cross · 13:00"
+  },
+  {
+   "id": "ZA-0047",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 320 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 26: 7 kt head, 6 kt cross · 13:00"
+  },
+  {
+   "id": "FAMM",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 6 972 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 04: 11 kt head, 10 kt cross · 13:00"
+  },
+  {
+   "id": "FARG",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 6 231 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 34: 9 kt head, 1 kt cross · 13:00"
+  },
+  {
+   "id": "FAUP",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 752 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 26: 10 kt head, 2 kt cross · 13:00"
+  },
+  {
+   "id": "FAVM",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 4 879 ft (more than 2500 ft above the field) · 13:00",
+   "whyAfter": "Wind on RWY 08: 7 kt head, 1 kt cross · 13:00"
+  }
+ ],
+ "land3": [
+  {
+   "id": "FAAG",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 558 ft (more than 2500 ft above the field) · 15:00",
+   "whyAfter": "Wind on RWY 25: 8 kt head, 1 kt cross · 15:00"
+  },
+  {
+   "id": "FAAL",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 217 ft (more than 2500 ft above the field) · 15:00",
+   "whyAfter": "Wind on RWY 10: 5 kt head, 4 kt cross · 15:00"
+  },
+  {
+   "id": "ZA-0047",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 511 ft (more than 2500 ft above the field) · 15:00",
+   "whyAfter": "Wind on RWY 26: 12 kt head, 3 kt cross · 15:00"
+  },
+  {
+   "id": "FAUP",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 948 ft (more than 2500 ft above the field) · 16:47",
+   "whyAfter": "Wind on RWY 26: 9 kt head, 3 kt cross · 16:48"
+  },
+  {
+   "id": "FAVM",
+   "before": "caution",
+   "after": "go",
+   "reason": "DA caution removed (DA now info only)",
+   "gone": [
+    "caution:POL-DA"
+   ],
+   "added": [],
+   "whyBefore": "Density altitude 5 035 ft (more than 2500 ft above the field) · 15:00",
+   "whyAfter": "Wind on RWY 08: 6 kt head, 1 kt cross · 15:00"
+  }
+ ]
+}

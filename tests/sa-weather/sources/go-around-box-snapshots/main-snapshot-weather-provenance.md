@@ -1,0 +1,1 @@
+Read-only public responses downloaded from https://go-around-aero.pages.dev/api/weather-snapshot, /api/metar and /api/taf. Saved unchanged as local static GET responses for the real current-main runtime. No times or weather values fabricated. Captured 2026-11-08 13:32 SAST.

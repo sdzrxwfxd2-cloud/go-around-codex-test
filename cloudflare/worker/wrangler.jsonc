@@ -1,0 +1,17 @@
+// go-around-weather: companion Worker for the Cloudflare Pages copy (cloudflare/README.md).
+// Cron every minute = 1,440 runs/day; METAR / TAF fetched in their windows only, KV written only on a change plus every 10 min (src/index.mjs).
+// Free plan: 5 cron triggers per account, 10 ms CPU per run, 50 subrequests per run.
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "go-around-weather",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-11-04",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "preview_urls": false,
+  "alias": { "@netlify/blobs": "./src/no-blobs.mjs" },
+  "triggers": { "crons": ["* * * * *"] },   // 15 Nov 2026: 1-minute cron, fetch windows + write-on-change (src/index.mjs)
+  "kv_namespaces": [{ "binding": "WX", "id": "YOUR_WX_KV_NAMESPACE_ID" }],
+  "observability": { "enabled": true, "traces": { "enabled": true } }
+  // Secret (optional, paid Open-Meteo plan only): wrangler secret put OPEN_METEO_KEY
+}

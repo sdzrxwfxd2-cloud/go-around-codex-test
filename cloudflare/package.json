@@ -1,0 +1,14 @@
+{
+  "name": "go-around-cloudflare",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Pages copy of Go Around (feat/cloudflare-pages). Netlify stays the live site.",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "test": "node --test \"test/*.test.mjs\"",
+    "deploy": "bash ./deploy.sh"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

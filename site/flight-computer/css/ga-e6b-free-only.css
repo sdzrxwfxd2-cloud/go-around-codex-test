@@ -1,0 +1,21 @@
+/* E6-B: only Free use stays as a mode. Practice, Quiz, Lessons and Options
+   are removed from the UI. The size control is the existing zoom keys
+   (#e6b-zoom) — this file does not add a new size control or change
+   layout, spacing or gaps on the glass bar or the face. */
+html.ga-e6b #practice,
+html.ga-e6b #quiz,
+html.ga-e6b #list-tutorial,
+html.ga-e6b #list-options,
+html.ga-e6b #walk-thru-progress,
+html.ga-e6b #practice-popup,
+html.ga-e6b #quiz-popup {
+  display: none !important;
+}
+
+html.ga-e6b #practiceModal,
+html.ga-e6b #quizModal,
+html.ga-e6b #scoreModal,
+html.ga-e6b #modal_interactive {
+  display: none !important;
+  visibility: hidden !important;
+}

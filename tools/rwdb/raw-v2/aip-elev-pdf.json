@@ -1,0 +1,443 @@
+{
+ "FAAB": {
+  "elev_ft": 98,
+  "line": "3 | Reference elevation/Reference temperature | 98 FT",
+  "page": "AD 2-FAAB-1",
+  "page_date": "15 OCT 25",
+  "file": "site/aip/faab/ad2-faab.pdf"
+ },
+ "FABB": {
+  "elev_ft": 5350,
+  "line": "3 | Reference elevation/Reference temperature | ELEV: 5350FT",
+  "page": "AD 2-FABB-1",
+  "page_date": "15 JUL 26",
+  "file": "site/aip/fabb/ad2-fabb.pdf"
+ },
+ "FABE": {
+  "elev_ft": 1950,
+  "line": "3 | Reference elevation/Reference temperature | 1950FT",
+  "page": "AD 2-FABE-1",
+  "page_date": "15 OCT 22",
+  "file": "site/aip/fabe/ad2-fabe.pdf"
+ },
+ "FABL": {
+  "elev_ft": 4457,
+  "line": "3 | Reference elevation/Reference temperature | 4457FT/25.6\u00ba C (JAN)",
+  "page": "AD 2-FABL-1",
+  "page_date": "15 JAN 26",
+  "file": "site/aip/fabl/ad2-fabl.pdf"
+ },
+ "FABM": {
+  "elev_ft": 5561,
+  "line": "3 | Reference elevation/Reference temperature | 5561 FT",
+  "page": "AD 2-FABM-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/fabm/ad2-fabm.pdf"
+ },
+ "FABW": {
+  "elev_ft": 2929,
+  "line": "3 | Elevation/Reference temperature | 2929 FT",
+  "page": "AD 2-FABW-1",
+  "page_date": "15 JUL 25",
+  "file": "site/aip/fabw/ad2-fabw.pdf"
+ },
+ "FACF": {
+  "elev_ft": 134,
+  "line": "3 | Reference elevation/Reference temperature | 134FT/20\u00b0C",
+  "page": "AD 2-FACF-1",
+  "page_date": "15 JAN 20",
+  "file": "site/aip/facf/ad2-facf.pdf"
+ },
+ "FACT": {
+  "elev_ft": 151,
+  "line": "3 | Reference elevation/Reference temperature | 151 FT",
+  "page": "AD 2-FACT-1",
+  "page_date": "15 JAN 26",
+  "file": "site/aip/fact/ad2-fact.pdf"
+ },
+ "FAEL": {
+  "elev_ft": 435,
+  "line": "3 | Reference elevation/Reference temperature | 435 FT",
+  "page": "AD 2-FAEL-1",
+  "page_date": "15 APR 26",
+  "file": "site/aip/fael/ad2-fael.pdf"
+ },
+ "FAGC": {
+  "elev_ft": 5325,
+  "line": "3 | Reference elevation/Reference temperature | 5325 FT",
+  "page": "AD 2-FAGC-1",
+  "page_date": "15 APR 25",
+  "file": "site/aip/fagc/ad2-fagc.pdf"
+ },
+ "FAGG": {
+  "elev_ft": 648,
+  "line": "3 | Reference elevation/Reference temperature | 648FT",
+  "page": "AD 2-FAGG-1",
+  "page_date": "15 APR 26",
+  "file": "site/aip/fagg/ad2-fagg.pdf"
+ },
+ "FAGM": {
+  "elev_ft": 5483,
+  "line": "3 | Reference elevation/Reference temperature | 5483FT",
+  "page": "AD 2-FAGM-1",
+  "page_date": "15 JAN 23",
+  "file": "site/aip/fagm/ad2-fagm.pdf"
+ },
+ "FAGR": {
+  "elev_ft": 2606,
+  "line": "3 | Reference elevation/ | 2606 FT",
+  "page": "AD 2-FAGR-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/fagr/ad2-fagr.pdf"
+ },
+ "FAGY": {
+  "elev_ft": 3531,
+  "line": "3 | Elevation/Reference temperature | 3531 FT",
+  "page": "AD 2-FAGY-1",
+  "page_date": "15 APR 24",
+  "file": "site/aip/fagy/ad2-fagy.pdf"
+ },
+ "FAHG": {
+  "elev_ft": 5067,
+  "line": "3 | Reference elevation/Reference temperature | 5067.362FT/21.2\u00b0C",
+  "page": "AD 2-FAHG-1",
+  "page_date": "15 JAN 20",
+  "file": "site/aip/fahg/ad2-fahg.pdf"
+ },
+ "FAHL": {
+  "elev_ft": 249,
+  "line": "3 | Reference elevation/Reference temperature | Elev: 249 FT",
+  "page": "AD 2-FAHL-1",
+  "page_date": "15 JAN 22",
+  "file": "site/aip/fahl/ad2-fahl.pdf"
+ },
+ "FAKG": {
+  "elev_ft": 990,
+  "line": "3 | Reference elevation/ | 990 FT",
+  "page": "AD 2-FAKG-1",
+  "page_date": "15 OCT 20",
+  "file": "site/aip/fakg/ad2-fakg.pdf"
+ },
+ "FAKM": {
+  "elev_ft": 3950,
+  "line": "3 | Reference elevation/Reference | 3950 FT/28 degrees C",
+  "page": "AD 2-FAKM-1",
+  "page_date": "15 JAN 26",
+  "file": "site/aip/fakm/ad2-fakm.pdf"
+ },
+ "FAKN": {
+  "elev_ft": 2829,
+  "line": "3 | Reference elevation/Reference temperature | 2829 FT / 28\u00b0C",
+  "page": "AD 2-FAKN-1",
+  "page_date": "15 JUL 26",
+  "file": "site/aip/fakn/ad2-fakn.pdf"
+ },
+ "FAKR": {
+  "elev_ft": 5500,
+  "line": "3 | Elevation/Reference temperature | 5500FT AMSL",
+  "page": "AD 2-FAKR-1",
+  "page_date": "15 OCT 22",
+  "file": "site/aip/fakr/ad2-fakr.pdf"
+ },
+ "FALA": {
+  "elev_ft": 4521,
+  "line": "3 | Elevation/Reference temperature | 4521 FT/ 24\u00b0C",
+  "page": "AD 2-FALA-1",
+  "page_date": "15 OCT 23",
+  "file": "site/aip/fala/ad2-fala.pdf"
+ },
+ "FALE": {
+  "elev_ft": 307,
+  "line": "3 | Elevation/Reference temperature | 307FT/29\u00b0 C",
+  "page": "AD 2-FALE-1",
+  "page_date": "15 JUL 26",
+  "file": "site/aip/fale/ad2-fale.pdf"
+ },
+ "FALM": {
+  "elev_ft": 3069,
+  "line": "3 | Elevation/Reference temperature | 3069 FT/",
+  "page": "AD 2-FALM-1",
+  "page_date": "15 APR 17",
+  "file": "site/aip/falm/ad2-falm.pdf"
+ },
+ "FALW": {
+  "elev_ft": 108,
+  "line": "3 | Reference elevation/Reference temperature | 108 FT",
+  "page": "AD 2-FALW-1",
+  "page_date": "15 JUL 20",
+  "file": "site/aip/falw/ad2-falw.pdf"
+ },
+ "FALY": {
+  "elev_ft": 3548,
+  "line": "3 | Reference elevation/Reference temperature | 3548 FT",
+  "page": "AD 2-FALY-1",
+  "page_date": "15 OCT 25",
+  "file": "site/aip/faly/ad2-faly.pdf"
+ },
+ "FAMD": {
+  "elev_ft": 1100,
+  "line": "3 | Reference elevation/Reference temperature | ELEV: 1100 FT",
+  "page": "AD 2-FAMD-1",
+  "page_date": "15 JUL 23",
+  "file": "site/aip/famd/ad2-famd.pdf"
+ },
+ "FAMG": {
+  "elev_ft": 498,
+  "line": "3 | Reference elevation/Reference temperature | 498 FT / 15\u00b0 C",
+  "page": "AD 2-FAMG-1",
+  "page_date": "15 JAN 24",
+  "file": "site/aip/famg/ad2-famg.pdf"
+ },
+ "FAMM": {
+  "elev_ft": 4181,
+  "line": "3 | Elevation/Reference temperature | 4181 FT",
+  "page": "AD 2-FAMM-1",
+  "page_date": "15 JUL 23",
+  "file": "site/aip/famm/ad2-famm.pdf"
+ },
+ "FAMN": {
+  "elev_ft": 1153,
+  "line": "3 | Reference elevation/Reference temperature | 1153FT",
+  "page": "AD 2-FAMN-1",
+  "page_date": "15 JUL 22",
+  "file": "site/aip/famn/ad2-famn.pdf"
+ },
+ "FAMO": {
+  "elev_ft": 526,
+  "line": "3 | Reference elevation/Reference temperature | 526 FT/ 14\u00b0C",
+  "page": "AD 2-FAMO-1",
+  "page_date": "15 APR 24",
+  "file": "site/aip/famo/ad2-famo.pdf"
+ },
+ "FANC": {
+  "elev_ft": 4075,
+  "line": "3 | Reference elevation/Reference temperature | 4075FT",
+  "page": "AD 2-FANC-1",
+  "page_date": "15 APR 25",
+  "file": "site/aip/fanc/ad2-fanc.pdf"
+ },
+ "FAOB": {
+  "elev_ft": 52,
+  "line": "3 | Elevation/Reference temperature | 52 FT AMSL",
+  "page": "AD 2-FAOB-1",
+  "page_date": "15 APR 20",
+  "file": "site/aip/faob/ad2-faob.pdf"
+ },
+ "FAOH": {
+  "elev_ft": 1063,
+  "line": "3 | Elevation/Reference temperature | 1063 FT",
+  "page": "AD 2-FAOH-1",
+  "page_date": "15 JAN 23",
+  "file": "site/aip/faoh/ad2-faoh.pdf"
+ },
+ "FAOR": {
+  "elev_ft": 5558,
+  "line": "3 | AD elevation/Reference temperature | 5558FT",
+  "page": "AD 2-FAOR-1",
+  "page_date": "15 JUL 25",
+  "file": "site/aip/faor/ad2-faor.pdf"
+ },
+ "FAPA": {
+  "elev_ft": 315,
+  "line": "3 | Elevation/Reference temperature | ELEV 315 FT",
+  "page": "AD 2-FAPA-1",
+  "page_date": "15 OCT 25",
+  "file": "site/aip/fapa/ad2-fapa.pdf"
+ },
+ "FAPE": {
+  "elev_ft": 229,
+  "line": "3 | Elevation/Reference temperature | 229FT / 22.4\u00b0 C",
+  "page": "AD 2-FAPE-1",
+  "page_date": "15 JUL 26",
+  "file": "site/aip/fape/ad2-fape.pdf"
+ },
+ "FAPG": {
+  "elev_ft": 465,
+  "line": "3 | Elevation/Reference temperature | 465 FT / 21\u00baC",
+  "page": "AD 2-FAPG-1",
+  "page_date": "15 APR 25",
+  "file": "site/aip/fapg/ad2-fapg.pdf"
+ },
+ "FAPH": {
+  "elev_ft": 1432,
+  "line": "3 | Reference elevation/Reference temperature | 1432 FT",
+  "page": "AD 2-FAPH-1",
+  "page_date": "15 OCT 22",
+  "file": "site/aip/faph/ad2-faph.pdf"
+ },
+ "FAPI": {
+  "elev_ft": 4354,
+  "line": "3 | Reference elevation/Reference temperature | 4354 FT",
+  "page": "AD 2-FAPI-1",
+  "page_date": "15 JAN 24",
+  "file": "site/aip/fapi/ad2-fapi.pdf"
+ },
+ "FAPM": {
+  "elev_ft": 2423,
+  "line": "3 | Reference elevation/Reference temperature | 2423FT",
+  "page": "AD 2-FAPM-1",
+  "page_date": "15 JUL 25",
+  "file": "site/aip/fapm/ad2-fapm.pdf"
+ },
+ "FAPN": {
+  "elev_ft": 3412,
+  "line": "3 | Elevation/Reference temperature | AD Elev: 3412 FT",
+  "page": "AD 2-FAPN-1",
+  "page_date": "15 JAN 25",
+  "file": "site/aip/fapn/ad2-fapn.pdf"
+ },
+ "FAPP": {
+  "elev_ft": 4076,
+  "line": "3 | Reference elevation/Reference temperature | 4076 FT / 24,6\u00b0 C",
+  "page": "AD 2-FAPP-1",
+  "page_date": "15 JUL 26",
+  "file": "site/aip/fapp/ad2-fapp.pdf"
+ },
+ "FAPS": {
+  "elev_ft": 4520,
+  "line": "3 | Reference elevation/Reference | 4520FT",
+  "page": "AD 2-FAPS-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/faps/ad2-faps.pdf"
+ },
+ "FARB": {
+  "elev_ft": 109,
+  "line": "3 | Reference elevation/Reference temperature | 109FT",
+  "page": "AD 2-FARB-1",
+  "page_date": "15 OCT 25",
+  "file": "site/aip/farb/ad2-farb.pdf"
+ },
+ "FASC": {
+  "elev_ft": 5250,
+  "line": "3 | Reference elevation/Reference temperature | 5250 FT",
+  "page": "AD 2-FASC-1",
+  "page_date": "15 JAN 20",
+  "file": "site/aip/fasc/ad2-fasc.pdf"
+ },
+ "FASK": {
+  "elev_ft": 4794,
+  "line": "3 | Reference elevation/Reference temperature | 4794 FT",
+  "page": "AD 2-FASK-1",
+  "page_date": "15 APR 20",
+  "file": "site/aip/fask/ad2-fask.pdf"
+ },
+ "FASS": {
+  "elev_ft": 3848,
+  "line": "3 | Reference elevation/Reference temperature | 3848 FT/30.5\u00b0",
+  "page": "AD 2-FASS-1",
+  "page_date": "15 JUL 26",
+  "file": "site/aip/fass/ad2-fass.pdf"
+ },
+ "FASZ": {
+  "elev_ft": 1040,
+  "line": "3 | Elevation/Reference temperature | 1040FT / 28\u00baC",
+  "page": "AD 2-FASZ-1",
+  "page_date": "15 JUL 26",
+  "file": "site/aip/fasz/ad2-fasz.pdf"
+ },
+ "FATF": {
+  "elev_ft": 4360,
+  "line": "3 | Reference elevation/Reference temperature | 4360FT",
+  "page": "AD 2-FATF-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/fatf/ad2-fatf.pdf"
+ },
+ "FATT": {
+  "elev_ft": 5313,
+  "line": "3 | Reference elevation/Reference temperature | ELEV: 5313 FT",
+  "page": "AD 2-FATT-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/fatt/ad2-fatt.pdf"
+ },
+ "FATW": {
+  "elev_ft": 3918,
+  "line": "3 | Reference elevation/Reference temperature | 3918 FT",
+  "page": "AD 2-FATW-1",
+  "page_date": "15 APR 25",
+  "file": "site/aip/fatw/ad2-fatw.pdf"
+ },
+ "FATZ": {
+  "elev_ft": 1914,
+  "line": "3 | Reference elevation/Reference temperature | 1914 FT",
+  "page": "AD 2-FATZ-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/fatz/ad2-fatz.pdf"
+ },
+ "FAUL": {
+  "elev_ft": 1720,
+  "line": "3 | Elevation/Reference temperature | 1720 FT",
+  "page": "AD 2-FAUL-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/faul/ad2-faul.pdf"
+ },
+ "FAUP": {
+  "elev_ft": 2791,
+  "line": "3 | Elevation/Reference temperature | 2791 FT/30.5 C",
+  "page": "AD 2-FAUP-1",
+  "page_date": "15 OCT 25",
+  "file": "site/aip/faup/ad2-faup.pdf"
+ },
+ "FAUS": {
+  "elev_ft": 1380,
+  "line": "3 | Reference elevation/Reference temperature | 1380 FT / 26\u00b0C",
+  "page": "AD 2-FAUS-1",
+  "page_date": "15 JAN 24",
+  "file": "site/aip/faus/ad2-faus.pdf"
+ },
+ "FAUT": {
+  "elev_ft": 2429,
+  "line": "3 | Reference elevation/Reference temperature | 2429 FT / 22.2\u00ba C",
+  "page": "AD 2-FAUT-1",
+  "page_date": "15 JAN 24",
+  "file": "site/aip/faut/ad2-faut.pdf"
+ },
+ "FAVG": {
+  "elev_ft": 20,
+  "line": "3 | Elevation/Reference temperature | 20FT/22\u00ba C",
+  "page": "AD 2-FAVG-1",
+  "page_date": "15 APR 24",
+  "file": "site/aip/favg/ad2-favg.pdf"
+ },
+ "FAVM": {
+  "elev_ft": 2333,
+  "line": "3 | Elevation/Reference temperature | 2333 FT",
+  "page": "AD 2-FAVM-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/favm/ad2-favm.pdf"
+ },
+ "FAWB": {
+  "elev_ft": 4095,
+  "line": "3 | Elevation/Reference temperature | 4095 FT / 32\u00b0 C",
+  "page": "AD 2-FAWB-1",
+  "page_date": "15 OCT 25",
+  "file": "site/aip/fawb/ad2-fawb.pdf"
+ },
+ "FAWI": {
+  "elev_ft": 5078,
+  "line": "3 | Reference elevation/Reference temperature | 5078 FT",
+  "page": "AD 2-FAWI-1",
+  "page_date": "15 JAN 20",
+  "file": "site/aip/fawi/ad2-fawi.pdf"
+ },
+ "FAWK": {
+  "elev_ft": 4940,
+  "line": "3 | Reference elevation/Reference temperature | 4940 FT",
+  "page": "AD 2-FAWK-1",
+  "page_date": "15 APR 20",
+  "file": "site/aip/fawk/ad2-fawk.pdf"
+ },
+ "FAWN": {
+  "elev_ft": 399,
+  "line": "3 | Reference elevation/Reference temperature | ELEV: 399 FT",
+  "page": "AD 2-FAWN-1",
+  "page_date": "15 JUL 22",
+  "file": "site/aip/fawn/ad2-fawn.pdf"
+ },
+ "FAYP": {
+  "elev_ft": 49,
+  "line": "3 | Reference elevation/Reference temperature | 49 FT / N/A.",
+  "page": "AD 2-FAYP-1",
+  "page_date": "15 APR 23",
+  "file": "site/aip/fayp/ad2-fayp.pdf"
+ }
+}

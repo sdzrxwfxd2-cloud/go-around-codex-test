@@ -1,0 +1,1175 @@
+{
+ "total": 57600,
+ "same": 41100,
+ "different": 16500,
+ "byKind": {
+  "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)": 1920,
+  "PLANNED E-08 (reason says 'at arrival', not 'now', for a forecast value)": 960,
+  "PLANNED WIND-FILL + VIS-VRB": 1920,
+  "PLANNED E-02 (arrival window judged on its own model hours)": 7548,
+  "PLANNED STALE-WIND (stale METAR wind -> TAF wind, then model wind)": 960,
+  "PLANNED TAF-MODEL-FILL (TAF temp / QNH from the model, DA now known)": 2400,
+  "PLANNED DA-INFO (density altitude is information only, never a verdict)": 792
+ },
+ "verdictChanges": {
+  "nogo -> caution (depart)": 400,
+  "nogo -> caution (land +0h)": 480,
+  "caution -> nogo (depart)": 268,
+  "caution -> nogo (land +0h)": 320,
+  "caution -> go (depart)": 439,
+  "caution -> go (land +0h)": 541,
+  "go -> nogo (land +1h)": 262,
+  "go -> nogo (land +2h)": 484,
+  "go -> nogo (land +3h)": 484,
+  "go -> caution (land +1h)": 244,
+  "go -> incomplete (land +2h)": 726,
+  "go -> incomplete (land +3h)": 726,
+  "caution -> nogo (land +1h)": 322,
+  "caution -> nogo (land +2h)": 476,
+  "caution -> nogo (land +3h)": 476,
+  "caution -> incomplete (land +2h)": 714,
+  "caution -> incomplete (land +3h)": 714
+ },
+ "unplanned": [],
+ "examples": [
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-fog",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "used": "{\"vis\":null,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:POL-MISS-VIS"
+   },
+   "new": {
+    "used": "{\"vis\":0.4,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:LAW-91.06.21-CTR-VIS"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-fog",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "used": "{\"vis\":null,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:POL-MISS-VIS"
+   },
+   "new": {
+    "used": "{\"vis\":0.4,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:LAW-91.06.21-CTR-VIS"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-fog",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "used": "{\"vis\":null,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:POL-MISS-VIS"
+   },
+   "new": {
+    "used": "{\"vis\":0.4,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:LAW-91.06.21-CTR-VIS"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-fog",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "used": "{\"vis\":null,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:POL-MISS-VIS"
+   },
+   "new": {
+    "used": "{\"vis\":0.4,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:LAW-91.06.21-CTR-VIS"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-fog",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "used": "{\"vis\":null,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:POL-MISS-VIS"
+   },
+   "new": {
+    "used": "{\"vis\":0.4,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:LAW-91.06.21-CTR-VIS"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-fog",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "used": "{\"vis\":null,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:POL-MISS-VIS"
+   },
+   "new": {
+    "used": "{\"vis\":0.4,\"ceil\":200,\"wd\":null,\"vrb\":true,\"ws\":3,\"g\":null,\"temp\":12,\"qnh\":1022,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-FLOOR-1000,nogo:LAW-91.06.21-CTR-VIS"
+   }
+  },
+  {
+   "kind": "PLANNED E-08 (reason says 'at arrival', not 'now', for a forecast value)",
+   "case": "metar-ts-tempo",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +1h",
+   "at": "06:00Z",
+   "keys": [
+    "why"
+   ],
+   "old": {
+    "why": "Your visibility limit 8 km (now 6.0)"
+   },
+   "new": {
+    "why": "Your visibility limit 8 km (at arrival 6.0)"
+   }
+  },
+  {
+   "kind": "PLANNED E-08 (reason says 'at arrival', not 'now', for a forecast value)",
+   "case": "metar-ts-tempo",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +2h",
+   "at": "06:00Z",
+   "keys": [
+    "why"
+   ],
+   "old": {
+    "why": "Your visibility limit 8 km (now 6.0)"
+   },
+   "new": {
+    "why": "Your visibility limit 8 km (at arrival 6.0)"
+   }
+  },
+  {
+   "kind": "PLANNED E-08 (reason says 'at arrival', not 'now', for a forecast value)",
+   "case": "metar-ts-tempo",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +1h",
+   "at": "06:00Z",
+   "keys": [
+    "why"
+   ],
+   "old": {
+    "why": "Your visibility limit 8 km (now 6.0)"
+   },
+   "new": {
+    "why": "Your visibility limit 8 km (at arrival 6.0)"
+   }
+  },
+  {
+   "kind": "PLANNED E-08 (reason says 'at arrival', not 'now', for a forecast value)",
+   "case": "metar-ts-tempo",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +2h",
+   "at": "06:00Z",
+   "keys": [
+    "why"
+   ],
+   "old": {
+    "why": "Your visibility limit 8 km (now 6.0)"
+   },
+   "new": {
+    "why": "Your visibility limit 8 km (at arrival 6.0)"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-nowind",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Visibility not in METAR, no TAF or model value",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-MISS-VIS,caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "caution:POL-WIND-MISSING"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-nowind",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Visibility not in METAR, no TAF or model value",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-MISS-VIS,caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "caution:POL-WIND-MISSING"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-nowind",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Visibility not in METAR, no TAF or model value",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-MISS-VIS,caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "caution:POL-WIND-MISSING"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-nowind",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Visibility not in METAR, no TAF or model value",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-MISS-VIS,caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "caution:POL-WIND-MISSING"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-nowind",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Visibility not in METAR, no TAF or model value",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-MISS-VIS,caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "caution:POL-WIND-MISSING"
+   }
+  },
+  {
+   "kind": "PLANNED VIS-VRB (vis group after a VRB / ///// wind group is read)",
+   "case": "metar-nowind",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "reasons"
+   ],
+   "old": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Visibility not in METAR, no TAF or model value",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "nogo:POL-MISS-VIS,caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "reasons": "caution:POL-WIND-MISSING"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+taf",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 17 kt on RWY 19 (Your crosswind limit 12) — wind from TAF",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":250,\"vrb\":false,\"ws\":20,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"19\",\"hw\":10.000000000000002,\"xw\":17.32050807568877,\"a\":1.0471975511965976,\"gx\":17.32050807568877}",
+    "reasons": "nogo:POL-XW-BANDS"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+taf",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 17 kt on RWY 19 (Your crosswind limit 12) — wind from TAF",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":250,\"vrb\":false,\"ws\":20,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"19\",\"hw\":10.000000000000002,\"xw\":17.32050807568877,\"a\":1.0471975511965976,\"gx\":17.32050807568877}",
+    "reasons": "nogo:POL-XW-BANDS"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+taf",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 17 kt on RWY 19 (Your crosswind limit 12) — wind from TAF",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":250,\"vrb\":false,\"ws\":20,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"19\",\"hw\":10.000000000000002,\"xw\":17.32050807568877,\"a\":1.0471975511965976,\"gx\":17.32050807568877}",
+    "reasons": "nogo:POL-XW-BANDS"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+taf",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 17 kt on RWY 19 (Your crosswind limit 12) — wind from TAF",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":250,\"vrb\":false,\"ws\":20,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"19\",\"hw\":10.000000000000002,\"xw\":17.32050807568877,\"a\":1.0471975511965976,\"gx\":17.32050807568877}",
+    "reasons": "nogo:POL-XW-BANDS"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+taf",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 17 kt on RWY 19 (C172 limit 15) — wind from TAF",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":250,\"vrb\":false,\"ws\":20,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"19\",\"hw\":10.000000000000002,\"xw\":17.32050807568877,\"a\":1.0471975511965976,\"gx\":17.32050807568877}",
+    "reasons": "nogo:POL-XW-BANDS"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+taf",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 17 kt on RWY 19 (C172 limit 15) — wind from TAF",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":250,\"vrb\":false,\"ws\":20,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"19\",\"hw\":10.000000000000002,\"xw\":17.32050807568877,\"a\":1.0471975511965976,\"gx\":17.32050807568877}",
+    "reasons": "nogo:POL-XW-BANDS"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross — wind from model",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross — wind from model",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +1h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 18 kt on RWY 19 (Your crosswind limit 12)",
+    "srcTime": 1794556800000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":110,\"vrb\":false,\"ws\":18,\"g\":26,\"temp\":22,\"qnh\":1018,\"time\":1794556800000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"19\",\"hw\":3.1256671980047477,\"xw\":17.726539554219745,\"a\":-1.3962634015954636,\"gx\":25.60500157831741}",
+    "reasons": "nogo:POL-XW-BANDS,caution:POL-MODEL-BORDERLINE"
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +2h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 18 kt on RWY 19 (Your crosswind limit 12)",
+    "srcTime": 1794556800000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":110,\"vrb\":false,\"ws\":18,\"g\":26,\"temp\":22,\"qnh\":1018,\"time\":1794556800000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"19\",\"hw\":3.1256671980047477,\"xw\":17.726539554219745,\"a\":-1.3962634015954636,\"gx\":25.60500157831741}",
+    "reasons": "nogo:POL-XW-BANDS,caution:POL-MODEL-BORDERLINE"
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +3h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 18 kt on RWY 19 (Your crosswind limit 12)",
+    "srcTime": 1794556800000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":110,\"vrb\":false,\"ws\":18,\"g\":26,\"temp\":22,\"qnh\":1018,\"time\":1794556800000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"19\",\"hw\":3.1256671980047477,\"xw\":17.726539554219745,\"a\":-1.3962634015954636,\"gx\":25.60500157831741}",
+    "reasons": "nogo:POL-XW-BANDS,caution:POL-MODEL-BORDERLINE"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross — wind from model",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross — wind from model",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +1h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 18 kt on RWY 19 (Your crosswind limit 12)",
+    "srcTime": 1794556800000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":110,\"vrb\":false,\"ws\":18,\"g\":26,\"temp\":22,\"qnh\":1018,\"time\":1794556800000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"19\",\"hw\":3.1256671980047477,\"xw\":17.726539554219745,\"a\":-1.3962634015954636,\"gx\":25.60500157831741}",
+    "reasons": "nogo:POL-XW-BANDS,caution:POL-MODEL-BORDERLINE"
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +2h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 18 kt on RWY 19 (Your crosswind limit 12)",
+    "srcTime": 1794556800000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":110,\"vrb\":false,\"ws\":18,\"g\":26,\"temp\":22,\"qnh\":1018,\"time\":1794556800000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"19\",\"hw\":3.1256671980047477,\"xw\":17.726539554219745,\"a\":-1.3962634015954636,\"gx\":25.60500157831741}",
+    "reasons": "nogo:POL-XW-BANDS,caution:POL-MODEL-BORDERLINE"
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "ppl-night",
+   "step": "land +3h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Crosswind 18 kt on RWY 19 (Your crosswind limit 12)",
+    "srcTime": 1794556800000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":110,\"vrb\":false,\"ws\":18,\"g\":26,\"temp\":22,\"qnh\":1018,\"time\":1794556800000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"19\",\"hw\":3.1256671980047477,\"xw\":17.726539554219745,\"a\":-1.3962634015954636,\"gx\":25.60500157831741}",
+    "reasons": "nogo:POL-XW-BANDS,caution:POL-MODEL-BORDERLINE"
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross — wind from model",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   }
+  },
+  {
+   "kind": "PLANNED WIND-FILL + VIS-VRB",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Wind not reported — crosswind and tailwind not checked",
+    "used": "{\"vis\":null,\"ceil\":null,\"wd\":null,\"vrb\":false,\"ws\":null,\"g\":null,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": null,
+    "reasons": "caution:POL-WIND-MISSING"
+   },
+   "new": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross — wind from model",
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":20,\"qnh\":1020,\"time\":1794549000000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "land +1h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "caution",
+    "code": "caution",
+    "why": "Gust crosswind 16 kt on RWY 01 (C172 limit 15) — model value is close to the limit, treated as caution",
+    "srcTime": 1794553200000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":70,\"vrb\":false,\"ws\":12,\"g\":18,\"temp\":22,\"qnh\":1018,\"time\":1794553200000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":6.000000000000002,\"xw\":10.392304845413264,\"a\":1.0471975511965976,\"gx\":15.588457268119894}",
+    "reasons": "caution:POL-MODEL-BORDERLINE"
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "land +2h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Visibility 3.0 km below VFR 5 km",
+    "srcTime": 1794560400000,
+    "used": "{\"vis\":3,\"ceil\":null,\"wd\":150,\"vrb\":false,\"ws\":24,\"g\":34,\"temp\":22,\"qnh\":1018,\"time\":1794560400000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"19\",\"hw\":18.385066634855473,\"xw\":15.426902632476942,\"a\":-0.6981317007977318,\"gx\":21.854778729342335}",
+    "reasons": "nogo:LAW-91.06.21-CTR-VIS,nogo:POL-XW-BANDS,nogo:POL-WS-STRONG"
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-nowind+model",
+   "field": "FACT",
+   "profile": "cpl",
+   "step": "land +3h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "srcTime",
+    "used",
+    "wind",
+    "reasons"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "reasons": ""
+   },
+   "new": {
+    "status": "nogo",
+    "code": "nogo",
+    "why": "Visibility 3.0 km below VFR 5 km",
+    "srcTime": 1794560400000,
+    "used": "{\"vis\":3,\"ceil\":null,\"wd\":150,\"vrb\":false,\"ws\":24,\"g\":34,\"temp\":22,\"qnh\":1018,\"time\":1794560400000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"19\",\"hw\":18.385066634855473,\"xw\":15.426902632476942,\"a\":-0.6981317007977318,\"gx\":21.854778729342335}",
+    "reasons": "nogo:LAW-91.06.21-CTR-VIS,nogo:POL-XW-BANDS,nogo:POL-WS-STRONG"
+   }
+  },
+  {
+   "kind": "PLANNED STALE-WIND (stale METAR wind -> TAF wind, then model wind)",
+   "case": "metar-old-80",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "depart",
+   "at": "06:00Z",
+   "keys": [
+    "used",
+    "wind"
+   ],
+   "old": {
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":220,\"vrb\":false,\"ws\":8,\"g\":null,\"temp\":24,\"qnh\":1021,\"time\":1794544800000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"19\",\"hw\":6.92820323027551,\"xw\":3.9999999999999996,\"a\":0.5235987755982988,\"gx\":3.9999999999999996}"
+   },
+   "new": {
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":24,\"qnh\":1021,\"time\":1794544800000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}"
+   }
+  },
+  {
+   "kind": "PLANNED STALE-WIND (stale METAR wind -> TAF wind, then model wind)",
+   "case": "metar-old-80",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +0h",
+   "at": "06:00Z",
+   "keys": [
+    "used",
+    "wind"
+   ],
+   "old": {
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":220,\"vrb\":false,\"ws\":8,\"g\":null,\"temp\":24,\"qnh\":1021,\"time\":1794544800000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"19\",\"hw\":6.92820323027551,\"xw\":3.9999999999999996,\"a\":0.5235987755982988,\"gx\":3.9999999999999996}"
+   },
+   "new": {
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":24,\"qnh\":1021,\"time\":1794544800000,\"src\":\"metar\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}"
+   }
+  },
+  {
+   "kind": "PLANNED E-02 (arrival window judged on its own model hours)",
+   "case": "metar-old-80",
+   "field": "FACT",
+   "profile": "ppl",
+   "step": "land +2h",
+   "at": "06:00Z",
+   "keys": [
+    "status",
+    "code",
+    "why",
+    "src",
+    "srcTime",
+    "used",
+    "wind",
+    "da"
+   ],
+   "old": {
+    "status": "go",
+    "code": "go",
+    "why": "Wind on RWY 01: 6 kt head, 2 kt cross",
+    "src": "model",
+    "srcTime": 1794549600000,
+    "used": "{\"vis\":10,\"ceil\":null,\"wd\":30,\"vrb\":false,\"ws\":6,\"g\":10,\"temp\":22,\"qnh\":1018,\"time\":1794549600000,\"src\":\"model\"}",
+    "wind": "{\"id\":\"01\",\"hw\":5.638155724715451,\"xw\":2.0521208599540124,\"a\":0.3490658503988659,\"gx\":3.420201433256687}",
+    "da": 911
+   },
+   "new": {
+    "status": "incomplete",
+    "code": "noforecast",
+    "why": "No forecast loaded for the arrival time",
+    "src": null,
+    "srcTime": null,
+    "used": null,
+    "wind": null,
+    "da": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+======= engine-v2 unit =======
+======= engine-v2 run.js =======
+OK 175 rule cases (73 locked rules + 57 wind / model / freshness cases + 10 visibility-fill cases + 10 night-arrival / TEMPO-wind cases + 11 gust-cap / CAVOK-vis cases + 5 DA-limit cases) plus lock and night-definition checks
+run.js rc=0
+======= safety =======
+======= deeplink/gps/search =======
+deeplink-route: ok
+deeplink rc=0
+gps-near-me: ok
+gps rc=0
+search-glow: ok (always on, composited, rests only while the overlay is hidden, reduced motion respected)
+search-glow rc=0

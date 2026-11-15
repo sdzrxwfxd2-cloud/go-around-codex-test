@@ -1,0 +1,182 @@
+{
+ "ZA-0017": {
+  "old": [
+   -27.984167098999023,
+   28.39444351196289
+  ],
+  "new": [
+   -28.010845,
+   28.322514
+  ],
+  "evidence": "OSM way 222485266 (08/26) 0.7 km from the OurAirports position; no runway within 2 km of the card",
+  "ourairports": {
+   "ident": "ZA-0017",
+   "name": "Alberta Airport",
+   "type": "small_airport"
+  }
+ },
+ "ZA-0093": {
+  "old": [
+   -30.58333396911621,
+   23.516666412353516
+  ],
+  "new": [
+   -30.60212,
+   23.502614
+  ],
+  "evidence": "OSM ways 31870657 (02/20) and 125270827 (15/33) about 0.2 km from the OurAirports position; card coordinates are rounded (30.5833 S 23.5167 E); no runway within 2 km of the card",
+  "ourairports": {
+   "ident": "ZA-0093",
+   "name": "Britstown Airport",
+   "type": "small_airport"
+  }
+ },
+ "FACH": {
+  "old": [
+   -32.74470138549805,
+   25.796300888061523
+  ],
+  "new": [
+   -32.789329,
+   25.817592
+  ],
+  "evidence": "OSM runway way 1511295459 34 m from the OurAirports position; no runway within 2 km of the card (OurAirports lists it closed)",
+  "ourairports": {
+   "ident": "FACH",
+   "name": "Cookhouse Airport",
+   "type": "closed"
+  }
+ },
+ "FADP": {
+  "old": [
+   -33.18320083618164,
+   25.193199157714844
+  ],
+  "new": [
+   -33.096683,
+   25.256839
+  ],
+  "evidence": "OSM way 202286836 (05/23) 3 m from the OurAirports position; card 11.3 km away with no runway within 2 km",
+  "ourairports": {
+   "ident": "FADP",
+   "name": "Darlington Dam Lodge Airport",
+   "type": "small_airport"
+  }
+ },
+ "FAED": {
+  "old": [
+   -29.75,
+   25.899999618530273
+  ],
+  "new": [
+   -29.74625,
+   25.920452
+  ],
+  "evidence": "OSM ways 220845509 (04/22), 220845512 (09/27), 220845513 (16/34) 0.16-0.26 km from the OurAirports position; card coordinates rounded (29.75 S 25.90 E)",
+  "ourairports": {
+   "ident": "FAED",
+   "name": "Edenburg Airport",
+   "type": "small_airport"
+  }
+ },
+ "FAGJ": {
+  "old": [
+   -30.38330078125,
+   20.033300399780273
+  ],
+  "new": [
+   -30.368249,
+   20.016341
+  ],
+  "evidence": "OSM ways 221103922/3/5 and 1229724246 0.25-0.40 km from the OurAirports position; no runway within 2 km of the card",
+  "ourairports": {
+   "ident": "FAGJ",
+   "name": "Gifvlei Airport",
+   "type": "small_airport"
+  }
+ },
+ "FAIA": {
+  "old": [
+   -27.4867000579834,
+   31.171100616455078
+  ],
+  "new": [
+   -27.531834,
+   31.299856
+  ],
+  "evidence": "OSM way 95066272 (07/25) 43 m from the OurAirports position; card 13.7 km away with no runway within 2 km",
+  "ourairports": {
+   "ident": "FAIA",
+   "name": "Itala Airport",
+   "type": "small_airport"
+  }
+ },
+ "FAOL": {
+  "old": [
+   -24.732999801635742,
+   31.399999618530273
+  ],
+  "new": [
+   -24.758414,
+   31.405406
+  ],
+  "evidence": "OSM way 221579621 (02/20) 28 m from the OurAirports position; card coordinates rounded (24.733 S 31.400 E)",
+  "ourairports": {
+   "ident": "FAOL",
+   "name": "Othawa Airport",
+   "type": "small_airport"
+  }
+ },
+ "FARZ": {
+  "old": [
+   -22.784201,
+   28.4303
+  ],
+  "new": [
+   -27.784303,
+   28.430192
+  ],
+  "evidence": "card latitude -22.784201 is 5 degrees off: OurAirports FARZ Reitz is at -27.784303, 28.430192 (same longitude), OSM way 125314774 (11/29) 0.17 km from it; Reitz is in the Free State, the old point is in Limpopo",
+  "ourairports": {
+   "ident": "FARZ",
+   "name": "Reitz Airport",
+   "type": "small_airport"
+  },
+  "province": [
+   "Limpopo",
+   "Free State"
+  ]
+ },
+ "ZA-0046": {
+  "old": [
+   -28.66666603088379,
+   24.03333282470703
+  ],
+  "new": [
+   -28.691594,
+   24.043819
+  ],
+  "evidence": "OSM way 124890244 (03/21) 30 m from the OurAirports position; card coordinates rounded (28.6667 S 24.0333 E)",
+  "ourairports": {
+   "ident": "ZA-0046",
+   "name": "Schmidtsdrif Airport",
+   "type": "small_airport"
+  }
+ },
+ "ZA-0028": {
+  "old": [
+   -27.350000381469727,
+   30.166667938232422
+  ],
+  "new": [
+   -27.333669,
+   30.148343
+  ],
+  "evidence": "OSM ways 191212164 (05/23) and 191212165 (11/29) 0.1-0.2 km from the OurAirports position; card coordinates rounded (27.35 S 30.1667 E)",
+  "ourairports": {
+   "ident": "ZA-0028",
+   "name": "Wakkerstroom Airport",
+   "type": "small_airport"
+  }
+ }
+}

@@ -1,0 +1,1390 @@
+{
+  "ran_at": "2026-11-15T21:41:02.461Z",
+  "engine": {
+    "path": "site/engine/ga-core-v2.js",
+    "version": "2.5.0",
+    "checksum": "90d2ba46f3478c597c502d607193a4a3e072962da4eedace4b0d3131a3922cb1",
+    "engineVersion": null
+  },
+  "profile": {
+    "licence": "ppl",
+    "aircraftId": "C172",
+    "rules": "vfr",
+    "note": "Evaluated as if 'now' was 5 minutes after each report, so historical METARs are treated as fresh, the same way the site treats a current report."
+  },
+  "counts": {
+    "stations": 33,
+    "metars": 190645,
+    "tafs_attached": 12087,
+    "evaluations": 381290,
+    "byStatus": {
+      "depart": {
+        "nogo": 130071,
+        "go": 49606,
+        "caution": 10963,
+        "incomplete": 5
+      },
+      "land": {
+        "caution": 38666,
+        "go": 53447,
+        "nogo": 98527,
+        "incomplete": 5
+      }
+    },
+    "crashes": 0,
+    "parse_failures": 54,
+    "odd": 6
+  },
+  "elapsed_ms": 8967,
+  "crashes": [],
+  "parse_failures": [
+    {
+      "station": "FABL",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FABL 041617Z 32014G24KT 270V350 R02/P2000N TS SCT020 FEW035CB 21/14 Q1021 TEMPO 5000 TSRA SCT035CB",
+      "time": "2025-12-04T16:17:00Z",
+      "parsed": {
+        "ws": 14,
+        "vis": null,
+        "cavok": false,
+        "t": 21,
+        "qnh": 1021
+      }
+    },
+    {
+      "station": "FABL",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FABL 230500Z 33005KT 290V360 7000W R02/P2000N FEW000 18/17 Q1022 NOSIG",
+      "time": "2026-03-23T05:00:00Z",
+      "parsed": {
+        "ws": 5,
+        "vis": null,
+        "cavok": false,
+        "t": 18,
+        "qnh": 1022
+      }
+    },
+    {
+      "station": "FABL",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FABL 170700Z VRB01KT 5000E BR NSC 10/05 Q1031 NOSIG",
+      "time": "2026-06-17T07:00:00Z",
+      "parsed": {
+        "ws": 1,
+        "vis": null,
+        "cavok": false,
+        "t": 10,
+        "qnh": 1031
+      }
+    },
+    {
+      "station": "FABL",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FABL 230600Z 03006KT 360V060 0400W R02/1900U FG VV002 09/08 Q1025 TEMPO 1500 BR OVC008",
+      "time": "2026-06-23T06:00:00Z",
+      "parsed": {
+        "ws": 6,
+        "vis": null,
+        "cavok": false,
+        "t": 9,
+        "qnh": 1025
+      }
+    },
+    {
+      "station": "FABL",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FABL 230700Z 05008KT 0600W R02/P2000N FG VV002 09/09 Q1025 TEMPO 3000 BR OVC008",
+      "time": "2026-06-23T07:00:00Z",
+      "parsed": {
+        "ws": 8,
+        "vis": null,
+        "cavok": false,
+        "t": 9,
+        "qnh": 1025
+      }
+    },
+    {
+      "station": "FAGM",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAGM 070900Z 23016VKT 9999 OVC017 08/03 Q1018",
+      "time": "2026-05-07T09:00:00Z",
+      "parsed": {
+        "ws": null,
+        "vis": null,
+        "cavok": false,
+        "t": 8,
+        "qnh": 1018
+      }
+    },
+    {
+      "station": "FAKM",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAKM 270100Z AUTO 35006KT //// // ////// 17/14 9999 SCT018 BKN035 FEW045CB 20/18 Q1013 NOSIG",
+      "time": "2025-12-27T01:00:00Z",
+      "parsed": {
+        "ws": 6,
+        "vis": null,
+        "cavok": false,
+        "t": 17,
+        "qnh": 1013
+      }
+    },
+    {
+      "station": "FAKN",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAKN 220300Z AUTO 15004KT //// // /////004KT 0800 R25/1700 R07/1900 FG VV/// 13/11 Q1019 NOSIG",
+      "time": "2025-12-22T03:00:00Z",
+      "parsed": {
+        "ws": 4,
+        "vis": null,
+        "cavok": false,
+        "t": 13,
+        "qnh": 1019
+      }
+    },
+    {
+      "station": "FALA",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FALA 271700Z 03003KT 340V060 9999-RA BKN030 17/14 Q1024 NOSIG",
+      "time": "2025-11-27T17:00:00Z",
+      "parsed": {
+        "ws": 3,
+        "vis": null,
+        "cavok": false,
+        "t": 17,
+        "qnh": 1024
+      }
+    },
+    {
+      "station": "FALA",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FALA 190500Z 21004KT 0800NE FG NSC 15/14 Q1021 TEMPO 0500",
+      "time": "2026-03-19T05:00:00Z",
+      "parsed": {
+        "ws": 4,
+        "vis": null,
+        "cavok": false,
+        "t": 15,
+        "qnh": 1021
+      }
+    },
+    {
+      "station": "FAMM",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAMM 221800Z 01006K6002KT 9999 FEW012 SCT080 17/16 Q1019 NOSIG",
+      "time": "2026-01-22T18:00:00Z",
+      "parsed": {
+        "ws": null,
+        "vis": null,
+        "cavok": false,
+        "t": 17,
+        "qnh": 1019
+      }
+    },
+    {
+      "station": "FAMM",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAMM 211500Z 01004KT 9999-DZ FEW035TCU BKN080 17/15 Q1022 TEMPO TSRA FEW035CB",
+      "time": "2026-09-21T15:00:00Z",
+      "parsed": {
+        "ws": 4,
+        "vis": null,
+        "cavok": false,
+        "t": 17,
+        "qnh": 1022
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 160327Z VRB02KT 2000S BR SCT002 SCT027 17/17 Q1009 TEMPO 1500 BKN009",
+      "time": "2025-12-16T03:27:00Z",
+      "parsed": {
+        "ws": 2,
+        "vis": null,
+        "cavok": false,
+        "t": 17,
+        "qnh": 1009
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 160400Z VRB02KT 2000S BR SCT002 BKN025 17/17 Q1009 NOSIG",
+      "time": "2025-12-16T04:00:00Z",
+      "parsed": {
+        "ws": 2,
+        "vis": null,
+        "cavok": false,
+        "t": 17,
+        "qnh": 1009
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 021656Z 23006KT 4500W 9999 R26/P2000N FU FEW010 21/19 Q1014 TEMPO FM1800 BKN009",
+      "time": "2026-01-02T16:56:00Z",
+      "parsed": {
+        "ws": 6,
+        "vis": null,
+        "cavok": false,
+        "t": 21,
+        "qnh": 1014
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 021700Z 23006KT 4500W 9999 R26/P2000N FU FEW010 21/19 Q1014 TEMPO FM1800 BKN009",
+      "time": "2026-01-02T17:00:00Z",
+      "parsed": {
+        "ws": 6,
+        "vis": null,
+        "cavok": false,
+        "t": 21,
+        "qnh": 1014
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071045Z 23019KT 190V250 4500SE 9999 R26/P2000N FU FEW026 26/11 Q1015 NOSIG",
+      "time": "2026-01-07T10:45:00Z",
+      "parsed": {
+        "ws": 19,
+        "vis": null,
+        "cavok": false,
+        "t": 26,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071055Z 23021G31KT 4500SE 9999 R26/P2000N FU NSC 25/12 Q1015 NOSIG",
+      "time": "2026-01-07T10:55:00Z",
+      "parsed": {
+        "ws": 21,
+        "vis": null,
+        "cavok": false,
+        "t": 25,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071100Z 24021G31KT 4500SE 9999 R26/P2000N FU NSC 25/12 Q1015 NOSIG",
+      "time": "2026-01-07T11:00:00Z",
+      "parsed": {
+        "ws": 21,
+        "vis": null,
+        "cavok": false,
+        "t": 25,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR COR FAPE 071200Z 22018KT 3500SE 9000 R26/P2000N FU FEW023 23/14 Q1016 NOSIG",
+      "time": "2026-01-07T12:00:00Z",
+      "parsed": {
+        "ws": 18,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1016
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071219Z 22017G27KT 190V250 3500SE 9000 R26/P2000N FU FEW023 24/15 Q1016 NOSIG",
+      "time": "2026-01-07T12:19:00Z",
+      "parsed": {
+        "ws": 17,
+        "vis": null,
+        "cavok": false,
+        "t": 24,
+        "qnh": 1016
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071231Z 21017G28KT 180V240 3500SE 9000 R26/P2000N FU SCT023 23/15 Q1016 NOSIG",
+      "time": "2026-01-07T12:31:00Z",
+      "parsed": {
+        "ws": 17,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1016
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071300Z 19017KT 170V230 4500SE 9000 R26/P2000N FU FEW020 23/15 Q1016 NOSIG",
+      "time": "2026-01-07T13:00:00Z",
+      "parsed": {
+        "ws": 17,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1016
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071308Z 20017G27KT 160V220 4500SE 9000 R26/P2000N FU FEW020 23/15 Q1015 NOSIG",
+      "time": "2026-01-07T13:08:00Z",
+      "parsed": {
+        "ws": 17,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071338Z 20015G25KT 170V230 4500SE 9000 R26/P2000N FU FEW022 23/14 Q1015 NOSIG",
+      "time": "2026-01-07T13:38:00Z",
+      "parsed": {
+        "ws": 15,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071400Z 18013KT 150V220 4000E 9000 R26/P2000N FU FEW025 22/15 Q1016 NOSIG",
+      "time": "2026-01-07T14:00:00Z",
+      "parsed": {
+        "ws": 13,
+        "vis": null,
+        "cavok": false,
+        "t": 22,
+        "qnh": 1016
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071500Z 18010KT 140V230 4500E 9000 R26/P2000N FU FEW030 23/13 Q1015 NOSIG",
+      "time": "2026-01-07T15:00:00Z",
+      "parsed": {
+        "ws": 10,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 071600Z 17008KT 110V220 4500E 9999 R26/P2000N FU SCT030 22/13 Q1016 NOSIG",
+      "time": "2026-01-07T16:00:00Z",
+      "parsed": {
+        "ws": 8,
+        "vis": null,
+        "cavok": false,
+        "t": 22,
+        "qnh": 1016
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 121331Z 22018G29KT 3700W 7000E FU NSC 27/21 Q1009 NOSIG",
+      "time": "2026-01-12T13:31:00Z",
+      "parsed": {
+        "ws": 18,
+        "vis": null,
+        "cavok": false,
+        "t": 27,
+        "qnh": 1009
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 121400Z 23019KT 3700W 7000E FU NSC 27/22 Q1009 NOSIG",
+      "time": "2026-01-12T14:00:00Z",
+      "parsed": {
+        "ws": 19,
+        "vis": null,
+        "cavok": false,
+        "t": 27,
+        "qnh": 1009
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 121410Z 23019G29KT 4000W 8000E FU FEW009 27/22 Q1009 NOSIG",
+      "time": "2026-01-12T14:10:00Z",
+      "parsed": {
+        "ws": 19,
+        "vis": null,
+        "cavok": false,
+        "t": 27,
+        "qnh": 1009
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 121430Z 23018KT 2000SW 8000NE FU FEW007 26/22 Q1009 NOSIG",
+      "time": "2026-01-12T14:30:00Z",
+      "parsed": {
+        "ws": 18,
+        "vis": null,
+        "cavok": false,
+        "t": 26,
+        "qnh": 1009
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 121500Z 22018KT 2000SW 8000NE FU FEW004 26/22 Q1009 NOSIG",
+      "time": "2026-01-12T15:00:00Z",
+      "parsed": {
+        "ws": 18,
+        "vis": null,
+        "cavok": false,
+        "t": 26,
+        "qnh": 1009
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 121550Z 22013KT 2000SW 8000NE FU FEW006 BKN014 25/22 Q1010 NOSIG",
+      "time": "2026-01-12T15:50:00Z",
+      "parsed": {
+        "ws": 13,
+        "vis": null,
+        "cavok": false,
+        "t": 25,
+        "qnh": 1010
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 121600Z 22012KT 2000SW 8000NE FU FEW006 BKN014 25/22 Q1010 NOSIG",
+      "time": "2026-01-12T16:00:00Z",
+      "parsed": {
+        "ws": 12,
+        "vis": null,
+        "cavok": false,
+        "t": 25,
+        "qnh": 1010
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 121700Z 23013KT 2500SW 8000NE FU SCT006 BKN013 23/22 Q1011 TEMPO 2000 BR",
+      "time": "2026-01-12T17:00:00Z",
+      "parsed": {
+        "ws": 13,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1011
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 181340Z 23024KT 4000SW R26/P2000N FU FEW015 22/11 Q1015 TEMPO 23024G34KT",
+      "time": "2026-01-18T13:40:00Z",
+      "parsed": {
+        "ws": 24,
+        "vis": null,
+        "cavok": false,
+        "t": 22,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 181346Z 22022G32KT 4000SW R26/P2000N FU FEW015 22/11 Q1015 NOSIG",
+      "time": "2026-01-18T13:46:00Z",
+      "parsed": {
+        "ws": 22,
+        "vis": null,
+        "cavok": false,
+        "t": 22,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 181400Z 22023G33KT 4500SW R26/P2000N FU FEW020 22/10 Q1015 NOSIG",
+      "time": "2026-01-18T14:00:00Z",
+      "parsed": {
+        "ws": 23,
+        "vis": null,
+        "cavok": false,
+        "t": 22,
+        "qnh": 1015
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 221157Z 23027KT 4000W R26/P2000N FU FEW010 24/18 Q1005 NOSIG",
+      "time": "2026-01-22T11:57:00Z",
+      "parsed": {
+        "ws": 27,
+        "vis": null,
+        "cavok": false,
+        "t": 24,
+        "qnh": 1005
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 221200Z 23027KT 4000W R26/P2000N FU FEW010 24/18 Q1005 NOSIG",
+      "time": "2026-01-22T12:00:00Z",
+      "parsed": {
+        "ws": 27,
+        "vis": null,
+        "cavok": false,
+        "t": 24,
+        "qnh": 1005
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 221205Z 23028G40KT 4000W R26/P2000N FU FEW010 24/18 Q1005 NOSIG",
+      "time": "2026-01-22T12:05:00Z",
+      "parsed": {
+        "ws": 28,
+        "vis": null,
+        "cavok": false,
+        "t": 24,
+        "qnh": 1005
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 221300Z 23035G47KT 4000W R26/P2000N FU FEW012 24/18 Q1005 NOSIG",
+      "time": "2026-01-22T13:00:00Z",
+      "parsed": {
+        "ws": 35,
+        "vis": null,
+        "cavok": false,
+        "t": 24,
+        "qnh": 1005
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 221423Z 23032G46KT 4000W R26/P2000N FU FEW020 23/18 Q1005 NOSIG",
+      "time": "2026-01-22T14:23:00Z",
+      "parsed": {
+        "ws": 32,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1005
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 221500Z 23037G53KT 4000W R26/P2000N FU FEW010 23/18 Q1005 BECMG 23030G40KT",
+      "time": "2026-01-22T15:00:00Z",
+      "parsed": {
+        "ws": 37,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1005
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 181346Z 18007KT 150V210 4000W 9000E R26/P2000N -SHRA FEW008 BKN030 24/21 Q1012 TEMPO 2500",
+      "time": "2026-03-18T13:46:00Z",
+      "parsed": {
+        "ws": 7,
+        "vis": null,
+        "cavok": false,
+        "t": 24,
+        "qnh": 1012
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 181400Z 19007KT 160V220 9999E 3700W R26/P2000N -SHRA FEW008 BKN030 23/21 Q1012 TEMPO 2500",
+      "time": "2026-03-18T14:00:00Z",
+      "parsed": {
+        "ws": 7,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1012
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAPE 181407Z 21009G26KT 180V250 9000E 4000W R26/P2000N SHRA SCT008 BKN030TCU 22/22 Q1013 TEMPO 2500",
+      "time": "2026-03-18T14:07:00Z",
+      "parsed": {
+        "ws": 9,
+        "vis": null,
+        "cavok": false,
+        "t": 22,
+        "qnh": 1013
+      }
+    },
+    {
+      "station": "FAPE",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR COR FAPE 010400Z 27004KT 1000SW 9000 R26/P2000N MIFG NSC 08/08 Q1020 NOSIG",
+      "time": "2026-09-01T04:00:00Z",
+      "parsed": {
+        "ws": 4,
+        "vis": null,
+        "cavok": false,
+        "t": 8,
+        "qnh": 1020
+      }
+    },
+    {
+      "station": "FAUP",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAUP 051112Z 30014KT 3000N TS SCT030CB 24/20 Q1011 TEMPO 5000 -TSRA",
+      "time": "2026-03-05T11:12:00Z",
+      "parsed": {
+        "ws": 14,
+        "vis": null,
+        "cavok": false,
+        "t": 24,
+        "qnh": 1011
+      }
+    },
+    {
+      "station": "FAUP",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAUP 051305Z 33018G50KT 5000S -TSRA SCT030CB 18/17 Q1011 NOSIG",
+      "time": "2026-03-05T13:05:00Z",
+      "parsed": {
+        "ws": 18,
+        "vis": null,
+        "cavok": false,
+        "t": 18,
+        "qnh": 1011
+      }
+    },
+    {
+      "station": "FAUP",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAUP 271634Z 03013KT 5000NE TSRA BKN040 FEW050CB 25/20 Q1016",
+      "time": "2026-03-27T16:34:00Z",
+      "parsed": {
+        "ws": 13,
+        "vis": null,
+        "cavok": false,
+        "t": 25,
+        "qnh": 1016
+      }
+    },
+    {
+      "station": "FAUP",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAUP 100931Z 26012G25KT 5000SE -RA FEW012 SCT015 11/08 Q1013 BECMG 8000",
+      "time": "2026-05-10T09:31:00Z",
+      "parsed": {
+        "ws": 12,
+        "vis": null,
+        "cavok": false,
+        "t": 11,
+        "qnh": 1013
+      }
+    },
+    {
+      "station": "FAUT",
+      "reason": "visibility/CAVOK present but vis/cavok not set",
+      "raw": "METAR FAUT 180849Z 21005KT 9999-SHRA BKN045 FEW060TCU 23/17 Q1012",
+      "time": "2026-03-18T08:49:00Z",
+      "parsed": {
+        "ws": 5,
+        "vis": null,
+        "cavok": false,
+        "t": 23,
+        "qnh": 1012
+      }
+    }
+  ],
+  "odd": [
+    {
+      "station": "FAGG",
+      "phase": "land",
+      "time": "2026-10-16T19:00:00Z",
+      "raw": "METAR FAGG 161900Z AUTO 02002KT CAVOK 16/14 Q1015",
+      "taf": "TAF FAGG 161600Z 1618/1718 35005KT 9999 SCT012 TX20/1712Z TN14/1703Z FM162000 35005KT 9999 BKN020 FM170700 23015KT 9999 SCT005 BKN010 TEMPO 1710/1718 2500 RA BKN008",
+      "status": "nogo",
+      "code": "nogo",
+      "why": "TAF forecast: FM from 1620Z: ceiling 2000 ft",
+      "reasons": [
+        "NO-GO on CAVOK with gust 2 kt (TAF forecast: FM from 1620Z: ceiling 2000 ft)"
+      ]
+    },
+    {
+      "station": "FAGG",
+      "phase": "land",
+      "time": "2026-10-16T20:00:00Z",
+      "raw": "METAR FAGG 162000Z AUTO 00000KT CAVOK 16/15 Q1015",
+      "taf": "TAF FAGG 161600Z 1618/1718 35005KT 9999 SCT012 TX20/1712Z TN14/1703Z FM162000 35005KT 9999 BKN020 FM170700 23015KT 9999 SCT005 BKN010 TEMPO 1710/1718 2500 RA BKN008",
+      "status": "nogo",
+      "code": "nogo",
+      "why": "TAF forecast: FM from 1620Z: ceiling 2000 ft",
+      "reasons": [
+        "NO-GO on CAVOK with gust 0 kt (TAF forecast: FM from 1620Z: ceiling 2000 ft)"
+      ]
+    },
+    {
+      "station": "FAGG",
+      "phase": "depart",
+      "time": "2026-11-05T10:00:00Z",
+      "raw": "METAR FAGG 051000Z 21008KT 180V240 CAVOK 24/12 Q1006",
+      "taf": "TAF FAGG 050930Z 0506/0606 23010KT CAVOK TX23/0509Z TN15/0604Z FM051100 23015KT 9999 FEW012 FM051200 20010KT 6000 -RA BKN010 OVC020 PROB30 TEMPO 0514/0520 4000 -RA BR BKN008 FM060000 35005KT 9999 SCT015 BKN040",
+      "status": "nogo",
+      "code": "nogo",
+      "why": "TAF forecast: FM from 0512Z: vis 6.0 km",
+      "reasons": [
+        "NO-GO on CAVOK with gust 8 kt (TAF forecast: FM from 0512Z: vis 6.0 km)"
+      ]
+    },
+    {
+      "station": "FAGG",
+      "phase": "land",
+      "time": "2026-11-05T10:00:00Z",
+      "raw": "METAR FAGG 051000Z 21008KT 180V240 CAVOK 24/12 Q1006",
+      "taf": "TAF FAGG 050930Z 0506/0606 23010KT CAVOK TX23/0509Z TN15/0604Z FM051100 23015KT 9999 FEW012 FM051200 20010KT 6000 -RA BKN010 OVC020 PROB30 TEMPO 0514/0520 4000 -RA BR BKN008 FM060000 35005KT 9999 SCT015 BKN040",
+      "status": "nogo",
+      "code": "nogo",
+      "why": "TAF forecast: FM from 0512Z: vis 6.0 km",
+      "reasons": [
+        "NO-GO on CAVOK with gust 8 kt (TAF forecast: FM from 0512Z: vis 6.0 km)"
+      ]
+    },
+    {
+      "station": "FAGG",
+      "phase": "depart",
+      "time": "2026-11-05T11:00:00.000Z",
+      "raw": "METAR FAGG 051100Z 21014KT CAVOK 22/13 Q1007",
+      "taf": "TAF FAGG 050930Z 0506/0606 23010KT CAVOK TX23/0509Z TN15/0604Z FM051100 23015KT 9999 FEW012 FM051200 20010KT 6000 -RA BKN010 OVC020 PROB30 TEMPO 0514/0520 4000 -RA BR BKN008 FM060000 35005KT 9999 SCT015 BKN040",
+      "status": "nogo",
+      "code": "nogo",
+      "why": "TAF forecast: FM from 0512Z: vis 6.0 km",
+      "reasons": [
+        "NO-GO on CAVOK with gust 14 kt (TAF forecast: FM from 0512Z: vis 6.0 km)"
+      ]
+    },
+    {
+      "station": "FAGG",
+      "phase": "land",
+      "time": "2026-11-05T11:00:00.000Z",
+      "raw": "METAR FAGG 051100Z 21014KT CAVOK 22/13 Q1007",
+      "taf": "TAF FAGG 050930Z 0506/0606 23010KT CAVOK TX23/0509Z TN15/0604Z FM051100 23015KT 9999 FEW012 FM051200 20010KT 6000 -RA BKN010 OVC020 PROB30 TEMPO 0514/0520 4000 -RA BR BKN008 FM060000 35005KT 9999 SCT015 BKN040",
+      "status": "nogo",
+      "code": "nogo",
+      "why": "TAF forecast: FM from 0512Z: vis 6.0 km",
+      "reasons": [
+        "NO-GO on CAVOK with gust 14 kt (TAF forecast: FM from 0512Z: vis 6.0 km)"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "station": "FABL",
+      "metars": 8589,
+      "tafs": 145,
+      "depart": {
+        "nogo": 4664,
+        "go": 3337,
+        "caution": 588
+      },
+      "land": {
+        "caution": 3625,
+        "go": 3615,
+        "nogo": 1349
+      },
+      "crashes": 0,
+      "parse_failures": 5,
+      "odd": 0
+    },
+    {
+      "station": "FABM",
+      "metars": 622,
+      "tafs": 0,
+      "depart": {
+        "nogo": 383,
+        "go": 212,
+        "caution": 26,
+        "incomplete": 1
+      },
+      "land": {
+        "nogo": 379,
+        "go": 216,
+        "caution": 26,
+        "incomplete": 1
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FACT",
+      "metars": 10456,
+      "tafs": 160,
+      "depart": {
+        "nogo": 6058,
+        "caution": 1066,
+        "go": 3332
+      },
+      "land": {
+        "caution": 4177,
+        "nogo": 2683,
+        "go": 3596
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FACV",
+      "metars": 1447,
+      "tafs": 0,
+      "depart": {
+        "go": 1230,
+        "nogo": 181,
+        "caution": 36
+      },
+      "land": {
+        "go": 1230,
+        "nogo": 172,
+        "caution": 45
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FADY",
+      "metars": 694,
+      "tafs": 0,
+      "depart": {
+        "go": 493,
+        "nogo": 179,
+        "caution": 22
+      },
+      "land": {
+        "go": 495,
+        "nogo": 179,
+        "caution": 20
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAEL",
+      "metars": 7269,
+      "tafs": 95,
+      "depart": {
+        "nogo": 3133,
+        "go": 3378,
+        "caution": 757,
+        "incomplete": 1
+      },
+      "land": {
+        "nogo": 2092,
+        "go": 3648,
+        "caution": 1528,
+        "incomplete": 1
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAEO",
+      "metars": 798,
+      "tafs": 0,
+      "depart": {
+        "nogo": 390,
+        "go": 387,
+        "caution": 21
+      },
+      "land": {
+        "nogo": 383,
+        "go": 387,
+        "caution": 28
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAGC",
+      "metars": 2,
+      "tafs": 0,
+      "depart": {
+        "nogo": 1,
+        "incomplete": 1
+      },
+      "land": {
+        "nogo": 1,
+        "incomplete": 1
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAGG",
+      "metars": 13962,
+      "tafs": 172,
+      "depart": {
+        "nogo": 9527,
+        "go": 3684,
+        "caution": 751
+      },
+      "land": {
+        "caution": 4091,
+        "nogo": 5915,
+        "go": 3956
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 6
+    },
+    {
+      "station": "FAGM",
+      "metars": 506,
+      "tafs": 0,
+      "depart": {
+        "nogo": 133,
+        "go": 264,
+        "caution": 109
+      },
+      "land": {
+        "nogo": 131,
+        "go": 269,
+        "caution": 106
+      },
+      "crashes": 0,
+      "parse_failures": 1,
+      "odd": 0
+    },
+    {
+      "station": "FAHS",
+      "metars": 6388,
+      "tafs": 94,
+      "depart": {
+        "nogo": 6088,
+        "go": 156,
+        "caution": 144
+      },
+      "land": {
+        "nogo": 6062,
+        "go": 173,
+        "caution": 153
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAIR",
+      "metars": 75,
+      "tafs": 0,
+      "depart": {
+        "nogo": 62,
+        "go": 11,
+        "caution": 2
+      },
+      "land": {
+        "nogo": 62,
+        "go": 11,
+        "caution": 2
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAJB",
+      "metars": 5298,
+      "tafs": 0,
+      "depart": {
+        "nogo": 5298
+      },
+      "land": {
+        "nogo": 5298
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAKM",
+      "metars": 8448,
+      "tafs": 92,
+      "depart": {
+        "go": 3879,
+        "nogo": 4165,
+        "caution": 404
+      },
+      "land": {
+        "go": 4172,
+        "nogo": 3118,
+        "caution": 1158
+      },
+      "crashes": 0,
+      "parse_failures": 1,
+      "odd": 0
+    },
+    {
+      "station": "FAKN",
+      "metars": 8840,
+      "tafs": 103,
+      "depart": {
+        "nogo": 5753,
+        "caution": 786,
+        "go": 2301
+      },
+      "land": {
+        "nogo": 4917,
+        "caution": 1381,
+        "go": 2542
+      },
+      "crashes": 0,
+      "parse_failures": 1,
+      "odd": 0
+    },
+    {
+      "station": "FALA",
+      "metars": 8570,
+      "tafs": 142,
+      "depart": {
+        "nogo": 4567,
+        "go": 2910,
+        "caution": 1093
+      },
+      "land": {
+        "nogo": 2668,
+        "go": 3216,
+        "caution": 2686
+      },
+      "crashes": 0,
+      "parse_failures": 2,
+      "odd": 0
+    },
+    {
+      "station": "FALE",
+      "metars": 11243,
+      "tafs": 159,
+      "depart": {
+        "nogo": 6453,
+        "go": 3970,
+        "caution": 820
+      },
+      "land": {
+        "nogo": 2799,
+        "go": 4244,
+        "caution": 4200
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FALW",
+      "metars": 7676,
+      "tafs": 0,
+      "depart": {
+        "nogo": 7676
+      },
+      "land": {
+        "nogo": 7676
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAMM",
+      "metars": 8672,
+      "tafs": 0,
+      "depart": {
+        "caution": 460,
+        "go": 2993,
+        "nogo": 5219
+      },
+      "land": {
+        "caution": 1184,
+        "go": 3241,
+        "nogo": 4247
+      },
+      "crashes": 0,
+      "parse_failures": 2,
+      "odd": 0
+    },
+    {
+      "station": "FAOR",
+      "metars": 13497,
+      "tafs": 159,
+      "depart": {
+        "nogo": 7442,
+        "caution": 1536,
+        "go": 4519
+      },
+      "land": {
+        "nogo": 2580,
+        "caution": 5898,
+        "go": 5019
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAPE",
+      "metars": 11260,
+      "tafs": 129,
+      "depart": {
+        "nogo": 6854,
+        "go": 3586,
+        "caution": 820
+      },
+      "land": {
+        "caution": 3965,
+        "go": 3857,
+        "nogo": 3438
+      },
+      "crashes": 0,
+      "parse_failures": 37,
+      "odd": 0
+    },
+    {
+      "station": "FAPM",
+      "metars": 3,
+      "tafs": 136,
+      "depart": {
+        "nogo": 3
+      },
+      "land": {
+        "nogo": 3
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAPN",
+      "metars": 2821,
+      "tafs": 0,
+      "depart": {
+        "nogo": 2821
+      },
+      "land": {
+        "nogo": 2821
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAPP",
+      "metars": 9002,
+      "tafs": 101,
+      "depart": {
+        "nogo": 5537,
+        "caution": 695,
+        "go": 2770
+      },
+      "land": {
+        "nogo": 4692,
+        "go": 3030,
+        "caution": 1280
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAPR",
+      "metars": 1,
+      "tafs": 0,
+      "depart": {
+        "go": 1
+      },
+      "land": {
+        "go": 1
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FARB",
+      "metars": 1,
+      "tafs": 100,
+      "depart": {
+        "nogo": 1
+      },
+      "land": {
+        "nogo": 1
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FASB",
+      "metars": 977,
+      "tafs": 0,
+      "depart": {
+        "go": 548,
+        "nogo": 414,
+        "caution": 14,
+        "incomplete": 1
+      },
+      "land": {
+        "go": 549,
+        "nogo": 405,
+        "caution": 22,
+        "incomplete": 1
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FASI",
+      "metars": 4852,
+      "tafs": 0,
+      "depart": {
+        "nogo": 4852
+      },
+      "land": {
+        "nogo": 4852
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAUP",
+      "metars": 9501,
+      "tafs": 128,
+      "depart": {
+        "nogo": 5007,
+        "go": 4207,
+        "caution": 287
+      },
+      "land": {
+        "caution": 2320,
+        "go": 4459,
+        "nogo": 2722
+      },
+      "crashes": 0,
+      "parse_failures": 4,
+      "odd": 0
+    },
+    {
+      "station": "FAUT",
+      "metars": 8813,
+      "tafs": 100,
+      "depart": {
+        "nogo": 7365,
+        "caution": 328,
+        "go": 1120
+      },
+      "land": {
+        "nogo": 7077,
+        "caution": 554,
+        "go": 1182
+      },
+      "crashes": 0,
+      "parse_failures": 1,
+      "odd": 0
+    },
+    {
+      "station": "FAVV",
+      "metars": 5502,
+      "tafs": 0,
+      "depart": {
+        "nogo": 5502
+      },
+      "land": {
+        "nogo": 5502
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAWB",
+      "metars": 7216,
+      "tafs": 99,
+      "depart": {
+        "nogo": 6700,
+        "go": 318,
+        "caution": 198
+      },
+      "land": {
+        "nogo": 6660,
+        "go": 339,
+        "caution": 217
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    },
+    {
+      "station": "FAWK",
+      "metars": 7644,
+      "tafs": 0,
+      "depart": {
+        "nogo": 7643,
+        "incomplete": 1
+      },
+      "land": {
+        "nogo": 7643,
+        "incomplete": 1
+      },
+      "crashes": 0,
+      "parse_failures": 0,
+      "odd": 0
+    }
+  ]
+}

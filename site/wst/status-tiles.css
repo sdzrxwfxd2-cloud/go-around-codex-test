@@ -1,0 +1,25 @@
+/* Status tiles — extracted from main.html so status-v2.js does not fetch the whole aerodrome list. Visual rules unchanged. */
+.tiles{position:sticky;top:calc(59px + env(safe-area-inset-top));z-index:20;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px -4px 6px;padding:4px;transition:gap .5s var(--ease)}
+.tile{border:0;text-align:left;color:var(--tx);padding:16px 14px 14px;cursor:pointer;transition:padding .5s var(--ease),transform .3s var(--ease),border-radius .5s var(--ease);border-radius:22px}
+.tile:active{transform:scale(.97)}
+.tile .n{display:block;font:600 34px/1 -apple-system,sans-serif;letter-spacing:-.03em;transition:font-size .5s var(--ease)}
+.tile .k{display:flex;align-items:center;gap:6px;margin-top:8px;font:600 11px/1 -apple-system,sans-serif;letter-spacing:.08em;color:var(--tx2);transition:margin .5s var(--ease)}
+.tile .d{width:7px;height:7px;border-radius:4px;background:var(--c);box-shadow:0 0 10px var(--c)}
+.tile[data-s=go]{--c:var(--go)}
+.tile[data-s=caution]{--c:var(--cau)}
+.tile[data-s=nogo]{--c:var(--nogo)}
+.tile.sel{box-shadow:inset 0 0 0 1.5px var(--c),inset 0 0 22px color-mix(in srgb,var(--c) 30%,transparent),var(--sh)}
+.tiles::before{content:"";position:absolute;z-index:-1;left:-16px;right:-16px;top:-6px;bottom:-6px;pointer-events:none;opacity:0;background:color-mix(in srgb,var(--bg) 90%,transparent);-webkit-backdrop-filter:blur(30px) saturate(180%);backdrop-filter:blur(30px) saturate(180%);border-bottom:.5px solid var(--ln);transition:opacity .4s var(--ease)}
+#tiles{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:6px}
+.tile .k{white-space:nowrap}
+.stfoot{grid-column:1/-1;display:flex;align-items:center;gap:6px;padding:4px 6px 2px;font:500 11px/1 -apple-system,sans-serif;color:var(--tx3)}
+.stfoot .inote{margin:0}
+.stfoot .wupd{margin-left:auto}
+#tiles:not(#z){margin-bottom:0!important}
+@media (min-width:744px){#tiles{gap:14px;margin:14px 0 6px;padding:4px 0}}
+@media (min-width:744px) and (hover:hover) and (pointer:fine){#list .card,.box.glass,.tile,.flag,.lrb,.ct{transition:transform .35s var(--ease),box-shadow .35s var(--ease)}.tile:hover{transform:translateY(-2px)}}
+.tiles .tile{min-width:0;overflow:hidden}
+.tiles .tile .n{font-variant-numeric:tabular-nums;white-space:nowrap}
+.tiles{transition:none}
+html.wm-pinhost .tiles{visibility:hidden}
+html.ga-pinwait #tiles{visibility:visible!important}

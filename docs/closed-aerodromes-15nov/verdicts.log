@@ -1,0 +1,42 @@
+depart before 640 {"go":189,"nogo":211,"caution":188,"heli":52} WM_COUNTS {"all":588,"go":189,"caution":188,"nogo":211,"none":0}
+depart after 582 {"go":181,"nogo":182,"caution":167,"heli":52} WM_COUNTS {"all":530,"go":181,"caution":167,"nogo":182,"none":0}
+depart remaining 582 verdict diffs 0
+land0 before 640 {"go":189,"nogo":211,"caution":188,"heli":52} WM_COUNTS {"all":588,"go":189,"caution":188,"nogo":211,"none":0}
+land0 after 582 {"go":181,"nogo":182,"caution":167,"heli":52} WM_COUNTS {"all":530,"go":181,"caution":167,"nogo":182,"none":0}
+land0 remaining 582 verdict diffs 0
+land1 before 640 {"go":115,"nogo":302,"caution":171,"heli":52} WM_COUNTS {"all":588,"go":115,"caution":171,"nogo":302,"none":0}
+land1 after 582 {"go":110,"nogo":262,"caution":158,"heli":52} WM_COUNTS {"all":530,"go":110,"caution":158,"nogo":262,"none":0}
+land1 remaining 582 verdict diffs 0
+land2 before 640 {"go":145,"nogo":292,"caution":151,"heli":52} WM_COUNTS {"all":588,"go":145,"caution":151,"nogo":292,"none":0}
+land2 after 582 {"go":140,"nogo":254,"caution":136,"heli":52} WM_COUNTS {"all":530,"go":140,"caution":136,"nogo":254,"none":0}
+land2 remaining 582 verdict diffs 0
+land3 before 640 {"go":152,"nogo":249,"caution":187,"heli":52} WM_COUNTS {"all":588,"go":152,"caution":187,"nogo":249,"none":0}
+land3 after 582 {"go":146,"nogo":211,"caution":173,"heli":52} WM_COUNTS {"all":530,"go":146,"caution":173,"nogo":211,"none":0}
+land3 remaining 582 verdict diffs 0
+status-vs-aero {"aerodromes":{"all":530,"go":181,"caution":167,"nogo":182,"none":0},"statusBar":{"go":181,"caution":167,"nogo":182},"nA":582,"nS":{"cards":582,"allCards":0}} diff 0
+SUMMARY {
+  "remaining": 582,
+  "beforePublic": 640,
+  "verdictDiffs": {
+    "depart": 0,
+    "land0": 0,
+    "land1": 0,
+    "land2": 0,
+    "land3": 0
+  },
+  "totalDiffs": 0,
+  "jsErrors": {
+    "before-depart": 0,
+    "after-depart": 0,
+    "before-land0": 0,
+    "after-land0": 0,
+    "before-land1": 0,
+    "after-land1": 0,
+    "before-land2": 0,
+    "after-land2": 0,
+    "before-land3": 0,
+    "after-land3": 0,
+    "after-status-aero": 0,
+    "after-status": 0
+  }
+}

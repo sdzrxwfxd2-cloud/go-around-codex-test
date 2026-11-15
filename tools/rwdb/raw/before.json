@@ -1,0 +1,10 @@
+{
+ "source": "live b0496a909 / deploy 3f5a2a85, measured 15 Nov 2026 (diag-incomplete-15nov/datacov-prod.json)",
+ "aerodromes": 588,
+ "with_any_heading": 146,
+ "with_heading_from_aip_set": 63,
+ "with_heading_only_from_designator_x10": 83,
+ "no_heading": 442,
+ "with_elevation": 523,
+ "no_elevation": 65
+}

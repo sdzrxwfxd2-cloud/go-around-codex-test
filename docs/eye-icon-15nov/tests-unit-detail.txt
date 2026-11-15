@@ -1,0 +1,335 @@
+======= engine-v2 unit =======
+-- tests/engine-v2/arrive-share.test.mjs
+✔ E-04: a fresh frame reads the saved Arrive time (+2h) (2.536016ms)
+✔ E-04: the list frame follows a Status pick through 'storage' and re-runs (wm:phase) (0.800857ms)
+✔ E-04: an old save (over 60 min) or a time already past means Now (0.985425ms)
+✔ no custom time: a saved custom arrive time (old 'at') falls back to Now, on load and on 'storage' (1.086856ms)
+✔ no custom time: offsets are clamped to 0..3 hours (nothing beyond +3h) (2.24467ms)
+✔ no custom time: phase.js has no time input or 'Pick time' control (0.332599ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13.48344
+-- tests/engine-v2/compare.test.mjs
+✔ old (live 2.3.2) vs new engine: every difference is planned (E-02 / E-08 / WIND-FILL / STALE-WIND / VIS-VRB / TAF-MODEL-FILL / DA-INFO / TAF-EARLY) and listed (2448.803614ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2456.48828
+-- tests/engine-v2/da-limit.test.mjs
+640-card DA limit: {"cards":640,"skipped":0,"caut2500":254,"caut3000":3,"split":251,"daNogo":0}
+✔ clampDaLimit: default 2500, 1500–6000 in 500 steps, invalid falls back (0.632685ms)
+✔ ON at 2500 is CAUTION and ON at 3000 is not, for DA ~2769 ft above the field (14.600824ms)
+✔ 640 cards: DA ON at 2500 vs 3000, never a NO-GO from DA, Status==engine (51.769769ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 73.918926
+-- tests/engine-v2/night-land-steps.test.mjs
+✔ Land +0h, no night rating: engine no night finding, pill follows (5.684561ms)
+✔ Land +0h, night rating on: no night caution and no pill (1.221034ms)
+✔ Land +0h, card has no verdict yet: the pill uses the engine sun at the arrival time (0.757952ms)
+✔ Land +1h, no night rating: engine CAUTION night arrival, pill follows (2.105857ms)
+✔ Land +1h, night rating on: no night caution and no pill (0.831856ms)
+✔ Land +1h, card has no verdict yet: the pill uses the engine sun at the arrival time (0.580738ms)
+✔ Land +2h, no night rating: engine CAUTION night arrival, pill follows (0.801781ms)
+✔ Land +2h, night rating on: no night caution and no pill (0.774891ms)
+✔ Land +2h, card has no verdict yet: the pill uses the engine sun at the arrival time (0.668035ms)
+✔ Land +3h, no night rating: engine CAUTION night arrival, pill follows (0.891447ms)
+✔ Land +3h, night rating on: no night caution and no pill (0.752486ms)
+✔ Land +3h, card has no verdict yet: the pill uses the engine sun at the arrival time (0.618942ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 24.939609
+-- tests/engine-v2/night-pill.test.mjs
+✔ engine profile night ON, old profile night OFF: no pill (FAAE case) (3.493105ms)
+✔ engine verdict has POL-NIGHT-UNSELECTED: pill shown even if the old profile says night on (0.691127ms)
+✔ no engine verdict (incomplete): engine profile + engine sun decide (1.940451ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11.323674
+-- tests/engine-v2/summary-labels.test.mjs
+✔ every engine key has a plain-words label (no raw keys like 'low', 'ws', 'g') (0.832822ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5.160504
+-- tests/engine-v2/time-steps.test.mjs
+✔ +3h: a strong wind forecast at 13:00 UTC makes +3h NO LAND while Now stays LAND (model only, no TAF) (3.972097ms)
+✔ +1h, +2h, +3h: the worst hour inside ETA ±1 h wins, and an hour outside it never counts (1.144972ms)
+✔ E-02 regression: with only the weather of now, a +2h or +3h arrival is NOT judged on the weather of now (0.238073ms)
+✔ a TAF covering the window still wins over the model, as before (1.242087ms)
+✔ Depart and land Now are untouched by modelHours (0.257914ms)
+✔ a forecast hour is usable while its run is younger than 180 min, and not after (1.845518ms)
+✔ night at the arrival time still decides, with the window hours judged (0.489573ms)
+✔ E-08: a limit reason for a later arrival says 'at arrival', not 'now' (1.431863ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15.777007
+-- tests/engine-v2/wind-card.test.mjs
+✔ wind text: real values, VRB, calm, and '—' for unknown (never undefined° / 000° / fake Calm) (5.703092ms)
+✔ card row: painted from the verdict's wind — no source tag, unknown is '—' (7.119249ms)
+✔ wst-card fillModel: model with no wind shows '—', no direction shows '—°' (both copies) (1.030969ms)
+✔ fv3 never hides the Wind row (0.418652ms)
+✔ paintWind does not put a METAR / TAF / Model tag on the Wind row (0.430163ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14782.935891
+-- tests/engine-v2/wind-display.test.mjs
+✔ E-03: no list or status page, and no script, under site/ formats a METAR wind with String(m.wdir).padStart (78.937224ms)
+✔ E-03b: the generated aerodrome pages (site/ad, site/c/ad, fact.html) still print 'undefined°' — fix in their generator (0.086143ms) # TODO
+✔ E-03: the card formatter shows '—' for no wind group, VRB, calm and gusts correctly (0.928945ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 1
+ℹ duration_ms 83.894051
+-- tests/engine-v2/wind-fill.test.mjs
+✔ MT test case: METAR wind missing + TAF 25020 at FACT -> NO DEPART, ~19 kt crosswind, wind from TAF (5.50789ms)
+✔ fill from TAF: AUTO, no wind group, depart now (1.490744ms)
+✔ fill from TAF: AUTO, no wind group, land +0h (0.373217ms)
+✔ fill from TAF: AUTO, no wind group, land +1h (0.342963ms)
+✔ fill from TAF: AUTO, no wind group, land +2h (0.304281ms)
+✔ fill from TAF: AUTO, no wind group, depart ETD+2h (0.261387ms)
+✔ fill from TAF: /////KT, depart now (0.279145ms)
+✔ fill from TAF: /////KT, land +0h (0.273477ms)
+✔ fill from TAF: /////KT, land +1h (0.3467ms)
+✔ fill from TAF: /////KT, land +2h (0.388937ms)
+✔ fill from TAF: /////KT, depart ETD+2h (0.223297ms)
+✔ fill from TAF: stale 75 min, no wind, depart now (0.22465ms)
+✔ fill from TAF: stale 75 min, no wind, land +0h (0.183145ms)
+✔ fill from TAF: stale 75 min, no wind, land +1h (0.133561ms)
+✔ fill from TAF: stale 75 min, no wind, land +2h (0.13628ms)
+✔ fill from TAF: stale 75 min, no wind, depart ETD+2h (0.124352ms)
+✔ fill from TAF: NOSIG trend, no wind, depart now (0.181758ms)
+✔ fill from TAF: NOSIG trend, no wind, land +0h (0.160486ms)
+✔ fill from TAF: NOSIG trend, no wind, land +1h (0.145924ms)
+✔ fill from TAF: NOSIG trend, no wind, land +2h (0.137603ms)
+✔ fill from TAF: NOSIG trend, no wind, depart ETD+2h (0.11786ms)
+✔ fill from TAF: AWC row with no wdir/wspd, depart now (0.188677ms)
+✔ fill from TAF: AWC row with no wdir/wspd, land +0h (0.142238ms)
+✔ fill from TAF: AWC row with no wdir/wspd, land +1h (0.141257ms)
+✔ fill from TAF: AWC row with no wdir/wspd, land +2h (0.11138ms)
+✔ fill from TAF: AWC row with no wdir/wspd, depart ETD+2h (0.097049ms)
+✔ no TAF -> model wind, labelled 'wind from model', model margins apply (1.754703ms)
+✔ model margin applies to a model-filled wind (borderline 14 kt xw -> caution, not NO DEPART) (0.252557ms)
+✔ TAF period without wind -> model wind (0.977162ms)
+✔ no wind anywhere -> CAUTION 'Wind not reported' (POL-WIND-MISSING) stays (0.249885ms)
+✔ METAR wind present is never overridden by the TAF or model (0.204036ms)
+✔ old model (over 180 min) is not used for the fill (0.175433ms)
+✔ visibility: VRB and ///// wind groups no longer hide the vis group (0.207804ms)
+✔ visibility: AWC '6+' is 10 km or more and meets a 10 km personal limit (0.317834ms)
+✔ stale METAR (75 min) with calm wind + TAF 25020 -> wind from TAF, NO DEPART, note says the METAR wind was replaced (0.294412ms)
+✔ stale METAR with wind, no TAF -> model wind, labelled 'wind from model' (0.201728ms)
+✔ stale METAR with wind, TAF without wind -> model wind (0.182539ms)
+✔ stale METAR with wind, no TAF and no model -> the METAR wind is kept (not 'Wind not reported') (0.125456ms)
+✔ stale METAR with wind, model too old -> METAR wind kept (0.131746ms)
+✔ fresh METAR (10 min) with wind is NOT replaced even with TAF 25020 (0.140005ms)
+✔ fresh METAR (59 min) with wind is NOT replaced even with TAF 25020 (0.103422ms)
+✔ fresh METAR (60 min) with wind is NOT replaced even with TAF 25020 (0.090755ms)
+✔ stale METAR with gusty wind replaced by a calmer TAF wind: gust no longer judged from the old METAR (0.223146ms)
+✔ stale METAR with VRB wind -> TAF wind replaces it (0.180204ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 44
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 28.517477
+-- tests/engine-v2/wire.test.mjs
+✔ E-01: before phase.js has set WMPHASE, 640 verdicts in one loop search the page once, not 640 times (12.481779ms)
+✔ E-01: the answer is unchanged — stored 'land' wins, a pressed LAND button counts, otherwise DEPART (5.000395ms)
+✔ E-01: once WMPHASE exists it is used directly and the page is never searched (2.107844ms)
+✔ STEP 4 / E-05: old vs new wire on all 640 points of a wx-now copy — Depart and Land Now verdicts identical (152.357213ms)
+✔ E-10: the verdict cache answers the same input from memory, and new weather or a new minute is worked out again (3.602369ms)
+✔ E-10: the wire source keeps the precompute override inside a try/finally and never writes cards while warming (0.363346ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 20074.679071
+======= engine-v2 run.js =======
+OK 175 rule cases (73 locked rules + 57 wind / model / freshness cases + 10 visibility-fill cases + 10 night-arrival / TEMPO-wind cases + 11 gust-cap / CAVOK-vis cases + 5 DA-limit cases) plus lock and night-definition checks
+Rule pack 2.5.0 checksum 90d2ba46f3478c597c502d607193a4a3e072962da4eedace4b0d3131a3922cb1
+run.js rc=0
+======= safety =======
+-- tests/safety/awc_coverage.test.mjs
+✔ the site's aerodromes that AWC missed in the bbox on 13 Nov are asked for by id (2.56678ms)
+✔ mergeAwc: union of bbox and id replies; METAR newest per station; TAF newest issue per station (0.843261ms)
+✔ fetchAwc: a chunk that fails twice is reported as partial, the rest still lands; a 502 once is retried (21.749335ms)
+✔ free-plan budget: worst case AWC + Open-Meteo subrequests per tick stay well under 50 (0.131169ms)
+﹣ live AWC (AWC_LIVE=1): the union covers every station AWC reports for the site; FALA / FAWB have METAR and TAF (0.068598ms) # SKIP
+ℹ tests 5
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 1
+ℹ todo 0
+ℹ duration_ms 30.230709
+-- tests/safety/baked_purge.test.mjs
+✔ wst-data.js (and its /c copy) carry the 65 aerodromes but no METAR, TAF or model weather (23.957604ms)
+✔ wst-cards-data.js: no baked METAR / TAF text, weather values, verdicts or flight-category chips (12.113214ms)
+✔ purge(): METAR > 3 h, TAF not valid now and model current > 180 min are removed; fresh data stays (5.516564ms)
+✔ purge runs before every 'wst:data' listener (window, capture phase) and on each status pass (6.745456ms)
+✔ the clock moving on purges data that was fresh at load (1.891403ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 54.472211
+-- tests/safety/metar_blind.test.mjs
+✔ AUTO METAR with no visibility and no cloud: no METAR GO (was GO live on FAWB / FAWK when a model fills the visibility) (31.042485ms)
+✔ visibility reported but cloud '//////' only: no METAR GO (2.618281ms)
+✔ an AUTO METAR showing a hazard keeps its verdict (low cloud with visibility missing) (3.103813ms)
+✔ a complete METAR still decides (positive control) (5.880659ms)
+✔ visibility missing but cloud reported: the engine's own TAF / model visibility fill decides, METAR stays the source (2.053182ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 50.40644
+-- tests/safety/now_file.contract.test.mjs
+✔ every hour of the now file has FZL now/next and temperature now/next (DA trend), with the full copy behind it (35.047075ms)
+✔ past the now file's hours the full copy answers; it never re-serves the now file's last hour (12.06254ms)
+✔ a copy fetched more than 180 min ago, or with no row for the hour in force, serves nothing (no row[0] fallback) (3.484056ms)
+✔ elevation for the DA pill comes from the copy point without any freshness rule (2.368466ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 56.707443
+-- tests/safety/null_safety.test.mjs
+✔ obsOf (METAR): missing wind / temperature / QNH stay null, never 0 (19.515583ms)
+✔ obsOf (model): null wind, gust, temperature, QNH stay null; an hour older than 180 min gives no observation (0.90038ms)
+✔ WST.da: ISA at pressure altitude (same as the calculator and the DA pill), null in -> null out (0.809359ms)
+✔ card scripts: no formatting of a raw value that can be null (1.19292ms)
+✔ wire: a card wx snapshot with null wind gives ws null (not 0 kt) (0.423101ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 28.034873
+-- tests/safety/taf_validity.test.mjs
+✔ tafWindow anchors ddhh/ddhh to the issue time, across month ends and hour 24 (22.249453ms)
+✔ tafValid: valid now, expired, issued > 30 h ago, the 21 Oct baked TAF on 13 Nov (1.767892ms)
+✔ the 21 Oct baked CAVOK TAF never gives FALA a TAF verdict on 13 Nov (was GO, 'TAF covering now') (5.343631ms)
+✔ a valid CAVOK TAF still gives a TAF verdict (positive control) (2.989479ms)
+✔ CAVOK only in a later BECMG is not CAVOK now: the low cloud in force decides (2.630187ms)
+✔ a TAF answer outside the TAF's own window is re-run without the TAF (2.252369ms)
+✔ early TAF: a TAF issued before now whose first period starts within 3 h is used, marked early, as a CAUTION (5.323169ms)
+✔ a segment in force with no visibility or cloud is not CAVOK because a later BECMG says CAVOK (was a fabricated GO) (2.178069ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 49.369289
+======= deeplink/gps/search =======
+deeplink-route: ok
+deeplink rc=0
+gps-near-me: ok
+gps rc=0
+search-glow: ok (always on, composited, rests only while the overlay is hidden, reduced motion respected)
+search-glow rc=0
+======= vbump --check =======
+vbump --check: every ?v= is current
+vbump rc=0
+======= perf-budget =======
+page:index.html:html_br                  47697
+page:index.html:assets                   29
+page:index.html:assets_br                118740
+page:main.html:html_br                   62344
+page:main.html:assets                    53
+page:main.html:assets_br                 308404
+page:c/main.html:html_br                 89777
+page:c/main.html:assets                  31
+page:c/main.html:assets_br               196287
+page:c/app.html:html_br                  90870
+page:c/app.html:assets                   29
+page:c/app.html:assets_br                426486
+page:calculator.html:html_br             47339
+page:calculator.html:assets              37
+page:calculator.html:assets_br           214514
+page:pilot.html:html_br                  47718
+page:pilot.html:assets                   37
+page:pilot.html:assets_br                211758
+page:library.html:html_br                52605
+page:library.html:assets                 39
+page:library.html:assets_br              219505
+page:ad/FAOR.html:html_br                89670
+page:ad/FAOR.html:assets                 26
+page:ad/FAOR.html:assets_br              434180
+page:c/ad/FAOR.html:html_br              89622
+page:c/ad/FAOR.html:assets               23
+page:c/ad/FAOR.html:assets_br            436669
+max_js_css_br                            292335
+max_ad_page_raw                          336483
+whole_page_watchers                      62
+stale_v_refs                             0
+headers_duplicate_paths                  0
+headers_rules                            62
+routes_json_valid                        1
+biggest js/css: c/rwy/rwy-data.js | biggest aerodrome page: ad/FAOR.html
+whole-page watchers in: {"app.html":4,"appdata/app-data.33b6393b1c.js":1,"brief.html":4,"c/app.html":2,"c/appdata/app-code.03838b9873.js":1,"c/appdata/app-data.51cdd70f78.js":1,"c/main.html":2,"c/wst/wq.js":2,"calculator.html":4,"demos/library-a.html":4,"demos/library-b.html":4,"fact.html":2,"ga-nav-collapse.js":1,"ga-nav-pill.js":1,"library.html":4,"logbook.html":4,"main.html":2,"pilot.html":4,"status_demo.html":3,"wm-adback.js":1,"wm-shell-big.js":1,"wm-shell-merge.js":3,"wm-shell.js":1,"wm-still.js":1,"wst/wq.js":1,"ad/FAOR.html":2,"c/ad/FAOR.html":2}
+
+perf budget: ok (34 limits)
+budget rc=0
+DONE_UNIT

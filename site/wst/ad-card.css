@@ -1,0 +1,179 @@
+/* Aerodrome card v3 (MT locked 13 Nov 2026). main.html's ONE card stylesheet: replaces c/wst/ad-types.css on main.html
+   (other pages keep it) and the pill / Model-tag styles wst-card.js used to inject. Markup: wst-card.js (pills),
+   c/wst/ad-types.js (warning row), wm-final.js (reason), wst/ad-card.js (VFR · VMC chip, i note rows, name fit).
+   Locked: status #22C55E / #FF8A00 / #F80F3B, ease cubic-bezier(.32,.72,0,1), 20 px card rails.
+   A declaration carries !important only where an older shared stylesheet (wq.css, fs.css, wm-glass.css, main.html's base
+   block) sets the same property with !important; nothing in this file overrides another rule in this file. */
+
+/* ---------- 0. tokens ---------- */
+:root{--ad-ease:cubic-bezier(.32,.72,0,1);--ad-pill:112px;
+ --ad-sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display",Inter,"Helvetica Neue",sans-serif;
+ /* flight-condition words, one token each. Dark themes: live hues, IFR / LIFR text lifted to pass 4.5:1 on Midnight / Amethyst glass */
+ --fc-VFR:#22C55E;--fc-MVFR:#3B82F6;--fc-IFR:#FA4D6E;--fc-LIFR:#D05EDE;--fc-VMC:#22C55E;--fc-IMC:#FA4D6E;--ad-amber:#FF8A00}
+/* Pearl, Champagne (1C): text-only darkening of the same hue; icons, borders and glows keep the exact status colours */
+html[data-theme=day]{--fc-VFR:color-mix(in srgb,#22C55E 58%,#000);--fc-MVFR:color-mix(in srgb,#3B82F6 74%,#000);--fc-IFR:color-mix(in srgb,#F80F3B 80%,#000);
+ --fc-LIFR:color-mix(in srgb,#C026D3 86%,#000);--fc-VMC:var(--fc-VFR);--fc-IMC:var(--fc-IFR);--ad-amber:color-mix(in srgb,#FF8A00 58%,#000)}
+
+/* ---------- 1. header: name gets the full width minus the pill; the verdict pill sits at ONE spot (top 24, right 20, 112 × 28) ---------- */
+#list>article.card{position:relative}
+#list>article.card>.ch{display:block;position:static}
+#list>article.card>.ch>.t{position:relative;z-index:1;display:block;width:auto;max-width:none;min-width:0;padding:0;box-sizing:border-box}
+/* the pill's footprint (112 + 12 px wide, down to its bottom edge 52 px from the card top) is a float, so name lines beside the pill
+   stop short of it and any line below it uses the full width */
+#list>article.card>.ch h2::before{content:"";float:right;width:calc(var(--ad-pill) + 12px);height:32px}
+#list>article.card>.ch h2{height:auto;min-height:0;max-height:none;margin:0;display:block;overflow:visible;font:700 20px/23px Satoshi,-apple-system,sans-serif;letter-spacing:-.02em;white-space:normal}
+#list>article.card>.ch h2 .nm{display:block;overflow:visible;text-overflow:clip;text-wrap:balance;overflow-wrap:break-word;font:inherit;font-size:var(--ad-nm,20px);line-height:var(--ad-lh,23px)}
+#list>article.card>.ch>.badge{position:absolute;top:24px;right:20px;left:auto;bottom:auto;margin:0;width:var(--ad-pill);min-width:var(--ad-pill);max-width:var(--ad-pill);height:28px;box-sizing:border-box;justify-content:center;z-index:2}
+/* 1C: light-theme verdict text (green 62 %, amber 64 %) passes 4.5:1 on the tinted pill; NO DEPART / NO LAND use the IFR text token */
+html[data-theme=day] #list>article.card[data-s=go]>.ch>.badge{color:color-mix(in srgb,#22C55E 62%,#000)}
+html[data-theme=day] #list>article.card[data-s=caution]>.ch>.badge{color:color-mix(in srgb,#FF8A00 58%,#000)}
+#list>article.card[data-s=nogo]>.ch>.badge{color:var(--fc-IFR)}
+html[data-theme=day] #list>article.card[data-s=nogo]>.ch>.badge{color:color-mix(in srgb,#F80F3B 70%,#000)}
+html[data-theme=day] #list>article.card[data-s=go]>.ch>.badge svg{color:#22C55E;stroke:#22C55E}
+html[data-theme=day] #list>article.card[data-s=caution]>.ch>.badge svg{color:#FF8A00;stroke:#FF8A00}
+#list>article.card[data-s=nogo]>.ch>.badge svg{color:#F80F3B;stroke:#F80F3B}
+#list>article.card[data-s=incomplete]>.ch>.badge::before{content:none;display:none}
+#list>article.card[data-s=incomplete]>.ch>.badge{gap:6px;text-align:center}
+#list>article.card>.ch .t .sub{display:flex;align-items:center;justify-content:flex-start;gap:8px;width:max-content;max-width:100%;height:19px;margin:6px 0 0;overflow:visible}
+#list .card .ad-type,#list .card .mtag,#list .card .ch .ad-corner{display:none}
+/* warning row under the ICAO, only on Military and Near-prohibited-area cards (no airfield-type label, MT t290u); wraps rather than clipping */
+#list>article.card>.ch>.ad-tr{position:relative;z-index:1;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;min-height:16px;margin:6px 0 0;font:600 12px/16px var(--ad-sans);letter-spacing:.01em;color:var(--tx2)}
+#list>article.card>.ch>.ad-tr .d{font-weight:500;color:var(--ad-mute)}
+#list>article.card>.ch>.ad-tr .w-mil{font-weight:700;letter-spacing:.02em;color:#FF4D6A;text-shadow:0 0 6px rgba(225,29,72,.55),0 0 14px rgba(225,29,72,.35)}
+html[data-theme=night][data-pal=purple] #list>article.card>.ch>.ad-tr .w-mil{color:#FF7A92;text-shadow:0 0 8px rgba(255,90,120,.7),0 0 18px rgba(225,29,72,.45)}
+html[data-theme=day] #list>article.card>.ch>.ad-tr .w-mil{color:#C0102E;text-shadow:0 0 5px rgba(192,16,46,.3)}
+
+/* Military card (#352): theme glass + steady status glow; hazard-stripe ICAO at the normal 19 px height */
+#list>article.card.ad-mil-pro{border-radius:18px;background:var(--gl)!important;background-image:none!important;color:var(--tx);
+ -webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);box-shadow:inset 0 1px 0 var(--hl),inset 0 0 0 .5px var(--ln),var(--sh,0 10px 28px -12px rgba(0,0,0,.45))!important}
+#list>article.card.ad-mil-pro::before{content:none!important;display:none!important}
+#list>article.card.ad-mil-pro::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:0;animation:none!important;opacity:.72;
+ background:radial-gradient(60px 60px at 0 0,color-mix(in srgb,var(--c) 26%,transparent),transparent 70%),radial-gradient(60px 60px at 100% 0,color-mix(in srgb,var(--c) 26%,transparent),transparent 70%),radial-gradient(60px 60px at 0 100%,color-mix(in srgb,var(--c) 26%,transparent),transparent 70%),radial-gradient(60px 60px at 100% 100%,color-mix(in srgb,var(--c) 26%,transparent),transparent 70%)!important;
+ box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--c) 30%,transparent),inset 0 0 26px -6px var(--c)!important}
+#list>article.card.ad-mil-pro[data-s=incomplete]::after,#list>article.card.ad-mil-pro[data-s=none]::after{opacity:.42}
+#list>article.card.ad-mil-pro>.ch>.badge{animation:none!important}
+#list>article.card.ad-mil-pro>*:not(.ch){position:relative;z-index:1}
+#list>article.card.ad-mil-pro .ch .sub{color:var(--tx2)!important;text-shadow:none!important}
+#list>article.card.ad-mil-pro .ch .icao{display:inline-flex!important;align-items:center;justify-content:center;height:19px;line-height:19px;padding:0 7px!important;box-sizing:border-box;border-radius:4px!important;
+ background:repeating-linear-gradient(-45deg,#1a0508 0 6px,#7a0f1a 6px 12px)!important;color:#FFE4E6!important;font-weight:800!important;letter-spacing:.08em!important;
+ box-shadow:inset 0 0 0 1.5px #E11D48,0 0 16px rgba(225,29,72,.5)!important;text-shadow:0 1px 2px rgba(0,0,0,.6)!important;-webkit-background-clip:border-box!important;filter:none!important}
+
+/* ---------- 2. reason line (verdict word not repeated; time inline, never alone on a line) ---------- */
+#list>article.card>.why{margin-top:12px;color:color-mix(in srgb,var(--tx) 54%,transparent)}
+html[data-theme=day] #list>article.card>.why{color:color-mix(in srgb,var(--tx) 60%,transparent)}
+#list>article.card>.why .why-t{white-space:nowrap}
+#list>article.card>.wq-nn{display:none} /* wq.js's engine marker; shown as the red Day/Night pill */
+
+/* ---------- 3. weather row: temp · 3 lines · runway on ONE midline, one sans, tabular numbers ---------- */
+/* °C to weather column spacing (MT t295u): one 14px column gap; main.html's older translateX(-8px) on .wxd is cancelled below.
+   Source labels live in the i note, not on the card; .wxrow sits under .why (later compact CSS already gives it margin-top:8px).
+   .wxd lines wrap (no nowrap ellipsis) so Wind, Vis and QNH never clip at 390 or 1440 beside the 88×88 runway. */
+#list>article.card>.wxrow{display:grid;grid-template-columns:max-content minmax(0,1fr) 88px;gap:0 14px;align-items:center;margin:0 0 12px;min-height:88px}
+#list>article.card>.wxrow>.rwd{width:88px;height:88px;flex:none}
+html #list>article.card>.wxrow>.wxd{transform:none;width:auto;max-width:none;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:4px;align-self:center;margin:0 6px 0 0;font-size:11.5px;letter-spacing:-.005em;white-space:normal;overflow-wrap:break-word}
+html #list>article.card>.wxrow>.wxd>span{display:block;height:auto;min-height:18px;line-height:16px;white-space:normal;overflow:visible;overflow-wrap:break-word;text-overflow:clip;min-width:0}
+#list>article.card>.wxrow .temp,#list>article.card>.wxrow>.wxd,#list>article.card>.wxrow>.wxd b{font-family:var(--ad-sans);font-variant-numeric:tabular-nums}
+#list>article.card>.wxrow .temp{display:block;width:auto;max-width:none;white-space:nowrap;letter-spacing:-.04em;line-height:46px}
+#list>article.card>.wxrow .temp sup{letter-spacing:0}
+#list>article.card>.wxrow>.wxd b{font-weight:600;letter-spacing:-.005em}
+#list>article.card>.wxrow>.wxd [data-ad-empty]{display:block;visibility:visible}
+
+/* ---------- 4. pills: Day/Night, FZL, DA on one 4-column spec (icon · label · col 2 · col 3), columns shared by subgrid ---------- */
+#list>article.card>.wpills{display:grid;grid-template-columns:26px minmax(0,1fr) auto auto;column-gap:6px;row-gap:6px;margin:4px 0 14px;--wp-ar:var(--ad-mute)}
+#list>article.card>.wpills>div{grid-column:1/-1;display:grid;grid-template-columns:subgrid;column-gap:6px;align-items:center;height:30px;box-sizing:border-box;margin:0;padding:0;border-radius:15px;
+ font:500 11.5px/1.2 var(--ad-sans);font-variant-numeric:tabular-nums;letter-spacing:-.005em;color:var(--tx2);white-space:nowrap;overflow:hidden;min-width:0;
+ background:var(--gl);box-shadow:inset 0 1px 0 var(--hl),inset 0 0 0 .5px var(--ln)}
+/* subgrid tracks own the 11 px rails: track 1 = 11 px rail + 15 px icon, the last column carries the right rail */
+#list>article.card>.wpills>div>svg:first-child{display:block;width:15px;height:15px;flex:none;margin-left:11px}
+#list>article.card>.wpills>div>.wp-c3{padding-right:11px}
+#list>article.card>.wpills>.wfzl2>svg:first-child{filter:drop-shadow(0 0 3px rgba(220,230,245,.85)) drop-shadow(0 0 8px rgba(190,210,235,.55))}
+html[data-theme=day] #list>article.card>.wpills>.wfzl2>svg:first-child{filter:drop-shadow(0 .4px .4px rgba(20,30,50,.28))}
+html[data-theme=day] #list>article.card>.wpills>.wfzl2>svg:first-child,html[data-theme=day] #list>article.card>.wpills>.wfzl2>svg:first-child *{stroke:#2F3E56}
+html[data-theme=day] #list>article.card>.wpills>.wsun2>svg:first-child path[fill]{fill:#33436C}
+#list>article.card>.wpills b{color:var(--tx);font-weight:600}
+#list>article.card>.wpills .wp-c1{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:inherit;line-height:1.2}
+#list>article.card>.wpills .wp-c2,#list>article.card>.wpills .wp-c3{display:flex;justify-content:flex-end;white-space:nowrap;font:inherit;line-height:1.2;color:var(--ad-mute)}
+#list>article.card>.wpills .v{display:inline-flex;align-items:center;gap:3px}
+/* the ONE arrow: same 9 px glyph, 1.6 stroke and colour in Day/Night (sunrise / sunset), FZL and DA (trend); direction = rotation only.
+   --wp-ar is resolved once on .wpills, so a pill that re-declares --tx3 cannot give its arrows a different colour */
+#list>article.card>.wpills svg.wp-ar{display:block;width:9px;height:9px;flex:none;fill:none;stroke:var(--wp-ar);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;filter:none!important;transform-origin:50% 50%} /* wq.css gives every ".card .wsun2 svg" an icon glow with !important; arrows are not icons */
+#list>article.card>.wpills svg.wp-ar-dn{transform:rotate(180deg)}
+#list>article.card>.wpills svg.wp-ar-fl{transform:rotate(90deg)}
+/* high DA (above the 2 500 ft policy): amber value + amber hairline; AMSL and trend stay neutral */
+#list>article.card>.wpills .wp-warn{color:var(--ad-amber);font-weight:600;letter-spacing:0}
+#list>article.card>.wpills>.wda2.wp-dahi{box-shadow:inset 0 1px 0 var(--hl),inset 0 0 0 1px color-mix(in srgb,#FF8A00 45%,transparent),inset 0 0 14px -6px #FF8A00}
+/* red night pill (2A, approved geometry): ONE centred flex row, icon + text, no column cells; icon and text centred at cy 15 */
+#list>article.card>.wpills>.wsun2.wp-night>svg:first-child{margin-left:0}
+#list>article.card>.wpills>.wsun2.wp-night{position:relative;display:flex;align-items:center;justify-content:center;gap:7px;padding:0 12px;color:var(--tx);
+ background:color-mix(in srgb,#F80F3B 10%,var(--gl));box-shadow:inset 0 1px 0 var(--hl),inset 0 0 0 1px color-mix(in srgb,#F80F3B 42%,transparent),inset 0 0 16px -4px #F80F3B}
+html[data-theme=day] #list>article.card>.wpills>.wsun2.wp-night{background:color-mix(in srgb,#F80F3B 7%,var(--gl));box-shadow:inset 0 1px 0 var(--hl),inset 0 0 0 1px color-mix(in srgb,#F80F3B 38%,transparent),inset 0 0 12px -5px #F80F3B}
+#list>article.card>.wpills>.wsun2.wp-night>.cd{display:block;flex:0 1 auto;min-width:0;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#list>article.card>.wpills>.wsun2.wp-night>*{position:relative;z-index:1}
+#list>article.card>.wpills>.wsun2.wp-night::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;animation:breathe 5.5s ease-in-out infinite;
+ background:radial-gradient(40px 30px at 0 50%,color-mix(in srgb,#F80F3B 26%,transparent),transparent 70%),radial-gradient(40px 30px at 100% 50%,color-mix(in srgb,#F80F3B 26%,transparent),transparent 70%)}
+html[data-theme=day] #list>article.card>.wpills>.wsun2.wp-night::after{background:radial-gradient(40px 30px at 0 50%,color-mix(in srgb,#F80F3B 16%,transparent),transparent 70%),radial-gradient(40px 30px at 100% 50%,color-mix(in srgb,#F80F3B 16%,transparent),transparent 70%)}
+#list>article.card>.wpills>.wsun2.wp-night .wp-warn{color:#FF5C7A}
+html[data-theme=day] #list>article.card>.wpills>.wsun2.wp-night .wp-warn{color:#D90B32}
+#list>article.card>.wpills>.wsun2.wp-night>svg:first-child path{fill:#FF8FA3}
+html[data-theme=day] #list>article.card>.wpills>.wsun2.wp-night>svg:first-child path{fill:#D90B32}
+@media (prefers-reduced-motion:reduce){#list>article.card>.wpills>.wsun2.wp-night::after{animation:none;opacity:.6}}
+/* phones ≤ 400 px (350 px card): 11 px pill text so label + two columns fit without clipping */
+@media (max-width:400px){#list>article.card>.wpills>div{font-size:11px}}
+
+/* ---------- 5. tab row: tabs, VFR · VMC chip and i on one 40 px midline ---------- */
+#list>article.card .crow{display:flex;align-items:center;gap:8px;height:40px}
+#list>article.card .crow .csw button{line-height:1.2;display:flex;align-items:center;justify-content:center}
+#list>article.card .crow>.wfc{margin-left:auto}
+#list>article.card .crow>.fcb2{display:flex;align-items:center;gap:6px;min-width:0;margin-left:0}
+#list>article.card .crow>.fcb2>.fbadge{display:none!important} /* weather-pills.js injects [data-flight-icon]{display:inline-flex!important} */
+#list>article.card .crow .inote{display:inline-flex;align-items:center;justify-content:center;line-height:1}
+/* VFR · VMC: display only. No dot; each word reads its OWN token (VFR/MVFR/IFR/LIFR, VMC/IMC), never a shared colour */
+.wfc{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 11px;border-radius:14px;box-sizing:border-box;font:600 11.5px/1.2 var(--ad-sans);letter-spacing:.02em;color:var(--tx2);background:var(--gl);box-shadow:inset 0 1px 0 var(--hl),inset 0 0 0 .5px var(--ln);white-space:nowrap;cursor:default;user-select:none;-webkit-user-select:none}
+.wfc .wfc-w{font-weight:700;color:var(--tx3)}
+.wfc .wfc-s{color:var(--ad-mute)}
+.wfc .wfc-w[data-k=VFR]{color:var(--fc-VFR)}.wfc .wfc-w[data-k=MVFR]{color:var(--fc-MVFR)}
+.wfc .wfc-w[data-k=IFR]{color:var(--fc-IFR)}.wfc .wfc-w[data-k=LIFR]{color:var(--fc-LIFR)}
+.wfc .wfc-w[data-k=VMC]{color:var(--fc-VMC)}.wfc .wfc-w[data-k=IMC]{color:var(--fc-IMC)}
+.wfc .wfc-w[data-k="LOW CLOUD"]{color:#F5A524}
+
+/* ---------- 6. grid: stretch rows (equal heights), card is a column, View pinned to the bottom ---------- */
+#list.list{align-items:stretch}
+#list>article.card{display:flex;flex-direction:column;align-self:stretch;height:auto}
+#list>article.card>*{flex:none}
+#list>article.card>.go-fact{margin-top:auto}
+#list>article.card>.fr{margin-bottom:12px}
+
+/* ---------- 7. the chip's i note, inside main.html's centred frosted-glass .ipop (wm-info-modal.js moves it to <body>) ---------- */
+.ipop .ad-in{display:block;margin:6px 0 10px}
+.ipop .ad-in-r{display:grid;grid-template-columns:minmax(64px,96px) minmax(0,1fr);column-gap:10px;padding:7px 0;border-top:.5px solid var(--ln);font:500 12.5px/1.35 var(--ad-sans);overflow-wrap:anywhere}
+.ipop .ad-in-r:first-child{border-top:0}
+.ipop .ad-in-r>.k{color:var(--tx2)}
+.ipop .ad-in-r>.v,.ipop .ad-in-r small{min-width:0;overflow-wrap:anywhere}
+.ipop .ad-in-r>.v{color:var(--tx);font-weight:600}
+.ipop .ad-in-r small{display:block;margin-top:1px;font-size:11px;font-weight:500;color:var(--tx2)}
+.ipop .ad-in-r>.v>.ad-in-src+small{margin-top:6px}
+.ipop .ad-in-src{display:grid;grid-template-columns:minmax(52px,68px) minmax(0,1fr);gap:3px 8px;align-items:baseline}
+.ipop .ad-in-src>.k,.ipop .ad-in-src>.v{margin:0;min-width:0;white-space:normal;overflow:visible;overflow-wrap:anywhere;font:inherit;line-height:1.35}
+.ipop .ad-in-src>.v .s{white-space:normal}
+.ipop .ad-in-src>.k{font-weight:500;color:var(--tx2)}
+.ipop .ad-in-src>.v{font-weight:600;color:var(--tx);font-variant-numeric:tabular-nums}
+.ipop .ad-in-src>.v .s{font-weight:500;color:var(--tx2)}
+.ipop .wfc.wfc-flat{display:inline-flex;height:auto;padding:0;border-radius:0;background:none;box-shadow:none;font:inherit;font-weight:700;letter-spacing:.02em}
+.ipop .ad-in-x{display:block;padding-top:10px;border-top:.5px solid var(--ln);font:500 12px/1.4 var(--ad-sans)}
+.ipop .ad-in-h{display:block;margin-bottom:6px;font:700 10px/12px var(--ad-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--tx2)}
+.ipop .ad-in-c{display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:10px;padding:2px 0;color:var(--tx);font-variant-numeric:tabular-nums}
+.ipop .ad-in-c:has([data-k="LOW CLOUD"]) .wfc{grid-column:1/-1}
+.ipop .ad-in-c:has([data-k="LOW CLOUD"])>:last-child{grid-column:2}
+.ipop .ad-in-p{display:block;margin-top:8px}
+
+/* filter chips (wmf aerodrome sheet), kept from ad-types.css */
+.wmf.wmf-aero .chips .c svg,.wmf.wmf-aero .chips .c .fv-heli-ico{display:none!important}
+
+/* AA muted text token (>=4.5:1 on every theme's card glass); --tx3 alone measures 2.5-3.4:1 */
+#list>article.card{--ad-mute:color-mix(in srgb,var(--tx) 62%,transparent)}
+html[data-theme=day] #list>article.card{--ad-mute:color-mix(in srgb,var(--tx) 68%,transparent)}
+/* 13 Nov 2026 (MT t2879u): source letters in the i note Sources grid + a one-line legend under it */
+.ipop .ad-sb{display:inline-flex;align-items:center;justify-content:center;min-width:15px;height:15px;padding:0 3px;border-radius:5px;font:700 9.5px/1 -apple-system,sans-serif;letter-spacing:0;color:var(--tx2);background:var(--gl2);box-shadow:inset 0 0 0 .5px var(--ln);vertical-align:1px}
+.ipop .ad-sl{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:6px;font:500 11px/1.35 -apple-system,sans-serif;color:var(--tx3)}
+.ipop .ad-sl>span{display:inline-flex;align-items:baseline;gap:5px}
+.ipop .ad-sl+small{margin-top:6px}

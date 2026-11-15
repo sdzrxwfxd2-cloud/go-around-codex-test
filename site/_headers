@@ -1,0 +1,198 @@
+# HTML always revalidates (no-cache): every page, with or without .html, including pretty
+# /ad/ and /c/ad/ aerodrome URLs (the shell address bar uses /ad/FAOR, not .html), so a new deploy is seen on the next load.
+# Versioned and static assets cache for a year (immutable). Their ?v= is the
+# content hash (sha256, first 10 hex) written by tools/vbump.mjs; tests/perf/cache-headers.mjs fails if one is stale
+# or if a file under an immutable rule is loaded without ?v=.
+# Page rules never overlap asset rules, so Netlify never merges two Cache-Control values.
+# Cloudflare Pages: a second block for the SAME path replaces the first block's Cache-Control (checked with
+# wrangler pages dev, 11 Nov 2026). So each path has ONE block here, /appdata/* and /c/appdata/* included (#64, MT yes 11 Nov).
+/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/*.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/index
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/app
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/main
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/calculator
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/library
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/logbook
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/pilot
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/ops
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/ops-weather
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/dashboard
+  Cache-Control: no-cache, max-age=0, must-revalidate
+  X-Robots-Tag: noindex, nofollow, noarchive
+/fact
+  Cache-Control: no-cache, max-age=0, must-revalidate
+# Pretty aerodrome URLs (12 Nov 2026): without these, /ad/FAOR got Cloudflare's default
+# public, max-age=0, must-revalidate (no no-cache, and HTML had no ETag), so a reload of a
+# field opened in the shell could keep or re-serve the standalone old page.
+/ad/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/c/ad/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/brief
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/status
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/c/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/c/app
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/c/main
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+# One block per path (#64): a second /appdata/* block (robots) used to replace this cache rule on Cloudflare Pages.
+/appdata/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex, nofollow, noarchive
+/c/appdata/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex, nofollow, noarchive
+/rwy/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex, nofollow, noarchive
+/aip/*
+  Cache-Control: public, max-age=31536000, immutable
+/aipcharts/*
+  Cache-Control: public, max-age=31536000, immutable
+/aipcharts_t/*
+  Cache-Control: public, max-age=31536000, immutable
+/aipx/*
+  Cache-Control: public, max-age=31536000, immutable
+/vendor/*
+  Cache-Control: public, max-age=31536000, immutable
+/photos/*
+  Cache-Control: public, max-age=31536000, immutable
+/wst/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex, nofollow, noarchive
+/fs/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex, nofollow, noarchive
+# Same code for the framed copy under /c/, the rules engine, and the root wm-/ga-/fv scripts and styles.
+# Every reference to these carries the current ?v= hash (tests/perf/cache-headers.mjs).
+/c/wst/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex, nofollow, noarchive
+/c/fs/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex, nofollow, noarchive
+/c/rwy/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex, nofollow, noarchive
+/engine/*
+  Cache-Control: public, max-age=31536000, immutable
+/wm-*.js
+  Cache-Control: public, max-age=31536000, immutable
+/wm-*.css
+  Cache-Control: public, max-age=31536000, immutable
+/ga-*.js
+  Cache-Control: public, max-age=31536000, immutable
+/ga-*.css
+  Cache-Control: public, max-age=31536000, immutable
+/fv3.js
+  Cache-Control: public, max-age=31536000, immutable
+/fv-polish.js
+  Cache-Control: public, max-age=31536000, immutable
+# The visit beacon is added to every page by functions/_middleware.js WITHOUT ?v=, so it must revalidate.
+/wm-beacon.js
+  ! Cache-Control
+  Cache-Control: no-cache, max-age=0, must-revalidate
+# Extensions also match directory rules above; retain one unchanged cache policy.
+/*.jpg
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+/*.jpeg
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+/*.png
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+/*.webp
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+/*.woff2
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+/*.woff
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/preview-qt83xae1/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+# Anti-scraping / hardening (#59, MT 6 Nov 2026). Header-only: no Cache-Control here, so no rule merges with the cache rules above.
+# X-Frame-Options SAMEORIGIN (not DENY): app pages embed same-site pages in iframes.
+# CSP intentionally not added yet: it needs a Report-Only trial first.
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), payment=(), geolocation=(self)
+# Keep search engines and AI crawlers out of app data, assets and the API.
+/app/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+/api/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+/admin
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/admin/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/privacy
+  Cache-Control: no-cache, max-age=0, must-revalidate
+/privacy.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+# Rebuilt admin pages (11 Nov 2026): never indexed
+/admin-*
+  X-Robots-Tag: noindex, nofollow, noarchive
+/admin-x/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+/admin-visits-classic
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/admin-weather-check
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+# Zalaota investigation bureau (15 Nov 2026): never indexed
+/zalaota
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/zalaota/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/zalatoa
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/zalatoa/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/admin-investigator
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/wx-check/*
+  Cache-Control: no-cache, max-age=0, must-revalidate
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+/admin-investigator
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+/investigator/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive

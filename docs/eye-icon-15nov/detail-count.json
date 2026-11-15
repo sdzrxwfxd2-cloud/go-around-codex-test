@@ -1,0 +1,650 @@
+{
+  "total": 640,
+  "withEye": 640,
+  "lowCloud": 86,
+  "lowBySrc": {
+    "model": 86
+  },
+  "lowExamples": [
+    {
+      "id": "ZA-0058",
+      "src": "model",
+      "nowX": "Vis 5.8 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Alverstone Airfield."
+    },
+    {
+      "id": "FAAR",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Arathusa Safari Lodge."
+    },
+    {
+      "id": "FAAS",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 71%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Ashton."
+    },
+    {
+      "id": "ZA-0090",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 82%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Assegaay Bosch Game Lodge."
+    },
+    {
+      "id": "ZA-0236",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 83%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "ATE Helipad."
+    },
+    {
+      "id": "FABR",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 95%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Barberton."
+    },
+    {
+      "id": "FABZ",
+      "src": "model",
+      "nowX": "Vis 6.2 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Bizana."
+    },
+    {
+      "id": "ZA-0071",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Blyde Canyon."
+    },
+    {
+      "id": "ZA-0188",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 97%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Bosrivier Airstrip."
+    },
+    {
+      "id": "ZA-0074",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Boulders Game Ranch."
+    },
+    {
+      "id": "ZA-0075",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Boulders Game Ranch 2 (Microlight)."
+    },
+    {
+      "id": "ZA-0004",
+      "src": "model",
+      "nowX": "Vis 9.2 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Brown's Landing."
+    },
+    {
+      "id": "FABG",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Buffelshoek."
+    },
+    {
+      "id": "FACG",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 77%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Caledon Airfield."
+    },
+    {
+      "id": "ZA-0306",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 78%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Cannon Valley Estate."
+    },
+    {
+      "id": "ZA-0177",
+      "src": "model",
+      "nowX": "Vis 5.4 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Delta Golf Airstrip."
+    },
+    {
+      "id": "ZA-0153",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 70%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Elandspad Airfield."
+    },
+    {
+      "id": "ZA-0112",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Fly Inn Estate."
+    },
+    {
+      "id": "ZA-0303",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Fort D'Acre Reserve."
+    },
+    {
+      "id": "ZA-0345",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 88%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Garonga Airstrip."
+    },
+    {
+      "id": "FAGO",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Gowrie."
+    },
+    {
+      "id": "FAGC",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 83%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Grand Central."
+    },
+    {
+      "id": "ZA-0342",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Gravelotte Mine Airstrip."
+    },
+    {
+      "id": "FAHU",
+      "src": "model",
+      "nowX": "Vis 7.8 km · Cloud 91%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "H M S Bastard Memorial."
+    },
+    {
+      "id": "ZA-0184",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Haga Haga Airfield."
+    },
+    {
+      "id": "FAHJ",
+      "src": "model",
+      "nowX": "Vis 5.2 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Harding."
+    },
+    {
+      "id": "FAHG",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Heidelburg."
+    },
+    {
+      "id": "FASX",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Hendrik Swellengrebel."
+    },
+    {
+      "id": "FAHH",
+      "src": "model",
+      "nowX": "Vis 5.9 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Hibberdene."
+    },
+    {
+      "id": "FAHL",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Hluhluwe."
+    },
+    {
+      "id": "ZA-0099",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Holbank."
+    },
+    {
+      "id": "ZA-0302",
+      "src": "model",
+      "nowX": "Vis 7.0 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Hood Point Heliport."
+    },
+    {
+      "id": "ZA-0350",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 99%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Ingwelala."
+    },
+    {
+      "id": "ZA-0173",
+      "src": "model",
+      "nowX": "Vis 8.7 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Inkosi Albert Luthuli Central Hospital Helipad."
+    },
+    {
+      "id": "ZA-0168",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Intertherm Durban Heliport."
+    },
+    {
+      "id": "FAKE",
+      "src": "model",
+      "nowX": "Vis 9.2 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Keimouth."
+    },
+    {
+      "id": "ZA-0170",
+      "src": "model",
+      "nowX": "Vis 8.7 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "King Dinizulu Hospital Helipad."
+    },
+    {
+      "id": "ZA-0174",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "King Edward VIII Hospital Helipad."
+    },
+    {
+      "id": "FAKI",
+      "src": "model",
+      "nowX": "Vis 7.1 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Kobb Inn."
+    },
+    {
+      "id": "FAKF",
+      "src": "model",
+      "nowX": "Vis 6.4 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Koffee Bay."
+    },
+    {
+      "id": "FAKB",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 95%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Kosibaai."
+    },
+    {
+      "id": "ZA-0181",
+      "src": "model",
+      "nowX": "Vis 9.1 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Kwelega Road Airstrip."
+    },
+    {
+      "id": "ZA-0172",
+      "src": "model",
+      "nowX": "Vis 8.7 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Life Entabeni Hospital Helipad."
+    },
+    {
+      "id": "ZA-0171",
+      "src": "model",
+      "nowX": "Vis 8.7 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Life Westville Hospital Helipad."
+    },
+    {
+      "id": "FALD",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Londolozi."
+    },
+    {
+      "id": "ZA-0041",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Londolozi Airstrip."
+    },
+    {
+      "id": "FAGW",
+      "src": "model",
+      "nowX": "Vis 7.7 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Magwa."
+    },
+    {
+      "id": "FAMD",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 88%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Malamala."
+    },
+    {
+      "id": "ZA-0165",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Manzengwenya Airstrip."
+    },
+    {
+      "id": "FAMG",
+      "src": "model",
+      "nowX": "Vis 5.7 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Margate."
+    },
+    {
+      "id": "ZA-0200",
+      "src": "model",
+      "nowX": "Vis 7.2 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Marion Research Station Heliport."
+    },
+    {
+      "id": "FAZP",
+      "src": "model",
+      "nowX": "Vis 7.1 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Mazeppa Bay."
+    },
+    {
+      "id": "ZA-0214",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 87%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Mediclinic Midstream Heliport."
+    },
+    {
+      "id": "ZA-0344",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 89%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Mica Village Airstrip."
+    },
+    {
+      "id": "ZA-0210",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 87%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Midstream Helipad."
+    },
+    {
+      "id": "ZA-0096",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 99%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Mkambati."
+    },
+    {
+      "id": "ZA-0183",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Mtwentwe Farm Airfield."
+    },
+    {
+      "id": "FADK",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 99%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Mubatuba."
+    },
+    {
+      "id": "FANI",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 99%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "N’tsiri Airstrip."
+    },
+    {
+      "id": "ZA-0167",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Netcare uMhlanga Hospital Helipad."
+    },
+    {
+      "id": "ZA-0371",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 96%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Nzumba Lodge Airstrip."
+    },
+    {
+      "id": "FAPA",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Port Alfred."
+    },
+    {
+      "id": "FAPJ",
+      "src": "model",
+      "nowX": "Vis 8.5 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Port St Johns."
+    },
+    {
+      "id": "FAHE",
+      "src": "model",
+      "nowX": "Vis 5.5 km · Cloud 99%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Pullenshope Hendrina."
+    },
+    {
+      "id": "ZA-0116",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 69%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Pumba Airstrip."
+    },
+    {
+      "id": "FARD",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 82%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Riversdale."
+    },
+    {
+      "id": "FASE",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 96%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Sabi Sabi."
+    },
+    {
+      "id": "ZA-0056",
+      "src": "model",
+      "nowX": "Vis 5.8 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Scottburg."
+    },
+    {
+      "id": "FASZ",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Skukuza."
+    },
+    {
+      "id": "ZA-0186",
+      "src": "model",
+      "nowX": "Vis 9.8 km · Cloud 95%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Stanley Island Airstrip."
+    },
+    {
+      "id": "ZA-0024",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 91%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Sun Valley Airfield."
+    },
+    {
+      "id": "ZA-0179",
+      "src": "model",
+      "nowX": "Vis 7.7 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "The Haven Airstrip."
+    },
+    {
+      "id": "FATH",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 87%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Thohoyandou."
+    },
+    {
+      "id": "FATR",
+      "src": "model",
+      "nowX": "Vis 6.3 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Trennery's."
+    },
+    {
+      "id": "ZA-0245",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Trollope Mining Services Heliport."
+    },
+    {
+      "id": "FAUH",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Uitenhage."
+    },
+    {
+      "id": "FAVG",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Virginia."
+    },
+    {
+      "id": "ZA-0207",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 83%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Waterfall City Hospital Helipad."
+    },
+    {
+      "id": "FAWK",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 89%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Waterkloof Air Force Base."
+    },
+    {
+      "id": "FAWG",
+      "src": "model",
+      "nowX": "Vis 9.1 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Watts Landing."
+    },
+    {
+      "id": "FAWR",
+      "src": "model",
+      "nowX": "Vis 7.5 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Wavecrest."
+    },
+    {
+      "id": "ZA-0175",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Wentworth Hospital Helipad."
+    },
+    {
+      "id": "FAWV",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 95%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "White River Mercy Air."
+    },
+    {
+      "id": "ZA-0182",
+      "src": "model",
+      "nowX": "Vis 8.7 km · Cloud 87%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Wings Park Airfield."
+    },
+    {
+      "id": "FAWT",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 96%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Winterveldt Mine."
+    },
+    {
+      "id": "FADQ",
+      "src": "model",
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "name": "Zulu Inyala."
+    }
+  ],
+  "fact": {
+    "id": "FACT",
+    "name": "Cape Town Intl.",
+    "chip": "VFR·VMC",
+    "badges": [
+      "VFR",
+      "VMC"
+    ],
+    "low": false,
+    "nowX": "Vis 10+ km · FEW035 · METAR 16:00 SAST (38 min ago)",
+    "usedSrc": "metar",
+    "inote": true
+  },
+  "faar": {
+    "id": "FAAR",
+    "name": "Arathusa Safari Lodge.",
+    "chip": "LOW CLOUD",
+    "badges": [
+      "LOW CLOUD"
+    ],
+    "low": true,
+    "nowX": "Vis 10+ km · Cloud 98%, base unknown · Forecast 16:00–17:00 SAST",
+    "usedSrc": "model",
+    "inote": true
+  },
+  "longest": [
+    {
+      "id": "FAUT",
+      "name": "K. D. Matanzima.",
+      "chip": "MVFR·VMC",
+      "badges": [
+        "MVFR",
+        "VMC"
+      ],
+      "low": false,
+      "nowX": "Vis 10+ km · BKN018 BKN012 FEW050 BKN008 SCT045 · TAF 11:00 SAST (0 min ago)",
+      "usedSrc": "taf",
+      "inote": true
+    },
+    {
+      "id": "ZA-0058",
+      "name": "Alverstone Airfield.",
+      "chip": "LOW CLOUD",
+      "badges": [
+        "LOW CLOUD"
+      ],
+      "low": true,
+      "nowX": "Vis 5.8 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "usedSrc": "model",
+      "inote": true
+    },
+    {
+      "id": "FABZ",
+      "name": "Bizana.",
+      "chip": "LOW CLOUD",
+      "badges": [
+        "LOW CLOUD"
+      ],
+      "low": true,
+      "nowX": "Vis 6.2 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "usedSrc": "model",
+      "inote": true
+    },
+    {
+      "id": "ZA-0074",
+      "name": "Boulders Game Ranch.",
+      "chip": "LOW CLOUD",
+      "badges": [
+        "LOW CLOUD"
+      ],
+      "low": true,
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "usedSrc": "model",
+      "inote": true
+    },
+    {
+      "id": "ZA-0075",
+      "name": "Boulders Game Ranch 2 (Microlight).",
+      "chip": "LOW CLOUD",
+      "badges": [
+        "LOW CLOUD"
+      ],
+      "low": true,
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "usedSrc": "model",
+      "inote": true
+    },
+    {
+      "id": "ZA-0004",
+      "name": "Brown's Landing.",
+      "chip": "LOW CLOUD",
+      "badges": [
+        "LOW CLOUD"
+      ],
+      "low": true,
+      "nowX": "Vis 9.2 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "usedSrc": "model",
+      "inote": true
+    },
+    {
+      "id": "ZA-0177",
+      "name": "Delta Golf Airstrip.",
+      "chip": "LOW CLOUD",
+      "badges": [
+        "LOW CLOUD"
+      ],
+      "low": true,
+      "nowX": "Vis 5.4 km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "usedSrc": "model",
+      "inote": true
+    },
+    {
+      "id": "ZA-0112",
+      "name": "Fly Inn Estate.",
+      "chip": "LOW CLOUD",
+      "badges": [
+        "LOW CLOUD"
+      ],
+      "low": true,
+      "nowX": "Vis 10+ km · Cloud 100%, base unknown · Forecast 16:00–17:00 SAST",
+      "usedSrc": "model",
+      "inote": true
+    }
+  ]
+}

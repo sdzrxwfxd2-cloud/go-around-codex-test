@@ -1,0 +1,34 @@
+{
+ "out": [
+  {
+   "mode": "depart",
+   "off": null,
+   "da": 0,
+   "held": 1,
+   "cards": 640,
+   "earlyCards": 640,
+   "earlyPending": 0,
+   "earlyJudged": 0,
+   "diffs": 0,
+   "sample": []
+  },
+  {
+   "mode": "land",
+   "off": 3,
+   "da": 1,
+   "held": 1,
+   "cards": 640,
+   "earlyCards": 640,
+   "earlyPending": 0,
+   "earlyJudged": 0,
+   "diffs": 0,
+   "sample": []
+  }
+ ],
+ "errs": {
+  "normal-departnull0": [],
+  "held-departnull0": [],
+  "normal-land31": [],
+  "held-land31": []
+ }
+}
