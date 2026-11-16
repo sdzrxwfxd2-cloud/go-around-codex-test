@@ -1,0 +1,5 @@
+scratch/
+sources/fetch-stdout.txt
+sources/engine-run-stdout.txt
+sources/engine-run-stderr.txt
+*.tmp

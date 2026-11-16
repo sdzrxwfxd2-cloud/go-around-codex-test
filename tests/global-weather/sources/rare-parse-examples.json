@@ -1,0 +1,460 @@
+{
+  "counts": {
+    "statute-mile visibility": 571932,
+    "other": 34,
+    "glued weather after vis (missing space)": 5,
+    "directional visibility": 5
+  },
+  "examples": {
+    "statute-mile visibility": [
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T00:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160000Z 31006KT 15SM BKN025 M06/M09 A3020 RMK SC7 SLP231",
+        "parsed": {
+          "ws": 6,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T01:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160100Z 31006KT 15SM BKN022 M06/M09 A3019 RMK SC7 SLP229",
+        "parsed": {
+          "ws": 6,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T02:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160200Z 32004KT 15SM BKN023 OVC030 M05/M08 A3018 RMK SC7SC1 SLP227",
+        "parsed": {
+          "ws": 4,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T03:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160300Z 33004KT 15SM BKN027 M04/M07 A3017 RMK SC7 SLP223",
+        "parsed": {
+          "ws": 4,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T04:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160400Z 35002KT 15SM BKN027 BKN036 M04/M08 A3017 RMK SC5SC2 SLP221",
+        "parsed": {
+          "ws": 2,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T05:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160500Z 14002KT 15SM BKN027 BKN036 M04/M08 A3016 RMK SC5SC2 SLP219",
+        "parsed": {
+          "ws": 2,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T06:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160600Z 00000KT 15SM BKN027 BKN036 M04/M07 A3015 RMK SC5SC2 SLP215",
+        "parsed": {
+          "ws": 0,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T07:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160700Z 11008KT 080V160 15SM BKN027 BKN190 M01/M05 A3014 RMK SC5CI2 SLP213",
+        "parsed": {
+          "ws": 8,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T08:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160800Z 09011G16KT 15SM SCT027 BKN190 00/M05 A3013 RMK SC4CI2 SLP208",
+        "parsed": {
+          "ws": 11,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T09:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 160900Z 06012KT 15SM FEW027 BKN037 BKN160 00/M04 A3013 RMK SC2SC3AC1 SLP207",
+        "parsed": {
+          "ws": 12,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T10:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 161000Z 09012KT 15SM BKN037 BKN160 01/M04 A3011 RMK SC5AC2 SLP203",
+        "parsed": {
+          "ws": 12,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "CYFB",
+        "time": "2025-11-16T11:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "statute-mile visibility",
+        "raw": "METAR CYFB 161100Z 08015KT 15SM SCT037 BKN160 01/M04 A3011 RMK SC4AC3 SLP202",
+        "parsed": {
+          "ws": 15,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      }
+    ],
+    "other": [
+      {
+        "station": "DFFD",
+        "time": "2026-08-04T07:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR DFFD 040700Z 17007KT CAVOK4KT 6000 NSC 20/17 Q1018 NOSIG",
+        "parsed": {
+          "ws": 7,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "DNAA",
+        "time": "2026-06-16T08:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR DNAA 160800Z 28004KT 9999FEW010 28/23 Q1017 NOSIG",
+        "parsed": {
+          "ws": 4,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "DNMM",
+        "time": "2026-06-05T13:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR DNMM 051300Z 17006KT 9999BKN014 32/25 Q1013 NOSIG",
+        "parsed": {
+          "ws": 6,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "DTTJ",
+        "time": "2026-04-25T05:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR DTTJ 250500Z 08004KT 9999FEW020 14/09 Q1017",
+        "parsed": {
+          "ws": 4,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "FBSK",
+        "time": "2025-11-16T06:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR FBSK 160600Z 27005KT 9999OVC015 18/18 Q1014 NOSIG",
+        "parsed": {
+          "ws": 5,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "HAAB",
+        "time": "2026-04-28T12:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR HAAB 281200Z 18/06KT 9999 BKN026 25/11 Q1023 NOSIG",
+        "parsed": {
+          "ws": null,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "HAAB",
+        "time": "2026-05-06T00:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR HAAB 060000Z 10006KT 9999SCT023 15/11 Q1025 NOSIG",
+        "parsed": {
+          "ws": 6,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "HAAB",
+        "time": "2026-06-15T02:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR HAAB 150200Z 35004KT 8KM BR BKN015 OVC060 14/11 Q1027",
+        "parsed": {
+          "ws": 4,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "HAAB",
+        "time": "2026-06-27T21:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR HAAB 272100Z 31008KT 9999SCT025 17/10 Q1027",
+        "parsed": {
+          "ws": 8,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "HAAB",
+        "time": "2026-07-23T15:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR HAAB 231500 17/15KT 9999 SCT023 BKN024 17/14 Q1025",
+        "parsed": {
+          "ws": null,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "HAAB",
+        "time": "2026-08-16T18:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR HAAB 161800Z 32006KT 9999SCT025 17/14 Q1027 NOSIG",
+        "parsed": {
+          "ws": 6,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "HAAB",
+        "time": "2026-09-17T00:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "other",
+        "raw": "METAR HAAB 170000Z 22002KT 8KM RA BKN023 BKN060 14/13 Q1027",
+        "parsed": {
+          "ws": 2,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      }
+    ],
+    "glued weather after vis (missing space)": [
+      {
+        "station": "DNMM",
+        "time": "2026-05-07T07:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "glued weather after vis (missing space)",
+        "raw": "METAR COR DNMM 070700Z 18005KT 8000- RA SCT012 FEW 020CB 28/26 Q1013 TEMPO 5000-TSRA RMK CB SW-E",
+        "parsed": {
+          "ws": 5,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "DNMM",
+        "time": "2026-07-04T07:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "glued weather after vis (missing space)",
+        "raw": "METAR DNMM 040700Z VRB02KT 6000-RAAAAA BKN010 26/25 Q1017 NOSIG",
+        "parsed": {
+          "ws": 2,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "DNMM",
+        "time": "2026-07-10T11:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "glued weather after vis (missing space)",
+        "raw": "METAR DNMM 101100Z 27005KT 3000-TRSA BKN010 FEW020CB 26/25 Q1017 TEMPO 1500 TSRA RMK CB N-W",
+        "parsed": {
+          "ws": 5,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "DNMM",
+        "time": "2026-07-10T13:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "glued weather after vis (missing space)",
+        "raw": "METAR DNMM 101300Z 24005KT 2500-TRSA BKN009 FEW019CB 25/24 Q1016 TEMPO 3000-TSRA RMK CB N-NW",
+        "parsed": {
+          "ws": 5,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "DNMM",
+        "time": "2026-07-29T14:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "glued weather after vis (missing space)",
+        "raw": "METAR DNMM 291400Z 22009KT 5000-REA BKN009 FEW019CB 25/23 Q1015 TEMPO 3000-RA RMK CB NW-SE",
+        "parsed": {
+          "ws": 9,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      }
+    ],
+    "directional visibility": [
+      {
+        "station": "MDSD",
+        "time": "2025-11-21T18:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "directional visibility",
+        "raw": "METAR MDSD 211800Z 10006KT 8000NW/N VCSH FEW020CB BKN022 30/23 Q1014 CB/NW/N",
+        "parsed": {
+          "ws": 6,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "MDSD",
+        "time": "2025-11-21T20:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "directional visibility",
+        "raw": "METAR MDSD 212000Z 13004KT 8000NE/E VCSH FEW018CB BKN020 29/24 Q1013 CB/N",
+        "parsed": {
+          "ws": 4,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "MDSD",
+        "time": "2026-03-13T20:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "directional visibility",
+        "raw": "METAR MDSD 132000Z 15008KT 8000NE/NW/N VCSH BKN020 28/22 Q1015 TCU/NE",
+        "parsed": {
+          "ws": 8,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "MDSD",
+        "time": "2026-03-13T21:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "directional visibility",
+        "raw": "METAR MDSD 132100Z 17008KT 8000NE/N VCSH BKN018 28/23 Q1015 TCU/N",
+        "parsed": {
+          "ws": 8,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      },
+      {
+        "station": "MDSD",
+        "time": "2026-03-13T22:00:00Z",
+        "reason": "visibility/CAVOK present but vis/cavok not set",
+        "type": "directional visibility",
+        "raw": "METAR MDSD 132200Z 02005KT 8000NE/N VCSH BKN018 SCT080 26/23 Q1015",
+        "parsed": {
+          "ws": 5,
+          "vis": null,
+          "cavok": false,
+          "parseUnknown": false
+        }
+      }
+    ]
+  }
+}

@@ -19,17 +19,23 @@ import { fileURLToPath } from "node:url";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, "../..");
 const require = createRequire(import.meta.url);
-const E = require(join(ROOT, "site/engine/ga-core-v2.js"));
-
 const args = Object.fromEntries(process.argv.slice(2).map((a) => {
   const m = a.match(/^--([^=]+)(?:=(.*))?$/);
   return m ? [m[1], m[2] === undefined ? true : m[2]] : [a, true];
 }));
+// --engine=<file> runs another copy of the engine (e.g. the production baseline) for a verdict diff.
+// --dump=<file> writes one line per evaluation (station, time, phase, status, code, why) for diffing.
+// --no-write keeps RESULTS.md / results.json unchanged.
+const ENGINE_PATH = args.engine ? String(args.engine) : join(ROOT, "site/engine/ga-core-v2.js");
+const E = require(ENGINE_PATH);
+const DUMP = args.dump ? String(args.dump) : null;
+const dumpLines = [];
 const LIMIT = args.limit ? parseInt(args.limit, 10) : Infinity;
 const ONLY = args.station ? String(args.station).toUpperCase() : null;
 const FA_ONLY = args["all-icao"] ? false : true; // default: South African FA** only
 
 const PROFILE = { licence: "ppl" }; // same default the site tests use
+const PROFILE_MIN = { visKm: 8, ceilFt: 2500 }; // PPL preset in site/engine/ga-core-v2.js (PRE.ppl)
 const AIRCRAFT = "C172";
 const RULES = "vfr";
 const FRESH_MS = 5 * 60 * 1000; // evaluate as if "now" is 5 minutes after the report
@@ -162,11 +168,18 @@ function tafInForce(tafs, nowMs) {
 function looksLikeWind(raw) {
   return /\b(?:VRB|\d{3}|\/\/\/)(\d{2}|\/\/)(?:G\d{2})?KT\b/.test(raw) || /\b\/\/\/{0,2}\/\/KT\b/.test(raw);
 }
+/* 16 Nov 2026: the visibility zone of the report itself: before the TREND / RMK, before the first
+   temperature group (so a garbled AUTO tail after 17/14 is not counted), RVR and QNH removed. */
+function visZone(raw) {
+  const body = metarBodyOf(raw);
+  const cut = body.search(/\sM?\d{2}\/(?:M?\d{2})?(?:\s|$)/);
+  return (cut >= 0 ? body.slice(0, cut) : body).replace(/\bR\d{2}[LCR]?\/[PM]?\d{4}[A-Z]*\b/g, " ").replace(/\b[QA]\d{4}\b/g, " ");
+}
 function looksLikeVisOrCavok(raw) {
-  if (/\bCAVOK\b/.test(raw) || /\b\d{1,2}(?:SM|KM)\b/.test(raw) || /\bP\d(?:SM)?\b/.test(raw)) return true;
-  // Prevailing vis: 9999, 0400, 0400W, 4500SE, or 9999-RA (missing space). Not RVR (R02/P2000) or QNH.
-  const body = raw.replace(/\bR\d{2}\/[PM]?\d{4}[A-Z]*\b/g, " ").replace(/\bQ\d{4}\b/g, " ");
-  return /\b\d{4}(?:[NSEW]{1,2})?(?:-|$|\s)/.test(body);
+  const z = visZone(raw);
+  if (/\bCAVOK\b/.test(z) || /\b\d{1,2}(?:SM|KM)\b/.test(z) || /\bP\d(?:SM)?\b/.test(z)) return true;
+  // Prevailing vis: 9999, 0400, 0400W, 4500SE, or 9999-RA (missing space).
+  return /(?:^|\s)\d{4}(?:[A-Z]{1,3})?(?:-|\+|$|\s|[A-Z]{2})/.test(z);
 }
 function isNil(raw) {
   return /(?:^|\s)NIL(?:\s|=|$)/.test(raw);
@@ -177,16 +190,24 @@ function metarBodyOf(raw) {
 function isCavok(raw) {
   return /\bCAVOK\b/.test(metarBodyOf(raw));
 }
+/** Lowest visibility group in the report itself (CAVOK / 9999 = 10 km). Independent of the engine. */
 function visMeters(raw) {
-  if (/\bCAVOK\b/.test(raw) || /\b9999\b/.test(raw)) return 10000;
-  const m = raw.match(/\b(\d{4})\b/);
-  return m ? Number(m[1]) : null;
+  const z = visZone(raw);
+  if (/\bCAVOK\b/.test(z)) return 10000;
+  let low = null;
+  for (const t of z.split(/\s+/)) {
+    const m = /^(\d{4})(?:[A-Z]{0,3}|[+-]?[A-Z]{2,})$/.exec(t);
+    if (m && /^\d{4}(?:Z|KT|MPS|FT)$/.test(t)) continue; // a time or wind fragment, not visibility
+    if (m) { const v = m[1] === "9999" ? 10000 : Number(m[1]); if (low == null || v < low) low = v; }
+  }
+  return low;
 }
 function lowCeilingFt(raw) {
   let low = null;
   const re = /\b(BKN|OVC|VV)(\d{3})\b/g;
   let x;
-  while ((x = re.exec(raw))) {
+  const body = metarBodyOf(raw);
+  while ((x = re.exec(body))) {
     const ft = Number(x[2]) * 100;
     if (low == null || ft < low) low = ft;
   }
@@ -203,6 +224,7 @@ function windKt(raw) {
 function parseFailReason(rec, parsed) {
   if (isNil(rec.raw)) return null;
   if (!parsed) return "parseOfficial returned null";
+  if (parsed.parseUnknown) return null; // 16 Nov 2026: malformed required group -> engine says INCOMPLETE (counted separately)
   const raw = rec.raw;
   if (looksLikeWind(raw) && !/\/\/\/{0,2}\/\//.test(raw) && !/\b\/\/KT\b/.test(raw) && parsed.ws == null && !parsed.vrb && !/\bVRB\d{2}KT\b/.test(raw)) {
     // VRB sets vrb and ws should still be set; /////KT is missing wind — not a fail
@@ -229,13 +251,18 @@ function oddReasons(rec, result, parsed) {
     const why = String(result.why || "");
     // Crosswind, tailwind, gust, night, density altitude, or a METAR trend/TEMPO/BECMG
     // are expected rule hits, not surprises.
-    if (!/night|density altitude|instrument|heliport|crosswind|tailwind|gust|trend|tempo|becmg/i.test(why))
+    /* 16 Nov 2026: a TAF FM/BECMG period that starts inside the look-ahead (depart: next 2 h; land: ETA +/- 1 h,
+       CAR 91.07.7) and is below the pilot's OWN minima (PPL default 8 km / 2 500 ft) is an expected NO-GO. */
+    const tc = /^TAF forecast: (?:FM|BECMG|BASE)?.*?ceiling (\d+) ft/.exec(why), tv = /^TAF forecast: (?:FM|BECMG|BASE)?.*?vis ([\d.]+) km/.exec(why);
+    const tafBelowOwn = (tc && Number(tc[1]) < PROFILE_MIN.ceilFt) || (tv && Number(tv[1]) < PROFILE_MIN.visKm);
+    if (!tafBelowOwn && !/night|density altitude|instrument|heliport|crosswind|tailwind|gust|trend|tempo|becmg/i.test(why))
       odds.push(`NO-GO on CAVOK with gust ${wind.g} kt (${why})`);
   }
-  if (result.status === "go" && vis != null && vis <= 800)
-    odds.push(`GO with visibility ${vis} m`);
+  if (result.status === "go" && vis != null && vis < 5000)
+    odds.push(`GO with visibility ${vis} m (below the 5 km VFR minimum)`);
   if (result.status === "go" && ceil != null && ceil <= 200)
     odds.push(`GO with ${ceil} ft ceiling`);
+  if (result.status === "incomplete" && result.code === "parse") return odds; // malformed required group: expected INCOMPLETE
   if (result.status === "incomplete" && parsed && (parsed.ws != null || parsed.cavok || parsed.vis != null) && !isNil(raw))
     odds.push(`incomplete despite a usable official report (${result.code || ""} ${result.why || ""})`);
   const used = result.weatherUsed;
@@ -272,6 +299,7 @@ function main() {
     crashes: 0,
     parse_failures: 0,
     odd: 0,
+    malformed_incomplete: 0,
   };
   const crashes = [];
   const parseFailures = [];
@@ -345,7 +373,9 @@ function main() {
             now,
           });
           const status = (result && result.status) || "null";
+          if (DUMP) dumpLines.push([icao, rec.time, phase, status, (result && result.code) || "", String((result && result.why) || "").replace(/\s+/g, " "), rec.raw].join("\t"));
           addStatus(phase, status);
+          if (result && result.code === "parse") counts.malformed_incomplete += 1;
           st[phase][status] = (st[phase][status] || 0) + 1;
           const o = oddReasons(rec, result, parsed);
           if (o.length) {
@@ -393,8 +423,11 @@ function main() {
     stations: byStation,
   };
   // pick engineVersion from a dummy call if needed — already on first result; leave from RULES
-  writeFileSync(join(HERE, "results.json"), JSON.stringify(results, null, 2) + "\n");
-  writeFileSync(join(HERE, "RESULTS.md"), renderMarkdown(results));
+  if (DUMP) writeFileSync(DUMP, dumpLines.join("\n") + "\n");
+  if (!args["no-write"]) {
+    writeFileSync(join(HERE, "results.json"), JSON.stringify(results, null, 2) + "\n");
+    writeFileSync(join(HERE, "RESULTS.md"), renderMarkdown(results));
+  }
   console.log(JSON.stringify({ counts, elapsed_ms: elapsedMs, results: join(HERE, "RESULTS.md") }, null, 2));
 }
 
@@ -426,6 +459,7 @@ function renderMarkdown(r) {
   lines.push(`- Crashes: **${c.crashes}**`);
   lines.push(`- Parse failures: **${c.parse_failures}**`);
   lines.push(`- Odd results flagged: **${c.odd}**`);
+  lines.push(`- Evaluations INCOMPLETE because a required group was malformed (engine does not guess): **${c.malformed_incomplete || 0}**`);
   lines.push("");
   lines.push("### Verdicts — depart");
   lines.push("");
@@ -453,7 +487,7 @@ function renderMarkdown(r) {
   lines.push("");
   if (!r.parse_failures.length) lines.push("None.");
   else {
-    lines.push("On the 15 Nov 2026 run these clustered into a few real-report shapes (not invented):");
+    lines.push("On the 15 Nov 2026 run (before the 16 Nov parser fix) these clustered into a few real-report shapes (not invented):");
     lines.push("");
     lines.push("- Directional or split visibility, which the parser did not take as prevailing vis: for example `0400W`, `0800NE`, `2000S`, `3000N`, `4500SE`, `1000SW`, and two-group vis such as `4500W 9999` or `2500SW 8000NE`.");
     lines.push("- A missing space before weather: `9999-RA`, `9999-DZ`, `9999-SHRA`.");
@@ -470,7 +504,7 @@ function renderMarkdown(r) {
   lines.push("");
   lines.push("## Odd results");
   lines.push("");
-  lines.push("These are not automatically bugs. Crosswind, tailwind, gust, night, density altitude, and METAR trend/TEMPO/BECMG hits on an otherwise CAVOK report are treated as expected and are not listed here. What remains is worth a second look: a surprising NO-GO on CAVOK, a GO in very low visibility or a very low ceiling, an incomplete verdict despite a usable official report, a non-finite weather value, or a NO-GO with no reason text. On the 15 Nov 2026 run, every incomplete verdict was a genuine NIL METAR (`METAR FAxx NIL`). Land shows more CAUTION than depart, mostly because many reports fall at night on the default PPL profile (no night rating).");
+  lines.push("These are not automatically bugs. Crosswind, tailwind, gust, night, density altitude, and METAR trend/TEMPO/BECMG hits on an otherwise CAVOK report are treated as expected and are not listed here. What remains is worth a second look: a surprising NO-GO on CAVOK, a GO in very low visibility or a very low ceiling, an incomplete verdict despite a usable official report, a non-finite weather value, or a NO-GO with no reason text. A NIL METAR with no TAF, or a report with a malformed required group (garbled wind, visibility or cloud), is INCOMPLETE by design. A TAF FM/BECMG NO-GO is expected when the period starts inside the look-ahead and is below the pilot's own minima (PPL default 8 km / 2 500 ft). Land shows more CAUTION than depart, mostly because many reports fall at night on the default PPL profile (no night rating).");
   lines.push("");
   if (!r.odd.length) lines.push("None flagged.");
   else {

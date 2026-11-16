@@ -1,73 +1,56 @@
-# Codex prompt — Go Around engine and site test brief (15 Nov 2026)
+# Codex prompt — Go Around engine and site test brief (16 Nov 2026)
 
-Read the repository README first. Do not change `site/engine/*`. Do not deploy.
+Read the repository README and `GO-AROUND-CODEX-TEST-BRIEF.md` first. Do not change `site/engine/*`. Do not deploy.
 
----
-
-You are testing the Go Around aviation app from this frozen public snapshot (tag `codex-freeze-15nov`, 15 November 2026 SAST).
+You are testing the Go Around aviation app from this frozen public snapshot (tag `codex-freeze-16nov`, 16 November 2026 SAST), production commit `5a5e60b21`.
 
 Hard rules:
 
 - Do **not** modify anything under `site/engine/`. The engine is locked. Engine files are reference only; report bugs, do not rewrite them.
 - Do **not** deploy, and do not push to `main` or any live or production branch.
-- Do **not** invent or mutate weather reports. Only use `tests/sa-weather/raw/`.
-- You may add notes, extra result files, or tests under `tests/sa-weather/` if they help, but leave the raw reports and the engine alone.
+- Do **not** invent or mutate weather reports. Only use `tests/sa-weather/raw/` and `tests/global-weather/raw/`.
+- You may add notes, extra result files, or tests under the test folders if they help, but leave the raw reports and the engine alone.
 - Output a single `BUGS.md`-style report. For every bug, give exact reproducing input, expected vs actual, file and line, and severity.
 
 # Phase 1 — ENGINE first (use high or extra-high reasoning)
 
-Work on the real South African METAR / SPECI / TAF set.
+Run both official runners from the repository root:
 
-1. Read `README.md`, `tests/sa-weather/README.md` and `tests/sa-weather/manifest.json` so you know the coverage and the known limits (METARs: 12 months; TAFs: about 30 days).
-2. From the repository root, run:
+```bash
+node tests/sa-weather/run-engine.mjs
+node tests/global-weather/run-engine.mjs
+```
 
-   ```bash
-   node tests/sa-weather/run-engine.mjs
-   ```
+Each imports `site/engine/ga-core-v2.js` read-only.
 
-   This imports `site/engine/ga-core-v2.js` read-only and writes `tests/sa-weather/RESULTS.md` plus `tests/sa-weather/results.json`.
+## 16 November 2026 fixes already in this engine
 
-   Optional flags: `--station=FACT`, `--limit=500`, `--all-icao`.
+Confirm the official `tests/sa-weather/RESULTS.md` baseline, then go deeper if you wish. On 16 November the engine was updated to:
 
-3. Read `RESULTS.md` and `results.json`. Then go deeper than the summary.
+- Read directional and split visibility (`0400W`, `4500W 9999` — use the lower value)
+- Split glued weather groups (`9999-RA`)
+- Return INCOMPLETE on garbled required groups instead of guessing
+- Stop treating a TREND / BECMG / TEMPO CAVOK as CAVOK now
 
-## Investigate the 54 parse failures
+The official South African rerun was 190,645 real METARs, 381,290 evaluations, 0 crashes, 0 parse failures, 0 odd results.
 
-`parseOfficial` should read a normal official report the same way the site does. Confirm each failure against the raw text. Ignore true NIL reports. Note `/////KT`, `//////` cloud groups, AUTO, and other legal but awkward groups separately — those should parse as “missing field”, not crash.
+The 6 FAGG CAVOK NO-GOs from the 15 November run were **correct** under the default PPL minima (8 km / 2,500 ft) and the 2-hour look-ahead. They were not an engine bug. Do not treat them as open defects.
 
-On the 15 Nov 2026 run the 54 failures clustered into these real-report shapes (not invented):
+## Known open gaps — confirm and analyse
 
-- Directional or split visibility, which the parser did not take as prevailing vis: for example `0400W`, `0800NE`, `2000S`, `3000N`, `4500SE`, `1000SW`, and two-group vis such as `4500W 9999` or `2500SW 8000NE`.
-- A missing space before weather: `9999-RA`, `9999-DZ`, `9999-SHRA`.
-- `METAR COR` (a correction) before the station id.
-- Garbled but real archive groups: `23016VKT`, `01006K6002KT`, and a couple of AUTO reports with `////` then a later `9999`.
+These were found on the worldwide set (`tests/global-weather/`, official `RESULTS.md`) and have not been fixed:
 
-Exact raw reports are listed in `tests/sa-weather/RESULTS.md` and `results.json`. Open every parse failure. Open every crash (uncaught exception), if any, and write a short, exact reproduction: station, raw METAR/TAF, phase, and the thrown error.
+1. **Statute-mile visibility not read:** `10SM`, `3SM`, `P6SM`, `15SM`, `1/2SM`, and the same SM groups in US and Canadian TAFs. Example: `METAR CYFB 160000Z 31006KT 15SM BKN025 M06/M09 A3020 RMK SC7 SLP231` — `parseOfficial` returns `vis: null`. This is the large worldwide gap; South African reports use metres and CAVOK, so it does not show on the SA set.
+2. **Directional visibility with a slash:** `8000NW/N`, `8000NE/E`. The 16 November fix already reads `0400W` and `8000NE`. It does not read the slash form. Example: `METAR MDSD 211800Z 10006KT 8000NW/N VCSH FEW020CB BKN022 30/23 Q1014 CB/NW/N`.
+3. **Missing space before a cloud group:** `9999FEW010`, `9999BKN014`, `9999OVC015`, `9999SCT023`.
+4. **Visibility in kilometres written as `8KM`:** for example `8KM BR`, `8KM RA` (HAAB).
+5. **Foreign airports have no runway headings** in the site database, so `field.runways` is empty and the engine treats the whole wind as worst-case crosswind. That is current policy. The worldwide runner did not invent headings.
 
-## Investigate the 6 FAGG NO-GOs
-
-These are odd results, not automatically bugs. Decide which ones are real mistakes.
-
-All six are at **FAGG**, where a current CAVOK METAR was given a NO-GO from a future TAF `FM` group that had not yet started, and that was not below limits:
-
-- 16 Oct 2026, 19:00Z and 20:00Z land: METAR `METAR FAGG 161900Z AUTO 02002KT CAVOK 16/14 Q1015` (and the 20:00Z CAVOK report). TAF `FM162000 35005KT 9999 BKN020`. The engine said NO-GO for a 2 000 ft ceiling. A 2 000 ft ceiling is above the 1 000 ft Part 91 VFR floor. At 19:00Z the `FM` has also not started yet.
-- 5 Nov 2026, 10:00Z and 11:00Z depart and land: METAR is CAVOK. The engine said NO-GO because of `FM051200 20010KT 6000 -RA BKN010` (“vis 6.0 km”). 6 km is above the 5 km VFR floor, and at 10:05Z that `FM` is still in the future.
-
-Check verdict logic against **Part 91 VFR** rules.
-
-Also pay attention to:
-
-- A NO-GO on CAVOK / 9999 with only modest wind, unless the reason is night, density altitude, or another rule that still applies.
-- A GO in fog or very low ceiling (for example visibility 800 m or less, or BKN/OVC/VV at 200 ft or less) on the default PPL VFR profile.
-- `incomplete` when the METAR is a complete official report and should have been usable (this run sets `now` to five minutes after the report, so staleness should not be the cause).
-- Non-finite numbers in `weatherUsed`, or a NO-GO with an empty `why`.
-- Systematic patterns: one station, one kind of report (NIL, AUTO, VRB, CAVOK, TS, FG, strong gusts, `BKN///`, missing QNH, SPECI vs METAR), or a TAF TEMPO/BECMG/FM applied at the wrong time.
+Also check verdict logic against **Part 91 VFR**, the default **PPL preset minima** (8 km visibility, 2,500 ft ceiling), and look-ahead windows (including `FM` / `BECMG` / `TEMPO`).
 
 **Density altitude over the limit must be CAUTION only, never NO DEPART.** This product has no mass and balance.
 
 You may also call `parseOfficial`, `tafSegs`, `conditionsAt` / the TAF helpers, and `evaluate` yourself on individual reports. Still do not edit the engine.
-
-The runner already uses the real engine the same way the site does: `evaluate({ field, weather: { metar, taf }, profile: { licence: "ppl" }, aircraftId: "C172", rules: "vfr", phase, now })`, with `now` equal to the observation time plus five minutes, and the TAF that was in force at that time attached when we have one. Field elevation, runways, latitude and longitude come from the site’s own runway database and model points.
 
 # Phase 2 — site bugs (use medium reasoning)
 
@@ -87,13 +70,13 @@ Check:
 
 Write a single `BUGS.md`-style report in plain words, with exact raw reports or UI steps as examples, covering:
 
-- How many stations, METARs, TAFs, and evaluations you ran, and the verdict mix (GO / CAUTION / NO-GO / incomplete).
+- How many stations, METARs, TAFs, and evaluations you ran on each set, and the verdict mix (GO / CAUTION / NO-GO / incomplete).
 - Crashes, if any, with reproductions.
-- Parse failures, with examples, especially the 54 known cases above.
-- The 6 FAGG CAVOK NO-GOs, and whether the future TAF `FM` group was applied wrongly.
-- Odd results you believe are bugs, with examples, versus odd results you believe are correct Part 91 VFR behaviour (say why).
+- Confirmation of the 16 November South African baseline (0 parse failures, 0 odd results) and of the FAGG explanation above.
+- The known open gaps, with examples, expected vs actual, file and line, and severity.
+- Odd results you believe are bugs, versus odd results you believe are correct Part 91 VFR or PPL-minima behaviour (say why).
 - Density-altitude handling (CAUTION only, never NO DEPART).
 - Site bugs from phase 2, each with exact steps, expected vs actual, file and line, and severity.
-- Anything you did not have enough TAF history to judge (TAF coverage is only about 30 days).
+- Anything you did not have enough TAF history to judge (outside the US, TAF coverage is only about 30 days).
 
 Do not “fix” the engine in this pass. If you want to suggest a fix, describe it in words only and leave the engine code unchanged. Do not deploy.

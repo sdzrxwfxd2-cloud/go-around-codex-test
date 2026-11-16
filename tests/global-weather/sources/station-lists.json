@@ -1,0 +1,3609 @@
+{
+  "fetched_at": "2026-11-15T22:40:45Z",
+  "url": "https://aviationweather.gov/api/data/stationinfo",
+  "stations": {
+    "EBBR": {
+      "icao": "EBBR",
+      "name": "Brussels Intl",
+      "lat": 50.896,
+      "lon": 4.526,
+      "elev_m": 49,
+      "elev_ft": 161,
+      "country": "BE",
+      "state": "VL",
+      "iata": "BRU",
+      "wmo": "06451",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EDDB": {
+      "icao": "EDDB",
+      "name": "Berlin/Brandenburg Intl",
+      "lat": 52.38068,
+      "lon": 13.53064,
+      "elev_m": 48,
+      "elev_ft": 157,
+      "country": "DE",
+      "state": "BR",
+      "iata": "BER",
+      "wmo": "10385",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EDDF": {
+      "icao": "EDDF",
+      "name": "Frankfurt/Main Arpt",
+      "lat": 50.045,
+      "lon": 8.598,
+      "elev_m": 113,
+      "elev_ft": 371,
+      "country": "DE",
+      "state": "HE",
+      "iata": "FRA",
+      "wmo": "10637",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EDDH": {
+      "icao": "EDDH",
+      "name": "Hamburg Arpt",
+      "lat": 53.633,
+      "lon": 9.988,
+      "elev_m": 8,
+      "elev_ft": 26,
+      "country": "DE",
+      "state": "HH",
+      "iata": "HAM",
+      "wmo": "10147",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EDDK": {
+      "icao": "EDDK",
+      "name": "Koln-Bonn Arpt",
+      "lat": 50.865,
+      "lon": 7.157,
+      "elev_m": 92,
+      "elev_ft": 302,
+      "country": "DE",
+      "state": "NT",
+      "iata": "CGN",
+      "wmo": "10513",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EDDL": {
+      "icao": "EDDL",
+      "name": "D\u00fcsseldorf Intl",
+      "lat": 51.296,
+      "lon": 6.769,
+      "elev_m": 37,
+      "elev_ft": 121,
+      "country": "DE",
+      "state": "NT",
+      "iata": "DUS",
+      "wmo": "10400",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EDDM": {
+      "icao": "EDDM",
+      "name": "Munich Intl",
+      "lat": 48.348,
+      "lon": 11.813,
+      "elev_m": 445,
+      "elev_ft": 1460,
+      "country": "DE",
+      "state": "BY",
+      "iata": "MUC",
+      "wmo": "10866",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EDDS": {
+      "icao": "EDDS",
+      "name": "Stuttgart Arpt",
+      "lat": 48.69,
+      "lon": 9.222,
+      "elev_m": 374,
+      "elev_ft": 1227,
+      "country": "DE",
+      "state": "BW",
+      "iata": "STR",
+      "wmo": "10738",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EGAA": {
+      "icao": "EGAA",
+      "name": "Belfast Intl",
+      "lat": 54.654,
+      "lon": -6.225,
+      "elev_m": 65,
+      "elev_ft": 213,
+      "country": "GB",
+      "state": "NI",
+      "iata": "BFS",
+      "wmo": "03917",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EGBB": {
+      "icao": "EGBB",
+      "name": "Birmingham Intl",
+      "lat": 52.46,
+      "lon": -1.758,
+      "elev_m": 91,
+      "elev_ft": 299,
+      "country": "GB",
+      "state": "EN",
+      "iata": "BHX",
+      "wmo": "03534",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EGCC": {
+      "icao": "EGCC",
+      "name": "Manchester Intl",
+      "lat": 53.354,
+      "lon": -2.275,
+      "elev_m": 78,
+      "elev_ft": 256,
+      "country": "GB",
+      "state": "EN",
+      "iata": "MAN",
+      "wmo": "03334",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EGKK": {
+      "icao": "EGKK",
+      "name": "London/Gatwick Arpt",
+      "lat": 51.148,
+      "lon": -0.19,
+      "elev_m": 58,
+      "elev_ft": 190,
+      "country": "GB",
+      "state": "EN",
+      "iata": "LGW",
+      "wmo": "03776",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EGLL": {
+      "icao": "EGLL",
+      "name": "London/Heathrow Intl",
+      "lat": 51.477,
+      "lon": -0.461,
+      "elev_m": 26,
+      "elev_ft": 85,
+      "country": "GB",
+      "state": "EN",
+      "iata": "LHR",
+      "wmo": "03772",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EGPF": {
+      "icao": "EGPF",
+      "name": "Glasgow Arpt",
+      "lat": 55.867,
+      "lon": -4.433,
+      "elev_m": 8,
+      "elev_ft": 26,
+      "country": "GB",
+      "state": "SC",
+      "iata": "GLA",
+      "wmo": "03140",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EGPH": {
+      "icao": "EGPH",
+      "name": "Edinburgh Arpt",
+      "lat": 55.952,
+      "lon": -3.36,
+      "elev_m": 29,
+      "elev_ft": 95,
+      "country": "GB",
+      "state": "SC",
+      "iata": "EDI",
+      "wmo": "03160",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EGSS": {
+      "icao": "EGSS",
+      "name": "London/Stansted Arpt",
+      "lat": 51.881,
+      "lon": 0.223,
+      "elev_m": 101,
+      "elev_ft": 331,
+      "country": "GB",
+      "state": "EN",
+      "iata": "STN",
+      "wmo": "03683",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EHAM": {
+      "icao": "EHAM",
+      "name": "Amsterdam/Schiphol Arpt",
+      "lat": 52.315,
+      "lon": 4.79,
+      "elev_m": -2,
+      "elev_ft": -7,
+      "country": "NL",
+      "state": "NH",
+      "iata": "AMS",
+      "wmo": "06240",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EHRD": {
+      "icao": "EHRD",
+      "name": "Rotterdam/The Hague Arpt",
+      "lat": 51.954,
+      "lon": 4.444,
+      "elev_m": -4,
+      "elev_ft": -13,
+      "country": "NL",
+      "state": "ZH",
+      "iata": "RTM",
+      "wmo": "06344",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LFPG": {
+      "icao": "LFPG",
+      "name": "Paris/De Gaulle Arpt",
+      "lat": 49.015,
+      "lon": 2.534,
+      "elev_m": 107,
+      "elev_ft": 351,
+      "country": "FR",
+      "state": "ID",
+      "iata": "CDG",
+      "wmo": "07157",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LFPO": {
+      "icao": "LFPO",
+      "name": "Paris/Orly Fld",
+      "lat": 48.717,
+      "lon": 2.384,
+      "elev_m": 88,
+      "elev_ft": 289,
+      "country": "FR",
+      "state": "ID",
+      "iata": "ORY",
+      "wmo": "07149",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EFHK": {
+      "icao": "EFHK",
+      "name": "Helsinki/Vantaa Arpt",
+      "lat": 60.327,
+      "lon": 24.957,
+      "elev_m": 56,
+      "elev_ft": 184,
+      "country": "FI",
+      "state": "UU",
+      "iata": "HEL",
+      "wmo": "02974",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EIDW": {
+      "icao": "EIDW",
+      "name": "Dublin Arpt",
+      "lat": 53.422,
+      "lon": -6.298,
+      "elev_m": 75,
+      "elev_ft": 246,
+      "country": "IE",
+      "state": "L",
+      "iata": "DUB",
+      "wmo": "03969",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EINN": {
+      "icao": "EINN",
+      "name": "Shannon Arpt",
+      "lat": 52.702,
+      "lon": -8.925,
+      "elev_m": 20,
+      "elev_ft": 66,
+      "country": "IE",
+      "state": "M",
+      "iata": "SNN",
+      "wmo": "03962",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EKCH": {
+      "icao": "EKCH",
+      "name": "Kobenhavn Intl",
+      "lat": 55.618,
+      "lon": 12.656,
+      "elev_m": 4,
+      "elev_ft": 13,
+      "country": "DK",
+      "state": "HO",
+      "iata": "CPH",
+      "wmo": "06180",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ENBR": {
+      "icao": "ENBR",
+      "name": "Bergen/Flesland Arpt",
+      "lat": 60.29,
+      "lon": 5.222,
+      "elev_m": 49,
+      "elev_ft": 161,
+      "country": "NO",
+      "state": "HO",
+      "iata": "BGO",
+      "wmo": "01311",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ENGM": {
+      "icao": "ENGM",
+      "name": "Oslo/Gardermoen Arpt",
+      "lat": 60.201,
+      "lon": 11.08,
+      "elev_m": 204,
+      "elev_ft": 669,
+      "country": "NO",
+      "state": "AK",
+      "iata": "OSL",
+      "wmo": "01384",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ENTC": {
+      "icao": "ENTC",
+      "name": "Troms\u00f8 Arpt",
+      "lat": 69.675,
+      "lon": 18.916,
+      "elev_m": 9,
+      "elev_ft": 30,
+      "country": "NO",
+      "state": "TR",
+      "iata": "TOS",
+      "wmo": "01025",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ENZV": {
+      "icao": "ENZV",
+      "name": "Stavanger/Sola Arpt",
+      "lat": 58.884,
+      "lon": 5.637,
+      "elev_m": 7,
+      "elev_ft": 23,
+      "country": "NO",
+      "state": "RO",
+      "iata": "SVG",
+      "wmo": "01415",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ESGG": {
+      "icao": "ESGG",
+      "name": "G\u00f6teborg/Landvetter Arpt",
+      "lat": 57.667,
+      "lon": 12.285,
+      "elev_m": 152,
+      "elev_ft": 499,
+      "country": "SE",
+      "state": "O",
+      "iata": "GOT",
+      "wmo": "02526",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ESSA": {
+      "icao": "ESSA",
+      "name": "Stockholm/Arlanda Arpt",
+      "lat": 59.664,
+      "lon": 17.92,
+      "elev_m": 36,
+      "elev_ft": 118,
+      "country": "SE",
+      "state": "AB",
+      "iata": "ARN",
+      "wmo": "02460",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LEBL": {
+      "icao": "LEBL",
+      "name": "Barcelona/Prat Arpt",
+      "lat": 41.293,
+      "lon": 2.07,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "ES",
+      "state": "CT",
+      "iata": "BCN",
+      "wmo": "08181",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LEMD": {
+      "icao": "LEMD",
+      "name": "Madrid/Barajas Arpt",
+      "lat": 40.466,
+      "lon": -3.555,
+      "elev_m": 589,
+      "elev_ft": 1932,
+      "country": "ES",
+      "state": "M",
+      "iata": "MAD",
+      "wmo": "08221",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LEPA": {
+      "icao": "LEPA",
+      "name": "Palma De Mallorca Arpr",
+      "lat": 39.561,
+      "lon": 2.737,
+      "elev_m": 8,
+      "elev_ft": 26,
+      "country": "ES",
+      "state": "IB",
+      "iata": "PMI",
+      "wmo": "08306",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LEVC": {
+      "icao": "LEVC",
+      "name": "Valencia Arpt",
+      "lat": 39.489,
+      "lon": -0.482,
+      "elev_m": 58,
+      "elev_ft": 190,
+      "country": "ES",
+      "state": "VC",
+      "iata": "VLC",
+      "wmo": "08284",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LFBO": {
+      "icao": "LFBO",
+      "name": "Toulouse/Blagnac Arpt",
+      "lat": 43.621,
+      "lon": 1.379,
+      "elev_m": 150,
+      "elev_ft": 492,
+      "country": "FR",
+      "state": "OC",
+      "iata": "TLS",
+      "wmo": "07630",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LFML": {
+      "icao": "LFML",
+      "name": "Marseille Arpt",
+      "lat": 43.438,
+      "lon": 5.216,
+      "elev_m": 20,
+      "elev_ft": 66,
+      "country": "FR",
+      "state": "PA",
+      "iata": "MRS",
+      "wmo": "07650",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LIMC": {
+      "icao": "LIMC",
+      "name": "Milan/Malpensa Arpt",
+      "lat": 45.631,
+      "lon": 8.728,
+      "elev_m": 221,
+      "elev_ft": 725,
+      "country": "IT",
+      "state": "MI",
+      "iata": "MXP",
+      "wmo": "16066",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LIPZ": {
+      "icao": "LIPZ",
+      "name": "Venice/Polo Arpt",
+      "lat": 45.505,
+      "lon": 12.352,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "IT",
+      "state": "VE",
+      "iata": "VCE",
+      "wmo": "16105",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LIRF": {
+      "icao": "LIRF",
+      "name": "Rome/Fiumicino",
+      "lat": 41.8,
+      "lon": 12.239,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "IT",
+      "state": "RM",
+      "iata": "FCO",
+      "wmo": "16242",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LIRN": {
+      "icao": "LIRN",
+      "name": "Naples Intl",
+      "lat": 40.885,
+      "lon": 14.292,
+      "elev_m": 76,
+      "elev_ft": 249,
+      "country": "IT",
+      "state": "NA",
+      "iata": "NAP",
+      "wmo": "16289",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "BIAR": {
+      "icao": "BIAR",
+      "name": "Akureyri Arpt",
+      "lat": 65.655,
+      "lon": -18.069,
+      "elev_m": 1,
+      "elev_ft": 3,
+      "country": "IS",
+      "state": "NE",
+      "iata": "AEY",
+      "wmo": "04063",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "BIKF": {
+      "icao": "BIKF",
+      "name": "Keflavik Intl",
+      "lat": 63.987,
+      "lon": -22.614,
+      "elev_m": 49,
+      "elev_ft": 161,
+      "country": "IS",
+      "state": "SP",
+      "iata": "KEF",
+      "wmo": "04018",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EPWA": {
+      "icao": "EPWA",
+      "name": "Warsaw/Chopin Arpt",
+      "lat": 52.163,
+      "lon": 20.961,
+      "elev_m": 107,
+      "elev_ft": 351,
+      "country": "PL",
+      "state": "MZ",
+      "iata": "WAW",
+      "wmo": "12375",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "EVRA": {
+      "icao": "EVRA",
+      "name": "Riga Intl",
+      "lat": 56.924,
+      "lon": 23.968,
+      "elev_m": 7,
+      "elev_ft": 23,
+      "country": "LV",
+      "state": "RG",
+      "iata": "RIX",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KBOS": {
+      "icao": "KBOS",
+      "name": "Boston/Logan Intl",
+      "lat": 42.36057,
+      "lon": -71.00974,
+      "elev_m": 4,
+      "elev_ft": 13,
+      "country": "US",
+      "state": "MA",
+      "iata": "BOS",
+      "wmo": "72509",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KDCA": {
+      "icao": "KDCA",
+      "name": "Washington/Reagan-National Arpt",
+      "lat": 38.8472,
+      "lon": -77.03453,
+      "elev_m": 4,
+      "elev_ft": 13,
+      "country": "US",
+      "state": "VA",
+      "iata": "DCA",
+      "wmo": "72405",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KEWR": {
+      "icao": "KEWR",
+      "name": "Newark Intl",
+      "lat": 40.68277,
+      "lon": -74.16924,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "US",
+      "state": "NJ",
+      "iata": "EWR",
+      "wmo": "72502",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KIAD": {
+      "icao": "KIAD",
+      "name": "Washington/Dulles Intl",
+      "lat": 38.93485,
+      "lon": -77.44728,
+      "elev_m": 90,
+      "elev_ft": 295,
+      "country": "US",
+      "state": "VA",
+      "iata": "IAD",
+      "wmo": "72403",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KJFK": {
+      "icao": "KJFK",
+      "name": "New York/JF Kennedy Intl",
+      "lat": 40.63916,
+      "lon": -73.76394,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "US",
+      "state": "NY",
+      "iata": "JFK",
+      "wmo": "74486",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KLGA": {
+      "icao": "KLGA",
+      "name": "New York/La Guardia Arpt",
+      "lat": 40.77945,
+      "lon": -73.88027,
+      "elev_m": 9,
+      "elev_ft": 30,
+      "country": "US",
+      "state": "NY",
+      "iata": "LGA",
+      "wmo": "72503",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KPHL": {
+      "icao": "KPHL",
+      "name": "Philadelphia Intl",
+      "lat": 39.87328,
+      "lon": -75.22682,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "US",
+      "state": "PA",
+      "iata": "PHL",
+      "wmo": "72408",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LGAV": {
+      "icao": "LGAV",
+      "name": "Athens/Venizelos Intl",
+      "lat": 37.936,
+      "lon": 23.945,
+      "elev_m": 83,
+      "elev_ft": 272,
+      "country": "GR",
+      "state": "I",
+      "iata": "ATH",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LHBP": {
+      "icao": "LHBP",
+      "name": "Budapest/Liszt Intl",
+      "lat": 47.437,
+      "lon": 19.256,
+      "elev_m": 141,
+      "elev_ft": 463,
+      "country": "HU",
+      "state": "BU",
+      "iata": "BUD",
+      "wmo": "12839",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LKPR": {
+      "icao": "LKPR",
+      "name": "Prague/Havel Arpt",
+      "lat": 50.101,
+      "lon": 14.26,
+      "elev_m": 364,
+      "elev_ft": 1194,
+      "country": "CZ",
+      "state": "ST",
+      "iata": "PRG",
+      "wmo": "11518",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LOWW": {
+      "icao": "LOWW",
+      "name": "Vienna Intl",
+      "lat": 48.117,
+      "lon": 16.582,
+      "elev_m": 179,
+      "elev_ft": 587,
+      "country": "AT",
+      "state": "NE",
+      "iata": "VIE",
+      "wmo": "11036",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LPPR": {
+      "icao": "LPPR",
+      "name": "Porto/Cameriro Arpt",
+      "lat": 41.235,
+      "lon": -8.684,
+      "elev_m": 64,
+      "elev_ft": 210,
+      "country": "PT",
+      "state": "PT",
+      "iata": "OPO",
+      "wmo": "08545",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LPPT": {
+      "icao": "LPPT",
+      "name": "Lisbon Arpt",
+      "lat": 38.781,
+      "lon": -9.136,
+      "elev_m": 98,
+      "elev_ft": 322,
+      "country": "PT",
+      "state": "LI",
+      "iata": "LIS",
+      "wmo": "08536",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LROP": {
+      "icao": "LROP",
+      "name": "Bucharest/Coand\u0103 Intl",
+      "lat": 44.572,
+      "lon": 26.102,
+      "elev_m": 92,
+      "elev_ft": 302,
+      "country": "RO",
+      "state": "B",
+      "iata": "OTP",
+      "wmo": "15421",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LSGG": {
+      "icao": "LSGG",
+      "name": "Geneva/Cointrin Arpt",
+      "lat": 46.248,
+      "lon": 6.128,
+      "elev_m": 411,
+      "elev_ft": 1348,
+      "country": "CH",
+      "state": "GE",
+      "iata": "GVA",
+      "wmo": "06700",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "LSZH": {
+      "icao": "LSZH",
+      "name": "Z\u00fcrich Intl Arpt",
+      "lat": 47.48,
+      "lon": 8.536,
+      "elev_m": 424,
+      "elev_ft": 1391,
+      "country": "CH",
+      "state": "ZH",
+      "iata": "ZRH",
+      "wmo": "06670",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KATL": {
+      "icao": "KATL",
+      "name": "Atlanta/Hartsfield-Jackson Intl",
+      "lat": 33.62972,
+      "lon": -84.44223,
+      "elev_m": 309,
+      "elev_ft": 1014,
+      "country": "US",
+      "state": "GA",
+      "iata": "ATL",
+      "wmo": "72219",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KBUF": {
+      "icao": "KBUF",
+      "name": "Buffalo-Niagara Intl",
+      "lat": 42.93998,
+      "lon": -78.73606,
+      "elev_m": 217,
+      "elev_ft": 712,
+      "country": "US",
+      "state": "NY",
+      "iata": "BUF",
+      "wmo": "72528",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KCLE": {
+      "icao": "KCLE",
+      "name": "Cleveland/Hopkins Intl",
+      "lat": 41.40568,
+      "lon": -81.85192,
+      "elev_m": 237,
+      "elev_ft": 778,
+      "country": "US",
+      "state": "OH",
+      "iata": "CLE",
+      "wmo": "72524",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KDEN": {
+      "icao": "KDEN",
+      "name": "Denver Intl",
+      "lat": 39.84657,
+      "lon": -104.65623,
+      "elev_m": 1656,
+      "elev_ft": 5433,
+      "country": "US",
+      "state": "CO",
+      "iata": "DEN",
+      "wmo": "72565",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KDFW": {
+      "icao": "KDFW",
+      "name": "Dallas-Ft Worth Intl",
+      "lat": 32.89744,
+      "lon": -97.02195,
+      "elev_m": 168,
+      "elev_ft": 551,
+      "country": "US",
+      "state": "TX",
+      "iata": "DFW",
+      "wmo": "72259",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KDTW": {
+      "icao": "KDTW",
+      "name": "Detroit/Metro Wayne Cnty",
+      "lat": 42.23112,
+      "lon": -83.33122,
+      "elev_m": 192,
+      "elev_ft": 630,
+      "country": "US",
+      "state": "MI",
+      "iata": "DTW",
+      "wmo": "72537",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KIAH": {
+      "icao": "KIAH",
+      "name": "Houston/Bush Intl",
+      "lat": 29.98438,
+      "lon": -95.36072,
+      "elev_m": 27,
+      "elev_ft": 89,
+      "country": "US",
+      "state": "TX",
+      "iata": "IAH",
+      "wmo": "72243",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KLAS": {
+      "icao": "KLAS",
+      "name": "Las Vegas/Reid Intl",
+      "lat": 36.07188,
+      "lon": -115.16343,
+      "elev_m": 662,
+      "elev_ft": 2172,
+      "country": "US",
+      "state": "NV",
+      "iata": "LAS",
+      "wmo": "72386",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KLAX": {
+      "icao": "KLAX",
+      "name": "Los Angeles Intl",
+      "lat": 33.93817,
+      "lon": -118.3866,
+      "elev_m": 30,
+      "elev_ft": 98,
+      "country": "US",
+      "state": "CA",
+      "iata": "LAX",
+      "wmo": "72295",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KMCO": {
+      "icao": "KMCO",
+      "name": "Orlando Intl",
+      "lat": 28.41822,
+      "lon": -81.32413,
+      "elev_m": 27,
+      "elev_ft": 89,
+      "country": "US",
+      "state": "FL",
+      "iata": "MCO",
+      "wmo": "72205",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KMDW": {
+      "icao": "KMDW",
+      "name": "Chicago/Midway Intl",
+      "lat": 41.78412,
+      "lon": -87.75515,
+      "elev_m": 186,
+      "elev_ft": 610,
+      "country": "US",
+      "state": "IL",
+      "iata": "MDW",
+      "wmo": "72534",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KMIA": {
+      "icao": "KMIA",
+      "name": "Miami Intl",
+      "lat": 25.78806,
+      "lon": -80.31692,
+      "elev_m": 1,
+      "elev_ft": 3,
+      "country": "US",
+      "state": "FL",
+      "iata": "MIA",
+      "wmo": "72202",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KMSP": {
+      "icao": "KMSP",
+      "name": "Minneapolis-St Paul Intl",
+      "lat": 44.88523,
+      "lon": -93.23132,
+      "elev_m": 255,
+      "elev_ft": 837,
+      "country": "US",
+      "state": "MN",
+      "iata": "MSP",
+      "wmo": "72658",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KMSY": {
+      "icao": "KMSY",
+      "name": "New Orleans/Armstrong Intl",
+      "lat": 29.99739,
+      "lon": -90.27773,
+      "elev_m": 0,
+      "elev_ft": 0,
+      "country": "US",
+      "state": "LA",
+      "iata": "MSY",
+      "wmo": "72231",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KOAK": {
+      "icao": "KOAK",
+      "name": "Oakland Intl",
+      "lat": 37.71779,
+      "lon": -122.23299,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "US",
+      "state": "CA",
+      "iata": "OAK",
+      "wmo": "72493",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KORD": {
+      "icao": "KORD",
+      "name": "Chicago/O'Hare Intl",
+      "lat": 41.96017,
+      "lon": -87.93161,
+      "elev_m": 202,
+      "elev_ft": 663,
+      "country": "US",
+      "state": "IL",
+      "iata": "ORD",
+      "wmo": "72530",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KPHX": {
+      "icao": "KPHX",
+      "name": "Phoenix/Sky Harbor Intl",
+      "lat": 33.42779,
+      "lon": -112.00366,
+      "elev_m": 338,
+      "elev_ft": 1109,
+      "country": "US",
+      "state": "AZ",
+      "iata": "PHX",
+      "wmo": "72278",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KSAN": {
+      "icao": "KSAN",
+      "name": "San Diego Intl Arpt",
+      "lat": 32.73645,
+      "lon": -117.19727,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "US",
+      "state": "CA",
+      "iata": "SAN",
+      "wmo": "72290",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KSFO": {
+      "icao": "KSFO",
+      "name": "San Francisco Intl",
+      "lat": 37.61961,
+      "lon": -122.36561,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "US",
+      "state": "CA",
+      "iata": "SFO",
+      "wmo": "72494",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KTPA": {
+      "icao": "KTPA",
+      "name": "Tampa Intl Arpt",
+      "lat": 27.96332,
+      "lon": -82.53999,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "US",
+      "state": "FL",
+      "iata": "TPA",
+      "wmo": "72211",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "CYUL": {
+      "icao": "CYUL",
+      "name": "Montreal/Trudeau Intl",
+      "lat": 45.468,
+      "lon": -73.742,
+      "elev_m": 31,
+      "elev_ft": 102,
+      "country": "CA",
+      "state": "QC",
+      "iata": "YUL",
+      "wmo": "71627",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "CYVR": {
+      "icao": "CYVR",
+      "name": "Vancouver Intl",
+      "lat": 49.183,
+      "lon": -123.168,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "CA",
+      "state": "BC",
+      "iata": "YVR",
+      "wmo": "71892",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "CYYC": {
+      "icao": "CYYC",
+      "name": "Calgary Intl",
+      "lat": 51.116,
+      "lon": -114.011,
+      "elev_m": 1085,
+      "elev_ft": 3560,
+      "country": "CA",
+      "state": "AB",
+      "iata": "YYC",
+      "wmo": "71877",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "CYYZ": {
+      "icao": "CYYZ",
+      "name": "Toronto/Pearson Intl",
+      "lat": 43.679,
+      "lon": -79.629,
+      "elev_m": 171,
+      "elev_ft": 561,
+      "country": "CA",
+      "state": "ON",
+      "iata": "YYZ",
+      "wmo": "71624",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KBNA": {
+      "icao": "KBNA",
+      "name": "Nashville Intl",
+      "lat": 36.11053,
+      "lon": -86.68815,
+      "elev_m": 168,
+      "elev_ft": 551,
+      "country": "US",
+      "state": "TN",
+      "iata": "BNA",
+      "wmo": "72327",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KCLT": {
+      "icao": "KCLT",
+      "name": "Charlotte/Douglas Intl",
+      "lat": 35.22254,
+      "lon": -80.95432,
+      "elev_m": 223,
+      "elev_ft": 732,
+      "country": "US",
+      "state": "NC",
+      "iata": "CLT",
+      "wmo": "72314",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KMCI": {
+      "icao": "KMCI",
+      "name": "Kansas City Intl",
+      "lat": 39.29747,
+      "lon": -94.73087,
+      "elev_m": 308,
+      "elev_ft": 1010,
+      "country": "US",
+      "state": "MO",
+      "iata": "MCI",
+      "wmo": "72446",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KMEM": {
+      "icao": "KMEM",
+      "name": "Memphis Intl",
+      "lat": 35.05639,
+      "lon": -89.98641,
+      "elev_m": 78,
+      "elev_ft": 256,
+      "country": "US",
+      "state": "TN",
+      "iata": "MEM",
+      "wmo": "72334",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KOKC": {
+      "icao": "KOKC",
+      "name": "Oklahoma City/Will Rogers Intl",
+      "lat": 35.3843,
+      "lon": -97.60033,
+      "elev_m": 391,
+      "elev_ft": 1283,
+      "country": "US",
+      "state": "OK",
+      "iata": "OKC",
+      "wmo": "72353",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KOMA": {
+      "icao": "KOMA",
+      "name": "Omaha/Eppley Fld",
+      "lat": 41.31186,
+      "lon": -95.90185,
+      "elev_m": 299,
+      "elev_ft": 981,
+      "country": "US",
+      "state": "NE",
+      "iata": "OMA",
+      "wmo": "72550",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KPDX": {
+      "icao": "KPDX",
+      "name": "Portland Intl",
+      "lat": 45.59578,
+      "lon": -122.60917,
+      "elev_m": 7,
+      "elev_ft": 23,
+      "country": "US",
+      "state": "OR",
+      "iata": "PDX",
+      "wmo": "72698",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KRDU": {
+      "icao": "KRDU",
+      "name": "Raleigh-Durham Intl",
+      "lat": 35.89228,
+      "lon": -78.78196,
+      "elev_m": 121,
+      "elev_ft": 397,
+      "country": "US",
+      "state": "NC",
+      "iata": "RDU",
+      "wmo": "72306",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KSEA": {
+      "icao": "KSEA",
+      "name": "Seattle-Tacoma Intl",
+      "lat": 47.44467,
+      "lon": -122.31442,
+      "elev_m": 115,
+      "elev_ft": 377,
+      "country": "US",
+      "state": "WA",
+      "iata": "SEA",
+      "wmo": "72793",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KSLC": {
+      "icao": "KSLC",
+      "name": "Salt Lake City Intl",
+      "lat": 40.7707,
+      "lon": -111.96503,
+      "elev_m": 1286,
+      "elev_ft": 4219,
+      "country": "US",
+      "state": "UT",
+      "iata": "SLC",
+      "wmo": "72572",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "KSTL": {
+      "icao": "KSTL",
+      "name": "St Louis/Lambert Intl",
+      "lat": 38.75245,
+      "lon": -90.37341,
+      "elev_m": 163,
+      "elev_ft": 535,
+      "country": "US",
+      "state": "MO",
+      "iata": "STL",
+      "wmo": "72434",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "PAFA": {
+      "icao": "PAFA",
+      "name": "Fairbanks Intl",
+      "lat": 64.8031,
+      "lon": -147.87606,
+      "elev_m": 130,
+      "elev_ft": 427,
+      "country": "US",
+      "state": "AK",
+      "iata": "FAI",
+      "wmo": "70261",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "PAJN": {
+      "icao": "PAJN",
+      "name": "Juneau Intl",
+      "lat": 58.354,
+      "lon": -134.55607,
+      "elev_m": 6,
+      "elev_ft": 20,
+      "country": "US",
+      "state": "AK",
+      "iata": "JNU",
+      "wmo": "70381",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "PANC": {
+      "icao": "PANC",
+      "name": "Anchorage Intl",
+      "lat": 61.16914,
+      "lon": -150.02774,
+      "elev_m": 39,
+      "elev_ft": 128,
+      "country": "US",
+      "state": "AK",
+      "iata": "ANC",
+      "wmo": "70273",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "PHNL": {
+      "icao": "PHNL",
+      "name": "Honolulu Intl",
+      "lat": 21.31505,
+      "lon": -157.924,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "US",
+      "state": "HI",
+      "iata": "HNL",
+      "wmo": "91182",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "PHOG": {
+      "icao": "PHOG",
+      "name": "Kahului Arpt",
+      "lat": 20.8887,
+      "lon": -156.43453,
+      "elev_m": 14,
+      "elev_ft": 46,
+      "country": "US",
+      "state": "HI",
+      "iata": "OGG",
+      "wmo": "91190",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "CYFB": {
+      "icao": "CYFB",
+      "name": "Iqaluit Arpt",
+      "lat": 63.75,
+      "lon": -68.544,
+      "elev_m": 23,
+      "elev_ft": 75,
+      "country": "CA",
+      "state": "NU",
+      "iata": "YFB",
+      "wmo": "71909",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "CYHZ": {
+      "icao": "CYHZ",
+      "name": "Halifax/Stanfield Intl",
+      "lat": 44.8781,
+      "lon": -63.5136,
+      "elev_m": 136,
+      "elev_ft": 446,
+      "country": "CA",
+      "state": "NS",
+      "iata": "YHZ",
+      "wmo": "71395",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "CYOW": {
+      "icao": "CYOW",
+      "name": "Ottawa/Cartier Intl",
+      "lat": 45.307,
+      "lon": -75.66,
+      "elev_m": 111,
+      "elev_ft": 364,
+      "country": "CA",
+      "state": "ON",
+      "iata": "YOW",
+      "wmo": "71628",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "CYWG": {
+      "icao": "CYWG",
+      "name": "Winnipeg Intl Arpt",
+      "lat": 49.916,
+      "lon": -97.249,
+      "elev_m": 238,
+      "elev_ft": 781,
+      "country": "CA",
+      "state": "MB",
+      "iata": "YWG",
+      "wmo": "71852",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "MDSD": {
+      "icao": "MDSD",
+      "name": "Santo Domingo/Am\u00e9ric",
+      "lat": 18.433,
+      "lon": -69.667,
+      "elev_m": 18,
+      "elev_ft": 59,
+      "country": "DO",
+      "state": "DN",
+      "iata": "SDQ",
+      "wmo": "78485",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "MKJP": {
+      "icao": "MKJP",
+      "name": "Kingston/Manley Intl",
+      "lat": 17.942,
+      "lon": -76.798,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "JM",
+      "state": "KI",
+      "iata": "KIN",
+      "wmo": "78397",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "MMGL": {
+      "icao": "MMGL",
+      "name": "Guadalajara Arpt",
+      "lat": 20.523,
+      "lon": -103.312,
+      "elev_m": 1531,
+      "elev_ft": 5023,
+      "country": "MX",
+      "state": "GT",
+      "iata": "GDL",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "MMMX": {
+      "icao": "MMMX",
+      "name": "Mexico City Intl",
+      "lat": 19.436,
+      "lon": -99.072,
+      "elev_m": 2224,
+      "elev_ft": 7297,
+      "country": "MX",
+      "state": "DF",
+      "iata": "MEX",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "MMUN": {
+      "icao": "MMUN",
+      "name": "Canc\u00fan Intl",
+      "lat": 21.038,
+      "lon": -86.855,
+      "elev_m": 13,
+      "elev_ft": 43,
+      "country": "MX",
+      "state": "QR",
+      "iata": "CUN",
+      "wmo": "76595",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "TIST": {
+      "icao": "TIST",
+      "name": "St Thomas/King Arpt",
+      "lat": 18.33623,
+      "lon": -64.97994,
+      "elev_m": 5,
+      "elev_ft": 16,
+      "country": "VI",
+      "state": "",
+      "iata": "STT",
+      "wmo": "78543",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "TJSJ": {
+      "icao": "TJSJ",
+      "name": "San Juan/Marin Intl",
+      "lat": 18.4326,
+      "lon": -66.01065,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "PR",
+      "state": "",
+      "iata": "SJU",
+      "wmo": "78526",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "TNCM": {
+      "icao": "TNCM",
+      "name": "St Maarten Intl",
+      "lat": 18.041,
+      "lon": -63.109,
+      "elev_m": 9,
+      "elev_ft": 30,
+      "country": "SX",
+      "state": "",
+      "iata": "SXM",
+      "wmo": "78866",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YBBN": {
+      "icao": "YBBN",
+      "name": "Brisbane Intl",
+      "lat": -27.391,
+      "lon": 153.13,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "AU",
+      "state": "QL",
+      "iata": "BNE",
+      "wmo": "94578",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YBCS": {
+      "icao": "YBCS",
+      "name": "Cairns Intl",
+      "lat": -16.874,
+      "lon": 145.745,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "AU",
+      "state": "QL",
+      "iata": "CNS",
+      "wmo": "94287",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YBTL": {
+      "icao": "YBTL",
+      "name": "Townsville Arpt",
+      "lat": -19.248,
+      "lon": 146.766,
+      "elev_m": 4,
+      "elev_ft": 13,
+      "country": "AU",
+      "state": "QL",
+      "iata": "TSV",
+      "wmo": "94294",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YMML": {
+      "icao": "YMML",
+      "name": "Melbourne Intl",
+      "lat": -37.666,
+      "lon": 144.832,
+      "elev_m": 115,
+      "elev_ft": 377,
+      "country": "AU",
+      "state": "VI",
+      "iata": "MEL",
+      "wmo": "94866",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YPAD": {
+      "icao": "YPAD",
+      "name": "Adelaide Intl",
+      "lat": -34.952,
+      "lon": 138.52,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "AU",
+      "state": "SA",
+      "iata": "ADL",
+      "wmo": "94672",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YPPH": {
+      "icao": "YPPH",
+      "name": "Perth Intl",
+      "lat": -31.927,
+      "lon": 115.976,
+      "elev_m": 16,
+      "elev_ft": 52,
+      "country": "AU",
+      "state": "WA",
+      "iata": "PER",
+      "wmo": "94610",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YSSY": {
+      "icao": "YSSY",
+      "name": "Sydney Intl",
+      "lat": -33.946,
+      "lon": 151.173,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "AU",
+      "state": "NS",
+      "iata": "SYD",
+      "wmo": "94767",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YWLM": {
+      "icao": "YWLM",
+      "name": "Williamtown/New Castle Arpt",
+      "lat": -32.794,
+      "lon": 151.836,
+      "elev_m": 7,
+      "elev_ft": 23,
+      "country": "AU",
+      "state": "NS",
+      "iata": "NTL",
+      "wmo": "94776",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "NZAA": {
+      "icao": "NZAA",
+      "name": "Auckland Intl",
+      "lat": -37.008,
+      "lon": 174.792,
+      "elev_m": 7,
+      "elev_ft": 23,
+      "country": "NZ",
+      "state": "AU",
+      "iata": "AKL",
+      "wmo": "93119",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "NZCH": {
+      "icao": "NZCH",
+      "name": "Christchurch Intl",
+      "lat": -43.489,
+      "lon": 172.528,
+      "elev_m": 36,
+      "elev_ft": 118,
+      "country": "NZ",
+      "state": "CA",
+      "iata": "CHC",
+      "wmo": "93780",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "NZQN": {
+      "icao": "NZQN",
+      "name": "Queenstown Arpt",
+      "lat": -45.021,
+      "lon": 168.739,
+      "elev_m": 356,
+      "elev_ft": 1168,
+      "country": "NZ",
+      "state": "OT",
+      "iata": "ZQN",
+      "wmo": null,
+      "siteType": [
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "NZWN": {
+      "icao": "NZWN",
+      "name": "Wellington Intl",
+      "lat": -41.331,
+      "lon": 174.806,
+      "elev_m": 12,
+      "elev_ft": 39,
+      "country": "NZ",
+      "state": "WG",
+      "iata": "WLG",
+      "wmo": "93436",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RJAA": {
+      "icao": "RJAA",
+      "name": "Narita Intl",
+      "lat": 35.765,
+      "lon": 140.386,
+      "elev_m": 36,
+      "elev_ft": 118,
+      "country": "JP",
+      "state": "12",
+      "iata": "NRT",
+      "wmo": "47686",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RJBB": {
+      "icao": "RJBB",
+      "name": "Osaka/Kansai Intl",
+      "lat": 34.434,
+      "lon": 135.233,
+      "elev_m": 8,
+      "elev_ft": 26,
+      "country": "JP",
+      "state": "28",
+      "iata": "KIX",
+      "wmo": "47774",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RJCC": {
+      "icao": "RJCC",
+      "name": "Sapporo/Chitose Arpt",
+      "lat": 42.774,
+      "lon": 141.693,
+      "elev_m": 19,
+      "elev_ft": 62,
+      "country": "JP",
+      "state": "1",
+      "iata": "CTS",
+      "wmo": "47425",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RJFF": {
+      "icao": "RJFF",
+      "name": "Fukuoka Arpt",
+      "lat": 33.584,
+      "lon": 130.452,
+      "elev_m": 7,
+      "elev_ft": 23,
+      "country": "JP",
+      "state": "40",
+      "iata": "FUK",
+      "wmo": "47808",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RJTT": {
+      "icao": "RJTT",
+      "name": "Tokyo/Haneda Intl",
+      "lat": 35.553,
+      "lon": 139.781,
+      "elev_m": 5,
+      "elev_ft": 16,
+      "country": "JP",
+      "state": "13",
+      "iata": "HND",
+      "wmo": "47671",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VABB": {
+      "icao": "VABB",
+      "name": "Mumbai/Shivaji Intl",
+      "lat": 19.1,
+      "lon": 72.859,
+      "elev_m": 14,
+      "elev_ft": 46,
+      "country": "IN",
+      "state": "MM",
+      "iata": "BOM",
+      "wmo": "43003",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VHHH": {
+      "icao": "VHHH",
+      "name": "Hong Kong Intl",
+      "lat": 22.309,
+      "lon": 113.922,
+      "elev_m": 9,
+      "elev_ft": 30,
+      "country": "HK",
+      "state": "HK",
+      "iata": "HKG",
+      "wmo": "45007",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VIDP": {
+      "icao": "VIDP",
+      "name": "New Delhi/Gandhi Intl",
+      "lat": 28.567,
+      "lon": 77.117,
+      "elev_m": 236,
+      "elev_ft": 774,
+      "country": "IN",
+      "state": "DL",
+      "iata": "DEL",
+      "wmo": "42181",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VMMC": {
+      "icao": "VMMC",
+      "name": "Macao Intl",
+      "lat": 22.141,
+      "lon": 113.596,
+      "elev_m": 1,
+      "elev_ft": 3,
+      "country": "MO",
+      "state": "MO",
+      "iata": "MFM",
+      "wmo": "45011",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VOBL": {
+      "icao": "VOBL",
+      "name": "Bangaluru Intl",
+      "lat": 13.205,
+      "lon": 77.704,
+      "elev_m": 908,
+      "elev_ft": 2979,
+      "country": "IN",
+      "state": "KA",
+      "iata": "BLR",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VOMM": {
+      "icao": "VOMM",
+      "name": "Chennai Intl",
+      "lat": 12.994,
+      "lon": 80.18,
+      "elev_m": 7,
+      "elev_ft": 23,
+      "country": "IN",
+      "state": "TN",
+      "iata": "MAA",
+      "wmo": "43279",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VTBS": {
+      "icao": "VTBS",
+      "name": "Bangkok/Suvarnabhumi Arpt",
+      "lat": 13.686,
+      "lon": 100.767,
+      "elev_m": 1,
+      "elev_ft": 3,
+      "country": "TH",
+      "state": "20",
+      "iata": "BKK",
+      "wmo": "48459",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VTSP": {
+      "icao": "VTSP",
+      "name": "Phuket Intl",
+      "lat": 8.105,
+      "lon": 98.308,
+      "elev_m": 12,
+      "elev_ft": 39,
+      "country": "TH",
+      "state": "83",
+      "iata": "HKT",
+      "wmo": "48565",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "WMKK": {
+      "icao": "WMKK",
+      "name": "Kuala Lumpur Intl",
+      "lat": 2.747,
+      "lon": 101.714,
+      "elev_m": 21,
+      "elev_ft": 69,
+      "country": "MY",
+      "state": "SL",
+      "iata": "KUL",
+      "wmo": "48650",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "WSSS": {
+      "icao": "WSSS",
+      "name": "Singapore/Changi Intl",
+      "lat": 1.368,
+      "lon": 103.982,
+      "elev_m": 17,
+      "elev_ft": 56,
+      "country": "SG",
+      "state": "4",
+      "iata": "SIN",
+      "wmo": "48698",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "YPDN": {
+      "icao": "YPDN",
+      "name": "Darwin Intl",
+      "lat": -12.424,
+      "lon": 130.893,
+      "elev_m": 32,
+      "elev_ft": 105,
+      "country": "AU",
+      "state": "NT",
+      "iata": "DRW",
+      "wmo": "94120",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OERK": {
+      "icao": "OERK",
+      "name": "Riyadh/King Khaled Intl",
+      "lat": 24.945,
+      "lon": 46.702,
+      "elev_m": 618,
+      "elev_ft": 2028,
+      "country": "SA",
+      "state": "RD",
+      "iata": "RUH",
+      "wmo": "40437",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OKBK": {
+      "icao": "OKBK",
+      "name": "Kuwait Intl",
+      "lat": 29.227,
+      "lon": 47.969,
+      "elev_m": 55,
+      "elev_ft": 180,
+      "country": "KW",
+      "state": "KU",
+      "iata": null,
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OMAA": {
+      "icao": "OMAA",
+      "name": "Abu Dhabi Intl",
+      "lat": 24.433,
+      "lon": 54.651,
+      "elev_m": 13,
+      "elev_ft": 43,
+      "country": "AE",
+      "state": "AZ",
+      "iata": "AUH",
+      "wmo": "41217",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OMDB": {
+      "icao": "OMDB",
+      "name": "Dubai Intl",
+      "lat": 25.254,
+      "lon": 55.366,
+      "elev_m": 5,
+      "elev_ft": 16,
+      "country": "AE",
+      "state": "DU",
+      "iata": "DXB",
+      "wmo": "41194",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OPKC": {
+      "icao": "OPKC",
+      "name": "Karachi/Jinnah Intl",
+      "lat": 24.902,
+      "lon": 67.139,
+      "elev_m": 20,
+      "elev_ft": 66,
+      "country": "PK",
+      "state": "SD",
+      "iata": "KHI",
+      "wmo": "41780",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OTBD": {
+      "icao": "OTBD",
+      "name": "Doha Intl",
+      "lat": 25.261,
+      "lon": 51.565,
+      "elev_m": 13,
+      "elev_ft": 43,
+      "country": "QA",
+      "state": "DA",
+      "iata": "DIA",
+      "wmo": "41170",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OTHH": {
+      "icao": "OTHH",
+      "name": "Doha/Hamad Intl",
+      "lat": 25.273,
+      "lon": 51.609,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "QA",
+      "state": "DA",
+      "iata": "DOH",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RCTP": {
+      "icao": "RCTP",
+      "name": "Taipei/Taoyuan Arpt",
+      "lat": 25.078,
+      "lon": 121.233,
+      "elev_m": 33,
+      "elev_ft": 108,
+      "country": "TW",
+      "state": "TA",
+      "iata": "TPE",
+      "wmo": "46686",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RKPC": {
+      "icao": "RKPC",
+      "name": "Jeju Intl",
+      "lat": 33.511,
+      "lon": 126.493,
+      "elev_m": 23,
+      "elev_ft": 75,
+      "country": "KR",
+      "state": "49",
+      "iata": "CJU",
+      "wmo": "47182",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RKSI": {
+      "icao": "RKSI",
+      "name": "Seoul/Incheon Intl",
+      "lat": 37.469,
+      "lon": 126.451,
+      "elev_m": 7,
+      "elev_ft": 23,
+      "country": "KR",
+      "state": "28",
+      "iata": "ICN",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RKSS": {
+      "icao": "RKSS",
+      "name": "Seoul/Gimpo Intl",
+      "lat": 37.558,
+      "lon": 126.791,
+      "elev_m": 18,
+      "elev_ft": 59,
+      "country": "KR",
+      "state": "41",
+      "iata": "GMP",
+      "wmo": "47110",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "RPLL": {
+      "icao": "RPLL",
+      "name": "Manila/Aquino Intl",
+      "lat": 14.507,
+      "lon": 121.004,
+      "elev_m": 15,
+      "elev_ft": 49,
+      "country": "PH",
+      "state": "NC",
+      "iata": "MNL",
+      "wmo": "98429",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VGHS": {
+      "icao": "VGHS",
+      "name": "Dhaka/Shahjalal Intl",
+      "lat": 23.846,
+      "lon": 90.4,
+      "elev_m": 11,
+      "elev_ft": 36,
+      "country": "BD",
+      "state": "32",
+      "iata": "DAC",
+      "wmo": "41922",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VYYY": {
+      "icao": "VYYY",
+      "name": "Yangon Intl",
+      "lat": 16.906,
+      "lon": 96.137,
+      "elev_m": 31,
+      "elev_ft": 102,
+      "country": "MM",
+      "state": "6",
+      "iata": "RGN",
+      "wmo": "48097",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "WADD": {
+      "icao": "WADD",
+      "name": "Bali/Rai Intl",
+      "lat": -8.748,
+      "lon": 115.167,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "ID",
+      "state": "BA",
+      "iata": "DPS",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "WIII": {
+      "icao": "WIII",
+      "name": "Jakarta/Hatta Intl",
+      "lat": -6.125,
+      "lon": 106.659,
+      "elev_m": 9,
+      "elev_ft": 30,
+      "country": "ID",
+      "state": "JB",
+      "iata": "CGK",
+      "wmo": "96749",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ZBAA": {
+      "icao": "ZBAA",
+      "name": "Beijing Intl",
+      "lat": 40.082,
+      "lon": 116.603,
+      "elev_m": 31,
+      "elev_ft": 102,
+      "country": "CN",
+      "state": "BJ",
+      "iata": "PEK",
+      "wmo": "54511",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ZGGG": {
+      "icao": "ZGGG",
+      "name": "Guangzhou/Baiyun Intl",
+      "lat": 23.392,
+      "lon": 113.307,
+      "elev_m": 11,
+      "elev_ft": 36,
+      "country": "CN",
+      "state": "GD",
+      "iata": "CAN",
+      "wmo": "59287",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ZSPD": {
+      "icao": "ZSPD",
+      "name": "Shanghai/Pudong Intl",
+      "lat": 31.146,
+      "lon": 121.8,
+      "elev_m": 4,
+      "elev_ft": 13,
+      "country": "CN",
+      "state": "SH",
+      "iata": "PVG",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "ZUUU": {
+      "icao": "ZUUU",
+      "name": "Chengdu/Shuangliu Intl",
+      "lat": 30.576,
+      "lon": 103.95,
+      "elev_m": 494,
+      "elev_ft": 1621,
+      "country": "CN",
+      "state": "CQ",
+      "iata": "CTU",
+      "wmo": "56294",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "DNAA": {
+      "icao": "DNAA",
+      "name": "Abuja/Azikiwe Intl",
+      "lat": 9.007,
+      "lon": 7.263,
+      "elev_m": 338,
+      "elev_ft": 1109,
+      "country": "NG",
+      "state": "NI",
+      "iata": "ABV",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "DNMM": {
+      "icao": "DNMM",
+      "name": "Lagos/Muhammed Intl",
+      "lat": 6.577,
+      "lon": 3.321,
+      "elev_m": 27,
+      "elev_ft": 89,
+      "country": "NG",
+      "state": "LA",
+      "iata": "LOS",
+      "wmo": "65201",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "DTTA": {
+      "icao": "DTTA",
+      "name": "Tunis/Carthage Intl",
+      "lat": 36.851,
+      "lon": 10.227,
+      "elev_m": 4,
+      "elev_ft": 13,
+      "country": "TN",
+      "state": "AR",
+      "iata": "TUN",
+      "wmo": "60715",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "DTTJ": {
+      "icao": "DTTJ",
+      "name": "Djerba/Zarzis Intl",
+      "lat": 33.875,
+      "lon": 10.775,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "TN",
+      "state": "ME",
+      "iata": "DJE",
+      "wmo": "60769",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "FIMP": {
+      "icao": "FIMP",
+      "name": "Mauritius Intl",
+      "lat": -20.434,
+      "lon": 57.684,
+      "elev_m": 57,
+      "elev_ft": 187,
+      "country": "MU",
+      "state": "GP",
+      "iata": "MRU",
+      "wmo": "61990",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "FQMA": {
+      "icao": "FQMA",
+      "name": "Maputo Intl",
+      "lat": -25.921,
+      "lon": 32.573,
+      "elev_m": 34,
+      "elev_ft": 112,
+      "country": "MZ",
+      "state": "MP",
+      "iata": "MPM",
+      "wmo": "67341",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "GMAD": {
+      "icao": "GMAD",
+      "name": "Agadir/Al Massira Arpt",
+      "lat": 30.325,
+      "lon": -9.413,
+      "elev_m": 66,
+      "elev_ft": 217,
+      "country": "MA",
+      "state": "SM",
+      "iata": "AGA",
+      "wmo": "60252",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "GMFO": {
+      "icao": "GMFO",
+      "name": "Oujda/Angads Arpt",
+      "lat": 34.787,
+      "lon": -1.924,
+      "elev_m": 452,
+      "elev_ft": 1483,
+      "country": "MA",
+      "state": "RA",
+      "iata": "OUD",
+      "wmo": "60115",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "GMMN": {
+      "icao": "GMMN",
+      "name": "Casablanca Intl",
+      "lat": 33.367,
+      "lon": -7.59,
+      "elev_m": 196,
+      "elev_ft": 643,
+      "country": "MA",
+      "state": "ME",
+      "iata": "CMN",
+      "wmo": "60156",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "HAAB": {
+      "icao": "HAAB",
+      "name": "Addis Ababa/Bole Intl",
+      "lat": 8.978,
+      "lon": 38.799,
+      "elev_m": 2319,
+      "elev_ft": 7608,
+      "country": "ET",
+      "state": "AA",
+      "iata": "ADD",
+      "wmo": "63450",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "HECA": {
+      "icao": "HECA",
+      "name": "Cairo Intl",
+      "lat": 30.133,
+      "lon": 31.405,
+      "elev_m": 142,
+      "elev_ft": 466,
+      "country": "EG",
+      "state": "QH",
+      "iata": "CAI",
+      "wmo": "62366",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "HELX": {
+      "icao": "HELX",
+      "name": "Luxor Intl",
+      "lat": 25.671,
+      "lon": 32.706,
+      "elev_m": 86,
+      "elev_ft": 282,
+      "country": "EG",
+      "state": "QI",
+      "iata": "LXR",
+      "wmo": "62405",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "HKJK": {
+      "icao": "HKJK",
+      "name": "Nairobi/Kenyatta Intl",
+      "lat": -1.319,
+      "lon": 36.928,
+      "elev_m": 1615,
+      "elev_ft": 5299,
+      "country": "KE",
+      "state": "NA",
+      "iata": "NBO",
+      "wmo": "63740",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "HSSS": {
+      "icao": "HSSS",
+      "name": "Khartoum Intl",
+      "lat": 15.589,
+      "lon": 32.553,
+      "elev_m": 387,
+      "elev_ft": 1270,
+      "country": "SD",
+      "state": "KH",
+      "iata": null,
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "HTDA": {
+      "icao": "HTDA",
+      "name": "Dar Es Salaam Arpt",
+      "lat": -6.881,
+      "lon": 39.201,
+      "elev_m": 53,
+      "elev_ft": 174,
+      "country": "TZ",
+      "state": "DS",
+      "iata": "DAR",
+      "wmo": "63894",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "HUEN": {
+      "icao": "HUEN",
+      "name": "Entebbe Intl",
+      "lat": 0.036,
+      "lon": 32.437,
+      "elev_m": 1147,
+      "elev_ft": 3763,
+      "country": "UG",
+      "state": "C",
+      "iata": "EBB",
+      "wmo": "63705",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OBBI": {
+      "icao": "OBBI",
+      "name": "Bahrain Intl",
+      "lat": 26.271,
+      "lon": 50.634,
+      "elev_m": 6,
+      "elev_ft": 20,
+      "country": "BH",
+      "state": "MU",
+      "iata": "BAH",
+      "wmo": "41150",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "OMSJ": {
+      "icao": "OMSJ",
+      "name": "Sharjah Intl",
+      "lat": 25.329,
+      "lon": 55.517,
+      "elev_m": 33,
+      "elev_ft": 108,
+      "country": "AE",
+      "state": "SH",
+      "iata": "SHJ",
+      "wmo": "41196",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VCBI": {
+      "icao": "VCBI",
+      "name": "Katunayake/Bandaranaike Intl",
+      "lat": 7.181,
+      "lon": 79.884,
+      "elev_m": 10,
+      "elev_ft": 33,
+      "country": "LK",
+      "state": "WE",
+      "iata": "CMB",
+      "wmo": "43450",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "VRMM": {
+      "icao": "VRMM",
+      "name": "Velana Intl",
+      "lat": 4.192,
+      "lon": 73.529,
+      "elev_m": 2,
+      "elev_ft": 7,
+      "country": "MV",
+      "state": "NC",
+      "iata": "MLE",
+      "wmo": "43555",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "DBBB": {
+      "icao": "DBBB",
+      "name": "Cotonou/Cadjehoun Arpt",
+      "lat": 6.357,
+      "lon": 2.384,
+      "elev_m": 4,
+      "elev_ft": 13,
+      "country": "BJ",
+      "state": "AQ",
+      "iata": "COO",
+      "wmo": "65344",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "DFFD": {
+      "icao": "DFFD",
+      "name": "Ouagadougou Arpt",
+      "lat": 12.356,
+      "lon": -1.512,
+      "elev_m": 309,
+      "elev_ft": 1014,
+      "country": "BF",
+      "state": "KA",
+      "iata": "OUA",
+      "wmo": "65503",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "DGAA": {
+      "icao": "DGAA",
+      "name": "Accra/Kotoka Intl",
+      "lat": 5.6,
+      "lon": -0.17,
+      "elev_m": 68,
+      "elev_ft": 223,
+      "country": "GH",
+      "state": "GA",
+      "iata": "ACC",
+      "wmo": "65472",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "DXXX": {
+      "icao": "DXXX",
+      "name": "Lom\u00e9/Eyadema Intl",
+      "lat": 6.166,
+      "lon": 1.254,
+      "elev_m": 22,
+      "elev_ft": 72,
+      "country": "TG",
+      "state": "M",
+      "iata": "LFW",
+      "wmo": "65387",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "FBSK": {
+      "icao": "FBSK",
+      "name": "Gaborone/Khama Intl",
+      "lat": -24.555,
+      "lon": 25.918,
+      "elev_m": 1007,
+      "elev_ft": 3304,
+      "country": "BW",
+      "state": "SE",
+      "iata": "GBE",
+      "wmo": "68240",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "FYWH": {
+      "icao": "FYWH",
+      "name": "Windhoek/Kufako Intl",
+      "lat": -22.481,
+      "lon": 17.47,
+      "elev_m": 1699,
+      "elev_ft": 5574,
+      "country": "NA",
+      "state": "KH",
+      "iata": "WDH",
+      "wmo": "68112",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "FZAA": {
+      "icao": "FZAA",
+      "name": "Kinshasa/NDjili Arpt",
+      "lat": -4.387,
+      "lon": 15.448,
+      "elev_m": 309,
+      "elev_ft": 1014,
+      "country": "CD",
+      "state": "KN",
+      "iata": "FIH",
+      "wmo": "64210",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "GOBD": {
+      "icao": "GOBD",
+      "name": "Dakar/Diagne Intl",
+      "lat": 14.671,
+      "lon": -17.067,
+      "elev_m": 90,
+      "elev_ft": 295,
+      "country": "SN",
+      "state": "TH",
+      "iata": "DSS",
+      "wmo": null,
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "HLLT": {
+      "icao": "HLLT",
+      "name": "Tripoli Intl",
+      "lat": 32.663,
+      "lon": 13.159,
+      "elev_m": 79,
+      "elev_ft": 259,
+      "country": "LY",
+      "state": "TB",
+      "iata": "TIP",
+      "wmo": "62010",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SABE": {
+      "icao": "SABE",
+      "name": "Buenos Aires/Newbery Arpt",
+      "lat": -34.559,
+      "lon": -58.416,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "AR",
+      "state": "C",
+      "iata": "AEP",
+      "wmo": "87582",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SAEZ": {
+      "icao": "SAEZ",
+      "name": "Buenos Aires/Pistarini Arpt",
+      "lat": -34.822,
+      "lon": -58.536,
+      "elev_m": 16,
+      "elev_ft": 52,
+      "country": "AR",
+      "state": "B",
+      "iata": "EZE",
+      "wmo": "87576",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBBR": {
+      "icao": "SBBR",
+      "name": "Bras\u00edlia Intl",
+      "lat": -15.867,
+      "lon": -47.933,
+      "elev_m": 1051,
+      "elev_ft": 3448,
+      "country": "BR",
+      "state": "DF",
+      "iata": "BSB",
+      "wmo": "83378",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBCT": {
+      "icao": "SBCT",
+      "name": "Curitiba/Pena Intl",
+      "lat": -25.529,
+      "lon": -49.176,
+      "elev_m": 914,
+      "elev_ft": 2999,
+      "country": "BR",
+      "state": "PR",
+      "iata": "CWB",
+      "wmo": "83840",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBEG": {
+      "icao": "SBEG",
+      "name": "Manaus/Gomes Intl",
+      "lat": -3.039,
+      "lon": -60.05,
+      "elev_m": 69,
+      "elev_ft": 226,
+      "country": "BR",
+      "state": "AM",
+      "iata": "MAO",
+      "wmo": "82111",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBGL": {
+      "icao": "SBGL",
+      "name": "Rio de Janeiro/Gale\u00e3o Intl",
+      "lat": -22.815,
+      "lon": -43.261,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "BR",
+      "state": "RJ",
+      "iata": "GIG",
+      "wmo": "83746",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBGR": {
+      "icao": "SBGR",
+      "name": "Sao Paulo Intl",
+      "lat": -23.432,
+      "lon": -46.469,
+      "elev_m": 745,
+      "elev_ft": 2444,
+      "country": "BR",
+      "state": "PR",
+      "iata": "GRU",
+      "wmo": "83075",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBKP": {
+      "icao": "SBKP",
+      "name": "Campinas/Viracopos Arpt",
+      "lat": -23.007,
+      "lon": -47.135,
+      "elev_m": 659,
+      "elev_ft": 2162,
+      "country": "BR",
+      "state": "SP",
+      "iata": "VCP",
+      "wmo": "83721",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBPA": {
+      "icao": "SBPA",
+      "name": "Porto Alegre/Filho Intl",
+      "lat": -29.994,
+      "lon": -51.171,
+      "elev_m": 3,
+      "elev_ft": 10,
+      "country": "BR",
+      "state": "RS",
+      "iata": "POA",
+      "wmo": "83971",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBRF": {
+      "icao": "SBRF",
+      "name": "Recife Arpt",
+      "lat": -8.126,
+      "lon": -34.923,
+      "elev_m": 10,
+      "elev_ft": 33,
+      "country": "BR",
+      "state": "PE",
+      "iata": "REC",
+      "wmo": "82899",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SCEL": {
+      "icao": "SCEL",
+      "name": "Santiago/Ben\u00edtez Intl",
+      "lat": -33.393,
+      "lon": -70.786,
+      "elev_m": 478,
+      "elev_ft": 1568,
+      "country": "CL",
+      "state": "RM",
+      "iata": "SCL",
+      "wmo": "85574",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SBFI": {
+      "icao": "SBFI",
+      "name": "Foz do Iguacu Arpt",
+      "lat": -25.595,
+      "lon": -54.488,
+      "elev_m": 233,
+      "elev_ft": 764,
+      "country": "BR",
+      "state": "PR",
+      "iata": "IGU",
+      "wmo": "83827",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SCFA": {
+      "icao": "SCFA",
+      "name": "Antofagasta/Sabella Arpt",
+      "lat": -23.45,
+      "lon": -70.441,
+      "elev_m": 113,
+      "elev_ft": 371,
+      "country": "CL",
+      "state": "AN",
+      "iata": "ANF",
+      "wmo": "85442",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SEQU": {
+      "icao": "SEQU",
+      "name": "Quito/Sucre Intl",
+      "lat": -0.141,
+      "lon": -78.488,
+      "elev_m": 2812,
+      "elev_ft": 9226,
+      "country": "EC",
+      "state": "P",
+      "iata": null,
+      "wmo": "84071",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SGAS": {
+      "icao": "SGAS",
+      "name": "Asunci\u00f3n/Pettriossi",
+      "lat": -25.248,
+      "lon": -57.519,
+      "elev_m": 83,
+      "elev_ft": 272,
+      "country": "PY",
+      "state": "11",
+      "iata": "ASU",
+      "wmo": "86218",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SKBO": {
+      "icao": "SKBO",
+      "name": "Bogota/El Dorado Arpt",
+      "lat": 4.706,
+      "lon": -74.151,
+      "elev_m": 2547,
+      "elev_ft": 8356,
+      "country": "CO",
+      "state": "CA",
+      "iata": "BOG",
+      "wmo": "80222",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SKCG": {
+      "icao": "SKCG",
+      "name": "Cartagena/Nu\u00f1ez Intl",
+      "lat": 10.447,
+      "lon": -75.516,
+      "elev_m": 6,
+      "elev_ft": 20,
+      "country": "CO",
+      "state": "BO",
+      "iata": "CTG",
+      "wmo": "80022",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SLLP": {
+      "icao": "SLLP",
+      "name": "La Paz/El Alto Intl",
+      "lat": -16.511,
+      "lon": -68.182,
+      "elev_m": 4061,
+      "elev_ft": 13323,
+      "country": "BO",
+      "state": "L",
+      "iata": "LPB",
+      "wmo": "85201",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SLVR": {
+      "icao": "SLVR",
+      "name": "Santa Cruz/Viru Intl",
+      "lat": -17.645,
+      "lon": -63.135,
+      "elev_m": 377,
+      "elev_ft": 1237,
+      "country": "BO",
+      "state": "S",
+      "iata": "VVI",
+      "wmo": "85244",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SPJC": {
+      "icao": "SPJC",
+      "name": "Lima/Ch\u00e1vez Intl",
+      "lat": -12.024,
+      "lon": -77.113,
+      "elev_m": 26,
+      "elev_ft": 85,
+      "country": "PE",
+      "state": "LI",
+      "iata": "LIM",
+      "wmo": "84628",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SPZO": {
+      "icao": "SPZO",
+      "name": "Cuzco/Astete Arpt",
+      "lat": -13.536,
+      "lon": -71.939,
+      "elev_m": 3249,
+      "elev_ft": 10659,
+      "country": "PE",
+      "state": "CU",
+      "iata": "CUZ",
+      "wmo": "84686",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SUMU": {
+      "icao": "SUMU",
+      "name": "Carrasco Intl",
+      "lat": -34.838,
+      "lon": -56.031,
+      "elev_m": 32,
+      "elev_ft": 105,
+      "country": "UY",
+      "state": "CA",
+      "iata": "MVD",
+      "wmo": "86580",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    },
+    "SVMI": {
+      "icao": "SVMI",
+      "name": "Caracas/Bol\u00edvar Intl",
+      "lat": 10.603,
+      "lon": -66.991,
+      "elev_m": 48,
+      "elev_ft": 157,
+      "country": "VE",
+      "state": "A",
+      "iata": "CCS",
+      "wmo": "80415",
+      "siteType": [
+        "METAR",
+        "TAF"
+      ],
+      "source": "aviationweather.gov/stationinfo"
+    }
+  }
+}

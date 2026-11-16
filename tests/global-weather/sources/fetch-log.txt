@@ -1,0 +1,1177 @@
+22:29:13Z start global weather fetch, 212 curated stations, range 2025-11-16 .. 2026-11-16
+22:29:13Z stationinfo EGLL..LFPO (20)
+22:29:13Z stationinfo LFML..EFHK (20)
+22:29:14Z stationinfo EPWA..KIAD (20)
+22:29:14Z stationinfo KATL..KSAN (20)
+22:29:15Z stationinfo KSEA..CYUL (20)
+22:29:15Z stationinfo CYHZ..YWLM (20)
+22:29:16Z stationinfo YPDN..VOBL (20)
+22:29:16Z stationinfo RPLL..WADD (20)
+22:29:36Z   retry 1/4 after HTTPError: HTTP Error 504: Gateway Time-out (sleep 1s) url=https://aviationweather.gov/api/data/stationinfo?ids=RPLL%2CRCTP%2CRKSI%2CRKSS%2CRKPC%2CZBAA%2CZSPD%2CZGGG%2CZUUU%2COMDB%2COMAA%2COTBD%2COKBK%2COERK%2COTHH%2COP
+22:29:38Z stationinfo VCBI..FQMA (20)
+22:29:38Z stationinfo FYWH..SCEL (20)
+22:29:39Z stationinfo SCFA..SBFI (12)
+22:29:39Z   metadata for 212 stations
+22:29:39Z IEM METAR EGLL Europe/GB
+22:29:40Z   rows=17508 new=17508 total=17508 (had 0)
+22:29:41Z IEM METAR EGKK Europe/GB
+22:29:42Z   rows=17476 new=17476 total=17476 (had 0)
+22:29:43Z IEM METAR EGSS Europe/GB
+22:29:45Z   rows=17511 new=17511 total=17511 (had 0)
+22:29:45Z IEM METAR EGCC Europe/GB
+22:29:47Z   rows=17512 new=17512 total=17512 (had 0)
+22:29:48Z IEM METAR EGPH Europe/GB
+22:29:49Z   rows=17432 new=17432 total=17432 (had 0)
+22:29:49Z IEM METAR EGPF Europe/GB
+22:29:51Z   rows=17512 new=17512 total=17512 (had 0)
+22:29:51Z IEM METAR EGBB Europe/GB
+22:29:52Z   rows=17348 new=17348 total=17348 (had 0)
+22:29:53Z IEM METAR EGAA Europe/GB
+22:29:54Z   rows=17378 new=17378 total=17378 (had 0)
+22:29:55Z IEM METAR EHAM Europe/NL
+22:29:56Z   rows=17465 new=17465 total=17465 (had 0)
+22:29:57Z IEM METAR EHRD Europe/NL
+22:29:58Z   rows=17509 new=17509 total=17509 (had 0)
+22:29:59Z IEM METAR EBBR Europe/BE
+22:30:01Z   rows=17481 new=17481 total=17481 (had 0)
+22:30:01Z IEM METAR EDDF Europe/DE
+22:30:03Z   rows=17514 new=17514 total=17514 (had 0)
+22:30:03Z IEM METAR EDDM Europe/DE
+22:30:04Z   rows=17516 new=17516 total=17516 (had 0)
+22:30:05Z IEM METAR EDDL Europe/DE
+22:30:06Z   rows=17516 new=17516 total=17516 (had 0)
+22:30:07Z IEM METAR EDDH Europe/DE
+22:30:08Z   rows=17516 new=17516 total=17516 (had 0)
+22:30:09Z IEM METAR EDDB Europe/DE
+22:30:10Z   rows=17512 new=17512 total=17512 (had 0)
+22:30:11Z IEM METAR EDDK Europe/DE
+22:30:12Z   rows=17516 new=17516 total=17516 (had 0)
+22:30:12Z IEM METAR EDDS Europe/DE
+22:30:14Z   rows=17516 new=17516 total=17516 (had 0)
+22:30:14Z IEM METAR LFPG Europe/FR
+22:30:16Z   rows=17530 new=17530 total=17530 (had 0)
+22:30:16Z IEM METAR LFPO Europe/FR
+22:30:18Z   rows=17394 new=17394 total=17394 (had 0)
+22:30:19Z IEM METAR LFML Europe/FR
+22:30:20Z   rows=17510 new=17510 total=17510 (had 0)
+22:30:20Z IEM METAR LFBO Europe/FR
+22:30:22Z   rows=17511 new=17511 total=17511 (had 0)
+22:30:22Z IEM METAR LEMD Europe/ES
+22:30:24Z   rows=17765 new=17765 total=17765 (had 0)
+22:30:25Z IEM METAR LEBL Europe/ES
+22:30:27Z   rows=17710 new=17710 total=17710 (had 0)
+22:30:28Z IEM METAR LEPA Europe/ES
+22:30:29Z   rows=18013 new=18013 total=18013 (had 0)
+22:30:30Z IEM METAR LEVC Europe/ES
+22:30:31Z   rows=17705 new=17705 total=17705 (had 0)
+22:30:31Z IEM METAR LIRF Europe/IT
+22:30:33Z   rows=17425 new=17425 total=17425 (had 0)
+22:30:33Z IEM METAR LIMC Europe/IT
+22:30:34Z   rows=17376 new=17376 total=17376 (had 0)
+22:30:35Z IEM METAR LIPZ Europe/IT
+22:30:36Z   rows=17412 new=17412 total=17412 (had 0)
+22:30:37Z IEM METAR LIRN Europe/IT
+22:30:38Z   rows=17183 new=17182 total=17182 (had 0)
+22:30:38Z IEM METAR EIDW Europe/IE
+22:30:40Z   rows=17504 new=17504 total=17504 (had 0)
+22:30:41Z IEM METAR EINN Europe/IE
+22:30:42Z   rows=17510 new=17510 total=17510 (had 0)
+22:30:43Z IEM METAR EKCH Europe/DK
+22:30:44Z   rows=17576 new=17576 total=17576 (had 0)
+22:30:45Z IEM METAR ENGM Europe/NO
+22:30:47Z   rows=17424 new=17424 total=17424 (had 0)
+22:30:48Z IEM METAR ENBR Europe/NO
+22:30:49Z   rows=17325 new=17325 total=17325 (had 0)
+22:30:50Z IEM METAR ENTC Europe/NO
+22:30:51Z   rows=17246 new=17246 total=17246 (had 0)
+22:30:52Z IEM METAR ENZV Europe/NO
+22:30:53Z   rows=17349 new=17349 total=17349 (had 0)
+22:30:54Z IEM METAR ESSA Europe/SE
+22:30:56Z   rows=17406 new=17406 total=17406 (had 0)
+22:30:56Z IEM METAR ESGG Europe/SE
+22:30:58Z   rows=17492 new=17492 total=17492 (had 0)
+22:30:59Z IEM METAR EFHK Europe/FI
+22:31:00Z   rows=17511 new=17511 total=17511 (had 0)
+22:31:00Z IEM METAR EPWA Europe/PL
+22:31:02Z   rows=17508 new=17508 total=17508 (had 0)
+22:31:02Z IEM METAR LKPR Europe/CZ
+22:31:04Z   rows=17513 new=17513 total=17513 (had 0)
+22:31:05Z IEM METAR LOWW Europe/AT
+22:31:06Z   rows=17515 new=17515 total=17515 (had 0)
+22:31:07Z IEM METAR LSZH Europe/CH
+22:31:08Z   rows=17508 new=17508 total=17508 (had 0)
+22:31:09Z IEM METAR LSGG Europe/CH
+22:31:10Z   rows=17509 new=17509 total=17509 (had 0)
+22:31:11Z IEM METAR LPPT Europe/PT
+22:31:12Z   rows=17402 new=17402 total=17402 (had 0)
+22:31:13Z IEM METAR LPPR Europe/PT
+22:31:14Z   rows=17507 new=17506 total=17506 (had 0)
+22:31:15Z IEM METAR LGAV Europe/GR
+22:31:16Z   rows=17308 new=17308 total=17308 (had 0)
+22:31:17Z IEM METAR BIKF Europe/IS
+22:31:18Z   rows=17501 new=17501 total=17501 (had 0)
+22:31:19Z IEM METAR BIAR Europe/IS
+22:31:22Z   rows=8971 new=8971 total=8971 (had 0)
+22:31:22Z IEM METAR LROP Europe/RO
+22:31:24Z   rows=17516 new=17516 total=17516 (had 0)
+22:31:24Z IEM METAR LHBP Europe/HU
+22:31:26Z   rows=17976 new=17976 total=17976 (had 0)
+22:31:26Z IEM METAR EVRA Europe/LV
+22:31:28Z   rows=17508 new=17508 total=17508 (had 0)
+22:31:28Z IEM METAR KJFK US/US
+22:31:29Z   rows=9489 new=9489 total=9489 (had 0)
+22:31:30Z IEM METAR KLGA US/US
+22:31:31Z   rows=9911 new=9911 total=9911 (had 0)
+22:31:32Z IEM METAR KEWR US/US
+22:31:33Z   rows=9909 new=9909 total=9909 (had 0)
+22:31:33Z IEM METAR KBOS US/US
+22:31:34Z   rows=10199 new=10199 total=10199 (had 0)
+22:31:35Z IEM METAR KPHL US/US
+22:31:36Z   rows=11161 new=11161 total=11161 (had 0)
+22:31:36Z IEM METAR KDCA US/US
+22:31:38Z   rows=10476 new=10476 total=10476 (had 0)
+22:31:38Z IEM METAR KIAD US/US
+22:31:39Z   rows=9897 new=9897 total=9897 (had 0)
+22:31:40Z IEM METAR KATL US/US
+22:31:41Z   rows=10237 new=10237 total=10237 (had 0)
+22:31:41Z IEM METAR KMIA US/US
+22:31:43Z   rows=9850 new=9850 total=9850 (had 0)
+22:31:43Z IEM METAR KMCO US/US
+22:31:47Z   rows=9750 new=9750 total=9750 (had 0)
+22:31:47Z IEM METAR KTPA US/US
+22:31:54Z   rows=10463 new=10463 total=10463 (had 0)
+22:31:55Z IEM METAR KMSY US/US
+22:31:56Z   rows=10257 new=10257 total=10257 (had 0)
+22:31:56Z IEM METAR KIAH US/US
+22:31:57Z   rows=9937 new=9937 total=9937 (had 0)
+22:31:58Z IEM METAR KDFW US/US
+22:31:59Z   rows=9695 new=9695 total=9695 (had 0)
+22:32:00Z IEM METAR KORD US/US
+22:32:01Z   rows=11051 new=11051 total=11051 (had 0)
+22:32:01Z IEM METAR KMDW US/US
+22:32:02Z   rows=10271 new=10271 total=10271 (had 0)
+22:32:03Z IEM METAR KDTW US/US
+22:32:04Z   rows=11258 new=11258 total=11258 (had 0)
+22:32:05Z IEM METAR KCLE US/US
+22:32:06Z   rows=10515 new=10515 total=10515 (had 0)
+22:32:06Z IEM METAR KBUF US/US
+22:32:07Z   rows=12130 new=12130 total=12130 (had 0)
+22:32:08Z IEM METAR KMSP US/US
+22:32:09Z   rows=10906 new=10906 total=10906 (had 0)
+22:32:10Z IEM METAR KDEN US/US
+22:32:11Z   rows=9817 new=9817 total=9817 (had 0)
+22:32:11Z IEM METAR KPHX US/US
+22:32:12Z   rows=9106 new=9106 total=9106 (had 0)
+22:32:13Z IEM METAR KLAS US/US
+22:32:14Z   rows=9096 new=9096 total=9096 (had 0)
+22:32:14Z IEM METAR KLAX US/US
+22:32:15Z   rows=10161 new=10161 total=10161 (had 0)
+22:32:16Z IEM METAR KSFO US/US
+22:32:17Z   rows=9928 new=9928 total=9928 (had 0)
+22:32:18Z IEM METAR KOAK US/US
+22:32:19Z   rows=9840 new=9840 total=9840 (had 0)
+22:32:19Z IEM METAR KSAN US/US
+22:32:20Z   rows=10756 new=10756 total=10756 (had 0)
+22:32:21Z IEM METAR KSEA US/US
+22:32:22Z   rows=10606 new=10606 total=10606 (had 0)
+22:32:23Z IEM METAR KPDX US/US
+22:32:23Z   rows=9953 new=9953 total=9953 (had 0)
+22:32:24Z IEM METAR KSLC US/US
+22:32:25Z   rows=9473 new=9473 total=9473 (had 0)
+22:32:26Z IEM METAR KBNA US/US
+22:32:27Z   rows=9553 new=9553 total=9553 (had 0)
+22:32:28Z IEM METAR KMEM US/US
+22:32:29Z   rows=10149 new=10149 total=10149 (had 0)
+22:32:29Z IEM METAR KOKC US/US
+22:32:30Z   rows=9911 new=9911 total=9911 (had 0)
+22:32:31Z IEM METAR KOMA US/US
+22:32:32Z   rows=10276 new=10276 total=10276 (had 0)
+22:32:33Z IEM METAR KMCI US/US
+22:32:34Z   rows=10354 new=10354 total=10354 (had 0)
+22:32:34Z IEM METAR KSTL US/US
+22:32:35Z   rows=10655 new=10655 total=10655 (had 0)
+22:32:36Z IEM METAR KCLT US/US
+22:32:37Z   rows=10050 new=10050 total=10050 (had 0)
+22:32:37Z IEM METAR KRDU US/US
+22:32:38Z   rows=9742 new=9742 total=9742 (had 0)
+22:32:39Z IEM METAR PANC US/US
+22:32:40Z   rows=10476 new=10476 total=10476 (had 0)
+22:32:41Z IEM METAR PAFA US/US
+22:32:42Z   rows=9861 new=9861 total=9861 (had 0)
+22:32:43Z IEM METAR PAJN US/US
+22:32:44Z   rows=10406 new=10406 total=10406 (had 0)
+22:32:44Z IEM METAR PHNL US/US
+22:32:46Z   rows=9146 new=9146 total=9146 (had 0)
+22:32:46Z IEM METAR PHOG US/US
+22:32:47Z   rows=9407 new=9407 total=9407 (had 0)
+22:32:48Z IEM METAR CYYZ Canada/CA
+22:32:49Z   rows=10779 new=10779 total=10779 (had 0)
+22:32:49Z IEM METAR CYVR Canada/CA
+22:32:51Z   rows=10297 new=10297 total=10297 (had 0)
+22:32:51Z IEM METAR CYYC Canada/CA
+22:32:52Z   rows=10601 new=10601 total=10601 (had 0)
+22:32:53Z IEM METAR CYUL Canada/CA
+22:32:54Z   rows=10982 new=10982 total=10982 (had 0)
+22:32:55Z IEM METAR CYHZ Canada/CA
+22:32:57Z   rows=12881 new=12881 total=12881 (had 0)
+22:32:57Z IEM METAR CYWG Canada/CA
+22:32:58Z   rows=10294 new=10294 total=10294 (had 0)
+22:32:59Z IEM METAR CYFB Canada/CA
+22:33:00Z   rows=10390 new=10390 total=10390 (had 0)
+22:33:01Z IEM METAR CYOW Canada/CA
+22:33:04Z   rows=10937 new=10937 total=10937 (had 0)
+22:33:05Z IEM METAR TJSJ Caribbean/PR
+22:33:06Z   rows=8815 new=8815 total=8815 (had 0)
+22:33:07Z IEM METAR TIST Caribbean/VI
+22:33:08Z   rows=8842 new=8842 total=8842 (had 0)
+22:33:08Z IEM METAR MKJP Caribbean/JM
+22:33:09Z   rows=8744 new=8739 total=8739 (had 0)
+22:33:10Z IEM METAR MDSD Caribbean/DO
+22:33:11Z   rows=9044 new=9043 total=9043 (had 0)
+22:33:12Z IEM METAR TNCM Caribbean/SX
+22:33:13Z   rows=8829 new=8829 total=8829 (had 0)
+22:33:14Z IEM METAR MMMX North America/MX
+22:33:15Z   rows=11884 new=11884 total=11884 (had 0)
+22:33:15Z IEM METAR MMUN North America/MX
+22:33:16Z   rows=8943 new=8943 total=8943 (had 0)
+22:33:17Z IEM METAR MMGL North America/MX
+22:33:17Z   rows=9455 new=9455 total=9455 (had 0)
+22:33:18Z IEM METAR YSSY Australia/AU
+22:33:20Z   rows=19585 new=19585 total=19585 (had 0)
+22:33:20Z IEM METAR YMML Australia/AU
+22:33:22Z   rows=19645 new=19645 total=19645 (had 0)
+22:33:23Z IEM METAR YBBN Australia/AU
+22:33:24Z   rows=18638 new=18638 total=18638 (had 0)
+22:33:25Z IEM METAR YPPH Australia/AU
+22:33:26Z   rows=18795 new=18795 total=18795 (had 0)
+22:33:26Z IEM METAR YPAD Australia/AU
+22:33:28Z   rows=18700 new=18700 total=18700 (had 0)
+22:33:28Z IEM METAR YBCS Australia/AU
+22:33:30Z   rows=20217 new=20216 total=20216 (had 0)
+22:33:30Z IEM METAR YBTL Australia/AU
+22:33:33Z   rows=19090 new=19090 total=19090 (had 0)
+22:33:34Z IEM METAR YWLM Australia/AU
+22:33:35Z   rows=19659 new=19658 total=19658 (had 0)
+22:33:36Z IEM METAR YPDN Australia/AU
+22:33:37Z   rows=18991 new=18990 total=18990 (had 0)
+22:33:38Z IEM METAR NZAA New Zealand/NZ
+22:33:39Z   rows=17502 new=17502 total=17502 (had 0)
+22:33:40Z IEM METAR NZWN New Zealand/NZ
+22:33:41Z   rows=17504 new=17504 total=17504 (had 0)
+22:33:42Z IEM METAR NZCH New Zealand/NZ
+22:33:43Z   rows=17504 new=17504 total=17504 (had 0)
+22:33:44Z IEM METAR NZQN New Zealand/NZ
+22:33:45Z   rows=17472 new=17471 total=17471 (had 0)
+22:33:46Z IEM METAR RJTT Asia/JP
+22:33:47Z   rows=17658 new=17658 total=17658 (had 0)
+22:33:48Z IEM METAR RJAA Asia/JP
+22:33:49Z   rows=17906 new=17906 total=17906 (had 0)
+22:33:50Z IEM METAR RJBB Asia/JP
+22:33:51Z   rows=17670 new=17670 total=17670 (had 0)
+22:33:52Z IEM METAR RJCC Asia/JP
+22:33:53Z   rows=18182 new=18182 total=18182 (had 0)
+22:33:53Z IEM METAR RJFF Asia/JP
+22:33:55Z   rows=17703 new=17703 total=17703 (had 0)
+22:33:55Z IEM METAR VHHH Asia/HK
+22:33:57Z   rows=18848 new=18848 total=18848 (had 0)
+22:33:57Z IEM METAR VMMC Asia/MO
+22:33:58Z   rows=13167 new=13167 total=13167 (had 0)
+22:33:59Z IEM METAR WSSS Asia/SG
+22:34:00Z   rows=17874 new=17874 total=17874 (had 0)
+22:34:01Z IEM METAR WMKK Asia/MY
+22:34:02Z   rows=17837 new=17821 total=17821 (had 0)
+22:34:03Z IEM METAR VTBS Asia/TH
+22:34:04Z   rows=17505 new=17504 total=17504 (had 0)
+22:34:05Z IEM METAR VTSP Asia/TH
+22:34:06Z   rows=17499 new=17487 total=17487 (had 0)
+22:34:06Z IEM METAR VIDP Asia/IN
+22:34:08Z   rows=17439 new=17439 total=17439 (had 0)
+22:34:08Z IEM METAR VABB Asia/IN
+22:34:09Z   rows=17547 new=17547 total=17547 (had 0)
+22:34:10Z IEM METAR VOMM Asia/IN
+22:34:11Z   rows=17516 new=17514 total=17514 (had 0)
+22:34:12Z IEM METAR VOBL Asia/IN
+22:34:13Z   rows=17466 new=17466 total=17466 (had 0)
+22:34:14Z IEM METAR RPLL Asia/PH
+22:34:14Z   rows=8929 new=8927 total=8927 (had 0)
+22:34:15Z IEM METAR RCTP Asia/TW
+22:34:16Z   rows=19541 new=19541 total=19541 (had 0)
+22:34:17Z IEM METAR RKSI Asia/KR
+22:34:18Z   rows=17516 new=17516 total=17516 (had 0)
+22:34:19Z IEM METAR RKSS Asia/KR
+22:34:20Z   rows=9139 new=9139 total=9139 (had 0)
+22:34:21Z IEM METAR RKPC Asia/KR
+22:34:21Z   rows=9137 new=9137 total=9137 (had 0)
+22:34:22Z IEM METAR ZBAA Asia/CN
+22:34:23Z   rows=17767 new=17766 total=17766 (had 0)
+22:34:24Z IEM METAR ZSPD Asia/CN
+22:34:25Z   rows=17766 new=17766 total=17766 (had 0)
+22:34:26Z IEM METAR ZGGG Asia/CN
+22:34:27Z   rows=18100 new=18100 total=18100 (had 0)
+22:34:28Z IEM METAR ZUUU Asia/CN
+22:34:28Z   rows=8777 new=8777 total=8777 (had 0)
+22:34:29Z IEM METAR OMDB Asia/AE
+22:34:30Z   rows=15050 new=15050 total=15050 (had 0)
+22:34:31Z IEM METAR OMAA Asia/AE
+22:34:32Z   rows=13699 new=13699 total=13699 (had 0)
+22:34:33Z IEM METAR OTBD Asia/QA
+22:34:34Z   rows=17403 new=17403 total=17403 (had 0)
+22:34:34Z IEM METAR OKBK Asia/KW
+22:34:35Z   rows=0 new=0 total=0 (had 0)
+22:34:35Z IEM METAR OERK Asia/SA
+22:34:36Z   rows=8893 new=8893 total=8893 (had 0)
+22:34:37Z IEM METAR OTHH Asia/QA
+22:34:38Z   rows=8732 new=8732 total=8732 (had 0)
+22:34:39Z IEM METAR OPKC Asia/PK
+22:34:40Z   rows=17479 new=17478 total=17478 (had 0)
+22:34:40Z IEM METAR VGHS Asia/BD
+22:34:42Z   rows=16998 new=16998 total=16998 (had 0)
+22:34:42Z IEM METAR VYYY Asia/MM
+22:34:43Z   rows=16997 new=16997 total=16997 (had 0)
+22:34:44Z IEM METAR WIII Asia/ID
+22:34:45Z   rows=17807 new=17802 total=17802 (had 0)
+22:34:46Z IEM METAR WADD Asia/ID
+22:34:47Z   rows=17546 new=17521 total=17521 (had 0)
+22:34:48Z IEM METAR VCBI Asia/LK
+22:34:49Z   rows=8682 new=8682 total=8682 (had 0)
+22:34:49Z IEM METAR VRMM Asia/MV
+22:34:50Z   rows=8455 new=8454 total=8454 (had 0)
+22:34:51Z IEM METAR OBBI Asia/BH
+22:34:52Z   rows=14944 new=14944 total=14944 (had 0)
+22:34:53Z IEM METAR OMSJ Asia/AE
+22:34:54Z   rows=15050 new=15050 total=15050 (had 0)
+22:34:54Z IEM METAR HECA Africa/EG
+22:34:56Z   rows=17351 new=17351 total=17351 (had 0)
+22:34:56Z IEM METAR HELX Africa/EG
+22:34:57Z   rows=8509 new=8509 total=8509 (had 0)
+22:34:58Z IEM METAR DNMM Africa/NG
+22:34:59Z   rows=6900 new=6896 total=6896 (had 0)
+22:34:59Z IEM METAR DNAA Africa/NG
+22:35:00Z   rows=3279 new=3279 total=3279 (had 0)
+22:35:01Z IEM METAR HKJK Africa/KE
+22:35:02Z   rows=12515 new=12515 total=12515 (had 0)
+22:35:02Z IEM METAR HTDA Africa/TZ
+22:35:03Z   rows=9867 new=9866 total=9866 (had 0)
+22:35:04Z IEM METAR HUEN Africa/UG
+22:35:05Z   rows=13879 new=13876 total=13876 (had 0)
+22:35:06Z IEM METAR HSSS Africa/SD
+22:35:06Z   rows=0 new=0 total=0 (had 0)
+22:35:07Z IEM METAR HAAB Africa/ET
+22:35:07Z   rows=6982 new=6976 total=6976 (had 0)
+22:35:08Z IEM METAR GMMN Africa/MA
+22:35:09Z   rows=18020 new=18019 total=18019 (had 0)
+22:35:10Z IEM METAR GMAD Africa/MA
+22:35:11Z   rows=17482 new=17482 total=17482 (had 0)
+22:35:12Z IEM METAR GMFO Africa/MA
+22:35:13Z   rows=17492 new=17492 total=17492 (had 0)
+22:35:14Z IEM METAR DTTA Africa/TN
+22:35:15Z   rows=17191 new=17191 total=17191 (had 0)
+22:35:16Z IEM METAR DTTJ Africa/TN
+22:35:17Z   rows=17371 new=17371 total=17371 (had 0)
+22:35:17Z IEM METAR FIMP Africa/MU
+22:35:18Z   rows=8767 new=8767 total=8767 (had 0)
+22:35:19Z IEM METAR FQMA Africa/MZ
+22:35:20Z   rows=7630 new=7630 total=7630 (had 0)
+22:35:21Z IEM METAR FYWH Africa/NA
+22:35:21Z   rows=5816 new=5816 total=5816 (had 0)
+22:35:22Z IEM METAR FBSK Africa/BW
+22:35:23Z   rows=7973 new=7971 total=7971 (had 0)
+22:35:23Z IEM METAR DGAA Africa/GH
+22:35:24Z   rows=8256 new=8256 total=8256 (had 0)
+22:35:25Z IEM METAR DFFD Africa/BF
+22:35:26Z   rows=6769 new=6769 total=6769 (had 0)
+22:35:26Z IEM METAR FZAA Africa/CD
+22:35:27Z   rows=5205 new=5203 total=5203 (had 0)
+22:35:27Z IEM METAR GOBD Africa/SN
+22:35:29Z   rows=17231 new=17231 total=17231 (had 0)
+22:35:30Z IEM METAR HLLT Africa/LY
+22:35:30Z   rows=0 new=0 total=0 (had 0)
+22:35:30Z IEM METAR DXXX Africa/TG
+22:35:31Z   rows=8645 new=8644 total=8644 (had 0)
+22:35:32Z IEM METAR DBBB Africa/BJ
+22:35:33Z   rows=6818 new=6818 total=6818 (had 0)
+22:35:33Z IEM METAR SBGR South America/BR
+22:35:34Z   rows=9441 new=9441 total=9441 (had 0)
+22:35:35Z IEM METAR SBGL South America/BR
+22:35:36Z   rows=9019 new=9019 total=9019 (had 0)
+22:35:36Z IEM METAR SBBR South America/BR
+22:35:37Z   rows=9125 new=9123 total=9123 (had 0)
+22:35:38Z IEM METAR SBRF South America/BR
+22:35:39Z   rows=9213 new=9213 total=9213 (had 0)
+22:35:39Z IEM METAR SBCT South America/BR
+22:35:40Z   rows=9580 new=9580 total=9580 (had 0)
+22:35:41Z IEM METAR SBPA South America/BR
+22:35:42Z   rows=9333 new=9333 total=9333 (had 0)
+22:35:43Z IEM METAR SBEG South America/BR
+22:35:44Z   rows=9433 new=9428 total=9428 (had 0)
+22:35:44Z IEM METAR SBKP South America/BR
+22:35:45Z   rows=9215 new=9215 total=9215 (had 0)
+22:35:46Z IEM METAR SAEZ South America/AR
+22:35:46Z   rows=9698 new=9698 total=9698 (had 0)
+22:35:47Z IEM METAR SABE South America/AR
+22:35:48Z   rows=9428 new=9428 total=9428 (had 0)
+22:35:49Z IEM METAR SCEL South America/CL
+22:35:49Z   rows=8754 new=8754 total=8754 (had 0)
+22:35:50Z IEM METAR SCFA South America/CL
+22:35:51Z   rows=8089 new=8089 total=8089 (had 0)
+22:35:51Z IEM METAR SKBO South America/CO
+22:35:53Z   rows=10674 new=10674 total=10674 (had 0)
+22:35:53Z IEM METAR SKCG South America/CO
+22:35:54Z   rows=9040 new=9034 total=9034 (had 0)
+22:35:55Z IEM METAR SPJC South America/PE
+22:35:56Z   rows=9023 new=9023 total=9023 (had 0)
+22:35:56Z IEM METAR SPZO South America/PE
+22:35:58Z   rows=16725 new=16723 total=16723 (had 0)
+22:35:58Z IEM METAR SVMI South America/VE
+22:35:59Z   rows=9023 new=9006 total=9006 (had 0)
+22:36:00Z IEM METAR SGAS South America/PY
+22:36:01Z   rows=10274 new=10274 total=10274 (had 0)
+22:36:01Z IEM METAR SUMU South America/UY
+22:36:02Z   rows=9952 new=9952 total=9952 (had 0)
+22:36:03Z IEM METAR SLVR South America/BO
+22:36:04Z   rows=9222 new=9222 total=9222 (had 0)
+22:36:05Z IEM METAR SLLP South America/BO
+22:36:05Z   rows=9044 new=9044 total=9044 (had 0)
+22:36:06Z IEM METAR SEQU South America/EC
+22:36:06Z   rows=2 new=2 total=2 (had 0)
+22:36:07Z IEM METAR SBFI South America/BR
+22:36:08Z   rows=9561 new=9561 total=9561 (had 0)
+22:36:08Z AFOS TAF KJFK pil=TAFJFK
+22:36:08Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFJFK&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:10Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFJFK&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:12Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFJFK&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:16Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFJFK&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:24Z   FAIL KJFK: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFJFK&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:25Z AFOS TAF KLGA pil=TAFLGA
+22:36:25Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFLGA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:26Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFLGA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:28Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFLGA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:32Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFLGA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:40Z   FAIL KLGA: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFLGA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:41Z AFOS TAF KEWR pil=TAFEWR
+22:36:41Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFEWR&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:42Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFEWR&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:45Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFEWR&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:49Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFEWR&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:57Z   FAIL KEWR: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFEWR&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:57Z AFOS TAF KBOS pil=TAFBOS
+22:36:58Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFBOS&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:36:59Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFBOS&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:01Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFBOS&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:05Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFBOS&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:13Z   FAIL KBOS: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFBOS&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:14Z AFOS TAF KPHL pil=TAFPHL
+22:37:14Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFPHL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:15Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFPHL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:17Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFPHL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:22Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFPHL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:30Z   FAIL KPHL: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFPHL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:30Z AFOS TAF KDCA pil=TAFDCA
+22:37:31Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDCA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:32Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDCA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:34Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDCA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:38Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDCA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:46Z   FAIL KDCA: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDCA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:47Z AFOS TAF KIAD pil=TAFIAD
+22:37:47Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:48Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:50Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:37:55Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:03Z   FAIL KIAD: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:03Z AFOS TAF KATL pil=TAFATL
+22:38:04Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFATL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:05Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFATL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:07Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFATL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:11Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFATL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:19Z   FAIL KATL: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFATL&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:20Z AFOS TAF KMIA pil=TAFMIA
+22:38:20Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMIA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:21Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMIA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:23Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMIA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:28Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMIA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:36Z   FAIL KMIA: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMIA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:36Z AFOS TAF KMCO pil=TAFMCO
+22:38:36Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMCO&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:38Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMCO&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:40Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMCO&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:44Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMCO&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:52Z   FAIL KMCO: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMCO&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:53Z AFOS TAF KTPA pil=TAFTPA
+22:38:53Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFTPA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:54Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFTPA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:38:56Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFTPA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:00Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFTPA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:08Z   FAIL KTPA: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFTPA&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:09Z AFOS TAF KMSY pil=TAFMSY
+22:39:09Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMSY&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:10Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMSY&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:13Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMSY&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:17Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMSY&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:25Z   FAIL KMSY: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMSY&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:25Z AFOS TAF KIAH pil=TAFIAH
+22:39:26Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAH&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:27Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAH&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:29Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAH&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:33Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAH&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:41Z   FAIL KIAH: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFIAH&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:42Z AFOS TAF KDFW pil=TAFDFW
+22:39:42Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDFW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:43Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDFW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:45Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDFW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:49Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDFW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:57Z   FAIL KDFW: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDFW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:58Z AFOS TAF KORD pil=TAFORD
+22:39:58Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFORD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:39:59Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFORD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:02Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFORD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:06Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFORD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:14Z   FAIL KORD: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFORD&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:14Z AFOS TAF KMDW pil=TAFMDW
+22:40:15Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMDW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:16Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMDW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:18Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMDW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:22Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMDW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:30Z   FAIL KMDW: GET failed: https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFMDW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:31Z AFOS TAF KDTW pil=TAFDTW
+22:40:31Z   retry 1/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 1s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDTW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:32Z   retry 2/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 2s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDTW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:35Z   retry 3/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 4s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDTW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:39Z   retry 4/4 after HTTPError: HTTP Error 422: Unprocessable Content (sleep 8s) url=https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TAFDTW&sdate=2025-11-16T00%3A00Z&edate=2026-11-16T00%3A00Z&fmt=text&limit=10000
+22:40:45Z start global weather fetch, 212 curated stations, range 2025-11-16 .. 2026-11-16
+22:40:45Z stationinfo EGLL..LFPO (20)
+22:40:46Z stationinfo LFML..EFHK (20)
+22:40:46Z stationinfo EPWA..KIAD (20)
+22:40:49Z stationinfo KATL..KSAN (20)
+22:40:49Z stationinfo KSEA..CYUL (20)
+22:40:50Z stationinfo CYHZ..YWLM (20)
+22:41:10Z stationinfo YPDN..VOBL (20)
+22:41:11Z stationinfo RPLL..WADD (20)
+22:41:11Z stationinfo VCBI..FQMA (20)
+22:41:12Z stationinfo FYWH..SCEL (20)
+22:41:12Z stationinfo SCFA..SBFI (12)
+22:41:13Z   metadata for 212 stations
+22:41:13Z IEM METAR EGLL skip (already have 17508)
+22:41:13Z IEM METAR EGKK skip (already have 17476)
+22:41:13Z IEM METAR EGSS skip (already have 17511)
+22:41:13Z IEM METAR EGCC skip (already have 17512)
+22:41:13Z IEM METAR EGPH skip (already have 17432)
+22:41:13Z IEM METAR EGPF skip (already have 17512)
+22:41:13Z IEM METAR EGBB skip (already have 17348)
+22:41:13Z IEM METAR EGAA skip (already have 17378)
+22:41:13Z IEM METAR EHAM skip (already have 17465)
+22:41:13Z IEM METAR EHRD skip (already have 17509)
+22:41:13Z IEM METAR EBBR skip (already have 17481)
+22:41:13Z IEM METAR EDDF skip (already have 17514)
+22:41:13Z IEM METAR EDDM skip (already have 17516)
+22:41:13Z IEM METAR EDDL skip (already have 17516)
+22:41:13Z IEM METAR EDDH skip (already have 17516)
+22:41:13Z IEM METAR EDDB skip (already have 17512)
+22:41:13Z IEM METAR EDDK skip (already have 17516)
+22:41:13Z IEM METAR EDDS skip (already have 17516)
+22:41:13Z IEM METAR LFPG skip (already have 17530)
+22:41:13Z IEM METAR LFPO skip (already have 17394)
+22:41:13Z IEM METAR LFML skip (already have 17510)
+22:41:13Z IEM METAR LFBO skip (already have 17511)
+22:41:13Z IEM METAR LEMD skip (already have 17765)
+22:41:13Z IEM METAR LEBL skip (already have 17710)
+22:41:13Z IEM METAR LEPA skip (already have 18013)
+22:41:13Z IEM METAR LEVC skip (already have 17705)
+22:41:13Z IEM METAR LIRF skip (already have 17425)
+22:41:13Z IEM METAR LIMC skip (already have 17376)
+22:41:13Z IEM METAR LIPZ skip (already have 17412)
+22:41:13Z IEM METAR LIRN skip (already have 17182)
+22:41:13Z IEM METAR EIDW skip (already have 17504)
+22:41:13Z IEM METAR EINN skip (already have 17510)
+22:41:13Z IEM METAR EKCH skip (already have 17576)
+22:41:13Z IEM METAR ENGM skip (already have 17424)
+22:41:13Z IEM METAR ENBR skip (already have 17325)
+22:41:13Z IEM METAR ENTC skip (already have 17246)
+22:41:13Z IEM METAR ENZV skip (already have 17349)
+22:41:13Z IEM METAR ESSA skip (already have 17406)
+22:41:13Z IEM METAR ESGG skip (already have 17492)
+22:41:13Z IEM METAR EFHK skip (already have 17511)
+22:41:13Z IEM METAR EPWA skip (already have 17508)
+22:41:13Z IEM METAR LKPR skip (already have 17513)
+22:41:13Z IEM METAR LOWW skip (already have 17515)
+22:41:13Z IEM METAR LSZH skip (already have 17508)
+22:41:13Z IEM METAR LSGG skip (already have 17509)
+22:41:13Z IEM METAR LPPT skip (already have 17402)
+22:41:13Z IEM METAR LPPR skip (already have 17506)
+22:41:13Z IEM METAR LGAV skip (already have 17308)
+22:41:13Z IEM METAR BIKF skip (already have 17501)
+22:41:13Z IEM METAR BIAR skip (already have 8971)
+22:41:13Z IEM METAR LROP skip (already have 17516)
+22:41:13Z IEM METAR LHBP skip (already have 17976)
+22:41:13Z IEM METAR EVRA skip (already have 17508)
+22:41:13Z IEM METAR KJFK skip (already have 9489)
+22:41:13Z IEM METAR KLGA skip (already have 9911)
+22:41:13Z IEM METAR KEWR skip (already have 9909)
+22:41:13Z IEM METAR KBOS skip (already have 10199)
+22:41:13Z IEM METAR KPHL skip (already have 11161)
+22:41:13Z IEM METAR KDCA skip (already have 10476)
+22:41:13Z IEM METAR KIAD skip (already have 9897)
+22:41:13Z IEM METAR KATL skip (already have 10237)
+22:41:13Z IEM METAR KMIA skip (already have 9850)
+22:41:13Z IEM METAR KMCO skip (already have 9750)
+22:41:13Z IEM METAR KTPA skip (already have 10463)
+22:41:13Z IEM METAR KMSY skip (already have 10257)
+22:41:13Z IEM METAR KIAH skip (already have 9937)
+22:41:13Z IEM METAR KDFW skip (already have 9695)
+22:41:13Z IEM METAR KORD skip (already have 11051)
+22:41:13Z IEM METAR KMDW skip (already have 10271)
+22:41:13Z IEM METAR KDTW skip (already have 11258)
+22:41:13Z IEM METAR KCLE skip (already have 10515)
+22:41:13Z IEM METAR KBUF skip (already have 12130)
+22:41:13Z IEM METAR KMSP skip (already have 10906)
+22:41:13Z IEM METAR KDEN skip (already have 9817)
+22:41:13Z IEM METAR KPHX skip (already have 9106)
+22:41:13Z IEM METAR KLAS skip (already have 9096)
+22:41:13Z IEM METAR KLAX skip (already have 10161)
+22:41:13Z IEM METAR KSFO skip (already have 9928)
+22:41:13Z IEM METAR KOAK skip (already have 9840)
+22:41:13Z IEM METAR KSAN skip (already have 10756)
+22:41:13Z IEM METAR KSEA skip (already have 10606)
+22:41:13Z IEM METAR KPDX skip (already have 9953)
+22:41:13Z IEM METAR KSLC skip (already have 9473)
+22:41:13Z IEM METAR KBNA skip (already have 9553)
+22:41:13Z IEM METAR KMEM skip (already have 10149)
+22:41:13Z IEM METAR KOKC skip (already have 9911)
+22:41:13Z IEM METAR KOMA skip (already have 10276)
+22:41:13Z IEM METAR KMCI skip (already have 10354)
+22:41:13Z IEM METAR KSTL skip (already have 10655)
+22:41:13Z IEM METAR KCLT skip (already have 10050)
+22:41:13Z IEM METAR KRDU skip (already have 9742)
+22:41:13Z IEM METAR PANC skip (already have 10476)
+22:41:13Z IEM METAR PAFA skip (already have 9861)
+22:41:13Z IEM METAR PAJN skip (already have 10406)
+22:41:13Z IEM METAR PHNL skip (already have 9146)
+22:41:13Z IEM METAR PHOG skip (already have 9407)
+22:41:13Z IEM METAR CYYZ skip (already have 10779)
+22:41:13Z IEM METAR CYVR skip (already have 10297)
+22:41:13Z IEM METAR CYYC skip (already have 10601)
+22:41:13Z IEM METAR CYUL skip (already have 10982)
+22:41:13Z IEM METAR CYHZ skip (already have 12881)
+22:41:13Z IEM METAR CYWG skip (already have 10294)
+22:41:13Z IEM METAR CYFB skip (already have 10390)
+22:41:13Z IEM METAR CYOW skip (already have 10937)
+22:41:13Z IEM METAR TJSJ skip (already have 8815)
+22:41:13Z IEM METAR TIST skip (already have 8842)
+22:41:13Z IEM METAR MKJP skip (already have 8739)
+22:41:13Z IEM METAR MDSD skip (already have 9043)
+22:41:13Z IEM METAR TNCM skip (already have 8829)
+22:41:13Z IEM METAR MMMX skip (already have 11884)
+22:41:13Z IEM METAR MMUN skip (already have 8943)
+22:41:13Z IEM METAR MMGL skip (already have 9455)
+22:41:13Z IEM METAR YSSY skip (already have 19585)
+22:41:13Z IEM METAR YMML skip (already have 19645)
+22:41:13Z IEM METAR YBBN skip (already have 18638)
+22:41:13Z IEM METAR YPPH skip (already have 18795)
+22:41:13Z IEM METAR YPAD skip (already have 18700)
+22:41:13Z IEM METAR YBCS skip (already have 20216)
+22:41:13Z IEM METAR YBTL skip (already have 19090)
+22:41:13Z IEM METAR YWLM skip (already have 19658)
+22:41:13Z IEM METAR YPDN skip (already have 18990)
+22:41:13Z IEM METAR NZAA skip (already have 17502)
+22:41:13Z IEM METAR NZWN skip (already have 17504)
+22:41:13Z IEM METAR NZCH skip (already have 17504)
+22:41:13Z IEM METAR NZQN skip (already have 17471)
+22:41:13Z IEM METAR RJTT skip (already have 17658)
+22:41:13Z IEM METAR RJAA skip (already have 17906)
+22:41:13Z IEM METAR RJBB skip (already have 17670)
+22:41:13Z IEM METAR RJCC skip (already have 18182)
+22:41:13Z IEM METAR RJFF skip (already have 17703)
+22:41:13Z IEM METAR VHHH skip (already have 18848)
+22:41:13Z IEM METAR VMMC skip (already have 13167)
+22:41:14Z IEM METAR WSSS skip (already have 17874)
+22:41:14Z IEM METAR WMKK skip (already have 17821)
+22:41:14Z IEM METAR VTBS skip (already have 17504)
+22:41:14Z IEM METAR VTSP skip (already have 17487)
+22:41:14Z IEM METAR VIDP skip (already have 17439)
+22:41:14Z IEM METAR VABB skip (already have 17547)
+22:41:14Z IEM METAR VOMM skip (already have 17514)
+22:41:14Z IEM METAR VOBL skip (already have 17466)
+22:41:14Z IEM METAR RPLL skip (already have 8927)
+22:41:14Z IEM METAR RCTP skip (already have 19541)
+22:41:14Z IEM METAR RKSI skip (already have 17516)
+22:41:14Z IEM METAR RKSS skip (already have 9139)
+22:41:14Z IEM METAR RKPC skip (already have 9137)
+22:41:14Z IEM METAR ZBAA skip (already have 17766)
+22:41:14Z IEM METAR ZSPD skip (already have 17766)
+22:41:14Z IEM METAR ZGGG skip (already have 18100)
+22:41:14Z IEM METAR ZUUU skip (already have 8777)
+22:41:14Z IEM METAR OMDB skip (already have 15050)
+22:41:14Z IEM METAR OMAA skip (already have 13699)
+22:41:14Z IEM METAR OTBD skip (already have 17403)
+22:41:14Z IEM METAR OKBK Asia/KW
+22:41:14Z   rows=0 new=0 total=0 (had 0)
+22:41:14Z IEM METAR OERK skip (already have 8893)
+22:41:14Z IEM METAR OTHH skip (already have 8732)
+22:41:15Z IEM METAR OPKC skip (already have 17478)
+22:41:15Z IEM METAR VGHS skip (already have 16998)
+22:41:15Z IEM METAR VYYY skip (already have 16997)
+22:41:15Z IEM METAR WIII skip (already have 17802)
+22:41:15Z IEM METAR WADD skip (already have 17521)
+22:41:15Z IEM METAR VCBI skip (already have 8682)
+22:41:15Z IEM METAR VRMM skip (already have 8454)
+22:41:15Z IEM METAR OBBI skip (already have 14944)
+22:41:15Z IEM METAR OMSJ skip (already have 15050)
+22:41:15Z IEM METAR HECA skip (already have 17351)
+22:41:15Z IEM METAR HELX skip (already have 8509)
+22:41:15Z IEM METAR DNMM skip (already have 6896)
+22:41:15Z IEM METAR DNAA skip (already have 3279)
+22:41:15Z IEM METAR HKJK skip (already have 12515)
+22:41:15Z IEM METAR HTDA skip (already have 9866)
+22:41:15Z IEM METAR HUEN skip (already have 13876)
+22:41:15Z IEM METAR HSSS Africa/SD
+22:41:15Z   rows=0 new=0 total=0 (had 0)
+22:41:15Z IEM METAR HAAB skip (already have 6976)
+22:41:15Z IEM METAR GMMN skip (already have 18019)
+22:41:15Z IEM METAR GMAD skip (already have 17482)
+22:41:15Z IEM METAR GMFO skip (already have 17492)
+22:41:15Z IEM METAR DTTA skip (already have 17191)
+22:41:15Z IEM METAR DTTJ skip (already have 17371)
+22:41:16Z IEM METAR FIMP skip (already have 8767)
+22:41:16Z IEM METAR FQMA skip (already have 7630)
+22:41:16Z IEM METAR FYWH skip (already have 5816)
+22:41:16Z IEM METAR FBSK skip (already have 7971)
+22:41:16Z IEM METAR DGAA skip (already have 8256)
+22:41:16Z IEM METAR DFFD skip (already have 6769)
+22:41:16Z IEM METAR FZAA skip (already have 5203)
+22:41:16Z IEM METAR GOBD skip (already have 17231)
+22:41:16Z IEM METAR HLLT Africa/LY
+22:41:16Z   rows=0 new=0 total=0 (had 0)
+22:41:16Z IEM METAR DXXX skip (already have 8644)
+22:41:16Z IEM METAR DBBB skip (already have 6818)
+22:41:16Z IEM METAR SBGR skip (already have 9441)
+22:41:16Z IEM METAR SBGL skip (already have 9019)
+22:41:16Z IEM METAR SBBR skip (already have 9123)
+22:41:16Z IEM METAR SBRF skip (already have 9213)
+22:41:16Z IEM METAR SBCT skip (already have 9580)
+22:41:16Z IEM METAR SBPA skip (already have 9333)
+22:41:16Z IEM METAR SBEG skip (already have 9428)
+22:41:17Z IEM METAR SBKP skip (already have 9215)
+22:41:17Z IEM METAR SAEZ skip (already have 9698)
+22:41:17Z IEM METAR SABE skip (already have 9428)
+22:41:17Z IEM METAR SCEL skip (already have 8754)
+22:41:17Z IEM METAR SCFA skip (already have 8089)
+22:41:17Z IEM METAR SKBO skip (already have 10674)
+22:41:17Z IEM METAR SKCG skip (already have 9034)
+22:41:17Z IEM METAR SPJC skip (already have 9023)
+22:41:17Z IEM METAR SPZO skip (already have 16723)
+22:41:17Z IEM METAR SVMI skip (already have 9006)
+22:41:17Z IEM METAR SGAS skip (already have 10274)
+22:41:17Z IEM METAR SUMU skip (already have 9952)
+22:41:17Z IEM METAR SLVR skip (already have 9222)
+22:41:17Z IEM METAR SLLP skip (already have 9044)
+22:41:17Z IEM METAR SEQU skip (already have 2)
+22:41:17Z IEM METAR SBFI skip (already have 9561)
+22:41:17Z AFOS TAF KJFK pil=TAFJFK
+22:41:17Z   parsed=3439 new=3439 total=3439
+22:41:18Z AFOS TAF KLGA pil=TAFLGA
+22:41:19Z   parsed=3367 new=3367 total=3367
+22:41:20Z AFOS TAF KEWR pil=TAFEWR
+22:41:21Z   parsed=3399 new=3399 total=3399
+22:41:21Z AFOS TAF KBOS pil=TAFBOS
+22:41:22Z   parsed=2887 new=2887 total=2887
+22:41:23Z AFOS TAF KPHL pil=TAFPHL
+22:41:24Z   parsed=3453 new=3453 total=3453
+22:41:24Z AFOS TAF KDCA pil=TAFDCA
+22:41:25Z   parsed=3347 new=3344 total=3344
+22:41:26Z AFOS TAF KIAD pil=TAFIAD
+22:41:27Z   parsed=3337 new=3336 total=3336
+22:41:28Z AFOS TAF KATL pil=TAFATL
+22:41:29Z   parsed=4590 new=4590 total=4590
+22:41:30Z AFOS TAF KMIA pil=TAFMIA
+22:41:31Z   parsed=3134 new=3134 total=3134
+22:41:31Z AFOS TAF KMCO pil=TAFMCO
+22:41:32Z   parsed=3444 new=3444 total=3444
+22:41:33Z AFOS TAF KTPA pil=TAFTPA
+22:41:34Z   parsed=3102 new=3102 total=3102
+22:41:34Z AFOS TAF KMSY pil=TAFMSY
+22:41:35Z   parsed=1785 new=1785 total=1785
+22:41:36Z AFOS TAF KIAH pil=TAFIAH
+22:41:37Z   parsed=3203 new=3203 total=3203
+22:41:37Z AFOS TAF KDFW pil=TAFDFW
+22:41:38Z   parsed=3362 new=3362 total=3362
+22:41:39Z AFOS TAF KORD pil=TAFORD
+22:41:40Z   parsed=3450 new=3449 total=3449
+22:41:40Z AFOS TAF KMDW pil=TAFMDW
+22:41:41Z   parsed=3408 new=3408 total=3408
+22:41:42Z AFOS TAF KDTW pil=TAFDTW
+22:41:43Z   parsed=3318 new=3318 total=3318
+22:41:44Z AFOS TAF KCLE pil=TAFCLE
+22:41:46Z   parsed=3253 new=3253 total=3253
+22:41:46Z AFOS TAF KBUF pil=TAFBUF
+22:41:54Z   parsed=2028 new=2028 total=2028
+22:41:55Z AFOS TAF KMSP pil=TAFMSP
+22:41:56Z   parsed=3180 new=3180 total=3180
+22:41:57Z AFOS TAF KDEN pil=TAFDEN
+22:41:58Z   parsed=3902 new=3902 total=3902
+22:41:59Z AFOS TAF KPHX pil=TAFPHX
+22:42:00Z   parsed=3247 new=3247 total=3247
+22:42:00Z AFOS TAF KLAS pil=TAFLAS
+22:42:01Z   parsed=3132 new=3132 total=3132
+22:42:02Z AFOS TAF KLAX pil=TAFLAX
+22:42:03Z   parsed=3610 new=3610 total=3610
+22:42:03Z AFOS TAF KSFO pil=TAFSFO
+22:42:04Z   parsed=3268 new=3268 total=3268
+22:42:05Z AFOS TAF KOAK pil=TAFOAK
+22:42:06Z   parsed=1787 new=1787 total=1787
+22:42:06Z AFOS TAF KSAN pil=TAFSAN
+22:42:07Z   parsed=3423 new=3423 total=3423
+22:42:08Z AFOS TAF KSEA pil=TAFSEA
+22:42:09Z   parsed=3436 new=3435 total=3435
+22:42:10Z AFOS TAF KPDX pil=TAFPDX
+22:42:11Z   parsed=3234 new=3234 total=3234
+22:42:11Z AFOS TAF KSLC pil=TAFSLC
+22:42:12Z   parsed=3619 new=3619 total=3619
+22:42:13Z AFOS TAF KBNA pil=TAFBNA
+22:42:14Z   parsed=2542 new=2542 total=2542
+22:42:14Z AFOS TAF KMEM pil=TAFMEM
+22:42:15Z   parsed=3265 new=3265 total=3265
+22:42:16Z AFOS TAF KOKC pil=TAFOKC
+22:42:17Z   parsed=2082 new=2082 total=2082
+22:42:17Z AFOS TAF KOMA pil=TAFOMA
+22:42:18Z   parsed=2413 new=2413 total=2413
+22:42:19Z AFOS TAF KMCI pil=TAFMCI
+22:42:19Z   parsed=1935 new=1935 total=1935
+22:42:20Z AFOS TAF KSTL pil=TAFSTL
+22:42:21Z   parsed=3303 new=3302 total=3302
+22:42:22Z AFOS TAF KCLT pil=TAFCLT
+22:42:23Z   parsed=3813 new=3812 total=3812
+22:42:23Z AFOS TAF KRDU pil=TAFRDU
+22:42:24Z   parsed=2075 new=2075 total=2075
+22:42:25Z AFOS TAF PANC pil=TAFANC
+22:42:25Z   parsed=2105 new=2105 total=2105
+22:42:26Z AFOS TAF PAFA pil=TAFAFA
+22:42:27Z   parsed=1870 new=1870 total=1870
+22:42:27Z AFOS TAF PAJN pil=TAFAJN
+22:42:28Z   parsed=2233 new=2232 total=2232
+22:42:29Z AFOS TAF PHNL pil=TAFHNL
+22:42:29Z   parsed=3103 new=3103 total=3103
+22:42:30Z AFOS TAF PHOG pil=TAFHOG
+22:42:31Z   parsed=3074 new=3074 total=3074
+22:42:32Z AFOS TAF TJSJ pil=TAFJSJ
+22:42:32Z   parsed=1791 new=1791 total=1791
+22:42:33Z AFOS TAF TIST pil=TAFIST
+22:42:33Z   parsed=1586 new=1586 total=1586
+22:42:34Z ADDS tafs EGLL..EGAA 2026-10-17_2026-11-16
+22:42:40Z   rows=750 new=750
+22:42:41Z ADDS tafs EHAM..EDDB 2026-10-17_2026-11-16
+22:42:48Z   rows=750 new=750
+22:42:49Z ADDS tafs EDDK..LEBL 2026-10-17_2026-11-16
+22:42:57Z   rows=750 new=750
+22:42:58Z ADDS tafs LEPA..EINN 2026-10-17_2026-11-16
+22:43:00Z   rows=750 new=750
+22:43:01Z ADDS tafs EKCH..EFHK 2026-10-17_2026-11-16
+22:43:04Z   rows=750 new=750
+22:43:05Z ADDS tafs EPWA..LGAV 2026-10-17_2026-11-16
+22:43:09Z   rows=750 new=750
+22:43:10Z ADDS tafs BIKF..KEWR 2026-10-17_2026-11-16
+22:43:15Z   rows=750 new=608
+22:43:16Z ADDS tafs KBOS..KTPA 2026-10-17_2026-11-16
+22:43:22Z   rows=750 new=416
+22:43:23Z ADDS tafs KMSY..KBUF 2026-10-17_2026-11-16
+22:43:26Z   rows=750 new=375
+22:43:27Z ADDS tafs KMSP..KSAN 2026-10-17_2026-11-16
+22:43:32Z   rows=750 new=376
+22:43:33Z ADDS tafs KSEA..KMCI 2026-10-17_2026-11-16
+22:43:36Z   rows=750 new=336
+22:43:36Z ADDS tafs KSTL..PHOG 2026-10-17_2026-11-16
+22:43:39Z   rows=750 new=333
+22:43:40Z ADDS tafs CYYZ..CYOW 2026-10-17_2026-11-16
+22:43:58Z   rows=750 new=750
+22:43:58Z ADDS tafs TJSJ..MMGL 2026-10-17_2026-11-16
+22:44:05Z   rows=750 new=646
+22:44:06Z ADDS tafs YSSY..YWLM 2026-10-17_2026-11-16
+22:44:12Z   rows=750 new=750
+22:44:12Z ADDS tafs YPDN..RJBB 2026-10-17_2026-11-16
+22:44:16Z   rows=750 new=750
+22:44:17Z ADDS tafs RJCC..VTSP 2026-10-17_2026-11-16
+22:44:20Z   rows=750 new=750
+22:44:21Z ADDS tafs VIDP..RKSS 2026-10-17_2026-11-16
+22:44:23Z   rows=750 new=748
+22:44:24Z ADDS tafs RKPC..OTBD 2026-10-17_2026-11-16
+22:44:26Z   rows=750 new=750
+22:44:27Z ADDS tafs OKBK..WADD 2026-10-17_2026-11-16
+22:44:28Z   rows=750 new=750
+22:44:29Z ADDS tafs VCBI..DNAA 2026-10-17_2026-11-16
+22:44:31Z   rows=750 new=750
+22:44:32Z ADDS tafs HKJK..GMFO 2026-10-17_2026-11-16
+22:44:35Z   rows=726 new=726
+22:44:35Z ADDS tafs DTTA..DFFD 2026-10-17_2026-11-16
+22:44:39Z   rows=750 new=750
+22:44:40Z ADDS tafs FZAA..SBBR 2026-10-17_2026-11-16
+22:44:48Z   rows=750 new=750
+22:44:48Z ADDS tafs SBRF..SCEL 2026-10-17_2026-11-16
+22:44:55Z   rows=750 new=750
+22:44:56Z ADDS tafs SCFA..SUMU 2026-10-17_2026-11-16
+22:44:58Z   rows=750 new=750
+22:44:59Z ADDS tafs SLVR..SBFI 2026-10-17_2026-11-16
+22:45:01Z   rows=374 new=374
+22:45:02Z ADDS metars EGLL..EGAA 2026-10-17_2026-10-25
+22:45:05Z   rows=400 new=4
+22:45:06Z ADDS metars EGLL..EGAA 2026-10-25_2026-11-02
+22:45:07Z   rows=400 new=3
+22:45:08Z ADDS metars EGLL..EGAA 2026-11-02_2026-11-10
+22:45:09Z   rows=400 new=97
+22:45:10Z ADDS metars EGLL..EGAA 2026-11-10_2026-11-16
+22:45:11Z   rows=400 new=109
+22:45:12Z ADDS metars EHAM..EDDB 2026-10-17_2026-10-25
+22:45:14Z   rows=400 new=20
+22:45:15Z ADDS metars EHAM..EDDB 2026-10-25_2026-11-02
+22:45:16Z   rows=400 new=4
+22:45:17Z ADDS metars EHAM..EDDB 2026-11-02_2026-11-10
+22:45:18Z   rows=400 new=11
+22:45:19Z ADDS metars EHAM..EDDB 2026-11-10_2026-11-16
+22:45:20Z   rows=400 new=17
+22:45:21Z ADDS metars EDDK..LEBL 2026-10-17_2026-10-25
+22:45:22Z   rows=400 new=5
+22:45:23Z ADDS metars EDDK..LEBL 2026-10-25_2026-11-02
+22:45:32Z   rows=400 new=2
+22:45:33Z ADDS metars EDDK..LEBL 2026-11-02_2026-11-10
+22:45:34Z   rows=400 new=11
+22:45:35Z ADDS metars EDDK..LEBL 2026-11-10_2026-11-16
+22:45:36Z   rows=400 new=10
+22:45:37Z ADDS metars LEPA..EINN 2026-10-17_2026-10-25
+22:45:39Z   rows=400 new=2
+22:45:39Z ADDS metars LEPA..EINN 2026-10-25_2026-11-02
+22:45:41Z   rows=400 new=1
+22:45:42Z ADDS metars LEPA..EINN 2026-11-02_2026-11-10
+22:45:43Z   rows=400 new=1
+22:45:44Z ADDS metars LEPA..EINN 2026-11-10_2026-11-16
+22:45:45Z   rows=400 new=11
+22:45:46Z ADDS metars EKCH..EFHK 2026-10-17_2026-10-25
+22:45:48Z   rows=400 new=1
+22:45:49Z ADDS metars EKCH..EFHK 2026-10-25_2026-11-02
+22:45:50Z   rows=400 new=5
+22:45:51Z ADDS metars EKCH..EFHK 2026-11-02_2026-11-10
+22:45:52Z   rows=400 new=6
+22:45:53Z ADDS metars EKCH..EFHK 2026-11-10_2026-11-16
+22:45:55Z   rows=400 new=11
+22:45:56Z ADDS metars EPWA..LGAV 2026-10-17_2026-10-25
+22:45:57Z   rows=400 new=1
+22:45:58Z ADDS metars EPWA..LGAV 2026-10-25_2026-11-02
+22:45:59Z   rows=400 new=1
+22:46:00Z ADDS metars EPWA..LGAV 2026-11-02_2026-11-10
+22:46:02Z   rows=400 new=1
+22:46:03Z ADDS metars EPWA..LGAV 2026-11-10_2026-11-16
+22:46:05Z   rows=400 new=10
+22:46:05Z ADDS metars BIKF..KEWR 2026-10-17_2026-10-25
+22:46:07Z   rows=400 new=7
+22:46:07Z ADDS metars BIKF..KEWR 2026-10-25_2026-11-02
+22:46:09Z   rows=400 new=4
+22:46:10Z ADDS metars BIKF..KEWR 2026-11-02_2026-11-10
+22:46:11Z   rows=400 new=2
+22:46:12Z ADDS metars BIKF..KEWR 2026-11-10_2026-11-16
+22:46:13Z   rows=400 new=8
+22:46:14Z ADDS metars KBOS..KTPA 2026-10-17_2026-10-25
+22:46:15Z   rows=400 new=5
+22:46:16Z ADDS metars KBOS..KTPA 2026-10-25_2026-11-02
+22:46:16Z   rows=400 new=49
+22:46:17Z ADDS metars KBOS..KTPA 2026-11-02_2026-11-10
+22:46:18Z   rows=400 new=17
+22:46:19Z ADDS metars KBOS..KTPA 2026-11-10_2026-11-16
+22:46:20Z   rows=400 new=1
+22:46:21Z ADDS metars KMSY..KBUF 2026-10-17_2026-10-25
+22:46:22Z   rows=400 new=25
+22:46:23Z ADDS metars KMSY..KBUF 2026-10-25_2026-11-02
+22:46:24Z   rows=400 new=52
+22:46:25Z ADDS metars KMSY..KBUF 2026-11-02_2026-11-10
+22:46:26Z   rows=400 new=24
+22:46:26Z ADDS metars KMSY..KBUF 2026-11-10_2026-11-16
+22:46:28Z   rows=400 new=57
+22:46:28Z ADDS metars KMSP..KSAN 2026-10-17_2026-10-25
+22:46:31Z   rows=400 new=29
+22:46:32Z ADDS metars KMSP..KSAN 2026-10-25_2026-11-02
+22:46:33Z   rows=400 new=85
+22:46:34Z ADDS metars KMSP..KSAN 2026-11-02_2026-11-10
+22:46:35Z   rows=400 new=43
+22:46:36Z ADDS metars KMSP..KSAN 2026-11-10_2026-11-16
+22:46:37Z   rows=400 new=40
+22:46:38Z ADDS metars KSEA..KMCI 2026-10-17_2026-10-25
+22:46:39Z   rows=400 new=16
+22:46:39Z ADDS metars KSEA..KMCI 2026-10-25_2026-11-02
+22:46:40Z   rows=400 new=117
+22:46:41Z ADDS metars KSEA..KMCI 2026-11-02_2026-11-10
+22:46:42Z   rows=400 new=13
+22:46:43Z ADDS metars KSEA..KMCI 2026-11-10_2026-11-16
+22:46:44Z   rows=400 new=42
+22:46:45Z ADDS metars KSTL..PHOG 2026-10-17_2026-10-25
+22:46:46Z   rows=400 new=59
+22:46:46Z ADDS metars KSTL..PHOG 2026-10-25_2026-11-02
+22:46:47Z   rows=400 new=51
+22:46:48Z ADDS metars KSTL..PHOG 2026-11-02_2026-11-10
+22:46:49Z   rows=400 new=34
+22:46:50Z ADDS metars KSTL..PHOG 2026-11-10_2026-11-16
+22:46:51Z   rows=400 new=93
+22:46:52Z ADDS metars CYYZ..CYOW 2026-10-17_2026-10-25
+22:46:54Z   rows=400 new=53
+22:46:54Z ADDS metars CYYZ..CYOW 2026-10-25_2026-11-02
+22:46:56Z   rows=400 new=67
+22:46:56Z ADDS metars CYYZ..CYOW 2026-11-02_2026-11-10
+22:46:57Z   rows=400 new=53
+22:46:58Z ADDS metars CYYZ..CYOW 2026-11-10_2026-11-16
+22:47:00Z   rows=400 new=58
+22:47:01Z ADDS metars TJSJ..MMGL 2026-10-17_2026-10-25
+22:47:02Z   rows=400 new=33
+22:47:03Z ADDS metars TJSJ..MMGL 2026-10-25_2026-11-02
+22:47:04Z   rows=400 new=27
+22:47:04Z ADDS metars TJSJ..MMGL 2026-11-02_2026-11-10
+22:47:05Z   rows=400 new=42
+22:47:06Z ADDS metars TJSJ..MMGL 2026-11-10_2026-11-16
+22:47:07Z   rows=400 new=30
+22:47:08Z ADDS metars YSSY..YWLM 2026-10-17_2026-10-25
+22:47:09Z   rows=400 new=136
+22:47:10Z ADDS metars YSSY..YWLM 2026-10-25_2026-11-02
+22:47:13Z   rows=400 new=43
+22:47:14Z ADDS metars YSSY..YWLM 2026-11-02_2026-11-10
+22:47:16Z   rows=400 new=54
+22:47:17Z ADDS metars YSSY..YWLM 2026-11-10_2026-11-16
+22:47:18Z   rows=400 new=119
+22:47:19Z ADDS metars YPDN..RJBB 2026-10-17_2026-10-25
+22:47:21Z   rows=400 new=3
+22:47:22Z ADDS metars YPDN..RJBB 2026-10-25_2026-11-02
+22:47:26Z   rows=400 new=2
+22:47:27Z ADDS metars YPDN..RJBB 2026-11-02_2026-11-10
+22:47:29Z   rows=400 new=0
+22:47:30Z ADDS metars YPDN..RJBB 2026-11-10_2026-11-16
+22:47:31Z   rows=400 new=14
+22:47:32Z ADDS metars RJCC..VTSP 2026-10-17_2026-10-25
+22:47:34Z   rows=400 new=5
+22:47:35Z ADDS metars RJCC..VTSP 2026-10-25_2026-11-02
+22:47:41Z   rows=400 new=5
+22:47:42Z ADDS metars RJCC..VTSP 2026-11-02_2026-11-10
+22:47:43Z   rows=400 new=13
+22:47:44Z ADDS metars RJCC..VTSP 2026-11-10_2026-11-16
+22:47:45Z   rows=400 new=14
+22:47:46Z ADDS metars VIDP..RKSS 2026-10-17_2026-10-25
+22:47:48Z   rows=400 new=33
+22:47:49Z ADDS metars VIDP..RKSS 2026-10-25_2026-11-02
+22:47:50Z   rows=400 new=4
+22:47:51Z ADDS metars VIDP..RKSS 2026-11-02_2026-11-10
+22:47:52Z   rows=400 new=18
+22:47:53Z ADDS metars VIDP..RKSS 2026-11-10_2026-11-16
+22:47:54Z   rows=400 new=25
+22:47:55Z ADDS metars RKPC..OTBD 2026-10-17_2026-10-25
+22:48:11Z   rows=400 new=7
+22:48:12Z ADDS metars RKPC..OTBD 2026-10-25_2026-11-02
+22:48:13Z   rows=400 new=11
+22:48:14Z ADDS metars RKPC..OTBD 2026-11-02_2026-11-10
+22:48:16Z   rows=400 new=4
+22:48:16Z ADDS metars RKPC..OTBD 2026-11-10_2026-11-16
+22:48:17Z   rows=400 new=6
+22:48:18Z ADDS metars OKBK..WADD 2026-10-17_2026-10-25
+22:48:19Z   rows=400 new=0
+22:48:20Z ADDS metars OKBK..WADD 2026-10-25_2026-11-02
+22:48:21Z   rows=400 new=7
+22:48:22Z ADDS metars OKBK..WADD 2026-11-02_2026-11-10
+22:48:23Z   rows=400 new=5
+22:48:24Z ADDS metars OKBK..WADD 2026-11-10_2026-11-16
+22:48:25Z   rows=400 new=5
+22:48:26Z ADDS metars VCBI..DNAA 2026-10-17_2026-10-25
+22:48:27Z   rows=400 new=21
+22:48:27Z ADDS metars VCBI..DNAA 2026-10-25_2026-11-02
+22:48:34Z   rows=400 new=3
+22:48:35Z ADDS metars VCBI..DNAA 2026-11-02_2026-11-10
+22:48:37Z   rows=400 new=19
+22:48:38Z ADDS metars VCBI..DNAA 2026-11-10_2026-11-16
+22:48:39Z   rows=400 new=23
+22:48:40Z ADDS metars HKJK..GMFO 2026-10-17_2026-10-25
+22:48:40Z   rows=400 new=12
+22:48:41Z ADDS metars HKJK..GMFO 2026-10-25_2026-11-02
+22:48:42Z   rows=400 new=21
+22:48:43Z ADDS metars HKJK..GMFO 2026-11-02_2026-11-10
+22:48:46Z   rows=400 new=15
+22:48:46Z ADDS metars HKJK..GMFO 2026-11-10_2026-11-16
+22:48:47Z   rows=400 new=34
+22:48:48Z ADDS metars DTTA..DFFD 2026-10-17_2026-10-25
+22:48:49Z   rows=400 new=7
+22:48:50Z ADDS metars DTTA..DFFD 2026-10-25_2026-11-02
+22:48:51Z   rows=400 new=8
+22:48:51Z ADDS metars DTTA..DFFD 2026-11-02_2026-11-10
+22:48:52Z   rows=400 new=7
+22:48:53Z ADDS metars DTTA..DFFD 2026-11-10_2026-11-16
+22:48:54Z   rows=400 new=18
+22:48:55Z ADDS metars FZAA..SBBR 2026-10-17_2026-10-25
+22:48:57Z   rows=400 new=22
+22:48:57Z ADDS metars FZAA..SBBR 2026-10-25_2026-11-02
+22:48:58Z   rows=400 new=36
+22:48:59Z ADDS metars FZAA..SBBR 2026-11-02_2026-11-10
+22:49:00Z   rows=400 new=46
+22:49:01Z ADDS metars FZAA..SBBR 2026-11-10_2026-11-16
+22:49:01Z   rows=400 new=31
+22:49:02Z ADDS metars SBRF..SCEL 2026-10-17_2026-10-25
+22:49:03Z   rows=400 new=41
+22:49:04Z ADDS metars SBRF..SCEL 2026-10-25_2026-11-02
+22:49:05Z   rows=400 new=40
+22:49:06Z ADDS metars SBRF..SCEL 2026-11-02_2026-11-10
+22:49:07Z   rows=400 new=25
+22:49:08Z ADDS metars SBRF..SCEL 2026-11-10_2026-11-16
+22:49:09Z   rows=400 new=32
+22:49:09Z ADDS metars SCFA..SUMU 2026-10-17_2026-10-25
+22:49:11Z   rows=400 new=24
+22:49:12Z ADDS metars SCFA..SUMU 2026-10-25_2026-11-02
+22:49:17Z   rows=400 new=23
+22:49:17Z ADDS metars SCFA..SUMU 2026-11-02_2026-11-10
+22:49:18Z   rows=400 new=22
+22:49:19Z ADDS metars SCFA..SUMU 2026-11-10_2026-11-16
+22:49:20Z   rows=400 new=45
+22:49:21Z ADDS metars SLVR..SBFI 2026-10-17_2026-10-25
+22:49:22Z   rows=400 new=40
+22:49:22Z ADDS metars SLVR..SBFI 2026-10-25_2026-11-02
+22:49:35Z   rows=400 new=29
+22:49:36Z ADDS metars SLVR..SBFI 2026-11-02_2026-11-10
+22:49:37Z   rows=400 new=31
+22:49:38Z ADDS metars SLVR..SBFI 2026-11-10_2026-11-16
+22:49:39Z   rows=400 new=17
+22:49:40Z CACHE https://aviationweather.gov/data/cache/tafs.cache.xml.gz
+22:49:42Z   cache tafs: rows=204 new=23 stations=204
+22:49:42Z CACHE https://aviationweather.gov/data/cache/metars.cache.xml.gz
+22:50:08Z   cache metars: rows=201 new=1 stations=201
+22:50:08Z Ogimet EGLL last ~36h
+22:50:09Z   new METAR=24 TAF=6
+22:50:10Z Ogimet EHAM last ~36h
+22:50:11Z   new METAR=0 TAF=6
+22:50:12Z Ogimet EDDF last ~36h
+22:50:13Z   new METAR=0 TAF=8
+22:50:14Z Ogimet LFPG last ~36h
+22:50:15Z   new METAR=0 TAF=14
+22:50:16Z Ogimet KJFK last ~36h
+22:50:17Z   new METAR=4 TAF=8
+22:50:18Z Ogimet KORD last ~36h
+22:50:19Z   new METAR=5 TAF=7
+22:50:20Z Ogimet KSFO last ~36h
+22:50:21Z   new METAR=5 TAF=7
+22:50:22Z Ogimet PANC last ~36h
+22:50:23Z   new METAR=21 TAF=6
+22:50:24Z Ogimet YSSY last ~36h
+22:50:25Z   new METAR=38 TAF=29
+22:50:26Z Ogimet NZAA last ~36h
+22:50:27Z   new METAR=0 TAF=12
+22:50:28Z Ogimet RJTT last ~36h
+22:50:29Z   new METAR=0 TAF=6
+22:50:30Z Ogimet VHHH last ~36h
+22:50:31Z   new METAR=0 TAF=12
+22:50:32Z Ogimet WSSS last ~36h
+22:50:32Z   new METAR=0 TAF=7
+22:50:34Z Ogimet VIDP last ~36h
+22:50:34Z   new METAR=2 TAF=20
+22:50:36Z Ogimet OMDB last ~36h
+22:50:36Z   new METAR=1 TAF=6
+22:50:38Z Ogimet HECA last ~36h
+22:50:38Z   new METAR=23 TAF=7
+22:50:40Z Ogimet HKJK last ~36h
+22:50:40Z   new METAR=2 TAF=4
+22:50:42Z Ogimet DNMM last ~36h
+22:50:42Z   new METAR=3 TAF=6
+22:50:44Z Ogimet SBGR last ~36h
+22:50:44Z   new METAR=0 TAF=6
+22:50:46Z Ogimet SCEL last ~36h
+22:50:46Z   new METAR=1 TAF=7
+22:50:47Z Ogimet SPZO last ~36h
+22:50:48Z   new METAR=4 TAF=8
+22:50:49Z Ogimet CYYZ last ~36h
+22:50:50Z   new METAR=0 TAF=16
+22:50:54Z MANIFEST METARs=2811809 TAFs=152244 stations=212 countries=84
+22:50:54Z done

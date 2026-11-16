@@ -5,31 +5,7 @@
  * New standalone file on purpose. Does not edit wm-core.js, wst-engine.js,
  * wm-bridge.js, gate.ts, appdata/, auth, or wm-shell.*.
  *
- * Based on the 30 Oct 2026 overlay rules (wst-engine.js), consolidated with
- * a single source-priority ladder, real Depart/Land timing, and the
- * 33rd Amendment (GG 55226, 21 August 2026) VMC minima.
- *
- * Rule pack 2.4.0 — 13 November 2026 (Africa/Johannesburg).
- * 2.1.0: gust, variable-wind and model-wind triggers tied to the user's own limits.
- * 2.2.0: missing METAR visibility is filled from the TAF prevailing value, then the model;
- *        a fill below the legal / user minimum is NO DEPART / NO LAND, not caution;
- *        a clearly good fill is a plain GO, explained in the verdict text, not a note.
- * 2.3.0: LAND after dark without night rating is CAUTION (night checked at ETA, not now);
- *        TEMPO / PROB wind and gust in the landing window and the departure 2-hour scan
- *        are checked against the user's limits (over the limit is NO DEPART / NO LAND).
- * 2.3.1: the user's gust limit is capped at 35 kt; 9999 and CAVOK mean 10 km or more,
- *        so they meet any visibility limit up to 10 km and do not trigger the near-limit
- *        caution (the same applies to TAF values and visibility fills).
- * 2.3.2: model weather is fresh for up to 3 hours and may be GO; the POL-MODEL-OLDER
- *        caution cap is removed, because data older than 180 min is already unused.
- * 2.4.0 (13 Nov 2026, MT wind rule): when the chosen report has no wind (no wind group,
- *        /////KT, AUTO without wind, a stale METAR without wind, a NOSIG / TREND without
- *        wind, a TAF period without wind), the wind is taken from the TAF for that time;
- *        with no TAF wind, from the model. Crosswind, tailwind and gust checks run on that
- *        wind, and the verdict says where it came from. Only with no wind anywhere is it
- *        CAUTION "Wind not reported" (POL-WIND-MISSING). A stale METAR (older than
- *        policy.metarFreshMin) that does report a wind has it replaced the same way, TAF
- *        then model (policy.windReplaceStale, MT 13 Nov 2026); with neither it is kept.
+ * Change history (2.1.0 to 2.4.0, and the 16 Nov 2026 parser fix): docs/engine-v2/CHANGELOG.md
  */
 (function (G) {
   'use strict';
@@ -196,15 +172,32 @@
   }
   /* 2.4.0: the prevailing visibility group. The wind group before it may be VRB, ///// or missing
      (AUTO with no wind group); before, only a numeric direction was matched, so VRB03KT 9999 or
-     /////KT 9999 read as "visibility not in METAR". */
+     /////KT 9999 read as "visibility not in METAR".
+     16 Nov: every vis group (0400W, 9999E, NDV) up to the first cloud/temp/QNH group; the lowest wins. */
+  var VIS_TOK = /^(\d{4})(NDV|N|NE|E|SE|S|SW|W|NW)?$/;
+  var VIS_STOP = /^(?:(?:FEW|SCT|BKN|OVC)(?:\d{3}|\/\/\/)|VV(?:\d{3}|\/\/\/)|NSC|NCD|SKC|CLR|CAVOK|M?\d{2}\/(?:M?\d{2})?|[QA]\d{4})/;
   function visGroup(b) {
-    var mm = /\s(?:\d{3}|VRB|\/\/\/)(?:\d{2,3}|\/\/)(?:G\d{2,3})?(?:KT|MPS)\s(?:\d{3}V\d{3}\s)?(\d{4})(?:NDV)?\s/.exec(b);
-    if (mm) return mm[1];
-    var nw = /\s\d{6}Z\s(?:(?:AUTO|COR|CCA)\s)*(\d{4})(?:NDV)?\s/.exec(b);
-    return nw ? nw[1] : null;
+    var tk = String(b || '').trim().split(/\s+/), i = 0, low = null;
+    for (var k = 0; k < tk.length; k++) if (/^\d{6}Z$/.test(tk[k])) { i = k + 1; break; }
+    for (; i < tk.length; i++) {
+      var t = tk[i];
+      if (VIS_STOP.test(t)) break;
+      var m = VIS_TOK.exec(t);
+      if (!m) continue;
+      if (low == null || +m[1] < +low) low = m[1];
+    }
+    return low;
+  }
+  /* 16 Nov: 9999-RA / 9999TSRA -> 9999 -RA (WMO 4678 codes only) */
+  function splitGlued(raw) {
+    return String(raw || '').split(' ').map(function (t) {
+      var m = /^(\d{4})((?:[+-]|VC|RE)?((?:[A-Z]{2})+))$/.exec(t);
+      if (!m || !m[3].match(/../g).every(function (c) { return WXC[c]; })) return t;
+      return m[1] + ' ' + m[2];
+    }).join(' ');
   }
   function visKm(raw, visib) {
-    var b = ' ' + metarBody(raw) + ' ';
+    var b = ' ' + metarBody(splitGlued(raw)) + ' ';
     if (/\sCAVOK\s/.test(b)) return 10;
     var g = visGroup(b);
     if (g) return g === '9999' ? 10 : Math.min(10, +g / 1000);
@@ -212,7 +205,7 @@
   }
   /* 9999 and CAVOK are coded as 10 km, but they mean 10 km or more. */
   function visCodedAtLeast(raw) {
-    var b = ' ' + metarBody(raw) + ' ';
+    var b = ' ' + metarBody(splitGlued(raw)) + ' ';
     if (/\sCAVOK\s/.test(b)) return true;
     return visGroup(b) === '9999';
   }
@@ -571,6 +564,8 @@
     var raw = entry.raw || entry.rawOb || '';
     if (!raw && !entry.wspd && entry.vis == null && !entry.visib) return null;
     var time = entry.time != null ? +entry.time : (entry.obsTime != null ? +entry.obsTime * (entry.obsTime < 1e12 ? 1000 : 1) : fallbackTime);
+    var shown = raw;
+    raw = raw ? splitGlued(String(raw).replace(/\s+/g, ' ').trim()) : raw;
     var body = metarBody(raw || '');
     var wind = parseWind(' ' + body + ' ');
     if (entry.wdir != null || entry.wspd != null) {
@@ -601,10 +596,15 @@
     var kind = /^SPECI\b/i.test(String(raw).trim()) ? 'speci' : 'metar';
     return {
       src: kind,
+      /* 16 Nov: a malformed wind/vis/cloud group -> INCOMPLETE, never a guess */
+      parseUnknown: (wind.ws == null && /(?:^|\s)[^\s\/]*(?:KT|MPS)(?:\s|$)/.test(body)) ||
+        (vis == null && /(?:^|\s)\d{4}[A-Z]+(?:\s|$)/.test(body)) ||
+        (cc.ceil == null && !cc.cnr && /(?:^|\s)(?:BKN|OVC|VV)(?!\d{3}|\/\/\/)\S*/.test(body)),
       wd: wind.wd, vrb: wind.vrb, ws: wind.ws, g: wind.g,
       vis: vis, ceil: cc.ceil, cnr: cc.cnr || !!entry.cnr,
-      t: temp, qnh: qnh, time: time, raw: raw,
-      cavok: /CAVOK/.test(raw || '') || !!entry.cavok,
+      t: temp, qnh: qnh, time: time, raw: shown,
+      /* 16 Nov: CAVOK from the report, not its TREND (BECMG CAVOK) */
+      cavok: /(?:^|\s)CAVOK(?:\s|$)/.test(body) || !!entry.cavok,
       visAtLeast: visCodedAtLeast(raw) || !!entry.cavok || /^(?:9999|6\+|P6(?:SM)?)$/.test(String(entry.visib || '').trim()),
       wx: body, trend: metarTrend(raw), vg: varGroup(raw),
       hasTrend: hasTrendForecast(raw),
@@ -1062,6 +1062,10 @@
       return finish({ status: 'incomplete', code: 'nodata', why: 'No current weather report, forecast or model', F: F, si: si, picked: picked }, now, phase, P, ac, si, picked);
     }
 
+    if (ob.parseUnknown) {
+      add('note', 'Malformed METAR group', 'parse', 'policy', 'POL-PARSE-INCOMPLETE');
+      return finish({ status: 'incomplete', code: 'parse', why: 'Malformed required METAR group — weather incomplete', F: F, si: si, picked: picked }, now, phase, P, ac, si, picked);
+    }
     if (src === 'model') {
       disclaimers.push(MODEL_DISCLAIMER);
       add('note', MODEL_DISCLAIMER, 'model', 'policy', 'POL-MODEL-DISCLAIMER');
@@ -1172,7 +1176,7 @@
     }
 
     if (ob.wx) {
-      var tokens = ob.wx.split(/\s+/);
+      var tokens = ob.wx.split(/\s+/).filter(function (t) { return !/^(COR|AMD|AUTO|CCA)$/.test(t); });
       var wxTxt;
       /* Always drop the station id and time group so FAGR cannot be read as hail. */
       if (tokens[0] === 'METAR' || tokens[0] === 'SPECI') wxTxt = tokens.slice(2).join(' ');
